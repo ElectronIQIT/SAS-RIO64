@@ -1,0 +1,74 @@
+/* rio-status.css
+   Styling for the RIO64 status page. Loaded after mchp.css, on top of
+   the site's existing layout — this file does NOT touch page width,
+   the shadow box, or the body background, so the page keeps its
+   original size, proportions, and grey/white framing.
+   It only adds: LED/button indicator styling, and small brand-color
+   touches (navy, from the logo) alongside the site's existing red. */
+
+:root {
+	--brand-navy: #335599;
+	--led-on: #2e9e4f;
+	--led-on-glow: rgba(46, 158, 79, 0.45);
+	--btn-on: var(--brand-navy);
+	--btn-on-glow: rgba(51, 85, 153, 0.45);
+	--led-off: #ddd;
+	--mono: 'Courier New', Courier, monospace;
+}
+
+/* ---- Slave count ---- */
+
+#slaveCount {
+	color: var(--brand-navy);
+	font-weight: bold;
+}
+
+/* ---- Board section headings ---- */
+
+#status h2 {
+	margin: 20px 0 8px;
+	padding-bottom: 4px;
+	border-bottom: 2px solid var(--brand-navy);
+}
+
+#status h2:first-child {
+	margin-top: 0;
+}
+
+/* ---- LED / button indicator dots ---- */
+/* Color is driven by JS via backgroundColor/boxShadow (see rio64.htm) */
+
+
+#status table {
+	border-collapse: separate;
+	border-spacing: 8px 0;
+}
+ 
+#status table a {
+	display: block;
+	width: 11px;
+	height: 11px;
+	margin: 0 auto;
+	background: var(--led-off);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	color: transparent;
+	font-size: 0;
+	cursor: default;
+	transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+ 
+.leds table a {
+	border-radius: 50%;
+}
+ 
+.buttons table a {
+	border-radius: 2px;
+}
+ 
+#status table tr:nth-child(2n) td {
+	text-align: center;
+	font-family: var(--mono);
+	font-size: 8pt;
+	font-weight: normal;
+	color: #888;
+}

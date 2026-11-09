@@ -1,0 +1,26 @@
+build/default/debug/MPFSImg.p1:  \
+MPFSImg.c  \
+Microchip/Include/TCPIP_Stack/TCPIP.h  \
+Microchip/Include/GenericTypeDefs.h  \
+Microchip/Include/Compiler.h  \
+HardwareProfile.h  \
+TCPIPConfig.h  \
+Microchip/Include/TCPIP_Stack/StackTsk.h  \
+Microchip/Include/TCPIP_Stack/Helpers.h  \
+Microchip/Include/TCPIP_Stack/Delay.h  \
+Microchip/Include/TCPIP_Stack/Tick.h  \
+Microchip/Include/TCPIP_Stack/MAC.h  \
+Microchip/Include/TCPIP_Stack/ETH97J60.h  \
+Microchip/Include/TCPIP_Stack/IP.h  \
+Microchip/Include/TCPIP_Stack/ARP.h  \
+Microchip/Include/TCPIP_Stack/Hashes.h  \
+Microchip/Include/TCPIP_Stack/XEEPROM.h  \
+Microchip/Include/TCPIP_Stack/SPIFlash.h  \
+Microchip/Include/TCPIP_Stack/SPIRAM.h  \
+Microchip/Include/TCPIP_Stack/UDP.h  \
+Microchip/Include/TCPIP_Stack/TCP.h  \
+Microchip/Include/TCPIP_Stack/DHCP.h  \
+Microchip/Include/TCPIP_Stack/MPFS2.h  \
+Microchip/Include/TCPIP_Stack/HTTP2.h  \
+Microchip/Include/TCPIP_Stack/ICMP.h  \
+Microchip/Include/TCPIP_Stack/Announce.h 

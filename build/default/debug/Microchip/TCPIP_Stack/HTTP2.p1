@@ -1,0 +1,4505 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"214 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 214: void HTTPIncFile(const BYTE* cFile);
+[v _HTTPIncFile `(v ~T0 @X0 0 ef1`*Cuc ]
+"55 ./HTTPPrint.h
+[; ;./HTTPPrint.h: 55: void HTTPPrint_hellomsg(void);
+[v _HTTPPrint_hellomsg `(v ~T0 @X0 0 ef ]
+"56
+[; ;./HTTPPrint.h: 56: void HTTPPrint_builddate(void);
+[v _HTTPPrint_builddate `(v ~T0 @X0 0 ef ]
+"57
+[; ;./HTTPPrint.h: 57: void HTTPPrint_version(void);
+[v _HTTPPrint_version `(v ~T0 @X0 0 ef ]
+"58
+[; ;./HTTPPrint.h: 58: void HTTPPrint_led(WORD);
+[v _HTTPPrint_led `(v ~T0 @X0 0 ef1`us ]
+"59
+[; ;./HTTPPrint.h: 59: void HTTPPrint_status_fail(void);
+[v _HTTPPrint_status_fail `(v ~T0 @X0 0 ef ]
+"60
+[; ;./HTTPPrint.h: 60: void HTTPPrint_config_mac(void);
+[v _HTTPPrint_config_mac `(v ~T0 @X0 0 ef ]
+"61
+[; ;./HTTPPrint.h: 61: void HTTPPrint_config_hostname(void);
+[v _HTTPPrint_config_hostname `(v ~T0 @X0 0 ef ]
+"62
+[; ;./HTTPPrint.h: 62: void HTTPPrint_config_ip(void);
+[v _HTTPPrint_config_ip `(v ~T0 @X0 0 ef ]
+"63
+[; ;./HTTPPrint.h: 63: void HTTPPrint_config_gw(void);
+[v _HTTPPrint_config_gw `(v ~T0 @X0 0 ef ]
+"64
+[; ;./HTTPPrint.h: 64: void HTTPPrint_config_subnet(void);
+[v _HTTPPrint_config_subnet `(v ~T0 @X0 0 ef ]
+"65
+[; ;./HTTPPrint.h: 65: void HTTPPrint_config_dns1(void);
+[v _HTTPPrint_config_dns1 `(v ~T0 @X0 0 ef ]
+"66
+[; ;./HTTPPrint.h: 66: void HTTPPrint_config_dns2(void);
+[v _HTTPPrint_config_dns2 `(v ~T0 @X0 0 ef ]
+"67
+[; ;./HTTPPrint.h: 67: void HTTPPrint_reboot(void);
+[v _HTTPPrint_reboot `(v ~T0 @X0 0 ef ]
+"68
+[; ;./HTTPPrint.h: 68: void HTTPPrint_rebootaddr(void);
+[v _HTTPPrint_rebootaddr `(v ~T0 @X0 0 ef ]
+"69
+[; ;./HTTPPrint.h: 69: void HTTPPrint_mLed(WORD);
+[v _HTTPPrint_mLed `(v ~T0 @X0 0 ef1`us ]
+"70
+[; ;./HTTPPrint.h: 70: void HTTPPrint_mBtn(WORD);
+[v _HTTPPrint_mBtn `(v ~T0 @X0 0 ef1`us ]
+"71
+[; ;./HTTPPrint.h: 71: void HTTPPrint_s1Led(WORD);
+[v _HTTPPrint_s1Led `(v ~T0 @X0 0 ef1`us ]
+"72
+[; ;./HTTPPrint.h: 72: void HTTPPrint_s1Btn(WORD);
+[v _HTTPPrint_s1Btn `(v ~T0 @X0 0 ef1`us ]
+"73
+[; ;./HTTPPrint.h: 73: void HTTPPrint_s2Led(WORD);
+[v _HTTPPrint_s2Led `(v ~T0 @X0 0 ef1`us ]
+"74
+[; ;./HTTPPrint.h: 74: void HTTPPrint_s2Btn(WORD);
+[v _HTTPPrint_s2Btn `(v ~T0 @X0 0 ef1`us ]
+"75
+[; ;./HTTPPrint.h: 75: void HTTPPrint_slaveCount(void);
+[v _HTTPPrint_slaveCount `(v ~T0 @X0 0 ef ]
+"76
+[; ;./HTTPPrint.h: 76: void HTTPPrint_config_dhcpchecked(void);
+[v _HTTPPrint_config_dhcpchecked `(v ~T0 @X0 0 ef ]
+"212 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 212: WORD TCPPutArray(TCP_SOCKET hTCP, BYTE* Data, WORD Len);
+[v _TCPPutArray `(us ~T0 @X0 0 ef3`uc`*uc`us ]
+"210 ./HTTPPrint.h
+[; ;./HTTPPrint.h: 210:    TCPPutArray(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"!DEF",4);
+[c E5538 0 1 2 3 4 5 6 7 8 9 10 11 .. ]
+[n E5538 . SM_HTTP_IDLE SM_HTTP_PARSE_REQUEST SM_HTTP_PARSE_HEADERS SM_HTTP_AUTHENTICATE SM_HTTP_PROCESS_GET SM_HTTP_PROCESS_POST SM_HTTP_PROCESS_REQUEST SM_HTTP_SERVE_HEADERS SM_HTTP_SERVE_COOKIES SM_HTTP_SERVE_BODY SM_HTTP_SEND_FROM_CALLBACK SM_HTTP_DISCONNECT  ]
+"164 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 164:  {
+[s S516 `E5538 1 `uc 1 ]
+[n S516 . sm socket ]
+"51 ./HTTPPrint.h
+[; ;./HTTPPrint.h: 51: extern HTTP_STUB httpStubs[(2u)];
+[v _httpStubs `S516 ~T0 @X0 -> 0 `x e ]
+"52
+[; ;./HTTPPrint.h: 52: extern BYTE curHTTPID;
+[v _curHTTPID `uc ~T0 @X0 0 e ]
+"218
+[; ;./HTTPPrint.h: 218:  TCPPut(httpStubs[curHTTPID].socket, '~');
+[c E332 0 1 .. ]
+[n E332 _BOOL FALSE TRUE  ]
+"211 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 211: BOOL TCPPut(TCP_SOCKET hTCP, BYTE byte);
+[v _TCPPut `(E332 ~T0 @X0 0 ef2`uc`uc ]
+"163 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 163:  HTTP_CONN curHTTP;
+[c E5522 0 1 2 3 4 5 6 7 8 9 10 11 12 13 .. ]
+[n E5522 . HTTP_GET HTTP_POST HTTP_BAD_REQUEST HTTP_UNAUTHORIZED HTTP_NOT_FOUND HTTP_OVERFLOW HTTP_INTERNAL_SERVER_ERROR HTTP_NOT_IMPLEMENTED HTTP_MPFS_FORM HTTP_MPFS_UP HTTP_MPFS_OK HTTP_MPFS_ERROR HTTP_REDIRECT HTTP_SSL_REQUIRED  ]
+[c E5562 0 1 2 3 4 5 6 7 8 9 10 11 .. ]
+[n E5562 . HTTP_TXT HTTP_HTM HTTP_HTML HTTP_CGI HTTP_XML HTTP_CSS HTTP_GIF HTTP_PNG HTTP_JPG HTTP_JAVA HTTP_WAV HTTP_UNKNOWN  ]
+"174 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 174:  {
+[s S517 `ul 1 `ul 1 `ul 1 `ul 1 `*uc 1 `*uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `E5522 1 `E5562 1 `uc -> 100 `i `uc 1 ]
+[n S517 . byteCount nextCallback callbackID callbackPos ptrData ptrRead file offsets hasArgs isAuthorized httpStatus fileType data smPost ]
+"255 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 255: TCP_SOCKET TCPOpen(DWORD dwRemoteHost, BYTE vRemoteHostType, WORD wPort, BYTE vSocketPurpose);
+[v _TCPOpen `(uc ~T0 @X0 0 ef4`ul`uc`us`uc ]
+"296 Microchip/Include/TCPIP_Stack/MAC.h
+[; ;Microchip/Include/TCPIP_Stack/MAC.h: 296: WORD MACSetWritePtr(WORD address);
+[v _MACSetWritePtr `(us ~T0 @X0 0 ef1`us ]
+"308
+[; ;Microchip/Include/TCPIP_Stack/MAC.h: 308: void MACPutArray(BYTE *val, WORD len);
+[v _MACPutArray `(v ~T0 @X0 0 ef2`*uc`us ]
+"206 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 206: BOOL TCPWasReset(TCP_SOCKET hTCP);
+[v _TCPWasReset `(E332 ~T0 @X0 0 ef1`uc ]
+"188 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 188:  static void HTTPLoadConn(BYTE hHTTP);
+[v _HTTPLoadConn `(v ~T0 @X0 0 sf1`uc ]
+"130 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 130: void MPFSClose(MPFS_HANDLE hMPFS);
+[v _MPFSClose `(v ~T0 @X0 0 ef1`uc ]
+"289 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 289: BOOL TCPAdjustFIFOSize(TCP_SOCKET hTCP, WORD wMinRXSize, WORD wMinTXSize, BYTE vFlags);
+[v _TCPAdjustFIFOSize `(E332 ~T0 @X0 0 ef4`uc`us`us`uc ]
+"214
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 214: WORD TCPIsGetReady(TCP_SOCKET hTCP);
+[v _TCPIsGetReady `(us ~T0 @X0 0 ef1`uc ]
+"186 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 186:  static void HTTPProcess(void);
+[v _HTTPProcess `(v ~T0 @X0 0 sf ]
+"297 Microchip/Include/TCPIP_Stack/MAC.h
+[; ;Microchip/Include/TCPIP_Stack/MAC.h: 297: WORD MACSetReadPtr(WORD address);
+[v _MACSetReadPtr `(us ~T0 @X0 0 ef1`us ]
+"299
+[; ;Microchip/Include/TCPIP_Stack/MAC.h: 299: WORD MACGetArray(BYTE *val, WORD len);
+[v _MACGetArray `(us ~T0 @X0 0 ef2`*uc`us ]
+"81 Microchip/Include/TCPIP_Stack/Tick.h
+[; ;Microchip/Include/TCPIP_Stack/Tick.h: 81: DWORD TickGet(void);
+[v _TickGet `(ul ~T0 @X0 0 ef ]
+"220 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 220: WORD TCPFindEx(TCP_SOCKET hTCP, BYTE cFind, WORD wStart, WORD wSearchLen, BOOL bTextCompare);
+[v _TCPFindEx `(us ~T0 @X0 0 ef5`uc`uc`us`us`E332 ]
+"215
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 215: WORD TCPGetRxFIFOFree(TCP_SOCKET hTCP);
+[v _TCPGetRxFIFOFree `(us ~T0 @X0 0 ef1`uc ]
+"208
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 208: void TCPDisconnect(TCP_SOCKET hTCP);
+[v _TCPDisconnect `(v ~T0 @X0 0 ef1`uc ]
+"217
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 217: WORD TCPGetArray(TCP_SOCKET hTCP, BYTE* buffer, WORD count);
+[v _TCPGetArray `(us ~T0 @X0 0 ef3`uc`*uc`us ]
+"30 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h: 30: int memcmp (const void *, const void *, size_t);
+[v _memcmp `(i ~T0 @X0 0 ef3`*Cv`*Cv`ui ]
+"211 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 211: BYTE* HTTPURLDecode(BYTE* cData);
+[v _HTTPURLDecode `(*uc ~T0 @X0 0 ef1`*uc ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h: 54: size_t strlen (const char *);
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
+"460 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 460:  BYTE HTTPNeedsAuth(BYTE* cFile);
+[v _HTTPNeedsAuth `(uc ~T0 @X0 0 ef1`*uc ]
+"122 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 122: MPFS_HANDLE MPFSOpen(BYTE* cFile);
+[v _MPFSOpen `(uc ~T0 @X0 0 ef1`*uc ]
+"33 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h: 33: char *strcpy (char *restrict, const char *restrict);
+[v _strcpy `(*uc ~T0 @X0 0 ef2`*uc`*Cuc ]
+"84 Microchip/Include/TCPIP_Stack/Helpers.h
+[; ;Microchip/Include/TCPIP_Stack/Helpers.h: 84: signed char stricmppgm2ram(BYTE* a, const BYTE* b);
+[v _stricmppgm2ram `(c ~T0 @X0 0 ef2`*uc`*Cuc ]
+"147 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 147: WORD MPFSGetFlags(MPFS_HANDLE hMPFS);
+[v _MPFSGetFlags `(us ~T0 @X0 0 ef1`uc ]
+"129
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 129: MPFS_HANDLE MPFSOpenID(WORD hFatID);
+[v _MPFSOpenID `(uc ~T0 @X0 0 ef1`us ]
+"154
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 154: WORD MPFSGetID(MPFS_HANDLE hMPFS);
+[v _MPFSGetID `(us ~T0 @X0 0 ef1`uc ]
+"216 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 216: BOOL TCPGet(TCP_SOCKET hTCP, BYTE* byte);
+[v _TCPGet `(E332 ~T0 @X0 0 ef2`uc`*uc ]
+"39 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/string.h: 39: int strcmp (const char *, const char *);
+[v _strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
+"174 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 174:  static void HTTPHeaderParseLookup(BYTE i);
+[v _HTTPHeaderParseLookup `(v ~T0 @X0 0 sf1`uc ]
+"704
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 704:    if(HTTPExecuteGet() == HTTP_IO_WAITING)
+[c E5552 0 1 2 .. ]
+[n E5552 . HTTP_IO_DONE HTTP_IO_NEED_DATA HTTP_IO_WAITING  ]
+"342 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 342: HTTP_IO_RESULT HTTPExecuteGet(void);
+[v _HTTPExecuteGet `(E5552 ~T0 @X0 0 ef ]
+"191 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 191:  static HTTP_IO_RESULT HTTPMPFSUpload(void);
+[v _HTTPMPFSUpload `(E5552 ~T0 @X0 0 sf ]
+"418 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 418: HTTP_IO_RESULT HTTPExecutePost(void);
+[v _HTTPExecutePost `(E5552 ~T0 @X0 0 ef ]
+"134 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 134: BOOL MPFSGetLong(MPFS_HANDLE hMPFS, DWORD* ul);
+[v _MPFSGetLong `(E332 ~T0 @X0 0 ef2`uc`*ul ]
+"213 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 213: BYTE* TCPPutString(TCP_SOCKET hTCP, BYTE* Data);
+[v _TCPPutString `(*uc ~T0 @X0 0 ef2`uc`*uc ]
+"82 Microchip/Include/TCPIP_Stack/Helpers.h
+[; ;Microchip/Include/TCPIP_Stack/Helpers.h: 82: BYTE btohexa_high(BYTE b);
+[v _btohexa_high `(uc ~T0 @X0 0 ef1`uc ]
+"83
+[; ;Microchip/Include/TCPIP_Stack/Helpers.h: 83: BYTE btohexa_low(BYTE b);
+[v _btohexa_low `(uc ~T0 @X0 0 ef1`uc ]
+"187 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 187:  static BOOL HTTPSendFile(void);
+[v _HTTPSendFile `(E332 ~T0 @X0 0 sf ]
+"210 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 210: WORD TCPIsPutReady(TCP_SOCKET hTCP);
+[v _TCPIsPutReady `(us ~T0 @X0 0 ef1`uc ]
+"133 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 133: WORD MPFSGetArray(MPFS_HANDLE hMPFS, BYTE* cData, WORD wLen);
+[v _MPFSGetArray `(us ~T0 @X0 0 ef3`uc`*uc`us ]
+"132
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 132: BOOL MPFSGet(MPFS_HANDLE hMPFS, BYTE* c);
+[v _MPFSGet `(E332 ~T0 @X0 0 ef2`uc`*uc ]
+"176 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 176:  static void HTTPHeaderParseCookie(void);
+[v _HTTPHeaderParseCookie `(v ~T0 @X0 0 sf ]
+"179
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 179:  static void HTTPHeaderParseAuthorization(void);
+[v _HTTPHeaderParseAuthorization `(v ~T0 @X0 0 sf ]
+"182
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 182:  static void HTTPHeaderParseContentLength(void);
+[v _HTTPHeaderParseContentLength `(v ~T0 @X0 0 sf ]
+"221 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 221: WORD TCPFindArrayEx(TCP_SOCKET hTCP, BYTE* cFindArray, WORD wLen, WORD wStart, WORD wSearchLen, BOOL bTextCompare);
+[v _TCPFindArrayEx `(us ~T0 @X0 0 ef6`uc`*uc`us`us`us`E332 ]
+"77 Microchip/Include/TCPIP_Stack/Helpers.h
+[; ;Microchip/Include/TCPIP_Stack/Helpers.h: 77: WORD Base64Decode(BYTE* cSourceData, WORD wSourceLen, BYTE* cDestData, WORD wDestLen);
+[v _Base64Decode `(us ~T0 @X0 0 ef4`*uc`us`*uc`us ]
+"508 Microchip/Include/TCPIP_Stack/HTTP2.h
+[; ;Microchip/Include/TCPIP_Stack/HTTP2.h: 508:  BYTE HTTPCheckAuth(BYTE* cUser, BYTE* cPass);
+[v _HTTPCheckAuth `(uc ~T0 @X0 0 ef2`*uc`*uc ]
+"24 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h: 24: long atol (const char *);
+[v _atol `(l ~T0 @X0 0 ef1`*Cuc ]
+"376 Microchip/Include/GenericTypeDefs.h
+[; ;Microchip/Include/GenericTypeDefs.h: 376:     {
+[s S27 `uc 1 `uc 1 ]
+[n S27 . LB HB ]
+"381
+[; ;Microchip/Include/GenericTypeDefs.h: 381:     {
+[s S28 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 ]
+"372
+[; ;Microchip/Include/GenericTypeDefs.h: 372: {
+[u S26 `us 1 `uc -> 2 `i `S27 1 `S28 1 ]
+[n S26 . Val v byte bits ]
+"81 Microchip/Include/TCPIP_Stack/Helpers.h
+[; ;Microchip/Include/TCPIP_Stack/Helpers.h: 81: BYTE hexatob(WORD_VAL AsciiChars);
+[v _hexatob `(uc ~T0 @X0 0 ef1`S26 ]
+"1499 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1499: HTTP_READ_STATUS HTTPReadPostName(BYTE* cData, WORD wLen)
+[c E5557 0 1 2 .. ]
+[n E5557 . HTTP_READ_OK HTTP_READ_TRUNCATED HTTP_READ_INCOMPLETE  ]
+"183
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 183:  static HTTP_READ_STATUS HTTPReadTo(BYTE delim, BYTE* buf, WORD len);
+[v _HTTPReadTo `(E5557 ~T0 @X0 0 sf3`uc`*uc`us ]
+"141 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 141: MPFS_HANDLE MPFSFormat(void);
+[v _MPFSFormat `(uc ~T0 @X0 0 ef ]
+"143
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 143: WORD MPFSPutArray(MPFS_HANDLE hMPFS, BYTE* cData, WORD wLen);
+[v _MPFSPutArray `(us ~T0 @X0 0 ef3`uc`*uc`us ]
+"222 Microchip/Include/TCPIP_Stack/TCP.h
+[; ;Microchip/Include/TCPIP_Stack/TCP.h: 222: void TCPDiscard(TCP_SOCKET hTCP);
+[v _TCPDiscard `(v ~T0 @X0 0 ef1`uc ]
+"142 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 142: void MPFSPutEnd(BOOL final);
+[v _MPFSPutEnd `(v ~T0 @X0 0 ef1`E332 ]
+"407 Microchip/Include/GenericTypeDefs.h
+[; ;Microchip/Include/GenericTypeDefs.h: 407:     {
+[s S30 `us 1 `us 1 ]
+[n S30 . LW HW ]
+"412
+[; ;Microchip/Include/GenericTypeDefs.h: 412:     {
+[s S31 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S31 . LB HB UB MB ]
+"419
+[; ;Microchip/Include/GenericTypeDefs.h: 419:     {
+[s S32 `S26 1 `S26 1 ]
+[n S32 . low high ]
+"424
+[; ;Microchip/Include/GenericTypeDefs.h: 424:     {
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 ]
+"402
+[; ;Microchip/Include/GenericTypeDefs.h: 402: {
+[u S29 `ul 1 `us -> 2 `i `uc -> 4 `i `S30 1 `S31 1 `S32 1 `S33 1 ]
+[n S29 . Val w v word byte wordUnion bits ]
+"1846 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1846:   MPFSSeek(fp, ((DWORD_VAL*)&curHTTP.callbackPos)->w[1], MPFS_SEEK_FORWARD);
+[c E5458 0 1 2 3 .. ]
+[n E5458 . MPFS_SEEK_START MPFS_SEEK_END MPFS_SEEK_FORWARD MPFS_SEEK_REWIND  ]
+"135 Microchip/Include/TCPIP_Stack/MPFS2.h
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 135: BOOL MPFSSeek(MPFS_HANDLE hMPFS, DWORD dwOffset, MPFS_SEEK_MODE tMode);
+[v _MPFSSeek `(E332 ~T0 @X0 0 ef3`uc`ul`E5458 ]
+"153
+[; ;Microchip/Include/TCPIP_Stack/MPFS2.h: 153: DWORD MPFSGetPosition(MPFS_HANDLE hMPFS);
+[v _MPFSGetPosition `(ul ~T0 @X0 0 ef1`uc ]
+"38 C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 38: __asm("MAADR5 equ 0E80h");
+[; <" MAADR5 equ 0E80h ;# ">
+"45
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 45: __asm("MAADR6 equ 0E81h");
+[; <" MAADR6 equ 0E81h ;# ">
+"52
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 52: __asm("MAADR3 equ 0E82h");
+[; <" MAADR3 equ 0E82h ;# ">
+"59
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 59: __asm("MAADR4 equ 0E83h");
+[; <" MAADR4 equ 0E83h ;# ">
+"66
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 66: __asm("MAADR1 equ 0E84h");
+[; <" MAADR1 equ 0E84h ;# ">
+"73
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 73: __asm("MAADR2 equ 0E85h");
+[; <" MAADR2 equ 0E85h ;# ">
+"80
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 80: __asm("MISTAT equ 0E8Ah");
+[; <" MISTAT equ 0E8Ah ;# ">
+"113
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 113: __asm("EFLOCON equ 0E97h");
+[; <" EFLOCON equ 0E97h ;# ">
+"145
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 145: __asm("EPAUS equ 0E98h");
+[; <" EPAUS equ 0E98h ;# ">
+"152
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 152: __asm("EPAUSL equ 0E98h");
+[; <" EPAUSL equ 0E98h ;# ">
+"159
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 159: __asm("EPAUSH equ 0E99h");
+[; <" EPAUSH equ 0E99h ;# ">
+"166
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 166: __asm("MACON1 equ 0EA0h");
+[; <" MACON1 equ 0EA0h ;# ">
+"204
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 204: __asm("MACON3 equ 0EA2h");
+[; <" MACON3 equ 0EA2h ;# ">
+"275
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 275: __asm("MACON4 equ 0EA3h");
+[; <" MACON4 equ 0EA3h ;# ">
+"297
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 297: __asm("MABBIPG equ 0EA4h");
+[; <" MABBIPG equ 0EA4h ;# ">
+"353
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 353: __asm("MAIPG equ 0EA6h");
+[; <" MAIPG equ 0EA6h ;# ">
+"360
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 360: __asm("MAIPGL equ 0EA6h");
+[; <" MAIPGL equ 0EA6h ;# ">
+"367
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 367: __asm("MAIPGH equ 0EA7h");
+[; <" MAIPGH equ 0EA7h ;# ">
+"374
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 374: __asm("MAMXFL equ 0EAAh");
+[; <" MAMXFL equ 0EAAh ;# ">
+"381
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 381: __asm("MAMXFLL equ 0EAAh");
+[; <" MAMXFLL equ 0EAAh ;# ">
+"388
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 388: __asm("MAMXFLH equ 0EABh");
+[; <" MAMXFLH equ 0EABh ;# ">
+"395
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 395: __asm("MICMD equ 0EB2h");
+[; <" MICMD equ 0EB2h ;# ">
+"421
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 421: __asm("MIREGADR equ 0EB4h");
+[; <" MIREGADR equ 0EB4h ;# ">
+"428
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 428: __asm("MIWR equ 0EB6h");
+[; <" MIWR equ 0EB6h ;# ">
+"435
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 435: __asm("MIWRL equ 0EB6h");
+[; <" MIWRL equ 0EB6h ;# ">
+"442
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 442: __asm("MIWRH equ 0EB7h");
+[; <" MIWRH equ 0EB7h ;# ">
+"449
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 449: __asm("MIRD equ 0EB8h");
+[; <" MIRD equ 0EB8h ;# ">
+"456
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 456: __asm("MIRDL equ 0EB8h");
+[; <" MIRDL equ 0EB8h ;# ">
+"463
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 463: __asm("MIRDH equ 0EB9h");
+[; <" MIRDH equ 0EB9h ;# ">
+"470
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 470: __asm("EHT0 equ 0EC0h");
+[; <" EHT0 equ 0EC0h ;# ">
+"477
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 477: __asm("EHT1 equ 0EC1h");
+[; <" EHT1 equ 0EC1h ;# ">
+"484
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 484: __asm("EHT2 equ 0EC2h");
+[; <" EHT2 equ 0EC2h ;# ">
+"491
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 491: __asm("EHT3 equ 0EC3h");
+[; <" EHT3 equ 0EC3h ;# ">
+"498
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 498: __asm("EHT4 equ 0EC4h");
+[; <" EHT4 equ 0EC4h ;# ">
+"505
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 505: __asm("EHT5 equ 0EC5h");
+[; <" EHT5 equ 0EC5h ;# ">
+"512
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 512: __asm("EHT6 equ 0EC6h");
+[; <" EHT6 equ 0EC6h ;# ">
+"519
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 519: __asm("EHT7 equ 0EC7h");
+[; <" EHT7 equ 0EC7h ;# ">
+"526
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 526: __asm("EPMM0 equ 0EC8h");
+[; <" EPMM0 equ 0EC8h ;# ">
+"533
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 533: __asm("EPMM1 equ 0EC9h");
+[; <" EPMM1 equ 0EC9h ;# ">
+"540
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 540: __asm("EPMM2 equ 0ECAh");
+[; <" EPMM2 equ 0ECAh ;# ">
+"547
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 547: __asm("EPMM3 equ 0ECBh");
+[; <" EPMM3 equ 0ECBh ;# ">
+"554
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 554: __asm("EPMM4 equ 0ECCh");
+[; <" EPMM4 equ 0ECCh ;# ">
+"561
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 561: __asm("EPMM5 equ 0ECDh");
+[; <" EPMM5 equ 0ECDh ;# ">
+"568
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 568: __asm("EPMM6 equ 0ECEh");
+[; <" EPMM6 equ 0ECEh ;# ">
+"575
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 575: __asm("EPMM7 equ 0ECFh");
+[; <" EPMM7 equ 0ECFh ;# ">
+"582
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 582: __asm("EPMCS equ 0ED0h");
+[; <" EPMCS equ 0ED0h ;# ">
+"589
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 589: __asm("EPMCSL equ 0ED0h");
+[; <" EPMCSL equ 0ED0h ;# ">
+"596
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 596: __asm("EPMCSH equ 0ED1h");
+[; <" EPMCSH equ 0ED1h ;# ">
+"603
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 603: __asm("EPMO equ 0ED4h");
+[; <" EPMO equ 0ED4h ;# ">
+"610
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 610: __asm("EPMOL equ 0ED4h");
+[; <" EPMOL equ 0ED4h ;# ">
+"617
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 617: __asm("EPMOH equ 0ED5h");
+[; <" EPMOH equ 0ED5h ;# ">
+"624
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 624: __asm("ERXFCON equ 0ED8h");
+[; <" ERXFCON equ 0ED8h ;# ">
+"686
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 686: __asm("EPKTCNT equ 0ED9h");
+[; <" EPKTCNT equ 0ED9h ;# ">
+"693
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 693: __asm("EWRPT equ 0EE2h");
+[; <" EWRPT equ 0EE2h ;# ">
+"700
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 700: __asm("EWRPTL equ 0EE2h");
+[; <" EWRPTL equ 0EE2h ;# ">
+"707
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 707: __asm("EWRPTH equ 0EE3h");
+[; <" EWRPTH equ 0EE3h ;# ">
+"714
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 714: __asm("ETXST equ 0EE4h");
+[; <" ETXST equ 0EE4h ;# ">
+"721
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 721: __asm("ETXSTL equ 0EE4h");
+[; <" ETXSTL equ 0EE4h ;# ">
+"728
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 728: __asm("ETXSTH equ 0EE5h");
+[; <" ETXSTH equ 0EE5h ;# ">
+"735
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 735: __asm("ETXND equ 0EE6h");
+[; <" ETXND equ 0EE6h ;# ">
+"742
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 742: __asm("ETXNDL equ 0EE6h");
+[; <" ETXNDL equ 0EE6h ;# ">
+"749
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 749: __asm("ETXNDH equ 0EE7h");
+[; <" ETXNDH equ 0EE7h ;# ">
+"756
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 756: __asm("ERXST equ 0EE8h");
+[; <" ERXST equ 0EE8h ;# ">
+"763
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 763: __asm("ERXSTL equ 0EE8h");
+[; <" ERXSTL equ 0EE8h ;# ">
+"770
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 770: __asm("ERXSTH equ 0EE9h");
+[; <" ERXSTH equ 0EE9h ;# ">
+"777
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 777: __asm("ERXND equ 0EEAh");
+[; <" ERXND equ 0EEAh ;# ">
+"784
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 784: __asm("ERXNDL equ 0EEAh");
+[; <" ERXNDL equ 0EEAh ;# ">
+"791
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 791: __asm("ERXNDH equ 0EEBh");
+[; <" ERXNDH equ 0EEBh ;# ">
+"798
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 798: __asm("ERXRDPT equ 0EECh");
+[; <" ERXRDPT equ 0EECh ;# ">
+"805
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 805: __asm("ERXRDPTL equ 0EECh");
+[; <" ERXRDPTL equ 0EECh ;# ">
+"812
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 812: __asm("ERXRDPTH equ 0EEDh");
+[; <" ERXRDPTH equ 0EEDh ;# ">
+"819
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 819: __asm("ERXWRPT equ 0EEEh");
+[; <" ERXWRPT equ 0EEEh ;# ">
+"826
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 826: __asm("ERXWRPTL equ 0EEEh");
+[; <" ERXWRPTL equ 0EEEh ;# ">
+"833
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 833: __asm("ERXWRPTH equ 0EEFh");
+[; <" ERXWRPTH equ 0EEFh ;# ">
+"840
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 840: __asm("EDMAST equ 0EF0h");
+[; <" EDMAST equ 0EF0h ;# ">
+"847
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 847: __asm("EDMASTL equ 0EF0h");
+[; <" EDMASTL equ 0EF0h ;# ">
+"854
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 854: __asm("EDMASTH equ 0EF1h");
+[; <" EDMASTH equ 0EF1h ;# ">
+"861
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 861: __asm("EDMAND equ 0EF2h");
+[; <" EDMAND equ 0EF2h ;# ">
+"868
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 868: __asm("EDMANDL equ 0EF2h");
+[; <" EDMANDL equ 0EF2h ;# ">
+"875
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 875: __asm("EDMANDH equ 0EF3h");
+[; <" EDMANDH equ 0EF3h ;# ">
+"882
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 882: __asm("EDMADST equ 0EF4h");
+[; <" EDMADST equ 0EF4h ;# ">
+"889
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 889: __asm("EDMADSTL equ 0EF4h");
+[; <" EDMADSTL equ 0EF4h ;# ">
+"896
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 896: __asm("EDMADSTH equ 0EF5h");
+[; <" EDMADSTH equ 0EF5h ;# ">
+"903
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 903: __asm("EDMACS equ 0EF6h");
+[; <" EDMACS equ 0EF6h ;# ">
+"910
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 910: __asm("EDMACSL equ 0EF6h");
+[; <" EDMACSL equ 0EF6h ;# ">
+"917
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 917: __asm("EDMACSH equ 0EF7h");
+[; <" EDMACSH equ 0EF7h ;# ">
+"924
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 924: __asm("EIE equ 0EFBh");
+[; <" EIE equ 0EFBh ;# ">
+"984
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 984: __asm("ESTAT equ 0EFDh");
+[; <" ESTAT equ 0EFDh ;# ">
+"1024
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1024: __asm("ECON2 equ 0EFEh");
+[; <" ECON2 equ 0EFEh ;# ">
+"1057
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1057: __asm("EIR equ 0F60h");
+[; <" EIR equ 0F60h ;# ">
+"1117
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1117: __asm("EDATA equ 0F61h");
+[; <" EDATA equ 0F61h ;# ">
+"1179
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1179: __asm("ECCP2DEL equ 0F67h");
+[; <" ECCP2DEL equ 0F67h ;# ">
+"1299
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1299: __asm("ECCP2AS equ 0F68h");
+[; <" ECCP2AS equ 0F68h ;# ">
+"1431
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1431: __asm("ECCP3DEL equ 0F69h");
+[; <" ECCP3DEL equ 0F69h ;# ">
+"1551
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1551: __asm("ECCP3AS equ 0F6Ah");
+[; <" ECCP3AS equ 0F6Ah ;# ">
+"1683
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1683: __asm("CCP5CON equ 0F70h");
+[; <" CCP5CON equ 0F70h ;# ">
+"1762
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1762: __asm("CCPR5 equ 0F71h");
+[; <" CCPR5 equ 0F71h ;# ">
+"1769
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1769: __asm("CCPR5L equ 0F71h");
+[; <" CCPR5L equ 0F71h ;# ">
+"1776
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1776: __asm("CCPR5H equ 0F72h");
+[; <" CCPR5H equ 0F72h ;# ">
+"1783
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1783: __asm("CCP4CON equ 0F73h");
+[; <" CCP4CON equ 0F73h ;# ">
+"1862
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1862: __asm("CCPR4 equ 0F74h");
+[; <" CCPR4 equ 0F74h ;# ">
+"1869
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1869: __asm("CCPR4L equ 0F74h");
+[; <" CCPR4L equ 0F74h ;# ">
+"1876
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1876: __asm("CCPR4H equ 0F75h");
+[; <" CCPR4H equ 0F75h ;# ">
+"1883
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1883: __asm("T4CON equ 0F76h");
+[; <" T4CON equ 0F76h ;# ">
+"1954
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1954: __asm("PR4 equ 0F77h");
+[; <" PR4 equ 0F77h ;# ">
+"1961
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1961: __asm("TMR4 equ 0F78h");
+[; <" TMR4 equ 0F78h ;# ">
+"1968
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1968: __asm("ECCP1DEL equ 0F79h");
+[; <" ECCP1DEL equ 0F79h ;# ">
+"2088
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2088: __asm("ERDPT equ 0F7Ah");
+[; <" ERDPT equ 0F7Ah ;# ">
+"2095
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2095: __asm("ERDPTL equ 0F7Ah");
+[; <" ERDPTL equ 0F7Ah ;# ">
+"2102
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2102: __asm("ERDPTH equ 0F7Bh");
+[; <" ERDPTH equ 0F7Bh ;# ">
+"2109
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2109: __asm("BAUDCON1 equ 0F7Eh");
+[; <" BAUDCON1 equ 0F7Eh ;# ">
+"2114
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2114: __asm("BAUDCON equ 0F7Eh");
+[; <" BAUDCON equ 0F7Eh ;# ">
+"2118
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2118: __asm("BAUDCTL equ 0F7Eh");
+[; <" BAUDCTL equ 0F7Eh ;# ">
+"2122
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2122: __asm("BAUDCTL1 equ 0F7Eh");
+[; <" BAUDCTL1 equ 0F7Eh ;# ">
+"2787
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2787: __asm("SPBRGH1 equ 0F7Fh");
+[; <" SPBRGH1 equ 0F7Fh ;# ">
+"2792
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2792: __asm("SPBRGH equ 0F7Fh");
+[; <" SPBRGH equ 0F7Fh ;# ">
+"2799
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2799: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"2928
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2928: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"3070
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3070: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"3310
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3310: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"3366
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3366: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"3501
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3501: __asm("PORTF equ 0F85h");
+[; <" PORTF equ 0F85h ;# ">
+"3670
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3670: __asm("PORTG equ 0F86h");
+[; <" PORTG equ 0F86h ;# ">
+"3700
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3700: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"3821
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3821: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"3933
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3933: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"4045
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4045: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"4097
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4097: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"4185
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4185: __asm("LATF equ 0F8Eh");
+[; <" LATF equ 0F8Eh ;# ">
+"4287
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4287: __asm("LATG equ 0F8Fh");
+[; <" LATG equ 0F8Fh ;# ">
+"4317
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4317: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"4322
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4322: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"4491
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4491: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"4496
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4496: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"4713
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4713: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"4718
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4718: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"4935
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4935: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"4940
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4940: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"5037
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5037: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"5042
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5042: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"5211
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5211: __asm("TRISF equ 0F97h");
+[; <" TRISF equ 0F97h ;# ">
+"5216
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5216: __asm("DDRF equ 0F97h");
+[; <" DDRF equ 0F97h ;# ">
+"5413
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5413: __asm("TRISG equ 0F98h");
+[; <" TRISG equ 0F98h ;# ">
+"5418
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5418: __asm("DDRG equ 0F98h");
+[; <" DDRG equ 0F98h ;# ">
+"5471
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5471: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"5525
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5525: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"5602
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5602: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"5682
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5682: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"5759
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5759: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"5820
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5820: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"5881
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5881: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"5942
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5942: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"6015
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6015: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"6062
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6062: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"6109
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6109: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"6148
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6148: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"6155
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6155: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"6160
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6160: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"6479
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6479: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"6484
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6484: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"6767
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6767: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"6772
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6772: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"6779
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6779: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"6784
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6784: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"6791
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6791: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"6796
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6796: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"6803
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6803: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"6924
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6924: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"6931
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6931: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"6938
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6938: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"6945
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6945: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"7035
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7035: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"7114
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7114: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"7246
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7246: __asm("CCP3CON equ 0FB7h");
+[; <" CCP3CON equ 0FB7h ;# ">
+"7251
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7251: __asm("ECCP3CON equ 0FB7h");
+[; <" ECCP3CON equ 0FB7h ;# ">
+"7438
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7438: __asm("CCPR3 equ 0FB8h");
+[; <" CCPR3 equ 0FB8h ;# ">
+"7445
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7445: __asm("CCPR3L equ 0FB8h");
+[; <" CCPR3L equ 0FB8h ;# ">
+"7452
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7452: __asm("CCPR3H equ 0FB9h");
+[; <" CCPR3H equ 0FB9h ;# ">
+"7459
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7459: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"7464
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7464: __asm("ECCP2CON equ 0FBAh");
+[; <" ECCP2CON equ 0FBAh ;# ">
+"7651
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7651: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"7658
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7658: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"7665
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7665: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"7672
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7672: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"7677
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7677: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"7864
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7864: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"7871
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7871: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"7878
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7878: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"7885
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7885: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"7956
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7956: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"8041
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8041: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"8167
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8167: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"8174
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8174: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"8181
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8181: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"8188
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8188: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"8193
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8193: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"8560
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8560: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"8565
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8565: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"8798
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8798: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"8803
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8803: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"9396
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9396: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"9401
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9401: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"9618
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9618: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"9623
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9623: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"9630
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9630: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"9701
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9701: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"9706
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9706: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"9811
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9811: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"9818
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9818: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"9930
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9930: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"9937
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9937: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"9944
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9944: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"9951
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9951: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"10099
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10099: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"10127
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10127: __asm("ECON1 equ 0FD2h");
+[; <" ECON1 equ 0FD2h ;# ">
+"10178
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10178: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"10226
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10226: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"10296
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10296: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"10303
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10303: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"10310
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10310: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"10317
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10317: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"10388
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10388: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"10395
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10395: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"10402
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10402: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"10409
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10409: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"10416
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10416: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"10423
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10423: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"10430
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10430: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"10437
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10437: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"10444
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10444: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"10451
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10451: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"10458
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10458: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"10465
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10465: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"10472
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10472: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"10479
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10479: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"10486
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10486: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"10493
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10493: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"10500
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10500: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"10507
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10507: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"10514
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10514: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"10521
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10521: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"10528
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10528: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"10535
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10535: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"10542
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10542: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"10549
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10549: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"10556
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10556: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"10563
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10563: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"10570
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10570: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"10682
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10682: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"10769
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10769: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"10886
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10886: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"10893
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10893: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"10900
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10900: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"10907
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10907: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"10916
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10916: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"10923
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10923: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"10930
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10930: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"10937
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10937: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"10946
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10946: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"10953
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10953: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"10960
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10960: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"10967
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10967: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"10974
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10974: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"10981
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10981: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"11087
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11087: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"11094
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11094: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"11101
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11101: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"11108
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11108: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"78 ./HTTPPrint.h
+[; ;./HTTPPrint.h: 78: void HTTPPrint(DWORD callbackID)
+[v _HTTPPrint `(v ~T0 @X0 1 ef1`ul ]
+"79
+[; ;./HTTPPrint.h: 79: {
+{
+[e :U _HTTPPrint ]
+"78
+[; ;./HTTPPrint.h: 78: void HTTPPrint(DWORD callbackID)
+[v _callbackID `ul ~T0 @X0 1 r1 ]
+"79
+[; ;./HTTPPrint.h: 79: {
+[f ]
+"80
+[; ;./HTTPPrint.h: 80:  switch(callbackID)
+[e $U 520  ]
+"81
+[; ;./HTTPPrint.h: 81:  {
+{
+"82
+[; ;./HTTPPrint.h: 82:         case 0x00000000:
+[e :U 521 ]
+"83
+[; ;./HTTPPrint.h: 83:    HTTPIncFile((const BYTE*)"header.inc");
+[e ( _HTTPIncFile (1 -> :s 1C `*Cuc ]
+"84
+[; ;./HTTPPrint.h: 84:    break;
+[e $U 519  ]
+"85
+[; ;./HTTPPrint.h: 85:         case 0x00000001:
+[e :U 522 ]
+"86
+[; ;./HTTPPrint.h: 86:    HTTPPrint_hellomsg();
+[e ( _HTTPPrint_hellomsg ..  ]
+"87
+[; ;./HTTPPrint.h: 87:    break;
+[e $U 519  ]
+"88
+[; ;./HTTPPrint.h: 88:         case 0x00000002:
+[e :U 523 ]
+"89
+[; ;./HTTPPrint.h: 89:    HTTPIncFile((const BYTE*)"footer.inc");
+[e ( _HTTPIncFile (1 -> :s 2C `*Cuc ]
+"90
+[; ;./HTTPPrint.h: 90:    break;
+[e $U 519  ]
+"91
+[; ;./HTTPPrint.h: 91:         case 0x00000005:
+[e :U 524 ]
+"92
+[; ;./HTTPPrint.h: 92:    HTTPPrint_builddate();
+[e ( _HTTPPrint_builddate ..  ]
+"93
+[; ;./HTTPPrint.h: 93:    break;
+[e $U 519  ]
+"94
+[; ;./HTTPPrint.h: 94:         case 0x00000016:
+[e :U 525 ]
+"95
+[; ;./HTTPPrint.h: 95:    HTTPPrint_version();
+[e ( _HTTPPrint_version ..  ]
+"96
+[; ;./HTTPPrint.h: 96:    break;
+[e $U 519  ]
+"97
+[; ;./HTTPPrint.h: 97:         case 0x00000017:
+[e :U 526 ]
+"98
+[; ;./HTTPPrint.h: 98:    HTTPPrint_led(0);
+[e ( _HTTPPrint_led (1 -> -> 0 `i `us ]
+"99
+[; ;./HTTPPrint.h: 99:    break;
+[e $U 519  ]
+"100
+[; ;./HTTPPrint.h: 100:         case 0x00000025:
+[e :U 527 ]
+"101
+[; ;./HTTPPrint.h: 101:    HTTPPrint_status_fail();
+[e ( _HTTPPrint_status_fail ..  ]
+"102
+[; ;./HTTPPrint.h: 102:    break;
+[e $U 519  ]
+"103
+[; ;./HTTPPrint.h: 103:         case 0x00000026:
+[e :U 528 ]
+"104
+[; ;./HTTPPrint.h: 104:    HTTPPrint_config_mac();
+[e ( _HTTPPrint_config_mac ..  ]
+"105
+[; ;./HTTPPrint.h: 105:    break;
+[e $U 519  ]
+"106
+[; ;./HTTPPrint.h: 106:         case 0x00000027:
+[e :U 529 ]
+"107
+[; ;./HTTPPrint.h: 107:    HTTPPrint_config_hostname();
+[e ( _HTTPPrint_config_hostname ..  ]
+"108
+[; ;./HTTPPrint.h: 108:    break;
+[e $U 519  ]
+"109
+[; ;./HTTPPrint.h: 109:         case 0x00000028:
+[e :U 530 ]
+"110
+[; ;./HTTPPrint.h: 110:    HTTPPrint_config_ip();
+[e ( _HTTPPrint_config_ip ..  ]
+"111
+[; ;./HTTPPrint.h: 111:    break;
+[e $U 519  ]
+"112
+[; ;./HTTPPrint.h: 112:         case 0x00000029:
+[e :U 531 ]
+"113
+[; ;./HTTPPrint.h: 113:    HTTPPrint_config_gw();
+[e ( _HTTPPrint_config_gw ..  ]
+"114
+[; ;./HTTPPrint.h: 114:    break;
+[e $U 519  ]
+"115
+[; ;./HTTPPrint.h: 115:         case 0x0000002a:
+[e :U 532 ]
+"116
+[; ;./HTTPPrint.h: 116:    HTTPPrint_config_subnet();
+[e ( _HTTPPrint_config_subnet ..  ]
+"117
+[; ;./HTTPPrint.h: 117:    break;
+[e $U 519  ]
+"118
+[; ;./HTTPPrint.h: 118:         case 0x0000002b:
+[e :U 533 ]
+"119
+[; ;./HTTPPrint.h: 119:    HTTPPrint_config_dns1();
+[e ( _HTTPPrint_config_dns1 ..  ]
+"120
+[; ;./HTTPPrint.h: 120:    break;
+[e $U 519  ]
+"121
+[; ;./HTTPPrint.h: 121:         case 0x0000002c:
+[e :U 534 ]
+"122
+[; ;./HTTPPrint.h: 122:    HTTPPrint_config_dns2();
+[e ( _HTTPPrint_config_dns2 ..  ]
+"123
+[; ;./HTTPPrint.h: 123:    break;
+[e $U 519  ]
+"124
+[; ;./HTTPPrint.h: 124:         case 0x0000002d:
+[e :U 535 ]
+"125
+[; ;./HTTPPrint.h: 125:    HTTPPrint_reboot();
+[e ( _HTTPPrint_reboot ..  ]
+"126
+[; ;./HTTPPrint.h: 126:    break;
+[e $U 519  ]
+"127
+[; ;./HTTPPrint.h: 127:         case 0x0000002e:
+[e :U 536 ]
+"128
+[; ;./HTTPPrint.h: 128:    HTTPPrint_rebootaddr();
+[e ( _HTTPPrint_rebootaddr ..  ]
+"129
+[; ;./HTTPPrint.h: 129:    break;
+[e $U 519  ]
+"130
+[; ;./HTTPPrint.h: 130:         case 0x00000039:
+[e :U 537 ]
+"131
+[; ;./HTTPPrint.h: 131:    HTTPPrint_mLed(0);
+[e ( _HTTPPrint_mLed (1 -> -> 0 `i `us ]
+"132
+[; ;./HTTPPrint.h: 132:    break;
+[e $U 519  ]
+"133
+[; ;./HTTPPrint.h: 133:         case 0x0000003a:
+[e :U 538 ]
+"134
+[; ;./HTTPPrint.h: 134:    HTTPPrint_mLed(1);
+[e ( _HTTPPrint_mLed (1 -> -> 1 `i `us ]
+"135
+[; ;./HTTPPrint.h: 135:    break;
+[e $U 519  ]
+"136
+[; ;./HTTPPrint.h: 136:         case 0x0000003b:
+[e :U 539 ]
+"137
+[; ;./HTTPPrint.h: 137:    HTTPPrint_mLed(2);
+[e ( _HTTPPrint_mLed (1 -> -> 2 `i `us ]
+"138
+[; ;./HTTPPrint.h: 138:    break;
+[e $U 519  ]
+"139
+[; ;./HTTPPrint.h: 139:         case 0x0000003c:
+[e :U 540 ]
+"140
+[; ;./HTTPPrint.h: 140:    HTTPPrint_mLed(3);
+[e ( _HTTPPrint_mLed (1 -> -> 3 `i `us ]
+"141
+[; ;./HTTPPrint.h: 141:    break;
+[e $U 519  ]
+"142
+[; ;./HTTPPrint.h: 142:         case 0x0000003d:
+[e :U 541 ]
+"143
+[; ;./HTTPPrint.h: 143:    HTTPPrint_mBtn(0);
+[e ( _HTTPPrint_mBtn (1 -> -> 0 `i `us ]
+"144
+[; ;./HTTPPrint.h: 144:    break;
+[e $U 519  ]
+"145
+[; ;./HTTPPrint.h: 145:         case 0x0000003e:
+[e :U 542 ]
+"146
+[; ;./HTTPPrint.h: 146:    HTTPPrint_mBtn(1);
+[e ( _HTTPPrint_mBtn (1 -> -> 1 `i `us ]
+"147
+[; ;./HTTPPrint.h: 147:    break;
+[e $U 519  ]
+"148
+[; ;./HTTPPrint.h: 148:         case 0x0000003f:
+[e :U 543 ]
+"149
+[; ;./HTTPPrint.h: 149:    HTTPPrint_mBtn(2);
+[e ( _HTTPPrint_mBtn (1 -> -> 2 `i `us ]
+"150
+[; ;./HTTPPrint.h: 150:    break;
+[e $U 519  ]
+"151
+[; ;./HTTPPrint.h: 151:         case 0x00000040:
+[e :U 544 ]
+"152
+[; ;./HTTPPrint.h: 152:    HTTPPrint_mBtn(3);
+[e ( _HTTPPrint_mBtn (1 -> -> 3 `i `us ]
+"153
+[; ;./HTTPPrint.h: 153:    break;
+[e $U 519  ]
+"154
+[; ;./HTTPPrint.h: 154:         case 0x00000041:
+[e :U 545 ]
+"155
+[; ;./HTTPPrint.h: 155:    HTTPPrint_s1Led(0);
+[e ( _HTTPPrint_s1Led (1 -> -> 0 `i `us ]
+"156
+[; ;./HTTPPrint.h: 156:    break;
+[e $U 519  ]
+"157
+[; ;./HTTPPrint.h: 157:         case 0x00000042:
+[e :U 546 ]
+"158
+[; ;./HTTPPrint.h: 158:    HTTPPrint_s1Led(1);
+[e ( _HTTPPrint_s1Led (1 -> -> 1 `i `us ]
+"159
+[; ;./HTTPPrint.h: 159:    break;
+[e $U 519  ]
+"160
+[; ;./HTTPPrint.h: 160:         case 0x00000043:
+[e :U 547 ]
+"161
+[; ;./HTTPPrint.h: 161:    HTTPPrint_s1Led(2);
+[e ( _HTTPPrint_s1Led (1 -> -> 2 `i `us ]
+"162
+[; ;./HTTPPrint.h: 162:    break;
+[e $U 519  ]
+"163
+[; ;./HTTPPrint.h: 163:         case 0x00000044:
+[e :U 548 ]
+"164
+[; ;./HTTPPrint.h: 164:    HTTPPrint_s1Led(3);
+[e ( _HTTPPrint_s1Led (1 -> -> 3 `i `us ]
+"165
+[; ;./HTTPPrint.h: 165:    break;
+[e $U 519  ]
+"166
+[; ;./HTTPPrint.h: 166:         case 0x00000045:
+[e :U 549 ]
+"167
+[; ;./HTTPPrint.h: 167:    HTTPPrint_s1Btn(0);
+[e ( _HTTPPrint_s1Btn (1 -> -> 0 `i `us ]
+"168
+[; ;./HTTPPrint.h: 168:    break;
+[e $U 519  ]
+"169
+[; ;./HTTPPrint.h: 169:         case 0x00000046:
+[e :U 550 ]
+"170
+[; ;./HTTPPrint.h: 170:    HTTPPrint_s1Btn(1);
+[e ( _HTTPPrint_s1Btn (1 -> -> 1 `i `us ]
+"171
+[; ;./HTTPPrint.h: 171:    break;
+[e $U 519  ]
+"172
+[; ;./HTTPPrint.h: 172:         case 0x00000047:
+[e :U 551 ]
+"173
+[; ;./HTTPPrint.h: 173:    HTTPPrint_s1Btn(2);
+[e ( _HTTPPrint_s1Btn (1 -> -> 2 `i `us ]
+"174
+[; ;./HTTPPrint.h: 174:    break;
+[e $U 519  ]
+"175
+[; ;./HTTPPrint.h: 175:         case 0x00000048:
+[e :U 552 ]
+"176
+[; ;./HTTPPrint.h: 176:    HTTPPrint_s1Btn(3);
+[e ( _HTTPPrint_s1Btn (1 -> -> 3 `i `us ]
+"177
+[; ;./HTTPPrint.h: 177:    break;
+[e $U 519  ]
+"178
+[; ;./HTTPPrint.h: 178:         case 0x00000049:
+[e :U 553 ]
+"179
+[; ;./HTTPPrint.h: 179:    HTTPPrint_s2Led(0);
+[e ( _HTTPPrint_s2Led (1 -> -> 0 `i `us ]
+"180
+[; ;./HTTPPrint.h: 180:    break;
+[e $U 519  ]
+"181
+[; ;./HTTPPrint.h: 181:         case 0x0000004a:
+[e :U 554 ]
+"182
+[; ;./HTTPPrint.h: 182:    HTTPPrint_s2Led(1);
+[e ( _HTTPPrint_s2Led (1 -> -> 1 `i `us ]
+"183
+[; ;./HTTPPrint.h: 183:    break;
+[e $U 519  ]
+"184
+[; ;./HTTPPrint.h: 184:         case 0x0000004b:
+[e :U 555 ]
+"185
+[; ;./HTTPPrint.h: 185:    HTTPPrint_s2Led(2);
+[e ( _HTTPPrint_s2Led (1 -> -> 2 `i `us ]
+"186
+[; ;./HTTPPrint.h: 186:    break;
+[e $U 519  ]
+"187
+[; ;./HTTPPrint.h: 187:         case 0x0000004c:
+[e :U 556 ]
+"188
+[; ;./HTTPPrint.h: 188:    HTTPPrint_s2Led(3);
+[e ( _HTTPPrint_s2Led (1 -> -> 3 `i `us ]
+"189
+[; ;./HTTPPrint.h: 189:    break;
+[e $U 519  ]
+"190
+[; ;./HTTPPrint.h: 190:         case 0x0000004d:
+[e :U 557 ]
+"191
+[; ;./HTTPPrint.h: 191:    HTTPPrint_s2Btn(0);
+[e ( _HTTPPrint_s2Btn (1 -> -> 0 `i `us ]
+"192
+[; ;./HTTPPrint.h: 192:    break;
+[e $U 519  ]
+"193
+[; ;./HTTPPrint.h: 193:         case 0x0000004e:
+[e :U 558 ]
+"194
+[; ;./HTTPPrint.h: 194:    HTTPPrint_s2Btn(1);
+[e ( _HTTPPrint_s2Btn (1 -> -> 1 `i `us ]
+"195
+[; ;./HTTPPrint.h: 195:    break;
+[e $U 519  ]
+"196
+[; ;./HTTPPrint.h: 196:         case 0x0000004f:
+[e :U 559 ]
+"197
+[; ;./HTTPPrint.h: 197:    HTTPPrint_s2Btn(2);
+[e ( _HTTPPrint_s2Btn (1 -> -> 2 `i `us ]
+"198
+[; ;./HTTPPrint.h: 198:    break;
+[e $U 519  ]
+"199
+[; ;./HTTPPrint.h: 199:         case 0x00000050:
+[e :U 560 ]
+"200
+[; ;./HTTPPrint.h: 200:    HTTPPrint_s2Btn(3);
+[e ( _HTTPPrint_s2Btn (1 -> -> 3 `i `us ]
+"201
+[; ;./HTTPPrint.h: 201:    break;
+[e $U 519  ]
+"202
+[; ;./HTTPPrint.h: 202:         case 0x00000051:
+[e :U 561 ]
+"203
+[; ;./HTTPPrint.h: 203:    HTTPPrint_slaveCount();
+[e ( _HTTPPrint_slaveCount ..  ]
+"204
+[; ;./HTTPPrint.h: 204:    break;
+[e $U 519  ]
+"205
+[; ;./HTTPPrint.h: 205:         case 0x00000052:
+[e :U 562 ]
+"206
+[; ;./HTTPPrint.h: 206:    HTTPPrint_config_dhcpchecked();
+[e ( _HTTPPrint_config_dhcpchecked ..  ]
+"207
+[; ;./HTTPPrint.h: 207:    break;
+[e $U 519  ]
+"208
+[; ;./HTTPPrint.h: 208:   default:
+[e :U 563 ]
+"210
+[; ;./HTTPPrint.h: 210:    TCPPutArray(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"!DEF",4);
+[e ( _TCPPutArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 3C `*Cuc -> -> 4 `i `us ]
+"211
+[; ;./HTTPPrint.h: 211:  }
+}
+[e $U 519  ]
+[e :U 520 ]
+[e [\ _callbackID , $ -> -> -> 0 `i `l `ul 521
+ , $ -> -> -> 1 `i `l `ul 522
+ , $ -> -> -> 2 `i `l `ul 523
+ , $ -> -> -> 5 `i `l `ul 524
+ , $ -> -> -> 22 `i `l `ul 525
+ , $ -> -> -> 23 `i `l `ul 526
+ , $ -> -> -> 37 `i `l `ul 527
+ , $ -> -> -> 38 `i `l `ul 528
+ , $ -> -> -> 39 `i `l `ul 529
+ , $ -> -> -> 40 `i `l `ul 530
+ , $ -> -> -> 41 `i `l `ul 531
+ , $ -> -> -> 42 `i `l `ul 532
+ , $ -> -> -> 43 `i `l `ul 533
+ , $ -> -> -> 44 `i `l `ul 534
+ , $ -> -> -> 45 `i `l `ul 535
+ , $ -> -> -> 46 `i `l `ul 536
+ , $ -> -> -> 57 `i `l `ul 537
+ , $ -> -> -> 58 `i `l `ul 538
+ , $ -> -> -> 59 `i `l `ul 539
+ , $ -> -> -> 60 `i `l `ul 540
+ , $ -> -> -> 61 `i `l `ul 541
+ , $ -> -> -> 62 `i `l `ul 542
+ , $ -> -> -> 63 `i `l `ul 543
+ , $ -> -> -> 64 `i `l `ul 544
+ , $ -> -> -> 65 `i `l `ul 545
+ , $ -> -> -> 66 `i `l `ul 546
+ , $ -> -> -> 67 `i `l `ul 547
+ , $ -> -> -> 68 `i `l `ul 548
+ , $ -> -> -> 69 `i `l `ul 549
+ , $ -> -> -> 70 `i `l `ul 550
+ , $ -> -> -> 71 `i `l `ul 551
+ , $ -> -> -> 72 `i `l `ul 552
+ , $ -> -> -> 73 `i `l `ul 553
+ , $ -> -> -> 74 `i `l `ul 554
+ , $ -> -> -> 75 `i `l `ul 555
+ , $ -> -> -> 76 `i `l `ul 556
+ , $ -> -> -> 77 `i `l `ul 557
+ , $ -> -> -> 78 `i `l `ul 558
+ , $ -> -> -> 79 `i `l `ul 559
+ , $ -> -> -> 80 `i `l `ul 560
+ , $ -> -> -> 81 `i `l `ul 561
+ , $ -> -> -> 82 `i `l `ul 562
+ 563 ]
+[e :U 519 ]
+"213
+[; ;./HTTPPrint.h: 213:  return;
+[e $UE 518  ]
+"214
+[; ;./HTTPPrint.h: 214: }
+[e :UE 518 ]
+}
+"216
+[; ;./HTTPPrint.h: 216: void HTTPPrint_(void)
+[v _HTTPPrint_ `(v ~T0 @X0 1 ef ]
+"217
+[; ;./HTTPPrint.h: 217: {
+{
+[e :U _HTTPPrint_ ]
+[f ]
+"218
+[; ;./HTTPPrint.h: 218:  TCPPut(httpStubs[curHTTPID].socket, '~');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 126 `ui `uc ]
+"219
+[; ;./HTTPPrint.h: 219:  return;
+[e $UE 564  ]
+"220
+[; ;./HTTPPrint.h: 220: }
+[e :UE 564 ]
+}
+"69 Microchip/TCPIP_Stack/HTTP2.c
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 69:  static const BYTE HTTP_CRLF[] = "\r\n";
+[v _HTTP_CRLF `Cuc ~T0 @X0 -> 3 `i s ]
+[i _HTTP_CRLF
+:U ..
+-> 13 `c
+-> 10 `c
+-> 0 `c
+..
+]
+[v F5674 `*Cuc ~T0 @X0 1 t ]
+"77
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 77:  static const char * const httpFileExtensions[HTTP_UNKNOWN+1] =
+[v _httpFileExtensions `C*Cuc ~T0 @X0 -> 12 `i s ]
+[i _httpFileExtensions
+:U ..
+:s 4C
+:s 5C
+:s 6C
+:s 7C
+:s 8C
+:s 9C
+:s 10C
+:s 11C
+:s 12C
+:s 13C
+:s 14C
+:s 15C
+..
+]
+[v F5677 `*Cuc ~T0 @X0 1 t ]
+"94
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 94:  static const char * const httpContentTypes[HTTP_UNKNOWN+1] =
+[v _httpContentTypes `C*Cuc ~T0 @X0 -> 12 `i s ]
+[i _httpContentTypes
+:U ..
+:s 16C
+:s 17C
+:s 18C
+:s 19C
+:s 20C
+:s 21C
+:s 22C
+:s 23C
+:s 24C
+:s 25C
+:s 26C
+:s 27C
+..
+]
+[v F5680 `*Cuc ~T0 @X0 1 t ]
+"116
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 116:  static const char * const HTTPResponseHeaders[] =
+[v _HTTPResponseHeaders `C*Cuc ~T0 @X0 -> 14 `i s ]
+[i _HTTPResponseHeaders
+:U ..
+:s 28C
+:s 29C
+:s 30C
+:s 31C
+:s 32C
+:s 33C
+:s 34C
+:s 35C
+:s 36C
+:s 37C
+:s 38C
+:s 39C
+:s 40C
+:s 41C
+..
+]
+[v F5683 `*Cuc ~T0 @X0 1 t ]
+"146
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 146:  static const char * const HTTPRequestHeaders[] =
+[v _HTTPRequestHeaders `C*Cuc ~T0 @X0 -> 3 `i s ]
+[i _HTTPRequestHeaders
+:U ..
+:s 42C
+:s 43C
+:s 44C
+..
+]
+"163
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 163:  HTTP_CONN curHTTP;
+[v _curHTTP `S517 ~T0 @X0 1 e ]
+"164
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 164:  HTTP_STUB httpStubs[(2u)];
+[v _httpStubs `S516 ~T0 @X0 -> 2 `i e ]
+"165
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 165:  BYTE curHTTPID;
+[v _curHTTPID `uc ~T0 @X0 1 e ]
+"220
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 220: void HTTPInit(void)
+[v _HTTPInit `(v ~T0 @X0 1 ef ]
+"221
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 221: {
+{
+[e :U _HTTPInit ]
+[f ]
+"222
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 222:  WORD oldPtr;
+[v _oldPtr `us ~T0 @X0 1 a ]
+"225
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 225:  curHTTP.file = (0xffu);
+[e = . _curHTTP 6 -> -> 255 `ui `uc ]
+"226
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 226:  curHTTP.offsets = (0xffu);
+[e = . _curHTTP 7 -> -> 255 `ui `uc ]
+"228
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 228:     for(curHTTPID = 0; curHTTPID < (2u); curHTTPID++)
+{
+[e = _curHTTPID -> -> 0 `i `uc ]
+[e $ < -> _curHTTPID `ui -> 2 `ui 566  ]
+[e $U 567  ]
+[e :U 566 ]
+"229
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 229:     {
+{
+"230
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 230:   httpStubs[curHTTPID].sm = SM_HTTP_IDLE;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 0 ]
+"231
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 231:   httpStubs[curHTTPID].socket = TCPOpen(0, 0u, (80u), 8);
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ( _TCPOpen (4 , , , -> -> -> 0 `i `l `ul -> -> 0 `ui `uc -> -> 80 `ui `us -> -> 8 `i `uc ]
+"237
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 237:      oldPtr = MACSetWritePtr((((((8*1024ul) - (1ul+1518ul+7ul) - (3900ul) - ( (DWORD)(2u) * (DWORD)sizeof(HTTP_CONN)) - 0ul) + 1ul) + (1514ul+7ul)) + (3900ul)) + curHTTPID*sizeof(HTTP_CONN));
+[e = _oldPtr ( _MACSetWritePtr (1 -> + + + + - - - - * -> -> -> 8 `i `l `ul -> 1024 `ul + + -> 1 `ul -> 1518 `ul -> 7 `ul -> 3900 `ul * -> -> 2 `ui `ul -> -> # `S517 `ui `ul -> 0 `ul -> 1 `ul + -> 1514 `ul -> 7 `ul -> 3900 `ul -> * -> _curHTTPID `ui -> # `S517 `ui `ul `us ]
+"238
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 238:   MACPutArray((BYTE*)&curHTTP, sizeof(HTTP_CONN));
+[e ( _MACPutArray (2 , -> &U _curHTTP `*uc -> -> # `S517 `ui `us ]
+"239
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 239:   MACSetWritePtr(oldPtr);
+[e ( _MACSetWritePtr (1 _oldPtr ]
+"240
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 240:     }
+}
+[e ++ _curHTTPID -> -> 1 `i `uc ]
+[e $ < -> _curHTTPID `ui -> 2 `ui 566  ]
+[e :U 567 ]
+}
+"241
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 241: }
+[e :UE 565 ]
+}
+"270
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 270: void HTTPServer(void)
+[v _HTTPServer `(v ~T0 @X0 1 ef ]
+"271
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 271: {
+{
+[e :U _HTTPServer ]
+[f ]
+"272
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 272:  BYTE conn;
+[v _conn `uc ~T0 @X0 1 a ]
+"274
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 274:  for(conn = 0; conn < (2u); conn++)
+{
+[e = _conn -> -> 0 `i `uc ]
+[e $ < -> _conn `ui -> 2 `ui 570  ]
+[e $U 571  ]
+[e :U 570 ]
+"275
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 275:  {
+{
+"276
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 276:   if(httpStubs[conn].socket == (0xFE))
+[e $ ! == -> . *U + &U _httpStubs * -> _conn `ux -> -> # *U &U _httpStubs `ui `ux 1 `i -> 254 `i 573  ]
+"277
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 277:    continue;
+[e $U 572  ]
+[e :U 573 ]
+"283
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 283:   if(TCPWasReset(httpStubs[conn].socket))
+[e $ ! != -> ( _TCPWasReset (1 . *U + &U _httpStubs * -> _conn `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> -> 0 `i `ui 574  ]
+"284
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 284:   {
+{
+"285
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 285:    HTTPLoadConn(conn);
+[e ( _HTTPLoadConn (1 _conn ]
+"286
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 286:    httpStubs[curHTTPID].sm = SM_HTTP_IDLE;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 0 ]
+"289
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 289:    if(curHTTP.file != (0xffu))
+[e $ ! != -> . _curHTTP 6 `ui -> 255 `ui 575  ]
+"290
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 290:    {
+{
+"291
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 291:     MPFSClose(curHTTP.file);
+[e ( _MPFSClose (1 . _curHTTP 6 ]
+"292
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 292:     curHTTP.file = (0xffu);
+[e = . _curHTTP 6 -> -> 255 `ui `uc ]
+"293
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 293:    }
+}
+[e :U 575 ]
+"294
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 294:    if(curHTTP.offsets != (0xffu))
+[e $ ! != -> . _curHTTP 7 `ui -> 255 `ui 576  ]
+"295
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 295:    {
+{
+"296
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 296:     MPFSClose(curHTTP.offsets);
+[e ( _MPFSClose (1 . _curHTTP 7 ]
+"297
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 297:     curHTTP.offsets = (0xffu);
+[e = . _curHTTP 7 -> -> 255 `ui `uc ]
+"298
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 298:    }
+}
+[e :U 576 ]
+"302
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 302:    TCPAdjustFIFOSize(httpStubs[curHTTPID].socket, 1, 0, 0x04u);
+[e ( _TCPAdjustFIFOSize (4 , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 1 `i `us -> -> 0 `i `us -> -> 4 `ui `uc ]
+"303
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 303:   }
+}
+[e :U 574 ]
+"306
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 306:   if(httpStubs[conn].sm != SM_HTTP_IDLE || TCPIsGetReady(httpStubs[conn].socket))
+[e $ ! || != -> . *U + &U _httpStubs * -> _conn `ux -> -> # *U &U _httpStubs `ui `ux 0 `ui -> . `E5538 0 `ui != -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _conn `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> -> 0 `i `ui 577  ]
+"307
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 307:   {
+{
+"308
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 308:    HTTPLoadConn(conn);
+[e ( _HTTPLoadConn (1 _conn ]
+"309
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 309:    HTTPProcess();
+[e ( _HTTPProcess ..  ]
+"310
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 310:   }
+}
+[e :U 577 ]
+"311
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 311:  }
+}
+[e :U 572 ]
+[e ++ _conn -> -> 1 `i `uc ]
+[e $ < -> _conn `ui -> 2 `ui 570  ]
+[e :U 571 ]
+}
+"312
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 312: }
+[e :UE 569 ]
+}
+"335
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 335: static void HTTPLoadConn(BYTE hHTTP)
+[v _HTTPLoadConn `(v ~T0 @X0 1 sf1`uc ]
+"336
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 336: {
+{
+[e :U _HTTPLoadConn ]
+"335
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 335: static void HTTPLoadConn(BYTE hHTTP)
+[v _hHTTP `uc ~T0 @X0 1 r1 ]
+"336
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 336: {
+[f ]
+"337
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 337:     WORD oldPtr;
+[v _oldPtr `us ~T0 @X0 1 a ]
+"340
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 340:     if(hHTTP == curHTTPID)
+[e $ ! == -> _hHTTP `i -> _curHTTPID `i 579  ]
+"341
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 341:      return;
+[e $UE 578  ]
+[e :U 579 ]
+"344
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 344:     oldPtr = MACSetWritePtr((((((8*1024ul) - (1ul+1518ul+7ul) - (3900ul) - ( (DWORD)(2u) * (DWORD)sizeof(HTTP_CONN)) - 0ul) + 1ul) + (1514ul+7ul)) + (3900ul)) + curHTTPID*sizeof(HTTP_CONN));
+[e = _oldPtr ( _MACSetWritePtr (1 -> + + + + - - - - * -> -> -> 8 `i `l `ul -> 1024 `ul + + -> 1 `ul -> 1518 `ul -> 7 `ul -> 3900 `ul * -> -> 2 `ui `ul -> -> # `S517 `ui `ul -> 0 `ul -> 1 `ul + -> 1514 `ul -> 7 `ul -> 3900 `ul -> * -> _curHTTPID `ui -> # `S517 `ui `ul `us ]
+"345
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 345:  MACPutArray((BYTE*)&curHTTP, sizeof(HTTP_CONN));
+[e ( _MACPutArray (2 , -> &U _curHTTP `*uc -> -> # `S517 `ui `us ]
+"346
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 346:  MACSetWritePtr(oldPtr);
+[e ( _MACSetWritePtr (1 _oldPtr ]
+"349
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 349:     oldPtr = MACSetReadPtr((((((8*1024ul) - (1ul+1518ul+7ul) - (3900ul) - ( (DWORD)(2u) * (DWORD)sizeof(HTTP_CONN)) - 0ul) + 1ul) + (1514ul+7ul)) + (3900ul)) + hHTTP*sizeof(HTTP_CONN));
+[e = _oldPtr ( _MACSetReadPtr (1 -> + + + + - - - - * -> -> -> 8 `i `l `ul -> 1024 `ul + + -> 1 `ul -> 1518 `ul -> 7 `ul -> 3900 `ul * -> -> 2 `ui `ul -> -> # `S517 `ui `ul -> 0 `ul -> 1 `ul + -> 1514 `ul -> 7 `ul -> 3900 `ul -> * -> _hHTTP `ui -> # `S517 `ui `ul `us ]
+"350
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 350:  MACGetArray((BYTE*)&curHTTP, sizeof(HTTP_CONN));
+[e ( _MACGetArray (2 , -> &U _curHTTP `*uc -> -> # `S517 `ui `us ]
+"351
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 351:  MACSetReadPtr(oldPtr);
+[e ( _MACSetReadPtr (1 _oldPtr ]
+"354
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 354:  curHTTPID = hHTTP;
+[e = _curHTTPID _hHTTP ]
+"356
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 356: }
+[e :UE 578 ]
+}
+"374
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 374: static void HTTPProcess(void)
+[v _HTTPProcess `(v ~T0 @X0 1 sf ]
+"375
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 375: {
+{
+[e :U _HTTPProcess ]
+[f ]
+"376
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 376:     WORD lenA, lenB;
+[v _lenA `us ~T0 @X0 1 a ]
+[v _lenB `us ~T0 @X0 1 a ]
+"377
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 377:  BYTE c, i;
+[v _c `uc ~T0 @X0 1 a ]
+[v _i `uc ~T0 @X0 1 a ]
+"378
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 378:     BOOL isDone;
+[v _isDone `E332 ~T0 @X0 1 a ]
+"379
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 379:  BYTE *ext;
+[v _ext `*uc ~T0 @X0 1 a ]
+"380
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 380:  BYTE buffer[(15u)+1];
+[v _buffer `uc ~T0 @X0 -> 16 `i a ]
+"382
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 382:     do
+[e :U 583 ]
+"383
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 383:     {
+{
+"384
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 384:         isDone = TRUE;
+[e = _isDone . `E332 1 ]
+"386
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 386:         switch(httpStubs[curHTTPID].sm)
+[e $U 585  ]
+"387
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 387:         {
+{
+"389
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 389:         case SM_HTTP_IDLE:
+[e :U 586 ]
+"392
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 392:    lenA = TCPIsGetReady(httpStubs[curHTTPID].socket);
+[e = _lenA ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"395
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 395:             if(lenA)
+[e $ ! != -> _lenA `ui -> -> 0 `i `ui 587  ]
+"396
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 396:             {
+{
+"397
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 397:     curHTTP.ptrData = curHTTP.data;
+[e = . _curHTTP 4 &U . _curHTTP 12 ]
+"398
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 398:     httpStubs[curHTTPID].sm = SM_HTTP_PARSE_REQUEST;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 1 ]
+"399
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 399:     curHTTP.isAuthorized = 0xff;
+[e = . _curHTTP 9 -> -> 255 `i `uc ]
+"400
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 400:     curHTTP.hasArgs = FALSE;
+[e = . _curHTTP 8 -> . `E332 0 `uc ]
+"401
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 401:     curHTTP.callbackID = TickGet() + (45u)*((QWORD)((((41666667ul)/4)+128ull)/256ull));
+[e = . _curHTTP 2 -> + -> ( _TickGet ..  `uo * -> -> 45 `ui `uo / + -> / -> 41666667 `ul -> -> -> 4 `i `l `ul `uo -> 128 `uo -> 256 `uo `ul ]
+"402
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 402:     curHTTP.callbackPos = 0xffffffff;
+[e = . _curHTTP 3 -> 4294967295 `ul ]
+"403
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 403:     curHTTP.byteCount = 0;
+[e = . _curHTTP 0 -> -> -> 0 `i `l `ul ]
+"405
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 405:     curHTTP.smPost = 0x00;
+[e = . _curHTTP 13 -> -> 0 `i `uc ]
+"410
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 410:     TCPAdjustFIFOSize(httpStubs[curHTTPID].socket, 1, 0, 0x04u | 0x01u);
+[e ( _TCPAdjustFIFOSize (4 , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 1 `i `us -> -> 0 `i `us -> | -> 4 `ui -> 1 `ui `uc ]
+"411
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 411:     }
+}
+[e $U 588  ]
+"412
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 412:     else
+[e :U 587 ]
+"415
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 415:      break;
+[e $U 584  ]
+[e :U 588 ]
+"417
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 417:   case SM_HTTP_PARSE_REQUEST:
+[e :U 589 ]
+"420
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 420:    if(TCPFindEx(httpStubs[curHTTPID].socket,'\n',0,0,FALSE) == 0xffff)
+[e $ ! == -> ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 10 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 `ui -> 65535 `ui 590  ]
+"421
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 421:    {
+{
+"422
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 422:     if(TCPGetRxFIFOFree(httpStubs[curHTTPID].socket) == 0u)
+[e $ ! == -> ( _TCPGetRxFIFOFree (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> 0 `ui 591  ]
+"423
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 423:     {
+{
+"424
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 424:      curHTTP.httpStatus = HTTP_OVERFLOW;
+[e = . _curHTTP 10 . `E5522 5 ]
+"425
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 425:      httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"426
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 426:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"427
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 427:     }
+}
+[e :U 591 ]
+"428
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 428:     if((LONG)(TickGet() - curHTTP.callbackID) > (LONG)0)
+[e $ ! > -> - ( _TickGet ..  . _curHTTP 2 `l -> -> 0 `i `l 592  ]
+"429
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 429:     {
+{
+"430
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 430:      TCPDisconnect(httpStubs[curHTTPID].socket);
+[e ( _TCPDisconnect (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"431
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 431:      httpStubs[curHTTPID].sm = SM_HTTP_DISCONNECT;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 11 ]
+"432
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 432:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"433
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 433:     }
+}
+[e :U 592 ]
+"434
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 434:     break;
+[e $U 584  ]
+"435
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 435:    }
+}
+[e :U 590 ]
+"438
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 438:    curHTTP.callbackID = TickGet() + (45u)*((QWORD)((((41666667ul)/4)+128ull)/256ull));
+[e = . _curHTTP 2 -> + -> ( _TickGet ..  `uo * -> -> 45 `ui `uo / + -> / -> 41666667 `ul -> -> -> 4 `i `l `ul `uo -> 128 `uo -> 256 `uo `ul ]
+"441
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 441:    lenA = TCPFindEx(httpStubs[curHTTPID].socket,' ',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 32 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"442
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 442:    if(lenA > 5u)
+[e $ ! > -> _lenA `ui -> 5 `ui 593  ]
+"443
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 443:     lenA = 5;
+[e = _lenA -> -> 5 `i `us ]
+[e :U 593 ]
+"444
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 444:    TCPGetArray(httpStubs[curHTTPID].socket, curHTTP.data, lenA+1);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U . _curHTTP 12 -> + -> _lenA `ui -> -> 1 `i `ui `us ]
+"446
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 446:       if ( memcmp(curHTTP.data,(const void*)"GET",3) == 0)
+[e $ ! == ( _memcmp (3 , , -> &U . _curHTTP 12 `*Cv -> :s 45C `*Cv -> -> 3 `i `ui -> 0 `i 594  ]
+"447
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 447:        curHTTP.httpStatus = HTTP_GET;
+[e = . _curHTTP 10 . `E5522 0 ]
+[e $U 595  ]
+"449
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 449:       else if ( memcmp(curHTTP.data,(const void*)"POST",4) == 0)
+[e :U 594 ]
+[e $ ! == ( _memcmp (3 , , -> &U . _curHTTP 12 `*Cv -> :s 46C `*Cv -> -> 4 `i `ui -> 0 `i 596  ]
+"450
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 450:        curHTTP.httpStatus = HTTP_POST;
+[e = . _curHTTP 10 . `E5522 1 ]
+[e $U 597  ]
+"452
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 452:       else
+[e :U 596 ]
+"453
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 453:    {
+{
+"454
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 454:           curHTTP.httpStatus = HTTP_NOT_IMPLEMENTED;
+[e = . _curHTTP 10 . `E5522 7 ]
+"455
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 455:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"456
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 456:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"457
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 457:     break;
+[e $U 584  ]
+"458
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 458:    }
+}
+[e :U 597 ]
+[e :U 595 ]
+"461
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 461:    lenA = TCPFindEx(httpStubs[curHTTPID].socket,' ',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 32 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"462
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 462:    lenB = TCPFindEx(httpStubs[curHTTPID].socket, '?', 0, lenA, FALSE);
+[e = _lenB ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 63 `ui `uc -> -> 0 `i `us _lenA . `E332 0 ]
+"463
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 463:    lenA = ((lenA<lenB)?lenA:lenB);
+[e = _lenA -> ? < -> _lenA `ui -> _lenB `ui : -> _lenA `ui -> _lenB `ui `us ]
+"466
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 466:    if(lenA > (100u) - (10u) - 1)
+[e $ ! > -> _lenA `ui - - -> 100 `ui -> 10 `ui -> -> 1 `i `ui 598  ]
+"467
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 467:    {
+{
+"468
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 468:     curHTTP.httpStatus = HTTP_OVERFLOW;
+[e = . _curHTTP 10 . `E5522 5 ]
+"469
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 469:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"470
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 470:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"471
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 471:     break;
+[e $U 584  ]
+"472
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 472:    }
+}
+[e :U 598 ]
+"475
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 475:    lenB = TCPGetArray(httpStubs[curHTTPID].socket, curHTTP.data, lenA);
+[e = _lenB ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U . _curHTTP 12 _lenA ]
+"476
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 476:    curHTTP.data[lenB] = '\0';
+[e = *U + &U . _curHTTP 12 * -> _lenB `ux -> -> # *U &U . _curHTTP 12 `ui `ux -> -> 0 `ui `uc ]
+"477
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 477:    HTTPURLDecode(curHTTP.data);
+[e ( _HTTPURLDecode (1 &U . _curHTTP 12 ]
+"480
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 480:    lenB = strlen((char*)curHTTP.data);
+[e = _lenB -> ( _strlen (1 -> -> &U . _curHTTP 12 `*uc `*Cuc `us ]
+"484
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 484:    if(memcmp(&curHTTP.data[1],"mpfsupload",strlen("mpfsupload")) == 0)
+[e $ ! == ( _memcmp (3 , , -> &U *U + &U . _curHTTP 12 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `*Cv :s 47C ( _strlen (1 :s 48C -> 0 `i 599  ]
+"485
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 485:    {
+{
+"487
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 487:     curHTTP.isAuthorized = HTTPNeedsAuth(&curHTTP.data[1]);
+[e = . _curHTTP 9 ( _HTTPNeedsAuth (1 &U *U + &U . _curHTTP 12 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux ]
+"489
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 489:     if(curHTTP.httpStatus == HTTP_GET)
+[e $ ! == -> . _curHTTP 10 `ui -> . `E5522 0 `ui 600  ]
+"490
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 490:      curHTTP.httpStatus = HTTP_MPFS_FORM;
+[e = . _curHTTP 10 . `E5522 8 ]
+[e $U 601  ]
+"491
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 491:     else
+[e :U 600 ]
+"492
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 492:      curHTTP.httpStatus = HTTP_MPFS_UP;
+[e = . _curHTTP 10 . `E5522 9 ]
+[e :U 601 ]
+"494
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 494:     httpStubs[curHTTPID].sm = SM_HTTP_PARSE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 2 ]
+"495
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 495:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"496
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 496:     break;
+[e $U 584  ]
+"497
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 497:    }
+}
+[e :U 599 ]
+"502
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 502:    if(curHTTP.data[lenB-1] != '/')
+[e $ ! != -> *U + &U . _curHTTP 12 * -> - -> _lenB `ui -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `ui -> 47 `ui 602  ]
+"503
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 503:     curHTTP.file = MPFSOpen(&curHTTP.data[1]);
+[e = . _curHTTP 6 ( _MPFSOpen (1 &U *U + &U . _curHTTP 12 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux ]
+[e :U 602 ]
+"506
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 506:    if(curHTTP.file == (0xffu))
+[e $ ! == -> . _curHTTP 6 `ui -> 255 `ui 603  ]
+"507
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 507:    {
+{
+"509
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 509:     if(curHTTP.data[lenB-1] != '/')
+[e $ ! != -> *U + &U . _curHTTP 12 * -> - -> _lenB `ui -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `ui -> 47 `ui 604  ]
+"510
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 510:      curHTTP.data[lenB++] = '/';
+[e = *U + &U . _curHTTP 12 * -> ++ _lenB -> -> 1 `i `us `ux -> -> # *U &U . _curHTTP 12 `ui `ux -> -> 47 `ui `uc ]
+[e :U 604 ]
+"521
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 521:     {
+{
+"522
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 522:      strcpy((void*)&curHTTP.data[lenB],"index.htm");
+[e ( _strcpy (2 , -> -> &U *U + &U . _curHTTP 12 * -> _lenB `ux -> -> # *U &U . _curHTTP 12 `ui `ux `*v `*uc :s 49C ]
+"523
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 523:      lenB += strlen("index.htm");
+[e =+ _lenB -> ( _strlen (1 :s 51C `us ]
+"524
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 524:     }
+}
+"527
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 527:     curHTTP.file = MPFSOpen(&curHTTP.data[1]);
+[e = . _curHTTP 6 ( _MPFSOpen (1 &U *U + &U . _curHTTP 12 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux ]
+"528
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 528:    }
+}
+[e :U 603 ]
+"531
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 531:    for(ext = curHTTP.data + lenB-1; ext != curHTTP.data; ext--)
+{
+[e = _ext - + &U . _curHTTP 12 * -> -> _lenB `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux * -> -> 1 `i `x -> -> # *U + &U . _curHTTP 12 * -> -> _lenB `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `i `x ]
+[e $ != _ext &U . _curHTTP 12 605  ]
+[e $U 606  ]
+[e :U 605 ]
+"532
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 532:     if(*ext == '.')
+[e $ ! == -> *U _ext `ui -> 46 `ui 608  ]
+"533
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 533:      break;
+[e $U 606  ]
+[e :U 608 ]
+[e -- _ext * -> -> 1 `i `x -> -> # *U _ext `i `x ]
+[e $ != _ext &U . _curHTTP 12 605  ]
+[e :U 606 ]
+}
+"536
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 536:    ext++;
+[e ++ _ext * -> -> 1 `i `x -> -> # *U _ext `i `x ]
+"537
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 537:    for(curHTTP.fileType = HTTP_TXT; curHTTP.fileType < HTTP_UNKNOWN; curHTTP.fileType++)
+{
+[e = . _curHTTP 11 . `E5562 0 ]
+[e $U 612  ]
+[e :U 609 ]
+"538
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 538:     if(!stricmppgm2ram(ext, (const void*)httpFileExtensions[curHTTP.fileType]))
+[e $ ! ! != -> ( _stricmppgm2ram (2 , _ext -> -> *U + &U _httpFileExtensions * -> . _curHTTP 11 `ux -> -> # *U &U _httpFileExtensions `ui `ux `*Cv `*Cuc `i -> 0 `i 613  ]
+"539
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 539:      break;
+[e $U 610  ]
+[e :U 613 ]
+[e ++ . _curHTTP 11 -> -> 1 `i `E5562 ]
+[e :U 612 ]
+[e $ < -> . _curHTTP 11 `ui -> . `E5562 11 `ui 609  ]
+[e :U 610 ]
+}
+"543
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 543:    curHTTP.isAuthorized = HTTPNeedsAuth(&curHTTP.data[1]);
+[e = . _curHTTP 9 ( _HTTPNeedsAuth (1 &U *U + &U . _curHTTP 12 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux ]
+"547
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 547:    if(curHTTP.file != (0xffu) &&
+[e $ ! && != -> . _curHTTP 6 `ui -> 255 `ui != & -> ( _MPFSGetFlags (1 . _curHTTP 6 `ui -> -> -> 2 `i `us `ui -> -> 0 `i `ui 614  ]
+"549
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 549:    {
+{
+"550
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 550:     curHTTP.offsets = MPFSOpenID(MPFSGetID(curHTTP.file) + 1);
+[e = . _curHTTP 7 ( _MPFSOpenID (1 -> + -> ( _MPFSGetID (1 . _curHTTP 6 `ui -> -> 1 `i `ui `us ]
+"551
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 551:    }
+}
+[e :U 614 ]
+"554
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 554:    lenA = TCPFindEx(httpStubs[curHTTPID].socket,' ',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 32 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"555
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 555:    if(lenA != 0u)
+[e $ ! != -> _lenA `ui -> 0 `ui 615  ]
+"556
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 556:    {
+{
+"557
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 557:     curHTTP.hasArgs = TRUE;
+[e = . _curHTTP 8 -> . `E332 1 `uc ]
+"560
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 560:     TCPGet(httpStubs[curHTTPID].socket, &c);
+[e ( _TCPGet (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _c ]
+"563
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 563:     lenA--;
+[e -- _lenA -> -> 1 `i `us ]
+"564
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 564:     if(lenA >= (100u) - 2)
+[e $ ! >= -> _lenA `ui - -> 100 `ui -> -> 2 `i `ui 616  ]
+"565
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 565:     {
+{
+"566
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 566:            curHTTP.httpStatus = HTTP_OVERFLOW;
+[e = . _curHTTP 10 . `E5522 5 ]
+"567
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 567:      httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"568
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 568:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"569
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 569:      break;
+[e $U 584  ]
+"570
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 570:     }
+}
+[e :U 616 ]
+"573
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 573:     curHTTP.ptrData += TCPGetArray(httpStubs[curHTTPID].socket, curHTTP.data, lenA);
+[e =+ . _curHTTP 4 * -> -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U . _curHTTP 12 _lenA `ui `ux -> -> # *U . _curHTTP 4 `ui `ux ]
+"574
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 574:     *(curHTTP.ptrData++) = '&';
+[e = *U ++ . _curHTTP 4 * -> -> 1 `i `x -> -> # *U . _curHTTP 4 `i `x -> -> 38 `ui `uc ]
+"576
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 576:    }
+}
+[e :U 615 ]
+"579
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 579:    lenA = TCPFindEx(httpStubs[curHTTPID].socket,'\n',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 10 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"580
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 580:    TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), lenA + 1);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> + -> _lenA `ui -> -> 1 `i `ui `us ]
+"583
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 583:    httpStubs[curHTTPID].sm = SM_HTTP_PARSE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 2 ]
+"587
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 587:   case SM_HTTP_PARSE_HEADERS:
+[e :U 617 ]
+"590
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 590:    while(1)
+[e :U 619 ]
+"591
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 591:    {
+{
+"593
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 593:     lenA = TCPFindEx(httpStubs[curHTTPID].socket,'\n',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 10 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"594
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 594:     if(lenA == 0xffff)
+[e $ ! == -> _lenA `ui -> 65535 `ui 621  ]
+"595
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 595:     {
+{
+"596
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 596:      if(TCPGetRxFIFOFree(httpStubs[curHTTPID].socket) == 0u)
+[e $ ! == -> ( _TCPGetRxFIFOFree (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> 0 `ui 622  ]
+"597
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 597:      {
+{
+"598
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 598:       curHTTP.httpStatus = HTTP_OVERFLOW;
+[e = . _curHTTP 10 . `E5522 5 ]
+"599
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 599:       httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"600
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 600:       isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"601
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 601:      }
+}
+[e :U 622 ]
+"602
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 602:      if((LONG)(TickGet() - curHTTP.callbackID) > (LONG)0)
+[e $ ! > -> - ( _TickGet ..  . _curHTTP 2 `l -> -> 0 `i `l 623  ]
+"603
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 603:      {
+{
+"604
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 604:       TCPDisconnect(httpStubs[curHTTPID].socket);
+[e ( _TCPDisconnect (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"605
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 605:       httpStubs[curHTTPID].sm = SM_HTTP_DISCONNECT;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 11 ]
+"606
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 606:       isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"607
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 607:      }
+}
+[e :U 623 ]
+"608
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 608:      break;
+[e $U 620  ]
+"609
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 609:     }
+}
+[e :U 621 ]
+"612
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 612:     curHTTP.callbackID = TickGet() + (45u)*((QWORD)((((41666667ul)/4)+128ull)/256ull));
+[e = . _curHTTP 2 -> + -> ( _TickGet ..  `uo * -> -> 45 `ui `uo / + -> / -> 41666667 `ul -> -> -> 4 `i `l `ul `uo -> 128 `uo -> 256 `uo `ul ]
+"615
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 615:     if(lenA == 1u)
+[e $ ! == -> _lenA `ui -> 1 `ui 624  ]
+"616
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 616:     {
+{
+"617
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 617:      TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), 2);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> -> 2 `i `us ]
+"618
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 618:      httpStubs[curHTTPID].sm = SM_HTTP_AUTHENTICATE;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 3 ]
+"619
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 619:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"620
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 620:      break;
+[e $U 620  ]
+"621
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 621:     }
+}
+[e :U 624 ]
+"624
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 624:     lenB = TCPFindEx(httpStubs[curHTTPID].socket, ':', 0, lenA, FALSE) + 2;
+[e = _lenB -> + -> ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 58 `ui `uc -> -> 0 `i `us _lenA . `E332 0 `ui -> -> 2 `i `ui `us ]
+"625
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 625:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"628
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 628:     if(lenB > sizeof(buffer))
+[e $ ! > -> _lenB `ui -> # _buffer `ui 625  ]
+"629
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 629:     {
+{
+"630
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 630:      TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), lenA+1);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> + -> _lenA `ui -> -> 1 `i `ui `us ]
+"631
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 631:      continue;
+[e $U 618  ]
+"632
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 632:     }
+}
+[e :U 625 ]
+"635
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 635:     TCPGetArray(httpStubs[curHTTPID].socket, buffer, lenB);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _buffer _lenB ]
+"636
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 636:     buffer[lenB-1] = '\0';
+[e = *U + &U _buffer * -> - -> _lenB `ui -> -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 0 `ui `uc ]
+"637
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 637:     lenA -= lenB;
+[e =- _lenA -> _lenB `us ]
+"640
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 640:     for(i = 0; i < sizeof(HTTPRequestHeaders)/sizeof(HTTPRequestHeaders[0]); i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `ui / -> # _HTTPRequestHeaders `ui -> # *U + &U _HTTPRequestHeaders * -> -> -> 0 `i `ui `ux -> -> # *U &U _HTTPRequestHeaders `ui `ux `ui 626  ]
+[e $U 627  ]
+[e :U 626 ]
+"641
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 641:     {
+{
+"642
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 642:      if(strcmp((char*)buffer,(const char *)HTTPRequestHeaders[i]) == 0)
+[e $ ! == ( _strcmp (2 , -> -> &U _buffer `*uc `*Cuc *U + &U _HTTPRequestHeaders * -> _i `ux -> -> # *U &U _HTTPRequestHeaders `ui `ux -> 0 `i 629  ]
+"643
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 643:      {
+{
+"644
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 644:       HTTPHeaderParseLookup(i);
+[e ( _HTTPHeaderParseLookup (1 _i ]
+"645
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 645:       isDone = TRUE;
+[e = _isDone . `E332 1 ]
+"646
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 646:       break;
+[e $U 627  ]
+"647
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 647:      }
+}
+[e :U 629 ]
+"648
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 648:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `ui / -> # _HTTPRequestHeaders `ui -> # *U + &U _HTTPRequestHeaders * -> -> -> 0 `i `ui `ux -> -> # *U &U _HTTPRequestHeaders `ui `ux `ui 626  ]
+[e :U 627 ]
+}
+"651
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 651:     if(isDone)
+[e $ ! != -> _isDone `ui -> -> 0 `i `ui 630  ]
+"652
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 652:     {
+{
+"653
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 653:      lenA = TCPFindEx(httpStubs[curHTTPID].socket,'\n',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 10 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"654
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 654:     }
+}
+[e :U 630 ]
+"655
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 655:     TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), lenA+1);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> + -> _lenA `ui -> -> 1 `i `ui `us ]
+"656
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 656:    }
+}
+[e :U 618 ]
+[e $U 619  ]
+[e :U 620 ]
+"658
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 658:    break;
+[e $U 584  ]
+"660
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 660:   case SM_HTTP_AUTHENTICATE:
+[e :U 631 ]
+"664
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 664:    if(curHTTP.isAuthorized < 0x80)
+[e $ ! < -> . _curHTTP 9 `i -> 128 `i 632  ]
+"665
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 665:    {
+{
+"666
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 666:     curHTTP.httpStatus = HTTP_UNAUTHORIZED;
+[e = . _curHTTP 10 . `E5522 3 ]
+"667
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 667:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"668
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 668:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"675
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 675:     break;
+[e $U 584  ]
+"676
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 676:    }
+}
+[e :U 632 ]
+"680
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 680:    *curHTTP.ptrData = '\0';
+[e = *U . _curHTTP 4 -> -> 0 `ui `uc ]
+"681
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 681:    curHTTP.ptrData = HTTPURLDecode(curHTTP.data);
+[e = . _curHTTP 4 ( _HTTPURLDecode (1 &U . _curHTTP 12 ]
+"685
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 685:    if(curHTTP.httpStatus == HTTP_MPFS_FORM)
+[e $ ! == -> . _curHTTP 10 `ui -> . `E5522 8 `ui 633  ]
+"686
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 686:    {
+{
+"687
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 687:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"688
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 688:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"689
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 689:     break;
+[e $U 584  ]
+"690
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 690:    }
+}
+[e :U 633 ]
+"694
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 694:    httpStubs[curHTTPID].sm = SM_HTTP_PROCESS_GET;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 4 ]
+"695
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 695:    if(!curHTTP.hasArgs)
+[e $ ! ! != -> . _curHTTP 8 `i -> 0 `i 634  ]
+"696
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 696:     httpStubs[curHTTPID].sm = SM_HTTP_PROCESS_POST;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 5 ]
+[e :U 634 ]
+"697
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 697:    isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"698
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 698:    curHTTP.hasArgs = FALSE;
+[e = . _curHTTP 8 -> . `E332 0 `uc ]
+"699
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 699:    break;
+[e $U 584  ]
+"701
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 701:   case SM_HTTP_PROCESS_GET:
+[e :U 635 ]
+"704
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 704:    if(HTTPExecuteGet() == HTTP_IO_WAITING)
+[e $ ! == -> ( _HTTPExecuteGet ..  `ui -> . `E5552 2 `ui 636  ]
+"705
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 705:    {
+{
+"706
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 706:     break;
+[e $U 584  ]
+"707
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 707:    }
+}
+[e :U 636 ]
+"710
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 710:    httpStubs[curHTTPID].sm = SM_HTTP_PROCESS_POST;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 5 ]
+"712
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 712:   case SM_HTTP_PROCESS_POST:
+[e :U 637 ]
+"717
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 717:    if(TCPIsGetReady(httpStubs[curHTTPID].socket) == curHTTP.callbackPos)
+[e $ ! == -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ul . _curHTTP 3 638  ]
+"718
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 718:    {
+{
+"719
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 719:     if((LONG)(TickGet() - curHTTP.callbackID) > (LONG)0)
+[e $ ! > -> - ( _TickGet ..  . _curHTTP 2 `l -> -> 0 `i `l 639  ]
+"720
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 720:     {
+{
+"721
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 721:      TCPDisconnect(httpStubs[curHTTPID].socket);
+[e ( _TCPDisconnect (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"722
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 722:      httpStubs[curHTTPID].sm = SM_HTTP_DISCONNECT;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 11 ]
+"723
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 723:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"724
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 724:      break;
+[e $U 584  ]
+"725
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 725:     }
+}
+[e :U 639 ]
+"726
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 726:    }
+}
+[e :U 638 ]
+"728
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 728:    if(curHTTP.httpStatus == HTTP_POST
+[e $ ! || == -> . _curHTTP 10 `ui -> . `E5522 1 `ui && >= -> . _curHTTP 10 `ui -> . `E5522 9 `ui <= -> . _curHTTP 10 `ui -> . `E5522 11 `ui 640  ]
+"733
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 733:    {
+{
+"736
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 736:     if(curHTTP.httpStatus >= HTTP_MPFS_UP && curHTTP.httpStatus <= HTTP_MPFS_ERROR)
+[e $ ! && >= -> . _curHTTP 10 `ui -> . `E5522 9 `ui <= -> . _curHTTP 10 `ui -> . `E5522 11 `ui 641  ]
+"737
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 737:     {
+{
+"738
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 738:      c = HTTPMPFSUpload();
+[e = _c -> ( _HTTPMPFSUpload ..  `uc ]
+"739
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 739:      if(c == (BYTE)HTTP_IO_DONE)
+[e $ ! == -> _c `i -> -> . `E5552 0 `uc `i 642  ]
+"740
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 740:      {
+{
+"741
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 741:       httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"742
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 742:       isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"743
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 743:       break;
+[e $U 584  ]
+"744
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 744:      }
+}
+[e :U 642 ]
+"745
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 745:     }
+}
+[e $U 643  ]
+"746
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 746:     else
+[e :U 641 ]
+"748
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 748:     c = HTTPExecutePost();
+[e = _c -> ( _HTTPExecutePost ..  `uc ]
+[e :U 643 ]
+"751
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 751:     if(c == (BYTE)HTTP_IO_WAITING)
+[e $ ! == -> _c `i -> -> . `E5552 2 `uc `i 644  ]
+"752
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 752:     {
+{
+"753
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 753:      curHTTP.callbackPos = TCPIsGetReady(httpStubs[curHTTPID].socket) - 1;
+[e = . _curHTTP 3 -> - -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> -> 1 `i `ui `ul ]
+"754
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 754:      break;
+[e $U 584  ]
+"755
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 755:     }
+}
+[e $U 645  ]
+"756
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 756:     else if(c == (BYTE)HTTP_IO_NEED_DATA)
+[e :U 644 ]
+[e $ ! == -> _c `i -> -> . `E5552 1 `uc `i 646  ]
+"757
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 757:     {
+{
+"758
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 758:      curHTTP.callbackPos = TCPIsGetReady(httpStubs[curHTTPID].socket);
+[e = . _curHTTP 3 -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ul ]
+"759
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 759:      curHTTP.callbackID = TickGet() + (45u)*((QWORD)((((41666667ul)/4)+128ull)/256ull));
+[e = . _curHTTP 2 -> + -> ( _TickGet ..  `uo * -> -> 45 `ui `uo / + -> / -> 41666667 `ul -> -> -> 4 `i `l `ul `uo -> 128 `uo -> 256 `uo `ul ]
+"762
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 762:      if(curHTTP.byteCount > curHTTP.callbackPos && TCPGetRxFIFOFree(httpStubs[curHTTPID].socket) != 0u)
+[e $ ! && > . _curHTTP 0 . _curHTTP 3 != -> ( _TCPGetRxFIFOFree (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> 0 `ui 647  ]
+"763
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 763:       break;
+[e $U 584  ]
+[e :U 647 ]
+"766
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 766:      curHTTP.httpStatus = HTTP_INTERNAL_SERVER_ERROR;
+[e = . _curHTTP 10 . `E5522 6 ]
+"767
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 767:      httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"768
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 768:      isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"769
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 769:      break;
+[e $U 584  ]
+"770
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 770:     }
+}
+[e :U 646 ]
+[e :U 645 ]
+"771
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 771:    }
+}
+[e :U 640 ]
+"775
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 775:    httpStubs[curHTTPID].sm = SM_HTTP_PROCESS_REQUEST;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 6 ]
+"778
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 778:   case SM_HTTP_PROCESS_REQUEST:
+[e :U 648 ]
+"781
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 781:             if(curHTTP.file == (0xffu))
+[e $ ! == -> . _curHTTP 6 `ui -> 255 `ui 649  ]
+"782
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 782:             {
+{
+"783
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 783:                 curHTTP.httpStatus = HTTP_NOT_FOUND;
+[e = . _curHTTP 10 . `E5522 4 ]
+"784
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 784:                 httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"785
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 785:                 isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"786
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 786:                 break;
+[e $U 584  ]
+"787
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 787:             }
+}
+[e :U 649 ]
+"790
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 790:    curHTTP.byteCount = 0;
+[e = . _curHTTP 0 -> -> -> 0 `i `l `ul ]
+"791
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 791:    if(curHTTP.offsets == (0xffu))
+[e $ ! == -> . _curHTTP 7 `ui -> 255 `ui 650  ]
+"792
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 792:             {
+{
+"793
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 793:              curHTTP.nextCallback = 0xffffffff;
+[e = . _curHTTP 1 -> 4294967295 `ul ]
+"794
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 794:             }
+}
+[e $U 651  ]
+"795
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 795:             else
+[e :U 650 ]
+"796
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 796:             {
+{
+"797
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 797:              MPFSGetLong(curHTTP.offsets, &(curHTTP.nextCallback));
+[e ( _MPFSGetLong (2 , . _curHTTP 7 &U . _curHTTP 1 ]
+"798
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 798:    }
+}
+[e :U 651 ]
+"801
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 801:    httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"803
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 803:   case SM_HTTP_SERVE_HEADERS:
+[e :U 652 ]
+"808
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 808:    TCPAdjustFIFOSize(httpStubs[curHTTPID].socket, 1, 0, 0x02u);
+[e ( _TCPAdjustFIFOSize (4 , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 1 `i `us -> -> 0 `i `us -> -> 2 `ui `uc ]
+"811
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 811:    TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)HTTPResponseHeaders[curHTTP.httpStatus]);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> *U + &U _HTTPResponseHeaders * -> . _curHTTP 10 `ux -> -> # *U &U _HTTPResponseHeaders `ui `ux `*Cuc ]
+"814
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 814:    if(curHTTP.httpStatus == HTTP_REDIRECT)
+[e $ ! == -> . _curHTTP 10 `ui -> . `E5522 12 `ui 653  ]
+"815
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 815:    {
+{
+"816
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 816:     TCPPutString(httpStubs[curHTTPID].socket, curHTTP.data);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U . _curHTTP 12 ]
+"817
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 817:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"\r\n\r\n304 Redirect: ");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 52C `*Cuc ]
+"818
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 818:     TCPPutString(httpStubs[curHTTPID].socket, curHTTP.data);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U . _curHTTP 12 ]
+"819
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 819:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"820
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 820:    }
+}
+[e :U 653 ]
+"823
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 823:    if(curHTTP.httpStatus != HTTP_GET && curHTTP.httpStatus != HTTP_POST)
+[e $ ! && != -> . _curHTTP 10 `ui -> . `E5522 0 `ui != -> . _curHTTP 10 `ui -> . `E5522 1 `ui 654  ]
+"824
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 824:    {
+{
+"825
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 825:     httpStubs[curHTTPID].sm = SM_HTTP_DISCONNECT;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 11 ]
+"826
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 826:     break;
+[e $U 584  ]
+"827
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 827:    }
+}
+[e :U 654 ]
+"830
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 830:    if(curHTTP.fileType != HTTP_UNKNOWN)
+[e $ ! != -> . _curHTTP 11 `ui -> . `E5562 11 `ui 655  ]
+"831
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 831:    {
+{
+"832
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 832:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"Content-Type: ");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 53C `*Cuc ]
+"833
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 833:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)httpContentTypes[curHTTP.fileType]);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> *U + &U _httpContentTypes * -> . _curHTTP 11 `ux -> -> # *U &U _httpContentTypes `ui `ux `*Cuc ]
+"834
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 834:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"835
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 835:    }
+}
+[e :U 655 ]
+"838
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 838:    if(MPFSGetFlags(curHTTP.file) & ((WORD)0x0001))
+[e $ ! != & -> ( _MPFSGetFlags (1 . _curHTTP 6 `ui -> -> -> 1 `i `us `ui -> -> 0 `i `ui 656  ]
+"839
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 839:    {
+{
+"840
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 840:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"Content-Encoding: gzip\r\n");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 54C `*Cuc ]
+"841
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 841:    }
+}
+[e :U 656 ]
+"844
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 844:    TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"Cache-Control: ");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 55C `*Cuc ]
+"845
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 845:    if(curHTTP.httpStatus == HTTP_POST || curHTTP.nextCallback != 0xffffffff)
+[e $ ! || == -> . _curHTTP 10 `ui -> . `E5522 1 `ui != . _curHTTP 1 -> 4294967295 `ul 657  ]
+"846
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 846:    {
+{
+"847
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 847:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"no-cache");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 56C `*Cuc ]
+"848
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 848:    }
+}
+[e $U 658  ]
+"849
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 849:    else
+[e :U 657 ]
+"850
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 850:    {
+{
+"851
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 851:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"max-age=");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 57C `*Cuc ]
+"852
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 852:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)("600"));
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 58C `*Cuc ]
+"853
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 853:    }
+}
+[e :U 658 ]
+"854
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 854:    TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"857
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 857:    if(curHTTP.hasArgs)
+[e $ ! != -> . _curHTTP 8 `i -> 0 `i 659  ]
+"858
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 858:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_COOKIES;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 8 ]
+[e $U 660  ]
+"859
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 859:    else
+[e :U 659 ]
+"860
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 860:    {
+{
+"861
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 861:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"862
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 862:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_BODY;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 9 ]
+"863
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 863:    }
+}
+[e :U 660 ]
+"866
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 866:    isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"867
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 867:    break;
+[e $U 584  ]
+"869
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 869:   case SM_HTTP_SERVE_COOKIES:
+[e :U 661 ]
+"876
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 876:    for(curHTTP.ptrRead = curHTTP.data; curHTTP.hasArgs != 0u; curHTTP.hasArgs--)
+{
+[e = . _curHTTP 5 &U . _curHTTP 12 ]
+[e $U 665  ]
+[e :U 662 ]
+"877
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 877:    {
+{
+"879
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 879:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"Set-Cookie: ");
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 59C `*Cuc ]
+"882
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 882:     while((c = *(curHTTP.ptrRead++)))
+[e $U 666  ]
+[e :U 667 ]
+"883
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 883:     {
+{
+"884
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 884:      if(c == ' ')
+[e $ ! == -> _c `ui -> 32 `ui 669  ]
+"885
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 885:       TCPPut(httpStubs[curHTTPID].socket, '+');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 43 `ui `uc ]
+[e $U 670  ]
+"886
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 886:      else if(c < '0' || (c > '9' && c < 'A') || (c > 'Z' && c < 'a') || c > 'z')
+[e :U 669 ]
+[e $ ! || || || < -> _c `ui -> 48 `ui && > -> _c `ui -> 57 `ui < -> _c `ui -> 65 `ui && > -> _c `ui -> 90 `ui < -> _c `ui -> 97 `ui > -> _c `ui -> 122 `ui 671  ]
+"887
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 887:      {
+{
+"888
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 888:       TCPPut(httpStubs[curHTTPID].socket, '%');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 37 `ui `uc ]
+"889
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 889:       TCPPut(httpStubs[curHTTPID].socket, btohexa_high(c));
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ( _btohexa_high (1 _c ]
+"890
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 890:       TCPPut(httpStubs[curHTTPID].socket, btohexa_low(c));
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ( _btohexa_low (1 _c ]
+"891
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 891:      }
+}
+[e $U 672  ]
+"892
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 892:      else
+[e :U 671 ]
+"893
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 893:       TCPPut(httpStubs[curHTTPID].socket, c);
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _c ]
+[e :U 672 ]
+[e :U 670 ]
+"894
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 894:     }
+}
+[e :U 666 ]
+"882
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 882:     while((c = *(curHTTP.ptrRead++)))
+[e $ != -> = _c *U ++ . _curHTTP 5 * -> -> 1 `i `x -> -> # *U . _curHTTP 5 `i `x `i -> 0 `i 667  ]
+[e :U 668 ]
+"896
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 896:     TCPPut(httpStubs[curHTTPID].socket, '=');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 61 `ui `uc ]
+"899
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 899:     while((c = *(curHTTP.ptrRead++)))
+[e $U 673  ]
+[e :U 674 ]
+"900
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 900:     {
+{
+"901
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 901:      if(c == ' ')
+[e $ ! == -> _c `ui -> 32 `ui 676  ]
+"902
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 902:       TCPPut(httpStubs[curHTTPID].socket, '+');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 43 `ui `uc ]
+[e $U 677  ]
+"903
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 903:      else if(c < '0' || (c > '9' && c < 'A') || (c > 'Z' && c < 'a') || c > 'z')
+[e :U 676 ]
+[e $ ! || || || < -> _c `ui -> 48 `ui && > -> _c `ui -> 57 `ui < -> _c `ui -> 65 `ui && > -> _c `ui -> 90 `ui < -> _c `ui -> 97 `ui > -> _c `ui -> 122 `ui 678  ]
+"904
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 904:      {
+{
+"905
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 905:       TCPPut(httpStubs[curHTTPID].socket, '%');
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 37 `ui `uc ]
+"906
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 906:       TCPPut(httpStubs[curHTTPID].socket, btohexa_high(c));
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ( _btohexa_high (1 _c ]
+"907
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 907:       TCPPut(httpStubs[curHTTPID].socket, btohexa_low(c));
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ( _btohexa_low (1 _c ]
+"908
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 908:      }
+}
+[e $U 679  ]
+"909
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 909:      else
+[e :U 678 ]
+"910
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 910:       TCPPut(httpStubs[curHTTPID].socket, c);
+[e ( _TCPPut (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _c ]
+[e :U 679 ]
+[e :U 677 ]
+"911
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 911:     }
+}
+[e :U 673 ]
+"899
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 899:     while((c = *(curHTTP.ptrRead++)))
+[e $ != -> = _c *U ++ . _curHTTP 5 * -> -> 1 `i `x -> -> # *U . _curHTTP 5 `i `x `i -> 0 `i 674  ]
+[e :U 675 ]
+"914
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 914:     TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"916
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 916:    }
+}
+[e -- . _curHTTP 8 -> -> 1 `i `uc ]
+[e :U 665 ]
+[e $ != -> . _curHTTP 8 `ui -> 0 `ui 662  ]
+[e :U 663 ]
+}
+"920
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 920:    TCPPutString(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF);
+[e ( _TCPPutString (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF ]
+"921
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 921:    httpStubs[curHTTPID].sm = SM_HTTP_SERVE_BODY;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 9 ]
+"923
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 923:   case SM_HTTP_SERVE_BODY:
+[e :U 680 ]
+"925
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 925:    isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"928
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 928:    if(HTTPSendFile())
+[e $ ! != -> ( _HTTPSendFile ..  `ui -> -> 0 `i `ui 681  ]
+"929
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 929:    {
+{
+"930
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 930:     MPFSClose(curHTTP.file);
+[e ( _MPFSClose (1 . _curHTTP 6 ]
+"931
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 931:     curHTTP.file = (0xffu);
+[e = . _curHTTP 6 -> -> 255 `ui `uc ]
+"932
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 932:     httpStubs[curHTTPID].sm = SM_HTTP_DISCONNECT;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 11 ]
+"933
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 933:     isDone = TRUE;
+[e = _isDone . `E332 1 ]
+"934
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 934:    }
+}
+[e :U 681 ]
+"937
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 937:    if(TCPIsPutReady(httpStubs[curHTTPID].socket) == 0u)
+[e $ ! == -> ( _TCPIsPutReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> 0 `ui 682  ]
+"938
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 938:     isDone = TRUE;
+[e = _isDone . `E332 1 ]
+[e :U 682 ]
+"939
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 939:             break;
+[e $U 584  ]
+"941
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 941:   case SM_HTTP_SEND_FROM_CALLBACK:
+[e :U 683 ]
+"943
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 943:    isDone = TRUE;
+[e = _isDone . `E332 1 ]
+"946
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 946:    if(TCPIsPutReady(httpStubs[curHTTPID].socket) < (16u))
+[e $ ! < -> ( _TCPIsPutReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> 16 `ui 684  ]
+"947
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 947:     break;
+[e $U 584  ]
+[e :U 684 ]
+"950
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 950:    HTTPPrint(curHTTP.callbackID);
+[e ( _HTTPPrint (1 . _curHTTP 2 ]
+"952
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 952:    if(curHTTP.callbackPos == 0u)
+[e $ ! == . _curHTTP 3 -> -> 0 `ui `ul 685  ]
+"953
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 953:    {
+{
+"954
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 954:     isDone = FALSE;
+[e = _isDone . `E332 0 ]
+"955
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 955:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_BODY;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 9 ]
+"956
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 956:    }
+}
+[e :U 685 ]
+"958
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 958:    break;
+[e $U 584  ]
+"960
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 960:   case SM_HTTP_DISCONNECT:
+[e :U 686 ]
+"962
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 962:    if(curHTTP.file != (0xffu))
+[e $ ! != -> . _curHTTP 6 `ui -> 255 `ui 687  ]
+"963
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 963:    {
+{
+"964
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 964:     MPFSClose(curHTTP.file);
+[e ( _MPFSClose (1 . _curHTTP 6 ]
+"965
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 965:     curHTTP.file = (0xffu);
+[e = . _curHTTP 6 -> -> 255 `ui `uc ]
+"966
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 966:    }
+}
+[e :U 687 ]
+"967
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 967:    if(curHTTP.offsets != (0xffu))
+[e $ ! != -> . _curHTTP 7 `ui -> 255 `ui 688  ]
+"968
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 968:    {
+{
+"969
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 969:     MPFSClose(curHTTP.offsets);
+[e ( _MPFSClose (1 . _curHTTP 7 ]
+"970
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 970:     curHTTP.offsets = (0xffu);
+[e = . _curHTTP 7 -> -> 255 `ui `uc ]
+"971
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 971:    }
+}
+[e :U 688 ]
+"973
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 973:    TCPDisconnect(httpStubs[curHTTPID].socket);
+[e ( _TCPDisconnect (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"974
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 974:             httpStubs[curHTTPID].sm = SM_HTTP_IDLE;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 0 ]
+"975
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 975:             break;
+[e $U 584  ]
+"976
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 976:   }
+}
+[e $U 584  ]
+[e :U 585 ]
+[e [\ -> . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 `ui , $ -> . `E5538 0 `ui 586
+ , $ -> . `E5538 1 `ui 589
+ , $ -> . `E5538 2 `ui 617
+ , $ -> . `E5538 3 `ui 631
+ , $ -> . `E5538 4 `ui 635
+ , $ -> . `E5538 5 `ui 637
+ , $ -> . `E5538 6 `ui 648
+ , $ -> . `E5538 7 `ui 652
+ , $ -> . `E5538 8 `ui 661
+ , $ -> . `E5538 9 `ui 680
+ , $ -> . `E5538 10 `ui 683
+ , $ -> . `E5538 11 `ui 686
+ 584 ]
+[e :U 584 ]
+"977
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 977:  } while(!isDone);
+}
+[e $ ! != -> _isDone `ui -> -> 0 `i `ui 583  ]
+[e :U 582 ]
+"979
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 979: }
+[e :UE 580 ]
+}
+"1000
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1000: static BOOL HTTPSendFile(void)
+[v _HTTPSendFile `(E332 ~T0 @X0 1 sf ]
+"1001
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1001: {
+{
+[e :U _HTTPSendFile ]
+[f ]
+"1002
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1002:  WORD numBytes, len;
+[v _numBytes `us ~T0 @X0 1 a ]
+[v _len `us ~T0 @X0 1 a ]
+"1003
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1003:  BYTE c, data[64];
+[v _c `uc ~T0 @X0 1 a ]
+[v _data `uc ~T0 @X0 -> 64 `i a ]
+"1006
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1006:  len = TCPIsPutReady(httpStubs[curHTTPID].socket);
+[e = _len ( _TCPIsPutReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"1007
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1007:  numBytes = ((len<curHTTP.nextCallback - curHTTP.byteCount)?len:curHTTP.nextCallback - curHTTP.byteCount);
+[e = _numBytes -> ? < -> _len `ul - . _curHTTP 1 . _curHTTP 0 : -> _len `ul - . _curHTTP 1 . _curHTTP 0 `us ]
+"1010
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1010:  curHTTP.byteCount += numBytes;
+[e =+ . _curHTTP 0 -> _numBytes `ul ]
+"1011
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1011:  while(numBytes > 0u)
+[e $U 690  ]
+[e :U 691 ]
+"1012
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1012:  {
+{
+"1013
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1013:   len = MPFSGetArray(curHTTP.file, data, ((numBytes<64u)?numBytes:64u));
+[e = _len ( _MPFSGetArray (3 , , . _curHTTP 6 &U _data -> ? < -> _numBytes `ui -> 64 `ui : -> _numBytes `ui -> 64 `ui `us ]
+"1014
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1014:   if(len == 0u)
+[e $ ! == -> _len `ui -> 0 `ui 693  ]
+"1015
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1015:    return TRUE;
+[e ) . `E332 1 ]
+[e $UE 689  ]
+[e $U 694  ]
+"1016
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1016:   else
+[e :U 693 ]
+"1017
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1017:    TCPPutArray(httpStubs[curHTTPID].socket, data, len);
+[e ( _TCPPutArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _data _len ]
+[e :U 694 ]
+"1018
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1018:   numBytes -= len;
+[e =- _numBytes -> _len `us ]
+"1019
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1019:  }
+}
+[e :U 690 ]
+"1011
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1011:  while(numBytes > 0u)
+[e $ > -> _numBytes `ui -> 0 `ui 691  ]
+[e :U 692 ]
+"1022
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1022:  if(curHTTP.byteCount == curHTTP.nextCallback)
+[e $ ! == . _curHTTP 0 . _curHTTP 1 695  ]
+"1023
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1023:  {
+{
+"1025
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1025:   httpStubs[curHTTPID].sm = SM_HTTP_SEND_FROM_CALLBACK;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 10 ]
+"1026
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1026:   curHTTP.callbackPos = 0;
+[e = . _curHTTP 3 -> -> -> 0 `i `l `ul ]
+"1029
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1029:   MPFSGet(curHTTP.file, ((void*)0));
+[e ( _MPFSGet (2 , . _curHTTP 6 -> -> -> 0 `i `*v `*uc ]
+"1030
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1030:   do
+[e :U 698 ]
+"1031
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1031:   {
+{
+"1032
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1032:    if(!MPFSGet(curHTTP.file, &c))
+[e $ ! ! != -> ( _MPFSGet (2 , . _curHTTP 6 &U _c `ui -> -> 0 `i `ui 699  ]
+"1033
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1033:     break;
+[e $U 697  ]
+[e :U 699 ]
+"1034
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1034:    curHTTP.byteCount++;
+[e ++ . _curHTTP 0 -> -> -> 1 `i `l `ul ]
+"1035
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1035:   } while(c != '~');
+}
+[e $ != -> _c `ui -> 126 `ui 698  ]
+[e :U 697 ]
+"1036
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1036:   curHTTP.byteCount++;
+[e ++ . _curHTTP 0 -> -> -> 1 `i `l `ul ]
+"1039
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1039:   MPFSGetLong(curHTTP.offsets, &(curHTTP.callbackID));
+[e ( _MPFSGetLong (2 , . _curHTTP 7 &U . _curHTTP 2 ]
+"1040
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1040:   if(!MPFSGetLong(curHTTP.offsets, &(curHTTP.nextCallback)))
+[e $ ! ! != -> ( _MPFSGetLong (2 , . _curHTTP 7 &U . _curHTTP 1 `ui -> -> 0 `i `ui 700  ]
+"1041
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1041:   {
+{
+"1042
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1042:    curHTTP.nextCallback = 0xffffffff;
+[e = . _curHTTP 1 -> 4294967295 `ul ]
+"1043
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1043:    MPFSClose(curHTTP.offsets);
+[e ( _MPFSClose (1 . _curHTTP 7 ]
+"1044
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1044:    curHTTP.offsets = (0xffu);
+[e = . _curHTTP 7 -> -> 255 `ui `uc ]
+"1045
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1045:   }
+}
+[e :U 700 ]
+"1046
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1046:  }
+}
+[e :U 695 ]
+"1049
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1049:     return FALSE;
+[e ) . `E332 0 ]
+[e $UE 689  ]
+"1050
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1050: }
+[e :UE 689 ]
+}
+"1070
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1070: static void HTTPHeaderParseLookup(BYTE i)
+[v _HTTPHeaderParseLookup `(v ~T0 @X0 1 sf1`uc ]
+"1071
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1071: {
+{
+[e :U _HTTPHeaderParseLookup ]
+"1070
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1070: static void HTTPHeaderParseLookup(BYTE i)
+[v _i `uc ~T0 @X0 1 r1 ]
+"1071
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1071: {
+[f ]
+"1075
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1075:  if(i == 0u)
+[e $ ! == -> _i `ui -> 0 `ui 702  ]
+"1076
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1076:  {
+{
+"1077
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1077:   HTTPHeaderParseCookie();
+[e ( _HTTPHeaderParseCookie ..  ]
+"1078
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1078:   return;
+[e $UE 701  ]
+"1079
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1079:  }
+}
+[e :U 702 ]
+"1083
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1083:  if(i == 1u)
+[e $ ! == -> _i `ui -> 1 `ui 703  ]
+"1084
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1084:  {
+{
+"1085
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1085:   HTTPHeaderParseAuthorization();
+[e ( _HTTPHeaderParseAuthorization ..  ]
+"1086
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1086:   return;
+[e $UE 701  ]
+"1087
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1087:  }
+}
+[e :U 703 ]
+"1091
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1091:  if(i == 2u)
+[e $ ! == -> _i `ui -> 2 `ui 704  ]
+"1092
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1092:  {
+{
+"1093
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1093:   HTTPHeaderParseContentLength();
+[e ( _HTTPHeaderParseContentLength ..  ]
+"1094
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1094:   return;
+[e $UE 701  ]
+"1095
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1095:  }
+}
+[e :U 704 ]
+"1097
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1097: }
+[e :UE 701 ]
+}
+"1129
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1129: static void HTTPHeaderParseAuthorization(void)
+[v _HTTPHeaderParseAuthorization `(v ~T0 @X0 1 sf ]
+"1130
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1130: {
+{
+[e :U _HTTPHeaderParseAuthorization ]
+[f ]
+"1131
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1131:     WORD len;
+[v _len `us ~T0 @X0 1 a ]
+"1132
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1132:     BYTE buf[40];
+[v _buf `uc ~T0 @X0 -> 40 `i a ]
+"1133
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1133:  BYTE *ptrBuf;
+[v _ptrBuf `*uc ~T0 @X0 1 a ]
+"1136
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1136:  if(curHTTP.isAuthorized & 0x80)
+[e $ ! != & -> . _curHTTP 9 `i -> 128 `i -> 0 `i 706  ]
+"1137
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1137:   return;
+[e $UE 705  ]
+[e :U 706 ]
+"1140
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1140:  TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), 6);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> -> 6 `i `us ]
+"1143
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1143:  len = TCPFindArrayEx(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF,2,0,0,FALSE);
+[e = _len ( _TCPFindArrayEx (4 , , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF -> -> 2 `i `us -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1144
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1144:  len += 3;
+[e =+ _len -> -> 3 `i `us ]
+"1145
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1145:  len &= 0xfc;
+[e =& _len -> -> 252 `i `us ]
+"1146
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1146:  len = ((len<sizeof(buf)-4)?len:sizeof(buf)-4);
+[e = _len -> ? < -> _len `ui - -> # _buf `ui -> -> 4 `i `ui : -> _len `ui - -> # _buf `ui -> -> 4 `i `ui `us ]
+"1149
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1149:  for(ptrBuf = buf; len > 0u; len-=4, ptrBuf+=3)
+{
+[e = _ptrBuf &U _buf ]
+[e $ > -> _len `ui -> 0 `ui 707  ]
+[e $U 708  ]
+[e :U 707 ]
+"1150
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1150:  {
+{
+"1151
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1151:   TCPGetArray(httpStubs[curHTTPID].socket, ptrBuf, 4);
+[e ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _ptrBuf -> -> 4 `i `us ]
+"1152
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1152:   Base64Decode(ptrBuf, 4, ptrBuf, 3);
+[e ( _Base64Decode (4 , , , _ptrBuf -> -> 4 `i `us _ptrBuf -> -> 3 `i `us ]
+"1153
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1153:  }
+}
+[e ; =- _len -> -> 4 `i `us =+ _ptrBuf * -> -> 3 `i `x -> -> # *U _ptrBuf `i `x ]
+[e $ > -> _len `ui -> 0 `ui 707  ]
+[e :U 708 ]
+}
+"1156
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1156:  *ptrBuf = '\0';
+[e = *U _ptrBuf -> -> 0 `ui `uc ]
+"1157
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1157:  for(len = 0, ptrBuf = buf; len < sizeof(buf); len++, ptrBuf++)
+{
+[e ; = _len -> -> 0 `i `us = _ptrBuf &U _buf ]
+[e $ < -> _len `ui -> # _buf `ui 710  ]
+[e $U 711  ]
+[e :U 710 ]
+"1158
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1158:   if(*ptrBuf == ':')
+[e $ ! == -> *U _ptrBuf `ui -> 58 `ui 713  ]
+"1159
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1159:    break;
+[e $U 711  ]
+[e :U 713 ]
+[e ; ++ _len -> -> 1 `i `us ++ _ptrBuf * -> -> 1 `i `x -> -> # *U _ptrBuf `i `x ]
+[e $ < -> _len `ui -> # _buf `ui 710  ]
+[e :U 711 ]
+}
+"1160
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1160:  *(ptrBuf++) = '\0';
+[e = *U ++ _ptrBuf * -> -> 1 `i `x -> -> # *U _ptrBuf `i `x -> -> 0 `ui `uc ]
+"1163
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1163:  curHTTP.isAuthorized = HTTPCheckAuth(buf, ptrBuf);
+[e = . _curHTTP 9 ( _HTTPCheckAuth (2 , &U _buf _ptrBuf ]
+"1165
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1165:  return;
+[e $UE 705  ]
+"1166
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1166: }
+[e :UE 705 ]
+}
+"1199
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1199: static void HTTPHeaderParseCookie(void)
+[v _HTTPHeaderParseCookie `(v ~T0 @X0 1 sf ]
+"1200
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1200: {
+{
+[e :U _HTTPHeaderParseCookie ]
+[f ]
+"1201
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1201:  WORD lenA, lenB;
+[v _lenA `us ~T0 @X0 1 a ]
+[v _lenB `us ~T0 @X0 1 a ]
+"1204
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1204:  lenB = TCPFindArrayEx(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF,2,0,0,FALSE);
+[e = _lenB ( _TCPFindArrayEx (4 , , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF -> -> 2 `i `us -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1205
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1205:  if(lenB >= (WORD)(curHTTP.data + (100u) - curHTTP.ptrData - 2))
+[e $ ! >= -> _lenB `ui -> -> - / - -> + &U . _curHTTP 12 * -> -> 100 `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `x -> . _curHTTP 4 `x -> -> # *U + &U . _curHTTP 12 * -> -> 100 `ui `ux -> -> # *U &U . _curHTTP 12 `ui `ux `i `x -> 2 `i `us `ui 715  ]
+"1206
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1206:  {
+{
+"1207
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1207:   curHTTP.httpStatus = HTTP_OVERFLOW;
+[e = . _curHTTP 10 . `E5522 5 ]
+"1208
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1208:   httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"1209
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1209:   return;
+[e $UE 714  ]
+"1210
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1210:  }
+}
+[e :U 715 ]
+"1213
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1213:  while(lenB != 0u)
+[e $U 716  ]
+[e :U 717 ]
+"1214
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1214:  {
+{
+"1216
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1216:   lenA = TCPFindEx(httpStubs[curHTTPID].socket,';',0,0,FALSE);
+[e = _lenA ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 59 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1219
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1219:   curHTTP.ptrData += TCPGetArray(httpStubs[curHTTPID].socket, curHTTP.ptrData, ((lenA<lenB)?lenA:lenB));
+[e =+ . _curHTTP 4 * -> -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 . _curHTTP 4 -> ? < -> _lenA `ui -> _lenB `ui : -> _lenA `ui -> _lenB `ui `us `ui `ux -> -> # *U . _curHTTP 4 `ui `ux ]
+"1222
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1222:   *(curHTTP.ptrData++) = '&';
+[e = *U ++ . _curHTTP 4 * -> -> 1 `i `x -> -> # *U . _curHTTP 4 `i `x -> -> 38 `ui `uc ]
+"1225
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1225:   if(lenA < lenB)
+[e $ ! < -> _lenA `ui -> _lenB `ui 719  ]
+"1226
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1226:   {
+{
+"1227
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1227:    TCPGet(httpStubs[curHTTPID].socket, ((void*)0));
+[e ( _TCPGet (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc ]
+"1228
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1228:    while(TCPFindEx(httpStubs[curHTTPID].socket,' ',0,0,FALSE) == 0u)
+[e $U 720  ]
+[e :U 721 ]
+"1229
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1229:     TCPGet(httpStubs[curHTTPID].socket, ((void*)0));
+[e ( _TCPGet (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc ]
+[e :U 720 ]
+"1228
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1228:    while(TCPFindEx(httpStubs[curHTTPID].socket,' ',0,0,FALSE) == 0u)
+[e $ == -> ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> 32 `ui `uc -> -> 0 `i `us -> -> 0 `i `us . `E332 0 `ui -> 0 `ui 721  ]
+[e :U 722 ]
+"1230
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1230:   }
+}
+[e :U 719 ]
+"1233
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1233:   lenB = TCPFindArrayEx(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF,2,0,0,FALSE);
+[e = _lenB ( _TCPFindArrayEx (4 , , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF -> -> 2 `i `us -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1234
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1234:  }
+}
+[e :U 716 ]
+"1213
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1213:  while(lenB != 0u)
+[e $ != -> _lenB `ui -> 0 `ui 717  ]
+[e :U 718 ]
+"1236
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1236:  return;
+[e $UE 714  ]
+"1238
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1238: }
+[e :UE 714 ]
+}
+"1266
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1266: static void HTTPHeaderParseContentLength(void)
+[v _HTTPHeaderParseContentLength `(v ~T0 @X0 1 sf ]
+"1267
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1267: {
+{
+[e :U _HTTPHeaderParseContentLength ]
+[f ]
+"1268
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1268:  WORD len;
+[v _len `us ~T0 @X0 1 a ]
+"1269
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1269:  BYTE buf[10];
+[v _buf `uc ~T0 @X0 -> 10 `i a ]
+"1272
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1272:  len = TCPFindArrayEx(httpStubs[curHTTPID].socket,(BYTE*)HTTP_CRLF,2,0,0,FALSE);
+[e = _len ( _TCPFindArrayEx (4 , , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _HTTP_CRLF -> -> 2 `i `us -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1273
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1273:  if(len >= sizeof(buf))
+[e $ ! >= -> _len `ui -> # _buf `ui 724  ]
+"1274
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1274:  {
+{
+"1275
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1275:   curHTTP.httpStatus = HTTP_BAD_REQUEST;
+[e = . _curHTTP 10 . `E5522 2 ]
+"1276
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1276:   curHTTP.byteCount = 0;
+[e = . _curHTTP 0 -> -> -> 0 `i `l `ul ]
+"1277
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1277:   return;
+[e $UE 723  ]
+"1278
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1278:  }
+}
+[e :U 724 ]
+"1279
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1279:  len = TCPGetArray(httpStubs[curHTTPID].socket, buf, len);
+[e = _len ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _buf _len ]
+"1280
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1280:  buf[len] = '\0';
+[e = *U + &U _buf * -> _len `ux -> -> # *U &U _buf `ui `ux -> -> 0 `ui `uc ]
+"1282
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1282:  curHTTP.byteCount = atol((char*)buf);
+[e = . _curHTTP 0 -> ( _atol (1 -> -> &U _buf `*uc `*Cuc `ul ]
+"1283
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1283: }
+[e :UE 723 ]
+}
+"1318
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1318: BYTE* HTTPURLDecode(BYTE* cData)
+[v _HTTPURLDecode `(*uc ~T0 @X0 1 ef1`*uc ]
+"1319
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1319: {
+{
+[e :U _HTTPURLDecode ]
+"1318
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1318: BYTE* HTTPURLDecode(BYTE* cData)
+[v _cData `*uc ~T0 @X0 1 r1 ]
+"1319
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1319: {
+[f ]
+"1320
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1320:  BYTE *pRead, *pWrite;
+[v _pRead `*uc ~T0 @X0 1 a ]
+[v _pWrite `*uc ~T0 @X0 1 a ]
+"1321
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1321:  WORD wLen;
+[v _wLen `us ~T0 @X0 1 a ]
+"1322
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1322:  BYTE c;
+[v _c `uc ~T0 @X0 1 a ]
+"1323
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1323:  WORD_VAL hex;
+[v _hex `S26 ~T0 @X0 1 a ]
+"1326
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1326:  wLen = strlen((char*)cData);
+[e = _wLen -> ( _strlen (1 -> -> _cData `*uc `*Cuc `us ]
+"1329
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1329:  for(pRead = pWrite = cData; wLen != 0u; )
+{
+[e = _pRead = _pWrite _cData ]
+[e $ != -> _wLen `ui -> 0 `ui 726  ]
+[e $U 727  ]
+[e :U 726 ]
+"1330
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1330:  {
+{
+"1331
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1331:   c = *pRead++;
+[e = _c *U ++ _pRead * -> -> 1 `i `x -> -> # *U _pRead `i `x ]
+"1332
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1332:   wLen--;
+[e -- _wLen -> -> 1 `i `us ]
+"1334
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1334:   if(c == '=' || c == '&')
+[e $ ! || == -> _c `ui -> 61 `ui == -> _c `ui -> 38 `ui 729  ]
+"1335
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1335:    *pWrite++ = '\0';
+[e = *U ++ _pWrite * -> -> 1 `i `x -> -> # *U _pWrite `i `x -> -> 0 `ui `uc ]
+[e $U 730  ]
+"1336
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1336:   else if(c == '+')
+[e :U 729 ]
+[e $ ! == -> _c `ui -> 43 `ui 731  ]
+"1337
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1337:    *pWrite++ = ' ';
+[e = *U ++ _pWrite * -> -> 1 `i `x -> -> # *U _pWrite `i `x -> -> 32 `ui `uc ]
+[e $U 732  ]
+"1338
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1338:   else if(c == '%')
+[e :U 731 ]
+[e $ ! == -> _c `ui -> 37 `ui 733  ]
+"1339
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1339:   {
+{
+"1340
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1340:    if(wLen < 2u)
+[e $ ! < -> _wLen `ui -> 2 `ui 734  ]
+"1341
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1341:     wLen = 0;
+[e = _wLen -> -> 0 `i `us ]
+[e $U 735  ]
+"1342
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1342:    else
+[e :U 734 ]
+"1343
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1343:    {
+{
+"1344
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1344:     hex.v[1] = *pRead++;
+[e = *U + &U . _hex 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _hex 1 `ui `ux *U ++ _pRead * -> -> 1 `i `x -> -> # *U _pRead `i `x ]
+"1345
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1345:     hex.v[0] = *pRead++;
+[e = *U + &U . _hex 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _hex 1 `ui `ux *U ++ _pRead * -> -> 1 `i `x -> -> # *U _pRead `i `x ]
+"1346
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1346:     wLen--;
+[e -- _wLen -> -> 1 `i `us ]
+"1347
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1347:     wLen--;
+[e -- _wLen -> -> 1 `i `us ]
+"1348
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1348:     *pWrite++ = hexatob(hex);
+[e = *U ++ _pWrite * -> -> 1 `i `x -> -> # *U _pWrite `i `x ( _hexatob (1 _hex ]
+"1349
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1349:    }
+}
+[e :U 735 ]
+"1350
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1350:   }
+}
+[e $U 736  ]
+"1351
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1351:   else
+[e :U 733 ]
+"1352
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1352:    *pWrite++ = c;
+[e = *U ++ _pWrite * -> -> 1 `i `x -> -> # *U _pWrite `i `x _c ]
+[e :U 736 ]
+[e :U 732 ]
+[e :U 730 ]
+"1353
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1353:  }
+}
+[e $ != -> _wLen `ui -> 0 `ui 726  ]
+[e :U 727 ]
+}
+"1356
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1356:  *pWrite++ = '\0';
+[e = *U ++ _pWrite * -> -> 1 `i `x -> -> # *U _pWrite `i `x -> -> 0 `ui `uc ]
+"1357
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1357:  *pWrite = '\0';
+[e = *U _pWrite -> -> 0 `ui `uc ]
+"1359
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1359:  return pWrite;
+[e ) _pWrite ]
+[e $UE 725  ]
+"1360
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1360: }
+[e :UE 725 ]
+}
+"1388
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1388: BYTE* HTTPGetArg(BYTE* cData, BYTE* cArg)
+[v _HTTPGetArg `(*uc ~T0 @X0 1 ef2`*uc`*uc ]
+"1389
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1389: {
+{
+[e :U _HTTPGetArg ]
+"1388
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1388: BYTE* HTTPGetArg(BYTE* cData, BYTE* cArg)
+[v _cData `*uc ~T0 @X0 1 r1 ]
+[v _cArg `*uc ~T0 @X0 1 r2 ]
+"1389
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1389: {
+[f ]
+"1391
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1391:  while(*cData != '\0')
+[e $U 738  ]
+[e :U 739 ]
+"1392
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1392:  {
+{
+"1394
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1394:   if(!strcmp((char*)cArg, (char*)cData))
+[e $ ! ! != ( _strcmp (2 , -> -> _cArg `*uc `*Cuc -> -> _cData `*uc `*Cuc -> 0 `i 741  ]
+"1395
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1395:   {
+{
+"1396
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1396:    return cData + strlen((char*)cArg) + 1;
+[e ) + + _cData * -> ( _strlen (1 -> -> _cArg `*uc `*Cuc `ux -> -> # *U _cData `ui `ux * -> -> 1 `i `x -> -> # *U + _cData * -> ( _strlen (1 -> -> _cArg `*uc `*Cuc `ux -> -> # *U _cData `ui `ux `i `x ]
+[e $UE 737  ]
+"1397
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1397:   }
+}
+[e :U 741 ]
+"1400
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1400:   cData += strlen((char*)cData) + 1;
+[e =+ _cData * -> + ( _strlen (1 -> -> _cData `*uc `*Cuc -> -> 1 `i `ui `ux -> -> # *U _cData `ui `ux ]
+"1401
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1401:   cData += strlen((char*)cData) + 1;
+[e =+ _cData * -> + ( _strlen (1 -> -> _cData `*uc `*Cuc -> -> 1 `i `ui `ux -> -> # *U _cData `ui `ux ]
+"1402
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1402:  }
+}
+[e :U 738 ]
+"1391
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1391:  while(*cData != '\0')
+[e $ != -> *U _cData `ui -> 0 `ui 739  ]
+[e :U 740 ]
+"1405
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1405:  return ((void*)0);
+[e ) -> -> -> 0 `i `*v `*uc ]
+[e $UE 737  ]
+"1406
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1406: }
+[e :UE 737 ]
+}
+"1499
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1499: HTTP_READ_STATUS HTTPReadPostName(BYTE* cData, WORD wLen)
+[v _HTTPReadPostName `(E5557 ~T0 @X0 1 ef2`*uc`us ]
+"1500
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1500: {
+{
+[e :U _HTTPReadPostName ]
+"1499
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1499: HTTP_READ_STATUS HTTPReadPostName(BYTE* cData, WORD wLen)
+[v _cData `*uc ~T0 @X0 1 r1 ]
+[v _wLen `us ~T0 @X0 1 r2 ]
+"1500
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1500: {
+[f ]
+"1501
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1501:  HTTP_READ_STATUS status;
+[v _status `E5557 ~T0 @X0 1 a ]
+"1503
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1503:  status = HTTPReadTo('=', cData, wLen);
+[e = _status ( _HTTPReadTo (3 , , -> -> 61 `ui `uc _cData _wLen ]
+"1506
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1506:  if(cData && *cData)
+[e $ ! && != _cData -> -> 0 `i `*uc != -> *U _cData `i -> 0 `i 743  ]
+"1507
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1507:   HTTPURLDecode(cData);
+[e ( _HTTPURLDecode (1 _cData ]
+[e :U 743 ]
+"1508
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1508:  return status;
+[e ) _status ]
+[e $UE 742  ]
+"1509
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1509: }
+[e :UE 742 ]
+}
+"1554
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1554: HTTP_READ_STATUS HTTPReadPostValue(BYTE* cData, WORD wLen)
+[v _HTTPReadPostValue `(E5557 ~T0 @X0 1 ef2`*uc`us ]
+"1555
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1555: {
+{
+[e :U _HTTPReadPostValue ]
+"1554
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1554: HTTP_READ_STATUS HTTPReadPostValue(BYTE* cData, WORD wLen)
+[v _cData `*uc ~T0 @X0 1 r1 ]
+[v _wLen `us ~T0 @X0 1 r2 ]
+"1555
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1555: {
+[f ]
+"1556
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1556:  HTTP_READ_STATUS status;
+[v _status `E5557 ~T0 @X0 1 a ]
+"1559
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1559:  status = HTTPReadTo('&', cData, wLen);
+[e = _status ( _HTTPReadTo (3 , , -> -> 38 `ui `uc _cData _wLen ]
+"1562
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1562:  if(status == HTTP_READ_INCOMPLETE)
+[e $ ! == -> _status `ui -> . `E5557 2 `ui 745  ]
+"1563
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1563:  {
+{
+"1565
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1565:   if(curHTTP.byteCount == TCPIsGetReady(httpStubs[curHTTPID].socket))
+[e $ ! == . _curHTTP 0 -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ul 746  ]
+"1566
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1566:    status = HTTPReadTo('\0', cData, wLen);
+[e = _status ( _HTTPReadTo (3 , , -> -> 0 `ui `uc _cData _wLen ]
+[e :U 746 ]
+"1567
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1567:  }
+}
+[e :U 745 ]
+"1570
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1570:  if(cData && *cData)
+[e $ ! && != _cData -> -> 0 `i `*uc != -> *U _cData `i -> 0 `i 747  ]
+"1571
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1571:   HTTPURLDecode(cData);
+[e ( _HTTPURLDecode (1 _cData ]
+[e :U 747 ]
+"1572
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1572:  return status;
+[e ) _status ]
+[e $UE 744  ]
+"1573
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1573: }
+[e :UE 744 ]
+}
+"1613
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1613: static HTTP_READ_STATUS HTTPReadTo(BYTE cDelim, BYTE* cData, WORD wLen)
+[v _HTTPReadTo `(E5557 ~T0 @X0 1 sf3`uc`*uc`us ]
+"1614
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1614: {
+{
+[e :U _HTTPReadTo ]
+"1613
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1613: static HTTP_READ_STATUS HTTPReadTo(BYTE cDelim, BYTE* cData, WORD wLen)
+[v _cDelim `uc ~T0 @X0 1 r1 ]
+[v _cData `*uc ~T0 @X0 1 r2 ]
+[v _wLen `us ~T0 @X0 1 r3 ]
+"1614
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1614: {
+[f ]
+"1615
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1615:  HTTP_READ_STATUS status;
+[v _status `E5557 ~T0 @X0 1 a ]
+"1616
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1616:  WORD wPos;
+[v _wPos `us ~T0 @X0 1 a ]
+"1619
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1619:  if(cDelim)
+[e $ ! != -> _cDelim `i -> 0 `i 749  ]
+"1620
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1620:   wPos = TCPFindEx(httpStubs[curHTTPID].socket,cDelim,0,0,FALSE);
+[e = _wPos ( _TCPFindEx (4 , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _cDelim -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+[e $U 750  ]
+"1621
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1621:  else
+[e :U 749 ]
+"1622
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1622:   wPos = TCPIsGetReady(httpStubs[curHTTPID].socket);
+[e = _wPos ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+[e :U 750 ]
+"1625
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1625:  if(wPos == 0xffff)
+[e $ ! == -> _wPos `ui -> 65535 `ui 751  ]
+"1626
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1626:   return HTTP_READ_INCOMPLETE;
+[e ) . `E5557 2 ]
+[e $UE 748  ]
+[e :U 751 ]
+"1629
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1629:  if(wLen < 2u && cData != ((void*)0))
+[e $ ! && < -> _wLen `ui -> 2 `ui != _cData -> -> -> 0 `i `*v `*uc 752  ]
+"1630
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1630:  {
+{
+"1631
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1631:   curHTTP.byteCount -= TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), wPos);
+[e =- . _curHTTP 0 -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc _wPos `ul ]
+"1632
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1632:   status = HTTP_READ_TRUNCATED;
+[e = _status . `E5557 1 ]
+"1633
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1633:  }
+}
+[e $U 753  ]
+"1634
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1634:  else if(cData == ((void*)0))
+[e :U 752 ]
+[e $ ! == _cData -> -> -> 0 `i `*v `*uc 754  ]
+"1635
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1635:  {
+{
+"1636
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1636:   curHTTP.byteCount -= TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), wPos);
+[e =- . _curHTTP 0 -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc _wPos `ul ]
+"1637
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1637:   status = HTTP_READ_OK;
+[e = _status . `E5557 0 ]
+"1638
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1638:  }
+}
+[e $U 755  ]
+"1639
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1639:  else if(wPos > wLen - 2)
+[e :U 754 ]
+[e $ ! > -> _wPos `ui - -> _wLen `ui -> -> 2 `i `ui 756  ]
+"1640
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1640:  {
+{
+"1641
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1641:   curHTTP.byteCount -= TCPGetArray(httpStubs[curHTTPID].socket, cData, wLen - 2);
+[e =- . _curHTTP 0 -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _cData -> - -> _wLen `ui -> -> 2 `i `ui `us `ul ]
+"1642
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1642:   curHTTP.byteCount -= TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), wPos - (wLen - 2));
+[e =- . _curHTTP 0 -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> - -> _wPos `ui - -> _wLen `ui -> -> 2 `i `ui `us `ul ]
+"1643
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1643:   cData[wLen - 2] = '\0';
+[e = *U + _cData * -> - -> _wLen `ui -> -> 2 `i `ui `ux -> -> # *U _cData `ui `ux -> -> 0 `ui `uc ]
+"1644
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1644:   status = HTTP_READ_TRUNCATED;
+[e = _status . `E5557 1 ]
+"1645
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1645:  }
+}
+[e $U 757  ]
+"1646
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1646:  else
+[e :U 756 ]
+"1647
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1647:  {
+{
+"1648
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1648:   curHTTP.byteCount -= TCPGetArray(httpStubs[curHTTPID].socket, cData, wPos);
+[e =- . _curHTTP 0 -> ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 _cData _wPos `ul ]
+"1649
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1649:   cData[wPos] = '\0';
+[e = *U + _cData * -> _wPos `ux -> -> # *U _cData `ui `ux -> -> 0 `ui `uc ]
+"1650
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1650:   status = HTTP_READ_OK;
+[e = _status . `E5557 0 ]
+"1651
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1651:  }
+}
+[e :U 757 ]
+[e :U 755 ]
+[e :U 753 ]
+"1654
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1654:  if(cDelim)
+[e $ ! != -> _cDelim `i -> 0 `i 758  ]
+"1655
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1655:   curHTTP.byteCount -= TCPGet(httpStubs[curHTTPID].socket, ((void*)0));
+[e =- . _curHTTP 0 -> -> ( _TCPGet (2 , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc `l `ul ]
+[e :U 758 ]
+"1657
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1657:  return status;
+[e ) _status ]
+[e $UE 748  ]
+"1658
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1658: }
+[e :UE 748 ]
+}
+"1694
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1694: static HTTP_IO_RESULT HTTPMPFSUpload(void)
+[v _HTTPMPFSUpload `(E5552 ~T0 @X0 1 sf ]
+"1695
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1695: {
+{
+[e :U _HTTPMPFSUpload ]
+[f ]
+"1696
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1696:  BYTE c[16];
+[v _c `uc ~T0 @X0 -> 16 `i a ]
+"1697
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1697:  WORD lenA, lenB;
+[v _lenA `us ~T0 @X0 1 a ]
+[v _lenB `us ~T0 @X0 1 a ]
+"1699
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1699:  switch(curHTTP.httpStatus)
+[e $U 761  ]
+"1700
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1700:  {
+{
+"1702
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1702:   case HTTP_MPFS_UP:
+[e :U 762 ]
+"1704
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1704:    lenA = TCPFindArrayEx(httpStubs[curHTTPID].socket,(BYTE*)(const BYTE*)"\r\n\r\n",4,0,0,FALSE);
+[e = _lenA ( _TCPFindArrayEx (4 , , , , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> :s 60C `*Cuc -> -> 4 `i `us -> -> 0 `i `us -> -> 0 `i `us . `E332 0 ]
+"1706
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1706:    if(lenA != 0xffff)
+[e $ ! != -> _lenA `ui -> 65535 `ui 763  ]
+"1707
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1707:    {
+{
+"1708
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1708:     lenA = TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), lenA);
+[e = _lenA ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc _lenA ]
+"1709
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1709:     curHTTP.byteCount -= lenA;
+[e =- . _curHTTP 0 -> _lenA `ul ]
+"1712
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1712:     if(TCPIsGetReady(httpStubs[curHTTPID].socket) < (4u + 6u) )
+[e $ ! < -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui + -> 4 `ui -> 6 `ui 764  ]
+"1713
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1713:     {
+{
+"1714
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1714:      lenA++;
+[e ++ _lenA -> -> 1 `i `us ]
+"1715
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1715:      return HTTP_IO_NEED_DATA;
+[e ) . `E5552 1 ]
+[e $UE 759  ]
+"1716
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1716:     }
+}
+[e :U 764 ]
+"1719
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1719:     lenA = TCPGetArray(httpStubs[curHTTPID].socket, c, 10);
+[e = _lenA ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _c -> -> 10 `i `us ]
+"1720
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1720:     curHTTP.byteCount -= lenA;
+[e =- . _curHTTP 0 -> _lenA `ul ]
+"1721
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1721:     if(memcmp(c,(const void*)"\r\n\r\nMPFS\x02\x01",10) == 0)
+[e $ ! == ( _memcmp (3 , , -> &U _c `*Cv -> :s 61C `*Cv -> -> 10 `i `ui -> 0 `i 765  ]
+"1722
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1722:     {
+{
+"1723
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1723:      curHTTP.httpStatus = HTTP_MPFS_OK;
+[e = . _curHTTP 10 . `E5522 10 ]
+"1726
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1726:      curHTTP.file = MPFSFormat();
+[e = . _curHTTP 6 ( _MPFSFormat ..  ]
+"1727
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1727:      MPFSPutArray(curHTTP.file, &c[4], 6);
+[e ( _MPFSPutArray (3 , , . _curHTTP 6 &U *U + &U _c * -> -> -> 4 `i `ui `ux -> -> # *U &U _c `ui `ux -> -> 6 `i `us ]
+"1728
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1728:     }
+}
+[e $U 766  ]
+"1729
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1729:     else
+[e :U 765 ]
+"1730
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1730:     {
+{
+"1731
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1731:      curHTTP.httpStatus = HTTP_MPFS_ERROR;
+[e = . _curHTTP 10 . `E5522 11 ]
+"1732
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1732:     }
+}
+[e :U 766 ]
+"1734
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1734:     return HTTP_IO_WAITING;
+[e ) . `E5552 2 ]
+[e $UE 759  ]
+"1735
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1735:    }
+}
+[e $U 767  ]
+"1736
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1736:    else
+[e :U 763 ]
+"1737
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1737:    {
+{
+"1738
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1738:     lenA = TCPGetArray(httpStubs[curHTTPID].socket, ((void*)0), TCPIsGetReady(httpStubs[curHTTPID].socket) - 4);
+[e = _lenA ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 -> -> -> 0 `i `*v `*uc -> - -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ui -> -> 4 `i `ui `us ]
+"1739
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1739:     curHTTP.byteCount -= lenA;
+[e =- . _curHTTP 0 -> _lenA `ul ]
+"1740
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1740:    }
+}
+[e :U 767 ]
+"1742
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1742:    break;
+[e $U 760  ]
+"1745
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1745:   case HTTP_MPFS_ERROR:
+[e :U 768 ]
+"1746
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1746:    curHTTP.byteCount -= TCPIsGetReady(httpStubs[curHTTPID].socket);
+[e =- . _curHTTP 0 -> ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 `ul ]
+"1747
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1747:    TCPDiscard(httpStubs[curHTTPID].socket);
+[e ( _TCPDiscard (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"1748
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1748:    if(curHTTP.byteCount < 100u || curHTTP.byteCount > 0x80000000u)
+[e $ ! || < . _curHTTP 0 -> -> 100 `ui `ul > . _curHTTP 0 -> 2147483648 `ul 769  ]
+"1749
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1749:    {
+{
+"1750
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1750:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"1751
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1751:     return HTTP_IO_DONE;
+[e ) . `E5552 0 ]
+[e $UE 759  ]
+"1752
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1752:    }
+}
+[e :U 769 ]
+"1753
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1753:    break;
+[e $U 760  ]
+"1756
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1756:   case HTTP_MPFS_OK:
+[e :U 770 ]
+"1758
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1758:    lenA = TCPIsGetReady(httpStubs[curHTTPID].socket);
+[e = _lenA ( _TCPIsGetReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"1759
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1759:    if(lenA > curHTTP.byteCount)
+[e $ ! > -> _lenA `ul . _curHTTP 0 771  ]
+"1760
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1760:     lenA = curHTTP.byteCount;
+[e = _lenA -> . _curHTTP 0 `us ]
+[e :U 771 ]
+"1762
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1762:    while(lenA > 0u)
+[e $U 772  ]
+[e :U 773 ]
+"1763
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1763:    {
+{
+"1764
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1764:     lenB = TCPGetArray(httpStubs[curHTTPID].socket, c, ((lenA<16u)?lenA:16u));
+[e = _lenB ( _TCPGetArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _c -> ? < -> _lenA `ui -> 16 `ui : -> _lenA `ui -> 16 `ui `us ]
+"1765
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1765:     curHTTP.byteCount -= lenB;
+[e =- . _curHTTP 0 -> _lenB `ul ]
+"1766
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1766:     lenA -= lenB;
+[e =- _lenA -> _lenB `us ]
+"1767
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1767:     MPFSPutArray(curHTTP.file, c, lenB);
+[e ( _MPFSPutArray (3 , , . _curHTTP 6 &U _c _lenB ]
+"1768
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1768:    }
+}
+[e :U 772 ]
+"1762
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1762:    while(lenA > 0u)
+[e $ > -> _lenA `ui -> 0 `ui 773  ]
+[e :U 774 ]
+"1771
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1771:    if(curHTTP.byteCount == 0u)
+[e $ ! == . _curHTTP 0 -> -> 0 `ui `ul 775  ]
+"1772
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1772:    {
+{
+"1773
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1773:     MPFSPutEnd(TRUE);
+[e ( _MPFSPutEnd (1 . `E332 1 ]
+"1774
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1774:     httpStubs[curHTTPID].sm = SM_HTTP_SERVE_HEADERS;
+[e = . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 0 . `E5538 7 ]
+"1775
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1775:     return HTTP_IO_DONE;
+[e ) . `E5552 0 ]
+[e $UE 759  ]
+"1776
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1776:    }
+}
+[e :U 775 ]
+"1779
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1779:   default:
+[e :U 776 ]
+"1780
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1780:    break;
+[e $U 760  ]
+"1781
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1781:  }
+}
+[e $U 760  ]
+[e :U 761 ]
+[e [\ -> . _curHTTP 10 `ui , $ -> . `E5522 9 `ui 762
+ , $ -> . `E5522 11 `ui 768
+ , $ -> . `E5522 10 `ui 770
+ 776 ]
+[e :U 760 ]
+"1784
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1784:  return HTTP_IO_NEED_DATA;
+[e ) . `E5552 1 ]
+[e $UE 759  ]
+"1786
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1786: }
+[e :UE 759 ]
+}
+"1823
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1823: void HTTPIncFile(const BYTE* cFile)
+[v _HTTPIncFile `(v ~T0 @X0 1 ef1`*Cuc ]
+"1824
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1824: {
+{
+[e :U _HTTPIncFile ]
+"1823
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1823: void HTTPIncFile(const BYTE* cFile)
+[v _cFile `*Cuc ~T0 @X0 1 r1 ]
+"1824
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1824: {
+[f ]
+"1825
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1825:  WORD wCount, wLen;
+[v _wCount `us ~T0 @X0 1 a ]
+[v _wLen `us ~T0 @X0 1 a ]
+"1826
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1826:  BYTE data[64];
+[v _data `uc ~T0 @X0 -> 64 `i a ]
+"1827
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1827:  MPFS_HANDLE fp;
+[v _fp `uc ~T0 @X0 1 a ]
+"1830
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1830:  if(curHTTP.callbackPos == 0x00u)
+[e $ ! == . _curHTTP 3 -> -> 0 `ui `ul 778  ]
+"1831
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1831:  {
+{
+"1832
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1832:   fp = MPFSOpen((BYTE*) cFile);;
+[e = _fp ( _MPFSOpen (1 _cFile ]
+"1833
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1833:   if(fp == (0xffu))
+[e $ ! == -> _fp `ui -> 255 `ui 779  ]
+"1834
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1834:   {
+{
+"1835
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1835:    return;
+[e $UE 777  ]
+"1836
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1836:   }
+}
+[e :U 779 ]
+"1837
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1837:   ((DWORD_VAL*)&curHTTP.callbackPos)->w[0] = MPFSGetID(fp);
+[e = *U + &U . *U -> &U . _curHTTP 3 `*S29 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U -> &U . _curHTTP 3 `*S29 1 `ui `ux ( _MPFSGetID (1 _fp ]
+"1838
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1838:  }
+}
+[e $U 780  ]
+"1839
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1839:  else
+[e :U 778 ]
+"1840
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1840:  {
+{
+"1841
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1841:   fp = MPFSOpenID(((DWORD_VAL*)&curHTTP.callbackPos)->w[0]);
+[e = _fp ( _MPFSOpenID (1 *U + &U . *U -> &U . _curHTTP 3 `*S29 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U -> &U . _curHTTP 3 `*S29 1 `ui `ux ]
+"1842
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1842:   if(fp == (0xffu))
+[e $ ! == -> _fp `ui -> 255 `ui 781  ]
+"1843
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1843:   {
+{
+"1844
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1844:    return;
+[e $UE 777  ]
+"1845
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1845:   }
+}
+[e :U 781 ]
+"1846
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1846:   MPFSSeek(fp, ((DWORD_VAL*)&curHTTP.callbackPos)->w[1], MPFS_SEEK_FORWARD);
+[e ( _MPFSSeek (3 , , _fp -> *U + &U . *U -> &U . _curHTTP 3 `*S29 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U -> &U . _curHTTP 3 `*S29 1 `ui `ux `ul . `E5458 2 ]
+"1847
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1847:  }
+}
+[e :U 780 ]
+"1850
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1850:  wCount = TCPIsPutReady(httpStubs[curHTTPID].socket);
+[e = _wCount ( _TCPIsPutReady (1 . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 ]
+"1851
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1851:  while(wCount > 0u)
+[e $U 782  ]
+[e :U 783 ]
+"1852
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1852:  {
+{
+"1853
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1853:   wLen = MPFSGetArray(fp, data, ((wCount<64u)?wCount:64u));
+[e = _wLen ( _MPFSGetArray (3 , , _fp &U _data -> ? < -> _wCount `ui -> 64 `ui : -> _wCount `ui -> 64 `ui `us ]
+"1854
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1854:   if(wLen == 0u)
+[e $ ! == -> _wLen `ui -> 0 `ui 785  ]
+"1855
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1855:   {
+{
+"1856
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1856:    MPFSClose(fp);
+[e ( _MPFSClose (1 _fp ]
+"1857
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1857:    curHTTP.callbackPos = 0x00;
+[e = . _curHTTP 3 -> -> -> 0 `i `l `ul ]
+"1858
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1858:    return;
+[e $UE 777  ]
+"1859
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1859:   }
+}
+[e $U 786  ]
+"1860
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1860:   else
+[e :U 785 ]
+"1861
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1861:   {
+{
+"1862
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1862:    TCPPutArray(httpStubs[curHTTPID].socket, data, wLen);
+[e ( _TCPPutArray (3 , , . *U + &U _httpStubs * -> _curHTTPID `ux -> -> # *U &U _httpStubs `ui `ux 1 &U _data _wLen ]
+"1863
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1863:    wCount -= wLen;
+[e =- _wCount -> _wLen `us ]
+"1864
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1864:   }
+}
+[e :U 786 ]
+"1865
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1865:  }
+}
+[e :U 782 ]
+"1851
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1851:  while(wCount > 0u)
+[e $ > -> _wCount `ui -> 0 `ui 783  ]
+[e :U 784 ]
+"1868
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1868:  ((DWORD_VAL*)&curHTTP.callbackPos)->w[1] = MPFSGetPosition(fp);
+[e = *U + &U . *U -> &U . _curHTTP 3 `*S29 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U -> &U . _curHTTP 3 `*S29 1 `ui `ux -> ( _MPFSGetPosition (1 _fp `us ]
+"1869
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1869:  MPFSClose(fp);
+[e ( _MPFSClose (1 _fp ]
+"1871
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1871:  return;
+[e $UE 777  ]
+"1872
+[; ;Microchip/TCPIP_Stack/HTTP2.c: 1872: }
+[e :UE 777 ]
+}
+[a 14C 119 97 118 0 ]
+[a 4C 116 120 116 0 ]
+[a 21C 116 101 120 116 47 99 115 115 0 ]
+[a 9C 99 115 115 0 ]
+[a 16C 116 101 120 116 47 112 108 97 105 110 0 ]
+[a 25C 97 112 112 108 105 99 97 116 105 111 110 47 106 97 118 97 45 118 109 0 ]
+[a 49C 105 110 100 101 120 46 104 116 109 0 ]
+[a 50C 105 110 100 101 120 46 104 116 109 0 ]
+[a 51C 105 110 100 101 120 46 104 116 109 0 ]
+[a 5C 104 116 109 0 ]
+[a 20C 116 101 120 116 47 120 109 108 0 ]
+[a 8C 120 109 108 0 ]
+[a 17C 116 101 120 116 47 104 116 109 108 0 ]
+[a 18C 116 101 120 116 47 104 116 109 108 0 ]
+[a 19C 116 101 120 116 47 104 116 109 108 0 ]
+[a 6C 104 116 109 108 0 ]
+[a 7C 99 103 105 0 ]
+[a 12C 106 112 103 0 ]
+[a 23C 105 109 97 103 101 47 112 110 103 0 ]
+[a 11C 112 110 103 0 ]
+[a 24C 105 109 97 103 101 47 106 112 101 103 0 ]
+[a 22C 105 109 97 103 101 47 103 105 102 0 ]
+[a 10C 103 105 102 0 ]
+[a 26C 97 117 100 105 111 47 120 45 119 97 118 101 0 ]
+[a 56C 110 111 45 99 97 99 104 101 0 ]
+[a 47C 109 112 102 115 117 112 108 111 97 100 0 ]
+[a 48C 109 112 102 115 117 112 108 111 97 100 0 ]
+[a 2C 102 111 111 116 101 114 46 105 110 99 0 ]
+[a 1C 104 101 97 100 101 114 46 105 110 99 0 ]
+[a 13C 99 108 97 0 ]
+[a 46C 80 79 83 84 0 ]
+[a 45C 71 69 84 0 ]
+[a 3C 33 68 69 70 0 ]
+[a 36C 72 84 84 80 47 49 46 49 32 50 48 48 32 79 75 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 67 111 110 116 101 110 116 45 84 121 112 101 58 32 116 101 120 116 47 104 116 109 108 13 10 13 10 60 104 116 109 108 62 60 98 111 100 121 32 115 116 121 108 101 61 34 109 97 114 103 105 110 58 49 48 48 112 120 34 62 60 102 111 114 109 32 109 101 116 104 111 100 61 112 111 115 116 32 97 99 116 105 111 110 61 34 47 109 112 102 115 117 112 108 111 97 100 34 32 101 110 99 116 121 112 101 61 34 109 117 108 116 105 112 97 114 116 47 102 111 114 109 45 100 97 116 97 34 62 60 98 62 77 80 70 83 32 73 109 97 103 101 32 85 112 108 111 97 100 60 47 98 62 60 112 62 60 105 110 112 117 116 32 116 121 112 101 61 102 105 108 101 32 110 97 109 101 61 105 32 115 105 122 101 61 52 48 62 32 38 110 98 115 112 59 32 60 105 110 112 117 116 32 116 121 112 101 61 115 117 98 109 105 116 32 118 97 108 117 101 61 34 85 112 108 111 97 100 34 62 60 47 102 111 114 109 62 60 47 98 111 100 121 62 60 47 104 116 109 108 62 0 ]
+[a 38C 72 84 84 80 47 49 46 49 32 50 48 48 32 79 75 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 67 111 110 116 101 110 116 45 84 121 112 101 58 32 116 101 120 116 47 104 116 109 108 13 10 13 10 60 104 116 109 108 62 60 98 111 100 121 32 115 116 121 108 101 61 34 109 97 114 103 105 110 58 49 48 48 112 120 34 62 60 98 62 77 80 70 83 32 85 112 100 97 116 101 32 83 117 99 99 101 115 115 102 117 108 60 47 98 62 60 112 62 60 97 32 104 114 101 102 61 34 47 34 62 83 105 116 101 32 109 97 105 110 32 112 97 103 101 60 47 97 62 60 47 98 111 100 121 62 60 47 104 116 109 108 62 0 ]
+[a 39C 72 84 84 80 47 49 46 49 32 53 48 48 32 73 110 116 101 114 110 97 108 32 83 101 114 118 101 114 32 69 114 114 111 114 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 67 111 110 116 101 110 116 45 84 121 112 101 58 32 116 101 120 116 47 104 116 109 108 13 10 13 10 60 104 116 109 108 62 60 98 111 100 121 32 115 116 121 108 101 61 34 109 97 114 103 105 110 58 49 48 48 112 120 34 62 60 98 62 77 80 70 83 32 73 109 97 103 101 32 67 111 114 114 117 112 116 32 111 114 32 87 114 111 110 103 32 86 101 114 115 105 111 110 60 47 98 62 60 112 62 60 97 32 104 114 101 102 61 34 47 109 112 102 115 117 112 108 111 97 100 34 62 84 114 121 32 97 103 97 105 110 63 60 47 97 62 60 47 98 111 100 121 62 60 47 104 116 109 108 62 0 ]
+[a 57C 109 97 120 45 97 103 101 61 0 ]
+[a 43C 65 117 116 104 111 114 105 122 97 116 105 111 110 58 0 ]
+[a 44C 67 111 110 116 101 110 116 45 76 101 110 103 116 104 58 0 ]
+[a 42C 67 111 111 107 105 101 58 0 ]
+[a 58C 54 48 48 0 ]
+[a 52C 13 10 13 10 51 48 52 32 82 101 100 105 114 101 99 116 58 32 0 ]
+[a 40C 72 84 84 80 47 49 46 49 32 51 48 50 32 70 111 117 110 100 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 76 111 99 97 116 105 111 110 58 32 0 ]
+[a 55C 67 97 99 104 101 45 67 111 110 116 114 111 108 58 32 0 ]
+[a 53C 67 111 110 116 101 110 116 45 84 121 112 101 58 32 0 ]
+[a 59C 83 101 116 45 67 111 111 107 105 101 58 32 0 ]
+[a 34C 72 84 84 80 47 49 46 49 32 53 48 48 32 73 110 116 101 114 110 97 108 32 83 101 114 118 101 114 32 69 114 114 111 114 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 53 48 48 32 73 110 116 101 114 110 97 108 32 83 101 114 118 101 114 32 69 114 114 111 114 58 32 69 120 112 101 99 116 101 100 32 100 97 116 97 32 110 111 116 32 112 114 101 115 101 110 116 13 10 0 ]
+[a 32C 72 84 84 80 47 49 46 49 32 52 48 52 32 78 111 116 32 102 111 117 110 100 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 67 111 110 116 101 110 116 45 84 121 112 101 58 32 116 101 120 116 47 104 116 109 108 13 10 13 10 52 48 52 58 32 70 105 108 101 32 110 111 116 32 102 111 117 110 100 60 98 114 62 85 115 101 32 60 97 32 104 114 101 102 61 34 47 109 112 102 115 117 112 108 111 97 100 34 62 77 80 70 83 32 85 112 108 111 97 100 60 47 97 62 32 116 111 32 112 114 111 103 114 97 109 32 119 101 98 32 112 97 103 101 115 13 10 0 ]
+[a 54C 67 111 110 116 101 110 116 45 69 110 99 111 100 105 110 103 58 32 103 122 105 112 13 10 0 ]
+[a 30C 72 84 84 80 47 49 46 49 32 52 48 48 32 66 97 100 32 82 101 113 117 101 115 116 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 52 48 48 32 66 97 100 32 82 101 113 117 101 115 116 58 32 99 97 110 39 116 32 104 97 110 100 108 101 32 67 111 110 116 101 110 116 45 76 101 110 103 116 104 13 10 0 ]
+[a 28C 72 84 84 80 47 49 46 49 32 50 48 48 32 79 75 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 0 ]
+[a 29C 72 84 84 80 47 49 46 49 32 50 48 48 32 79 75 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 0 ]
+[a 35C 72 84 84 80 47 49 46 49 32 53 48 49 32 78 111 116 32 73 109 112 108 101 109 101 110 116 101 100 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 53 48 49 32 78 111 116 32 73 109 112 108 101 109 101 110 116 101 100 58 32 79 110 108 121 32 71 69 84 32 97 110 100 32 80 79 83 84 32 115 117 112 112 111 114 116 101 100 13 10 0 ]
+[a 33C 72 84 84 80 47 49 46 49 32 52 49 52 32 82 101 113 117 101 115 116 45 85 82 73 32 84 111 111 32 76 111 110 103 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 52 49 52 32 82 101 113 117 101 115 116 45 85 82 73 32 84 111 111 32 76 111 110 103 58 32 66 117 102 102 101 114 32 111 118 101 114 102 108 111 119 32 100 101 116 101 99 116 101 100 13 10 0 ]
+[a 31C 72 84 84 80 47 49 46 49 32 52 48 49 32 85 110 97 117 116 104 111 114 105 122 101 100 13 10 87 87 87 45 65 117 116 104 101 110 116 105 99 97 116 101 58 32 66 97 115 105 99 32 114 101 97 108 109 61 34 80 114 111 116 101 99 116 101 100 34 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 52 48 49 32 85 110 97 117 116 104 111 114 105 122 101 100 58 32 80 97 115 115 119 111 114 100 32 114 101 113 117 105 114 101 100 13 10 0 ]
+[a 41C 72 84 84 80 47 49 46 49 32 52 48 51 32 70 111 114 98 105 100 100 101 110 13 10 67 111 110 110 101 99 116 105 111 110 58 32 99 108 111 115 101 13 10 13 10 52 48 51 32 70 111 114 98 105 100 100 101 110 58 32 83 83 76 32 82 101 113 117 105 114 101 100 32 45 32 117 115 101 32 72 84 84 80 83 13 10 0 ]
+[a 60C 13 10 13 10 0 ]
+[a 61C 13 10 13 10 77 80 70 83 2 1 0 ]
+[a 15C 0 0 0 0 ]
+[a 27C 0 ]
+[a 37C 0 ]

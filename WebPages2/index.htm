@@ -1,0 +1,212 @@
+~inc:header.inc~
+
+<div id="content">
+
+<h1>RIO64 - Modbus TCP RIO Board</h1>
+
+<table style="padding-left: 10px;">
+<tr><td><b>Stack Version:</b></td><td>&nbsp;</td><td>~version~</td></tr>
+<tr><td><b>Build Date:</b></td><td>&nbsp;</td><td>~builddate~</td></tr>
+</table>
+
+<ul>
+<li><b>Slave Boards Detected - </b><span id="slaveCount" style="font-weight:normal">?</span></li>
+</ul>
+
+</div>
+
+<div id="status">
+	<div id="loading" style="display:none">Error:<br />Connection to demo board was lost.</div>
+	<div id="display">
+
+		<h2>Main Board</h2>
+		<p>LEDs:<br /><span class="leds">
+		<table>
+		  <tr>
+		  	<td><a id="mLed0">&bull;</a></td><td><a id="mLed1">&bull;</a></td><td><a id="mLed2">&bull;</a></td><td><a id="mLed3">&bull;</a></td>
+		    <td><a id="mLed4">&bull;</a></td><td><a id="mLed5">&bull;</a></td><td><a id="mLed6">&bull;</a></td><td><a id="mLed7">&bull;</a></td>
+		    <td><a id="mLed8">&bull;</a></td><td><a id="mLed9">&bull;</a></td><td><a id="mLed10">&bull;</a></td><td><a id="mLed11">&bull;</a></td>
+		    <td><a id="mLed12">&bull;</a></td><td><a id="mLed13">&bull;</a></td><td><a id="mLed14">&bull;</a></td><td><a id="mLed15">&bull;</a></td>
+		    <td><a id="mLed16">&bull;</a></td><td><a id="mLed17">&bull;</a></td><td><a id="mLed18">&bull;</a></td><td><a id="mLed19">&bull;</a></td>
+		    <td><a id="mLed20">&bull;</a></td><td><a id="mLed21">&bull;</a></td><td><a id="mLed22">&bull;</a></td><td><a id="mLed23">&bull;</a></td>
+		    <td><a id="mLed24">&bull;</a></td><td><a id="mLed25">&bull;</a></td><td><a id="mLed26">&bull;</a></td><td><a id="mLed27">&bull;</a></td>
+		    <td><a id="mLed28">&bull;</a></td><td><a id="mLed29">&bull;</a></td><td><a id="mLed30">&bull;</a></td><td><a id="mLed31">&bull;</a></td>
+		  </tr>
+		  <tr>
+		    <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+		    <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+		    <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
+		    <td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>32</td>
+		  </tr>
+		  <tr>
+		  	<td><a id="mLed32">&bull;</a></td><td><a id="mLed33">&bull;</a></td><td><a id="mLed34">&bull;</a></td><td><a id="mLed35">&bull;</a></td>
+		    <td><a id="mLed36">&bull;</a></td><td><a id="mLed37">&bull;</a></td><td><a id="mLed38">&bull;</a></td><td><a id="mLed39">&bull;</a></td>
+		    <td><a id="mLed40">&bull;</a></td><td><a id="mLed41">&bull;</a></td><td><a id="mLed42">&bull;</a></td><td><a id="mLed43">&bull;</a></td>
+		    <td><a id="mLed44">&bull;</a></td><td><a id="mLed45">&bull;</a></td><td><a id="mLed46">&bull;</a></td><td><a id="mLed47">&bull;</a></td>
+		    <td><a id="mLed48">&bull;</a></td><td><a id="mLed49">&bull;</a></td><td><a id="mLed50">&bull;</a></td><td><a id="mLed51">&bull;</a></td>
+		    <td><a id="mLed52">&bull;</a></td><td><a id="mLed53">&bull;</a></td><td><a id="mLed54">&bull;</a></td><td><a id="mLed55">&bull;</a></td>
+		    <td><a id="mLed56">&bull;</a></td><td><a id="mLed57">&bull;</a></td><td><a id="mLed58">&bull;</a></td><td><a id="mLed59">&bull;</a></td>
+		    <td><a id="mLed60">&bull;</a></td><td><a id="mLed61">&bull;</a></td><td><a id="mLed62">&bull;</a></td><td><a id="mLed63">&bull;</a></td>
+		  </tr>
+		  <tr>
+		    <td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+		    <td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td>
+		    <td>49</td><td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td>
+		    <td>57</td><td>58</td><td>59</td><td>60</td><td>61</td><td>62</td><td>63</td><td>64</td>
+		  </tr>
+		</table>
+		</span></p>
+		<p>Buttons:<br />
+		<table>
+		  <tr>
+		  	<td><a id="mBtn0">&bull;</a></td><td><a id="mBtn1">&bull;</a></td><td><a id="mBtn2">&bull;</a></td><td><a id="mBtn3">&bull;</a></td>
+		    <td><a id="mBtn4">&bull;</a></td><td><a id="mBtn5">&bull;</a></td><td><a id="mBtn6">&bull;</a></td><td><a id="mBtn7">&bull;</a></td>
+		    <td><a id="mBtn8">&bull;</a></td><td><a id="mBtn9">&bull;</a></td><td><a id="mBtn10">&bull;</a></td><td><a id="mBtn11">&bull;</a></td>
+		    <td><a id="mBtn12">&bull;</a></td><td><a id="mBtn13">&bull;</a></td><td><a id="mBtn14">&bull;</a></td><td><a id="mBtn15">&bull;</a></td>
+		    <td><a id="mBtn16">&bull;</a></td><td><a id="mBtn17">&bull;</a></td><td><a id="mBtn18">&bull;</a></td><td><a id="mBtn19">&bull;</a></td>
+		    <td><a id="mBtn20">&bull;</a></td><td><a id="mBtn21">&bull;</a></td><td><a id="mBtn22">&bull;</a></td><td><a id="mBtn23">&bull;</a></td>
+		    <td><a id="mBtn24">&bull;</a></td><td><a id="mBtn25">&bull;</a></td><td><a id="mBtn26">&bull;</a></td><td><a id="mBtn27">&bull;</a></td>
+		    <td><a id="mBtn28">&bull;</a></td><td><a id="mBtn29">&bull;</a></td><td><a id="mBtn30">&bull;</a></td><td><a id="mBtn31">&bull;</a></td>
+		  </tr>
+		  <tr>
+		    <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+		    <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+		    <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
+		    <td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>32</td>
+		  </tr>
+		  <tr>
+		  	<td><a id="mBtn32">&bull;</a></td><td><a id="mBtn33">&bull;</a></td><td><a id="mBtn34">&bull;</a></td><td><a id="mBtn35">&bull;</a></td>
+		    <td><a id="mBtn36">&bull;</a></td><td><a id="mBtn37">&bull;</a></td><td><a id="mBtn38">&bull;</a></td><td><a id="mBtn39">&bull;</a></td>
+		    <td><a id="mBtn40">&bull;</a></td><td><a id="mBtn41">&bull;</a></td><td><a id="mBtn42">&bull;</a></td><td><a id="mBtn43">&bull;</a></td>
+		    <td><a id="mBtn44">&bull;</a></td><td><a id="mBtn45">&bull;</a></td><td><a id="mBtn46">&bull;</a></td><td><a id="mBtn47">&bull;</a></td>
+		    <td><a id="mBtn48">&bull;</a></td><td><a id="mBtn49">&bull;</a></td><td><a id="mBtn50">&bull;</a></td><td><a id="mBtn51">&bull;</a></td>
+		    <td><a id="mBtn52">&bull;</a></td><td><a id="mBtn53">&bull;</a></td><td><a id="mBtn54">&bull;</a></td><td><a id="mBtn55">&bull;</a></td>
+		    <td><a id="mBtn56">&bull;</a></td><td><a id="mBtn57">&bull;</a></td><td><a id="mBtn58">&bull;</a></td><td><a id="mBtn59">&bull;</a></td>
+		    <td><a id="mBtn60">&bull;</a></td><td><a id="mBtn61">&bull;</a></td><td><a id="mBtn62">&bull;</a></td><td><a id="mBtn63">&bull;</a></td>
+		  </tr>
+		  <tr>
+		    <td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+		    <td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td>
+		    <td>49</td><td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td>
+		    <td>57</td><td>58</td><td>59</td><td>60</td><td>61</td><td>62</td><td>63</td><td>64</td>
+		  </tr>
+		</table>
+
+		<h2>Slave Board 1</h2>
+		<p>LEDs:<br /><span class="leds">
+		<table>
+		  <tr id="s1LedRow0"></tr>
+		  <tr id="s1LedNumRow0"></tr>
+		  <tr id="s1LedRow1"></tr>
+		  <tr id="s1LedNumRow1"></tr>
+		</table>
+		</span></p>
+		<p>Buttons:<br />
+		<table>
+		  <tr id="s1BtnRow0"></tr>
+		  <tr id="s1BtnNumRow0"></tr>
+		  <tr id="s1BtnRow1"></tr>
+		  <tr id="s1BtnNumRow1"></tr>
+		</table>
+
+		<h2>Slave Board 2</h2>
+		<p>LEDs:<br /><span class="leds">
+		<table>
+		  <tr id="s2LedRow0"></tr>
+		  <tr id="s2LedNumRow0"></tr>
+		  <tr id="s2LedRow1"></tr>
+		  <tr id="s2LedNumRow1"></tr>
+		</table>
+		</span></p>
+		<p>Buttons:<br />
+		<table>
+		  <tr id="s2BtnRow0"></tr>
+		  <tr id="s2BtnNumRow0"></tr>
+		  <tr id="s2BtnRow1"></tr>
+		  <tr id="s2BtnNumRow1"></tr>
+		</table>
+	</div>
+</div>
+
+<script type="text/javascript">
+<!--
+// Build one row of 32 LED/button cells + one row of 32 number labels
+function buildRow(rowEl, numRowEl, idPrefix, startNum) {
+	var rowHtml = '';
+	var numHtml = '';
+	for (var i = 0; i < 32; i++) {
+		rowHtml += '<td><a id="' + idPrefix + (startNum + i) + '">&bull;</a></td>';
+		numHtml += '<td>' + (startNum + i + 1) + '</td>';
+	}
+	rowEl.innerHTML = rowHtml;
+	numRowEl.innerHTML = numHtml;
+}
+
+// Build the two slave board tables (LEDs + buttons, 64 cells each) once at load
+function buildSlaveTables() {
+	['s1', 's2'].forEach(function(prefix) {
+		buildRow(document.getElementById(prefix + 'LedRow0'), document.getElementById(prefix + 'LedNumRow0'), prefix + 'Led', 0);
+		buildRow(document.getElementById(prefix + 'LedRow1'), document.getElementById(prefix + 'LedNumRow1'), prefix + 'Led', 32);
+		buildRow(document.getElementById(prefix + 'BtnRow0'), document.getElementById(prefix + 'BtnNumRow0'), prefix + 'Btn', 0);
+		buildRow(document.getElementById(prefix + 'BtnRow1'), document.getElementById(prefix + 'BtnNumRow1'), prefix + 'Btn', 32);
+	});
+}
+
+// Reads a tag's text content from the parsed XML and returns it as a number
+function getXMLValue(xmlDoc, tagName) {
+	var node = xmlDoc.getElementsByTagName(tagName)[0];
+	return node ? parseInt(node.textContent, 16) : 0;
+}
+
+// Unpacks one 16-bit word into 16 bit indicators starting at a given offset
+function applyWord(xmlDoc, tag, idPrefix, wordIndex) {
+	var wordValue = getXMLValue(xmlDoc, tag);
+	for (var j = 0; j < 16; j++) {
+		var bitValue = (wordValue >> j) & 1;
+		var el = document.getElementById(idPrefix + (j + (wordIndex * 16)));
+		if (el) el.style.color = bitValue ? '#090' : '#ddd';
+	}
+}
+
+function updateStatus() {
+	fetch('/status.xml')
+		.then(function(response) {
+			if (!response.ok) throw new Error('bad response');
+			return response.text();
+		})
+		.then(function(xmlText) {
+			var xmlDoc = new DOMParser().parseFromString(xmlText, "text/xml");
+
+			document.getElementById('display').style.display = 'inline';
+			document.getElementById('loading').style.display = 'none';
+
+			for (var i = 0; i < 4; i++) {
+				applyWord(xmlDoc, 'mLed' + i, 'mLed', i);
+				applyWord(xmlDoc, 'mBtn' + i, 'mBtn', i);
+				applyWord(xmlDoc, 's1Led' + i, 's1Led', i);
+				applyWord(xmlDoc, 's1Btn' + i, 's1Btn', i);
+				applyWord(xmlDoc, 's2Led' + i, 's2Led', i);
+				applyWord(xmlDoc, 's2Btn' + i, 's2Btn', i);
+			}
+
+			document.getElementById('slaveCount').innerHTML = getXMLValue(xmlDoc, 'slaveCount');
+		})
+		.catch(function(err) {
+			document.getElementById('display').style.display = 'none';
+			document.getElementById('loading').style.display = 'inline';
+		});
+}
+
+buildSlaveTables();
+setInterval(updateStatus, 1000);
+updateStatus();
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+document.getElementById('hello').innerHTML = "~hellomsg~";
+//-->
+</script>
+
+~inc:footer.inc~

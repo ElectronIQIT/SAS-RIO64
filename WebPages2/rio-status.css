@@ -1,0 +1,164 @@
+/* rio-status.css
+   Styling for the RIO64 status page. Loaded after mchp.css — brand red
+   (#c00) is inherited from there; navy is introduced here to bring in
+   the logo's second color as a secondary accent. */
+
+:root {
+	--brand-red: #c00;
+	--brand-navy: #335599;
+	--brand-navy-dark: #24406e;
+	--led-on: #2e9e4f;
+	--led-on-glow: rgba(46, 158, 79, 0.45);
+	--led-off: #d8d8d8;
+	--dot-border: rgba(0, 0, 0, 0.18);
+	--panel-border: #ddd;
+	--text-dim: #666;
+	--text-faint: #999;
+	--mono: 'Courier New', Courier, monospace;
+}
+
+/* ---- Spec sheet (version / build info) ---- */
+
+.spec-table {
+	width: 70%;
+	border-collapse: collapse;
+	font-size: 10pt;
+	background: #fff;
+	border: 1px solid var(--panel-border);
+}
+
+.spec-table tr:not(:last-child) td {
+	border-bottom: 1px solid #eee;
+}
+
+.spec-table td {
+	padding: 7px 12px;
+}
+
+.spec-table td:first-child {
+	color: var(--text-dim);
+	font-weight: bold;
+	width: 40%;
+}
+
+.spec-table td:last-child {
+	font-family: var(--mono);
+	text-align: right;
+	color: #222;
+}
+
+/* ---- Slave count badge ---- */
+
+.status-badge {
+	margin: 14px 0 0;
+	padding: 8px 12px;
+	background: #f4f6f9;
+	border-left: 3px solid var(--brand-navy);
+	font-size: 10pt;
+	font-weight: normal;
+	color: var(--text-dim);
+}
+
+.status-badge #slaveCount {
+	font-family: var(--mono);
+	font-weight: bold;
+	color: var(--brand-navy-dark);
+}
+
+/* ---- Board status area ---- */
+/* Overrides the legacy #status rules from mchp.css (bold text, dotted
+   border, fixed float width) so the panels below can set their own look. */
+
+#status {
+	width: 650px;
+	float: none;
+	margin: 16px 0 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+}
+
+#status p {
+	padding: 0;
+	text-indent: 0;
+}
+
+#loading {
+	padding: 10px 12px;
+	background: #fdd;
+	border-left: 3px solid #900;
+	font-weight: bold;
+	color: #900;
+}
+
+.board-panel {
+	background: #fff;
+	border: 1px solid var(--panel-border);
+	border-left: 4px solid var(--brand-navy);
+	padding: 14px 18px 18px;
+	margin-bottom: 16px;
+}
+
+.board-panel h2 {
+	font-size: 12pt;
+	margin: 0 0 12px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+	color: #333;
+}
+
+.board-panel p.leds,
+.board-panel p.buttons {
+	font-size: 9pt;
+	font-weight: bold;
+	color: var(--text-faint);
+	margin: 0 0 6px;
+}
+
+.board-panel > span {
+	display: block;
+	margin-bottom: 16px;
+}
+
+.board-panel > span:last-child {
+	margin-bottom: 0;
+}
+
+.board-panel table {
+	border-collapse: collapse;
+}
+
+.board-panel table td {
+	padding: 2px 3px;
+	text-align: center;
+}
+
+/* LED / button indicator dots — color driven by JS via backgroundColor */
+.board-panel a {
+	display: block;
+	width: 11px;
+	height: 11px;
+	margin: 0 auto;
+	background: var(--led-off);
+	border: 1px solid var(--dot-border);
+	color: transparent;
+	font-size: 0;
+	cursor: default;
+	transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.leds table a {
+	border-radius: 50%;
+}
+
+.buttons table a {
+	border-radius: 2px;
+}
+
+.board-panel table tr:nth-child(2n) td {
+	padding-top: 0;
+	padding-bottom: 8px;
+	font-family: var(--mono);
+	font-size: 8pt;
+	color: var(--text-faint);
+}

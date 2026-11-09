@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="5">
+        <file>
+            <url>Microchip/TCPIP_Stack/TCP.c</url>
+            <bookmark id="2">
+                <name/>
+                <line>3970</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>Microchip/TCPIP_Stack/SPIFlash.c</url>
+            <bookmark id="4">
+                <name/>
+                <line>222</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>MainSuky.c</url>
+            <bookmark id="5">
+                <name/>
+                <line>263</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>1050</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/watso/My%20Drive%20(brett@electroniqit.co.za)/~Projects/MPLABXProjects/Suky_Ethernet_XC8.X/MainSuky.c</file>
+            <file>file:/C:/Users/watso/My%20Drive%20(brett@electroniqit.co.za)/~Projects/MPLABXProjects/Suky_Ethernet_XC8.X/SvnSeg.h</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="TCPIP_Stack" displayName="TCPIP_Stack" projectFiles="true">
+        <itemPath>Microchip/Include/TCPIP_Stack/Announce.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/ARP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/DHCP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/ETH97J60.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/Hashes.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/Helpers.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/HTTP2.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/ICMP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/IP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/MAC.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/MPFS2.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/SPIFlash.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/StackTsk.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/TCP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/TCPIP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/Tick.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/UDP.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/XEEPROM.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/Delay.h</itemPath>
+        <itemPath>Microchip/Include/TCPIP_Stack/SPIRAM.h</itemPath>
+      </logicalFolder>
+      <itemPath>HardwareProfile.h</itemPath>
+      <itemPath>MainSuky.h</itemPath>
+      <itemPath>mib.h</itemPath>
+      <itemPath>TCPIPConfig.h</itemPath>
+      <itemPath>MODBUSTCPServer.h</itemPath>
+      <itemPath>SvnSeg.h</itemPath>
+      <itemPath>Microchip/Include/Compiler.h</itemPath>
+      <itemPath>Microchip/Include/GenericTypeDefs.h</itemPath>
+      <itemPath>HTTPPrint.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="TCPIP_Stack" displayName="TCPIP_Stack" projectFiles="true">
+        <itemPath>Microchip/TCPIP_Stack/Announce.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/ARP.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/DHCP.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/ETH97J60.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/Hashes.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/Helpers.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/HTTP2.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/ICMP.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/IP.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/MPFS2.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/SPIFlash.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/StackTsk.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/TCP.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/Tick.c</itemPath>
+        <itemPath>Microchip/TCPIP_Stack/UDP.c</itemPath>
+      </logicalFolder>
+      <itemPath>MainSuky.c</itemPath>
+      <itemPath>PingDemo.c</itemPath>
+      <itemPath>MODBUSTCPServer.c</itemPath>
+      <itemPath>CustomHTTPApp.c</itemPath>
+      <itemPath>GenericTCPServer.c</itemPath>
+      <itemPath>SMTPDemo.c</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>Microchip</Elem>
+    <Elem>Microchip/TCPIP_Stack</Elem>
+    <Elem>Microchip/Include/TCPIP_Stack</Elem>
+    <Elem>Microchip/Include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC18F67J60</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>ICD3PlatformTool</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>3.10</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.10.174"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>true</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="additional-warnings" value="true"/>
+        <property key="asmlist" value="true"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="define-macros" value=""/>
+        <property key="disable-optimizations" value="true"/>
+        <property key="extra-include-directories"
+                  value=".;Microchip;Microchip\Include;Microchip\TCPIP_Stack"/>
+        <property key="favor-optimization-for" value="-speed,+space"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="identifier-length" value="255"/>
+        <property key="local-generation" value="false"/>
+        <property key="operation-mode" value="free"/>
+        <property key="opt-xc8-compiler-strict_ansi" value="false"/>
+        <property key="optimization-assembler" value="true"/>
+        <property key="optimization-assembler-files" value="true"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-invariant-enable" value="false"/>
+        <property key="optimization-invariant-value" value="16"/>
+        <property key="optimization-level" value="-O0"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="optimization-stable-enable" value="false"/>
+        <property key="preprocess-assembler" value="true"/>
+        <property key="short-enums" value="true"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="undefine-macros" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="-3"/>
+        <property key="what-to-do" value="ignore"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="additional-options-checksum" value=""/>
+        <property key="additional-options-checksumAVR" value=""/>
+        <property key="additional-options-code-offset" value=""/>
+        <property key="additional-options-command-line" value=""/>
+        <property key="additional-options-errata" value=""/>
+        <property key="additional-options-extend-address" value="false"/>
+        <property key="additional-options-trace-type" value=""/>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="backup-reset-condition-flags" value="false"/>
+        <property key="calibrate-oscillator" value="false"/>
+        <property key="calibrate-oscillator-value" value="0x3400"/>
+        <property key="clear-bss" value="true"/>
+        <property key="code-model-external" value="wordwrite"/>
+        <property key="code-model-rom" value=""/>
+        <property key="create-html-files" value="false"/>
+        <property key="data-model-ram" value=""/>
+        <property key="data-model-size-of-double" value="32"/>
+        <property key="data-model-size-of-double-gcc" value="no-short-double"/>
+        <property key="data-model-size-of-float" value="32"/>
+        <property key="data-model-size-of-float-gcc" value="no-short-float"/>
+        <property key="display-class-usage" value="false"/>
+        <property key="display-hex-usage" value="false"/>
+        <property key="display-overall-usage" value="true"/>
+        <property key="display-psect-usage" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="format-hex-file-for-download" value="false"/>
+        <property key="initialize-data" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="keep-generated-startup.as" value="false"/>
+        <property key="link-in-c-library" value="true"/>
+        <property key="link-in-c-library-gcc" value=""/>
+        <property key="link-in-peripheral-library" value="false"/>
+        <property key="managed-stack" value="false"/>
+        <property key="opt-xc8-linker-file" value="false"/>
+        <property key="opt-xc8-linker-link_startup" value="false"/>
+        <property key="opt-xc8-linker-serial" value=""/>
+        <property key="program-the-device-with-default-config-words" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+      </HI-TECH-LINK>
+      <ICD3PlatformTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="Freeze Peripherals" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-1fff7"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </ICD3PlatformTool>
+      <item path="MainSuky.c" ex="false" overriding="false">
+        <HI-TECH-COMP>
+          <property key="additional-warnings" value="true"/>
+          <property key="asmlist" value="true"/>
+          <property key="call-prologues" value="false"/>
+          <property key="default-bitfield-type" value="true"/>
+          <property key="default-char-type" value="true"/>
+          <property key="define-macros" value=""/>
+          <property key="disable-optimizations" value="true"/>
+          <property key="extra-include-directories"
+                    value=".;Microchip;Microchip\Include;Microchip\TCPIP_Stack"/>
+          <property key="favor-optimization-for" value="-speed,+space"/>
+          <property key="garbage-collect-data" value="true"/>
+          <property key="garbage-collect-functions" value="true"/>
+          <property key="identifier-length" value="255"/>
+          <property key="local-generation" value="false"/>
+          <property key="operation-mode" value="free"/>
+          <property key="opt-xc8-compiler-strict_ansi" value="false"/>
+          <property key="optimization-assembler" value="true"/>
+          <property key="optimization-assembler-files" value="true"/>
+          <property key="optimization-debug" value="false"/>
+          <property key="optimization-invariant-enable" value="false"/>
+          <property key="optimization-invariant-value" value="16"/>
+          <property key="optimization-level" value="-O0"/>
+          <property key="optimization-speed" value="false"/>
+          <property key="optimization-stable-enable" value="false"/>
+          <property key="preprocess-assembler" value="true"/>
+          <property key="short-enums" value="true"/>
+          <property key="tentative-definitions" value="-fno-common"/>
+          <property key="undefine-macros" value=""/>
+          <property key="use-cci" value="false"/>
+          <property key="use-iar" value="false"/>
+          <property key="verbose" value="false"/>
+          <property key="warning-level" value="-3"/>
+          <property key="what-to-do" value="ignore"/>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+          <property key="additional-options-checksum" value=""/>
+          <property key="additional-options-checksumAVR" value=""/>
+          <property key="additional-options-code-offset" value=""/>
+          <property key="additional-options-command-line" value=""/>
+          <property key="additional-options-errata" value=""/>
+          <property key="additional-options-extend-address" value="false"/>
+          <property key="additional-options-trace-type" value=""/>
+          <property key="additional-options-use-response-files" value="false"/>
+          <property key="backup-reset-condition-flags" value="false"/>
+          <property key="calibrate-oscillator" value="false"/>
+          <property key="calibrate-oscillator-value" value="0x3400"/>
+          <property key="clear-bss" value="true"/>
+          <property key="code-model-external" value="wordwrite"/>
+          <property key="code-model-rom" value=""/>
+          <property key="create-html-files" value="false"/>
+          <property key="data-model-ram" value=""/>
+          <property key="data-model-size-of-double" value="32"/>
+          <property key="data-model-size-of-double-gcc" value="no-short-double"/>
+          <property key="data-model-size-of-float" value="32"/>
+          <property key="data-model-size-of-float-gcc" value="no-short-float"/>
+          <property key="display-class-usage" value="false"/>
+          <property key="display-hex-usage" value="false"/>
+          <property key="display-overall-usage" value="true"/>
+          <property key="display-psect-usage" value="false"/>
+          <property key="extra-lib-directories" value=""/>
+          <property key="fill-flash-options-addr" value=""/>
+          <property key="fill-flash-options-const" value=""/>
+          <property key="fill-flash-options-how" value="0"/>
+          <property key="fill-flash-options-inc-const" value="1"/>
+          <property key="fill-flash-options-increment" value=""/>
+          <property key="fill-flash-options-seq" value=""/>
+          <property key="fill-flash-options-what" value="0"/>
+          <property key="format-hex-file-for-download" value="false"/>
+          <property key="initialize-data" value="true"/>
+          <property key="input-libraries" value="libm"/>
+          <property key="keep-generated-startup.as" value="false"/>
+          <property key="link-in-c-library" value="true"/>
+          <property key="link-in-c-library-gcc" value=""/>
+          <property key="link-in-peripheral-library" value="false"/>
+          <property key="managed-stack" value="false"/>
+          <property key="opt-xc8-linker-file" value="false"/>
+          <property key="opt-xc8-linker-link_startup" value="false"/>
+          <property key="opt-xc8-linker-serial" value=""/>
+          <property key="program-the-device-with-default-config-words" value="false"/>
+          <property key="remove-unused-sections" value="true"/>
+        </HI-TECH-LINK>
+        <XC8-CO>
+          <property key="coverage-enable" value=""/>
+          <property key="stack-guidance" value="false"/>
+        </XC8-CO>
+        <XC8-config-global>
+          <property key="advanced-elf" value="true"/>
+          <property key="constdata-progmem" value="false"/>
+          <property key="gcc-opt-driver-new" value="true"/>
+          <property key="gcc-opt-std" value="-std=c99"/>
+          <property key="gcc-output-file-format" value="dwarf-3"/>
+          <property key="mapped-progmem" value="false"/>
+          <property key="omit-pack-options" value="false"/>
+          <property key="omit-pack-options-new" value="1"/>
+          <property key="output-file-format" value="-mcof,+elf"/>
+          <property key="smart-io-format" value=""/>
+          <property key="stack-size-high" value="auto"/>
+          <property key="stack-size-low" value="auto"/>
+          <property key="stack-size-main" value="auto"/>
+          <property key="stack-type" value="compiled"/>
+          <property key="user-pack-device-support" value=""/>
+          <property key="wpo-lto" value="false"/>
+        </XC8-config-global>
+      </item>
+      <Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="Freeze Peripherals" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="event.recorder.debugger.behavior" value="Running"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-1fff7"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </Tool>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </XC8-CO>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="constdata-progmem" value="false"/>
+        <property key="gcc-opt-driver-new" value="true"/>
+        <property key="gcc-opt-std" value="-std=c99"/>
+        <property key="gcc-output-file-format" value="dwarf-3"/>
+        <property key="mapped-progmem" value="false"/>
+        <property key="omit-pack-options" value="false"/>
+        <property key="omit-pack-options-new" value="1"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="smart-io-format" value=""/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+        <property key="user-pack-device-support" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </XC8-config-global>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,2320 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"8039 C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8039: extern volatile unsigned char ADCON0 __attribute__((address(0xFC2)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"7883
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7883: extern volatile unsigned char ADCON2 __attribute__((address(0xFC0)));
+[v _ADCON2 `Vuc ~T0 @X0 0 e@4032 ]
+"10224
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10224: extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
+[v _T0CON `Vuc ~T0 @X0 0 e@4053 ]
+"10301
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10301: extern volatile unsigned char TMR0L __attribute__((address(0xFD6)));
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"10308
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10308: extern volatile unsigned char TMR0H __attribute__((address(0xFD7)));
+[v _TMR0H `Vuc ~T0 @X0 0 e@4055 ]
+"55 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h: 55: int rand (void);
+[v _rand `(i ~T0 @X0 0 ef ]
+"8045 C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8045:     struct {
+[s S345 :1 `uc 1 :1 `uc 1 ]
+[n S345 . . GO_NOT_DONE ]
+"8049
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8049:     struct {
+[s S346 :1 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S346 . ADON GO_nDONE CHS ]
+"8054
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8054:     struct {
+[s S347 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S347 . . DONE CHS0 CHS1 CHS2 CHS3 . ADCAL ]
+"8064
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8064:     struct {
+[s S348 :1 `uc 1 :1 `uc 1 ]
+[n S348 . . GO_DONE ]
+"8068
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8068:     struct {
+[s S349 :1 `uc 1 :1 `uc 1 ]
+[n S349 . . GO ]
+"8072
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8072:     struct {
+[s S350 :1 `uc 1 :1 `uc 1 ]
+[n S350 . . NOT_DONE ]
+"8076
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8076:     struct {
+[s S351 :1 `uc 1 :1 `uc 1 ]
+[n S351 . . nDONE ]
+"8080
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8080:     struct {
+[s S352 :1 `uc 1 :1 `uc 1 ]
+[n S352 . . GODONE ]
+"8044
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8044: typedef union {
+[u S344 `S345 1 `S346 1 `S347 1 `S348 1 `S349 1 `S350 1 `S351 1 `S352 1 ]
+[n S344 . . . . . . . . . ]
+"8085
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8085: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
+[v _ADCON0bits `VS344 ~T0 @X0 0 e@4034 ]
+"56 C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h
+[; ;C:\Program Files\Microchip\xc8\v3.10\pic\include\c99/stdlib.h: 56: void srand (unsigned);
+[v _srand `(v ~T0 @X0 0 ef1`ui ]
+"407 Microchip/Include/GenericTypeDefs.h
+[; ;Microchip/Include/GenericTypeDefs.h: 407:     {
+[s S30 `us 1 `us 1 ]
+[n S30 . LW HW ]
+"412
+[; ;Microchip/Include/GenericTypeDefs.h: 412:     {
+[s S31 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S31 . LB HB UB MB ]
+"376
+[; ;Microchip/Include/GenericTypeDefs.h: 376:     {
+[s S27 `uc 1 `uc 1 ]
+[n S27 . LB HB ]
+"381
+[; ;Microchip/Include/GenericTypeDefs.h: 381:     {
+[s S28 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 ]
+"372
+[; ;Microchip/Include/GenericTypeDefs.h: 372: {
+[u S26 `us 1 `uc -> 2 `i `S27 1 `S28 1 ]
+[n S26 . Val v byte bits ]
+"419
+[; ;Microchip/Include/GenericTypeDefs.h: 419:     {
+[s S32 `S26 1 `S26 1 ]
+[n S32 . low high ]
+"424
+[; ;Microchip/Include/GenericTypeDefs.h: 424:     {
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 b16 b17 b18 b19 b20 b21 b22 b23 b24 b25 b26 b27 b28 b29 b30 b31 ]
+"402
+[; ;Microchip/Include/GenericTypeDefs.h: 402: {
+[u S29 `ul 1 `us -> 2 `i `uc -> 4 `i `S30 1 `S31 1 `S32 1 `S33 1 ]
+[n S29 . Val w v word byte wordUnion bits ]
+"327 Microchip/TCPIP_Stack/Helpers.c
+[; ;Microchip/TCPIP_Stack/Helpers.c: 327: BOOL StringToIPAddress(BYTE* str, DWORD_VAL* IPAddress)
+[c E332 0 1 .. ]
+[n E332 _BOOL FALSE TRUE  ]
+"38 C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 38: __asm("MAADR5 equ 0E80h");
+[; <" MAADR5 equ 0E80h ;# ">
+"45
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 45: __asm("MAADR6 equ 0E81h");
+[; <" MAADR6 equ 0E81h ;# ">
+"52
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 52: __asm("MAADR3 equ 0E82h");
+[; <" MAADR3 equ 0E82h ;# ">
+"59
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 59: __asm("MAADR4 equ 0E83h");
+[; <" MAADR4 equ 0E83h ;# ">
+"66
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 66: __asm("MAADR1 equ 0E84h");
+[; <" MAADR1 equ 0E84h ;# ">
+"73
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 73: __asm("MAADR2 equ 0E85h");
+[; <" MAADR2 equ 0E85h ;# ">
+"80
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 80: __asm("MISTAT equ 0E8Ah");
+[; <" MISTAT equ 0E8Ah ;# ">
+"113
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 113: __asm("EFLOCON equ 0E97h");
+[; <" EFLOCON equ 0E97h ;# ">
+"145
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 145: __asm("EPAUS equ 0E98h");
+[; <" EPAUS equ 0E98h ;# ">
+"152
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 152: __asm("EPAUSL equ 0E98h");
+[; <" EPAUSL equ 0E98h ;# ">
+"159
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 159: __asm("EPAUSH equ 0E99h");
+[; <" EPAUSH equ 0E99h ;# ">
+"166
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 166: __asm("MACON1 equ 0EA0h");
+[; <" MACON1 equ 0EA0h ;# ">
+"204
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 204: __asm("MACON3 equ 0EA2h");
+[; <" MACON3 equ 0EA2h ;# ">
+"275
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 275: __asm("MACON4 equ 0EA3h");
+[; <" MACON4 equ 0EA3h ;# ">
+"297
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 297: __asm("MABBIPG equ 0EA4h");
+[; <" MABBIPG equ 0EA4h ;# ">
+"353
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 353: __asm("MAIPG equ 0EA6h");
+[; <" MAIPG equ 0EA6h ;# ">
+"360
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 360: __asm("MAIPGL equ 0EA6h");
+[; <" MAIPGL equ 0EA6h ;# ">
+"367
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 367: __asm("MAIPGH equ 0EA7h");
+[; <" MAIPGH equ 0EA7h ;# ">
+"374
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 374: __asm("MAMXFL equ 0EAAh");
+[; <" MAMXFL equ 0EAAh ;# ">
+"381
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 381: __asm("MAMXFLL equ 0EAAh");
+[; <" MAMXFLL equ 0EAAh ;# ">
+"388
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 388: __asm("MAMXFLH equ 0EABh");
+[; <" MAMXFLH equ 0EABh ;# ">
+"395
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 395: __asm("MICMD equ 0EB2h");
+[; <" MICMD equ 0EB2h ;# ">
+"421
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 421: __asm("MIREGADR equ 0EB4h");
+[; <" MIREGADR equ 0EB4h ;# ">
+"428
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 428: __asm("MIWR equ 0EB6h");
+[; <" MIWR equ 0EB6h ;# ">
+"435
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 435: __asm("MIWRL equ 0EB6h");
+[; <" MIWRL equ 0EB6h ;# ">
+"442
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 442: __asm("MIWRH equ 0EB7h");
+[; <" MIWRH equ 0EB7h ;# ">
+"449
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 449: __asm("MIRD equ 0EB8h");
+[; <" MIRD equ 0EB8h ;# ">
+"456
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 456: __asm("MIRDL equ 0EB8h");
+[; <" MIRDL equ 0EB8h ;# ">
+"463
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 463: __asm("MIRDH equ 0EB9h");
+[; <" MIRDH equ 0EB9h ;# ">
+"470
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 470: __asm("EHT0 equ 0EC0h");
+[; <" EHT0 equ 0EC0h ;# ">
+"477
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 477: __asm("EHT1 equ 0EC1h");
+[; <" EHT1 equ 0EC1h ;# ">
+"484
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 484: __asm("EHT2 equ 0EC2h");
+[; <" EHT2 equ 0EC2h ;# ">
+"491
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 491: __asm("EHT3 equ 0EC3h");
+[; <" EHT3 equ 0EC3h ;# ">
+"498
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 498: __asm("EHT4 equ 0EC4h");
+[; <" EHT4 equ 0EC4h ;# ">
+"505
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 505: __asm("EHT5 equ 0EC5h");
+[; <" EHT5 equ 0EC5h ;# ">
+"512
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 512: __asm("EHT6 equ 0EC6h");
+[; <" EHT6 equ 0EC6h ;# ">
+"519
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 519: __asm("EHT7 equ 0EC7h");
+[; <" EHT7 equ 0EC7h ;# ">
+"526
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 526: __asm("EPMM0 equ 0EC8h");
+[; <" EPMM0 equ 0EC8h ;# ">
+"533
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 533: __asm("EPMM1 equ 0EC9h");
+[; <" EPMM1 equ 0EC9h ;# ">
+"540
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 540: __asm("EPMM2 equ 0ECAh");
+[; <" EPMM2 equ 0ECAh ;# ">
+"547
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 547: __asm("EPMM3 equ 0ECBh");
+[; <" EPMM3 equ 0ECBh ;# ">
+"554
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 554: __asm("EPMM4 equ 0ECCh");
+[; <" EPMM4 equ 0ECCh ;# ">
+"561
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 561: __asm("EPMM5 equ 0ECDh");
+[; <" EPMM5 equ 0ECDh ;# ">
+"568
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 568: __asm("EPMM6 equ 0ECEh");
+[; <" EPMM6 equ 0ECEh ;# ">
+"575
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 575: __asm("EPMM7 equ 0ECFh");
+[; <" EPMM7 equ 0ECFh ;# ">
+"582
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 582: __asm("EPMCS equ 0ED0h");
+[; <" EPMCS equ 0ED0h ;# ">
+"589
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 589: __asm("EPMCSL equ 0ED0h");
+[; <" EPMCSL equ 0ED0h ;# ">
+"596
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 596: __asm("EPMCSH equ 0ED1h");
+[; <" EPMCSH equ 0ED1h ;# ">
+"603
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 603: __asm("EPMO equ 0ED4h");
+[; <" EPMO equ 0ED4h ;# ">
+"610
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 610: __asm("EPMOL equ 0ED4h");
+[; <" EPMOL equ 0ED4h ;# ">
+"617
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 617: __asm("EPMOH equ 0ED5h");
+[; <" EPMOH equ 0ED5h ;# ">
+"624
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 624: __asm("ERXFCON equ 0ED8h");
+[; <" ERXFCON equ 0ED8h ;# ">
+"686
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 686: __asm("EPKTCNT equ 0ED9h");
+[; <" EPKTCNT equ 0ED9h ;# ">
+"693
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 693: __asm("EWRPT equ 0EE2h");
+[; <" EWRPT equ 0EE2h ;# ">
+"700
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 700: __asm("EWRPTL equ 0EE2h");
+[; <" EWRPTL equ 0EE2h ;# ">
+"707
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 707: __asm("EWRPTH equ 0EE3h");
+[; <" EWRPTH equ 0EE3h ;# ">
+"714
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 714: __asm("ETXST equ 0EE4h");
+[; <" ETXST equ 0EE4h ;# ">
+"721
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 721: __asm("ETXSTL equ 0EE4h");
+[; <" ETXSTL equ 0EE4h ;# ">
+"728
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 728: __asm("ETXSTH equ 0EE5h");
+[; <" ETXSTH equ 0EE5h ;# ">
+"735
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 735: __asm("ETXND equ 0EE6h");
+[; <" ETXND equ 0EE6h ;# ">
+"742
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 742: __asm("ETXNDL equ 0EE6h");
+[; <" ETXNDL equ 0EE6h ;# ">
+"749
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 749: __asm("ETXNDH equ 0EE7h");
+[; <" ETXNDH equ 0EE7h ;# ">
+"756
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 756: __asm("ERXST equ 0EE8h");
+[; <" ERXST equ 0EE8h ;# ">
+"763
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 763: __asm("ERXSTL equ 0EE8h");
+[; <" ERXSTL equ 0EE8h ;# ">
+"770
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 770: __asm("ERXSTH equ 0EE9h");
+[; <" ERXSTH equ 0EE9h ;# ">
+"777
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 777: __asm("ERXND equ 0EEAh");
+[; <" ERXND equ 0EEAh ;# ">
+"784
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 784: __asm("ERXNDL equ 0EEAh");
+[; <" ERXNDL equ 0EEAh ;# ">
+"791
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 791: __asm("ERXNDH equ 0EEBh");
+[; <" ERXNDH equ 0EEBh ;# ">
+"798
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 798: __asm("ERXRDPT equ 0EECh");
+[; <" ERXRDPT equ 0EECh ;# ">
+"805
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 805: __asm("ERXRDPTL equ 0EECh");
+[; <" ERXRDPTL equ 0EECh ;# ">
+"812
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 812: __asm("ERXRDPTH equ 0EEDh");
+[; <" ERXRDPTH equ 0EEDh ;# ">
+"819
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 819: __asm("ERXWRPT equ 0EEEh");
+[; <" ERXWRPT equ 0EEEh ;# ">
+"826
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 826: __asm("ERXWRPTL equ 0EEEh");
+[; <" ERXWRPTL equ 0EEEh ;# ">
+"833
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 833: __asm("ERXWRPTH equ 0EEFh");
+[; <" ERXWRPTH equ 0EEFh ;# ">
+"840
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 840: __asm("EDMAST equ 0EF0h");
+[; <" EDMAST equ 0EF0h ;# ">
+"847
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 847: __asm("EDMASTL equ 0EF0h");
+[; <" EDMASTL equ 0EF0h ;# ">
+"854
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 854: __asm("EDMASTH equ 0EF1h");
+[; <" EDMASTH equ 0EF1h ;# ">
+"861
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 861: __asm("EDMAND equ 0EF2h");
+[; <" EDMAND equ 0EF2h ;# ">
+"868
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 868: __asm("EDMANDL equ 0EF2h");
+[; <" EDMANDL equ 0EF2h ;# ">
+"875
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 875: __asm("EDMANDH equ 0EF3h");
+[; <" EDMANDH equ 0EF3h ;# ">
+"882
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 882: __asm("EDMADST equ 0EF4h");
+[; <" EDMADST equ 0EF4h ;# ">
+"889
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 889: __asm("EDMADSTL equ 0EF4h");
+[; <" EDMADSTL equ 0EF4h ;# ">
+"896
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 896: __asm("EDMADSTH equ 0EF5h");
+[; <" EDMADSTH equ 0EF5h ;# ">
+"903
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 903: __asm("EDMACS equ 0EF6h");
+[; <" EDMACS equ 0EF6h ;# ">
+"910
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 910: __asm("EDMACSL equ 0EF6h");
+[; <" EDMACSL equ 0EF6h ;# ">
+"917
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 917: __asm("EDMACSH equ 0EF7h");
+[; <" EDMACSH equ 0EF7h ;# ">
+"924
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 924: __asm("EIE equ 0EFBh");
+[; <" EIE equ 0EFBh ;# ">
+"984
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 984: __asm("ESTAT equ 0EFDh");
+[; <" ESTAT equ 0EFDh ;# ">
+"1024
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1024: __asm("ECON2 equ 0EFEh");
+[; <" ECON2 equ 0EFEh ;# ">
+"1057
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1057: __asm("EIR equ 0F60h");
+[; <" EIR equ 0F60h ;# ">
+"1117
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1117: __asm("EDATA equ 0F61h");
+[; <" EDATA equ 0F61h ;# ">
+"1179
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1179: __asm("ECCP2DEL equ 0F67h");
+[; <" ECCP2DEL equ 0F67h ;# ">
+"1299
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1299: __asm("ECCP2AS equ 0F68h");
+[; <" ECCP2AS equ 0F68h ;# ">
+"1431
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1431: __asm("ECCP3DEL equ 0F69h");
+[; <" ECCP3DEL equ 0F69h ;# ">
+"1551
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1551: __asm("ECCP3AS equ 0F6Ah");
+[; <" ECCP3AS equ 0F6Ah ;# ">
+"1683
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1683: __asm("CCP5CON equ 0F70h");
+[; <" CCP5CON equ 0F70h ;# ">
+"1762
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1762: __asm("CCPR5 equ 0F71h");
+[; <" CCPR5 equ 0F71h ;# ">
+"1769
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1769: __asm("CCPR5L equ 0F71h");
+[; <" CCPR5L equ 0F71h ;# ">
+"1776
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1776: __asm("CCPR5H equ 0F72h");
+[; <" CCPR5H equ 0F72h ;# ">
+"1783
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1783: __asm("CCP4CON equ 0F73h");
+[; <" CCP4CON equ 0F73h ;# ">
+"1862
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1862: __asm("CCPR4 equ 0F74h");
+[; <" CCPR4 equ 0F74h ;# ">
+"1869
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1869: __asm("CCPR4L equ 0F74h");
+[; <" CCPR4L equ 0F74h ;# ">
+"1876
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1876: __asm("CCPR4H equ 0F75h");
+[; <" CCPR4H equ 0F75h ;# ">
+"1883
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1883: __asm("T4CON equ 0F76h");
+[; <" T4CON equ 0F76h ;# ">
+"1954
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1954: __asm("PR4 equ 0F77h");
+[; <" PR4 equ 0F77h ;# ">
+"1961
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1961: __asm("TMR4 equ 0F78h");
+[; <" TMR4 equ 0F78h ;# ">
+"1968
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 1968: __asm("ECCP1DEL equ 0F79h");
+[; <" ECCP1DEL equ 0F79h ;# ">
+"2088
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2088: __asm("ERDPT equ 0F7Ah");
+[; <" ERDPT equ 0F7Ah ;# ">
+"2095
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2095: __asm("ERDPTL equ 0F7Ah");
+[; <" ERDPTL equ 0F7Ah ;# ">
+"2102
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2102: __asm("ERDPTH equ 0F7Bh");
+[; <" ERDPTH equ 0F7Bh ;# ">
+"2109
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2109: __asm("BAUDCON1 equ 0F7Eh");
+[; <" BAUDCON1 equ 0F7Eh ;# ">
+"2114
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2114: __asm("BAUDCON equ 0F7Eh");
+[; <" BAUDCON equ 0F7Eh ;# ">
+"2118
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2118: __asm("BAUDCTL equ 0F7Eh");
+[; <" BAUDCTL equ 0F7Eh ;# ">
+"2122
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2122: __asm("BAUDCTL1 equ 0F7Eh");
+[; <" BAUDCTL1 equ 0F7Eh ;# ">
+"2787
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2787: __asm("SPBRGH1 equ 0F7Fh");
+[; <" SPBRGH1 equ 0F7Fh ;# ">
+"2792
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2792: __asm("SPBRGH equ 0F7Fh");
+[; <" SPBRGH equ 0F7Fh ;# ">
+"2799
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2799: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"2928
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 2928: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"3070
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3070: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"3310
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3310: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"3366
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3366: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"3501
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3501: __asm("PORTF equ 0F85h");
+[; <" PORTF equ 0F85h ;# ">
+"3670
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3670: __asm("PORTG equ 0F86h");
+[; <" PORTG equ 0F86h ;# ">
+"3700
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3700: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"3821
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3821: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"3933
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 3933: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"4045
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4045: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"4097
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4097: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"4185
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4185: __asm("LATF equ 0F8Eh");
+[; <" LATF equ 0F8Eh ;# ">
+"4287
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4287: __asm("LATG equ 0F8Fh");
+[; <" LATG equ 0F8Fh ;# ">
+"4317
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4317: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"4322
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4322: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"4491
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4491: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"4496
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4496: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"4713
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4713: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"4718
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4718: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"4935
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4935: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"4940
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 4940: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"5037
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5037: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"5042
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5042: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"5211
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5211: __asm("TRISF equ 0F97h");
+[; <" TRISF equ 0F97h ;# ">
+"5216
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5216: __asm("DDRF equ 0F97h");
+[; <" DDRF equ 0F97h ;# ">
+"5413
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5413: __asm("TRISG equ 0F98h");
+[; <" TRISG equ 0F98h ;# ">
+"5418
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5418: __asm("DDRG equ 0F98h");
+[; <" DDRG equ 0F98h ;# ">
+"5471
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5471: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"5525
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5525: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"5602
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5602: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"5682
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5682: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"5759
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5759: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"5820
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5820: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"5881
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5881: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"5942
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 5942: __asm("PIE3 equ 0FA3h");
+[; <" PIE3 equ 0FA3h ;# ">
+"6015
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6015: __asm("PIR3 equ 0FA4h");
+[; <" PIR3 equ 0FA4h ;# ">
+"6062
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6062: __asm("IPR3 equ 0FA5h");
+[; <" IPR3 equ 0FA5h ;# ">
+"6109
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6109: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"6148
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6148: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"6155
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6155: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"6160
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6160: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"6479
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6479: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"6484
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6484: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"6767
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6767: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"6772
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6772: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"6779
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6779: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"6784
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6784: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"6791
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6791: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"6796
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6796: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"6803
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6803: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"6924
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6924: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"6931
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6931: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"6938
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6938: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"6945
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 6945: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"7035
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7035: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"7114
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7114: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"7246
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7246: __asm("CCP3CON equ 0FB7h");
+[; <" CCP3CON equ 0FB7h ;# ">
+"7251
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7251: __asm("ECCP3CON equ 0FB7h");
+[; <" ECCP3CON equ 0FB7h ;# ">
+"7438
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7438: __asm("CCPR3 equ 0FB8h");
+[; <" CCPR3 equ 0FB8h ;# ">
+"7445
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7445: __asm("CCPR3L equ 0FB8h");
+[; <" CCPR3L equ 0FB8h ;# ">
+"7452
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7452: __asm("CCPR3H equ 0FB9h");
+[; <" CCPR3H equ 0FB9h ;# ">
+"7459
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7459: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"7464
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7464: __asm("ECCP2CON equ 0FBAh");
+[; <" ECCP2CON equ 0FBAh ;# ">
+"7651
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7651: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"7658
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7658: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"7665
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7665: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"7672
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7672: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"7677
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7677: __asm("ECCP1CON equ 0FBDh");
+[; <" ECCP1CON equ 0FBDh ;# ">
+"7864
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7864: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"7871
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7871: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"7878
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7878: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"7885
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7885: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"7956
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 7956: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"8041
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8041: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"8167
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8167: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"8174
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8174: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"8181
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8181: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"8188
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8188: __asm("SSP1CON2 equ 0FC5h");
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"8193
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8193: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"8560
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8560: __asm("SSP1CON1 equ 0FC6h");
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"8565
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8565: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"8798
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8798: __asm("SSP1STAT equ 0FC7h");
+[; <" SSP1STAT equ 0FC7h ;# ">
+"8803
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 8803: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"9396
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9396: __asm("SSP1ADD equ 0FC8h");
+[; <" SSP1ADD equ 0FC8h ;# ">
+"9401
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9401: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"9618
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9618: __asm("SSP1BUF equ 0FC9h");
+[; <" SSP1BUF equ 0FC9h ;# ">
+"9623
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9623: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"9630
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9630: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"9701
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9701: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"9706
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9706: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"9811
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9811: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"9818
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9818: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"9930
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9930: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"9937
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9937: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"9944
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9944: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"9951
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 9951: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"10099
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10099: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"10127
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10127: __asm("ECON1 equ 0FD2h");
+[; <" ECON1 equ 0FD2h ;# ">
+"10178
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10178: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"10226
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10226: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"10296
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10296: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"10303
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10303: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"10310
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10310: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"10317
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10317: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"10388
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10388: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"10395
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10395: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"10402
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10402: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"10409
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10409: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"10416
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10416: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"10423
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10423: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"10430
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10430: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"10437
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10437: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"10444
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10444: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"10451
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10451: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"10458
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10458: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"10465
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10465: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"10472
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10472: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"10479
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10479: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"10486
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10486: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"10493
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10493: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"10500
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10500: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"10507
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10507: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"10514
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10514: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"10521
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10521: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"10528
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10528: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"10535
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10535: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"10542
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10542: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"10549
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10549: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"10556
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10556: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"10563
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10563: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"10570
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10570: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"10682
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10682: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"10769
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10769: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"10886
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10886: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"10893
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10893: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"10900
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10900: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"10907
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10907: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"10916
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10916: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"10923
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10923: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"10930
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10930: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"10937
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10937: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"10946
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10946: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"10953
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10953: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"10960
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10960: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"10967
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10967: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"10974
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10974: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"10981
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 10981: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"11087
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11087: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"11094
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11094: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"11101
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11101: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"11108
+[; ;C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h: 11108: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"103 Microchip/TCPIP_Stack/Helpers.c
+[; ;Microchip/TCPIP_Stack/Helpers.c: 103: DWORD GenerateRandomDWORD(void)
+[v _GenerateRandomDWORD `(ul ~T0 @X0 1 ef ]
+"104
+[; ;Microchip/TCPIP_Stack/Helpers.c: 104: {
+{
+[e :U _GenerateRandomDWORD ]
+[f ]
+"105
+[; ;Microchip/TCPIP_Stack/Helpers.c: 105:  BYTE vBitCount;
+[v _vBitCount `uc ~T0 @X0 1 a ]
+"106
+[; ;Microchip/TCPIP_Stack/Helpers.c: 106:  WORD w, wTime, wLastValue;
+[v _w `us ~T0 @X0 1 a ]
+[v _wTime `us ~T0 @X0 1 a ]
+[v _wLastValue `us ~T0 @X0 1 a ]
+"107
+[; ;Microchip/TCPIP_Stack/Helpers.c: 107:  DWORD dwTotalTime;
+[v _dwTotalTime `ul ~T0 @X0 1 a ]
+"108
+[; ;Microchip/TCPIP_Stack/Helpers.c: 108:  DWORD dwRandomResult;
+[v _dwRandomResult `ul ~T0 @X0 1 a ]
+"111
+[; ;Microchip/TCPIP_Stack/Helpers.c: 111: {
+{
+"112
+[; ;Microchip/TCPIP_Stack/Helpers.c: 112:  BYTE ADCON0Save, ADCON2Save;
+[v _ADCON0Save `uc ~T0 @X0 1 a ]
+[v _ADCON2Save `uc ~T0 @X0 1 a ]
+"113
+[; ;Microchip/TCPIP_Stack/Helpers.c: 113:  BYTE T0CONSave, TMR0HSave, TMR0LSave;
+[v _T0CONSave `uc ~T0 @X0 1 a ]
+[v _TMR0HSave `uc ~T0 @X0 1 a ]
+[v _TMR0LSave `uc ~T0 @X0 1 a ]
+"116
+[; ;Microchip/TCPIP_Stack/Helpers.c: 116:  ADCON0Save = ADCON0;
+[e = _ADCON0Save _ADCON0 ]
+"117
+[; ;Microchip/TCPIP_Stack/Helpers.c: 117:  ADCON2Save = ADCON2;
+[e = _ADCON2Save _ADCON2 ]
+"118
+[; ;Microchip/TCPIP_Stack/Helpers.c: 118:  T0CONSave = T0CON;
+[e = _T0CONSave _T0CON ]
+"119
+[; ;Microchip/TCPIP_Stack/Helpers.c: 119:  TMR0LSave = TMR0L;
+[e = _TMR0LSave _TMR0L ]
+"120
+[; ;Microchip/TCPIP_Stack/Helpers.c: 120:  TMR0HSave = TMR0H;
+[e = _TMR0HSave _TMR0H ]
+"123
+[; ;Microchip/TCPIP_Stack/Helpers.c: 123:  ADCON0 = 0x01;
+[e = _ADCON0 -> -> 1 `i `uc ]
+"124
+[; ;Microchip/TCPIP_Stack/Helpers.c: 124:  ADCON2 = 0x3F;
+[e = _ADCON2 -> -> 63 `i `uc ]
+"125
+[; ;Microchip/TCPIP_Stack/Helpers.c: 125:  T0CON = 0x88;
+[e = _T0CON -> -> 136 `i `uc ]
+"126
+[; ;Microchip/TCPIP_Stack/Helpers.c: 126:  vBitCount = 0;
+[e = _vBitCount -> -> 0 `i `uc ]
+"127
+[; ;Microchip/TCPIP_Stack/Helpers.c: 127:  dwTotalTime = 0;
+[e = _dwTotalTime -> -> -> 0 `i `l `ul ]
+"128
+[; ;Microchip/TCPIP_Stack/Helpers.c: 128:  wLastValue = 0;
+[e = _wLastValue -> -> 0 `i `us ]
+"129
+[; ;Microchip/TCPIP_Stack/Helpers.c: 129:  dwRandomResult = rand();
+[e = _dwRandomResult -> -> ( _rand ..  `l `ul ]
+"130
+[; ;Microchip/TCPIP_Stack/Helpers.c: 130:  while(1)
+[e :U 520 ]
+"131
+[; ;Microchip/TCPIP_Stack/Helpers.c: 131:  {
+{
+"133
+[; ;Microchip/TCPIP_Stack/Helpers.c: 133:   TMR0H = 0x00;
+[e = _TMR0H -> -> 0 `i `uc ]
+"134
+[; ;Microchip/TCPIP_Stack/Helpers.c: 134:   TMR0L = 0x00;
+[e = _TMR0L -> -> 0 `i `uc ]
+"135
+[; ;Microchip/TCPIP_Stack/Helpers.c: 135:   ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 4 1 -> -> 1 `i `uc ]
+"136
+[; ;Microchip/TCPIP_Stack/Helpers.c: 136:   __asm(" clrwdt");
+[; <"  clrwdt ;# ">
+"137
+[; ;Microchip/TCPIP_Stack/Helpers.c: 137:   while(ADCON0bits.GO);
+[e $U 522  ]
+[e :U 523 ]
+[e :U 522 ]
+[e $ != -> . . _ADCON0bits 4 1 `i -> 0 `i 523  ]
+[e :U 524 ]
+"138
+[; ;Microchip/TCPIP_Stack/Helpers.c: 138:   ((BYTE*)&wTime)[0] = TMR0L;
+[e = *U + -> &U _wTime `*uc * -> -> 0 `i `x -> -> # *U -> &U _wTime `*uc `i `x _TMR0L ]
+"139
+[; ;Microchip/TCPIP_Stack/Helpers.c: 139:   ((BYTE*)&wTime)[1] = TMR0H;
+[e = *U + -> &U _wTime `*uc * -> -> 1 `i `x -> -> # *U -> &U _wTime `*uc `i `x _TMR0H ]
+"140
+[; ;Microchip/TCPIP_Stack/Helpers.c: 140:   w = rand();
+[e = _w -> ( _rand ..  `us ]
+"143
+[; ;Microchip/TCPIP_Stack/Helpers.c: 143:   dwTotalTime += wTime;
+[e =+ _dwTotalTime -> _wTime `ul ]
+"144
+[; ;Microchip/TCPIP_Stack/Helpers.c: 144:   if(dwTotalTime >= ((41666667ul)/4))
+[e $ ! >= _dwTotalTime / -> 41666667 `ul -> -> -> 4 `i `l `ul 525  ]
+"145
+[; ;Microchip/TCPIP_Stack/Helpers.c: 145:   {
+{
+"146
+[; ;Microchip/TCPIP_Stack/Helpers.c: 146:    dwRandomResult ^= rand() | (((DWORD)rand())<<15ul) | (((DWORD)rand())<<30ul);
+[e =^ _dwRandomResult | | -> -> ( _rand ..  `l `ul << -> ( _rand ..  `ul -> 15 `ul << -> ( _rand ..  `ul -> 30 `ul ]
+"147
+[; ;Microchip/TCPIP_Stack/Helpers.c: 147:    break;
+[e $U 521  ]
+"148
+[; ;Microchip/TCPIP_Stack/Helpers.c: 148:   }
+}
+[e :U 525 ]
+"151
+[; ;Microchip/TCPIP_Stack/Helpers.c: 151:   if(wLastValue == wTime)
+[e $ ! == -> _wLastValue `ui -> _wTime `ui 526  ]
+"152
+[; ;Microchip/TCPIP_Stack/Helpers.c: 152:    continue;
+[e $U 519  ]
+[e :U 526 ]
+"155
+[; ;Microchip/TCPIP_Stack/Helpers.c: 155:   srand(w + (wLastValue - wTime));
+[e ( _srand (1 + -> _w `ui - -> _wLastValue `ui -> _wTime `ui ]
+"156
+[; ;Microchip/TCPIP_Stack/Helpers.c: 156:   wLastValue = wTime;
+[e = _wLastValue _wTime ]
+"159
+[; ;Microchip/TCPIP_Stack/Helpers.c: 159:   dwRandomResult <<= 1;
+[e =<< _dwRandomResult -> -> 1 `i `ul ]
+"160
+[; ;Microchip/TCPIP_Stack/Helpers.c: 160:   if(rand() >= 16384)
+[e $ ! >= ( _rand ..  -> 16384 `i 527  ]
+"161
+[; ;Microchip/TCPIP_Stack/Helpers.c: 161:    dwRandomResult |= 0x1;
+[e =| _dwRandomResult -> -> -> 1 `i `l `ul ]
+[e :U 527 ]
+"164
+[; ;Microchip/TCPIP_Stack/Helpers.c: 164:   if(++vBitCount == 0u)
+[e $ ! == -> =+ _vBitCount -> -> 1 `i `uc `ui -> 0 `ui 528  ]
+"165
+[; ;Microchip/TCPIP_Stack/Helpers.c: 165:    break;
+[e $U 521  ]
+[e :U 528 ]
+"166
+[; ;Microchip/TCPIP_Stack/Helpers.c: 166:  }
+}
+[e :U 519 ]
+[e $U 520  ]
+[e :U 521 ]
+"169
+[; ;Microchip/TCPIP_Stack/Helpers.c: 169:  ADCON0 = ADCON0Save;
+[e = _ADCON0 _ADCON0Save ]
+"170
+[; ;Microchip/TCPIP_Stack/Helpers.c: 170:  ADCON2 = ADCON2Save;
+[e = _ADCON2 _ADCON2Save ]
+"171
+[; ;Microchip/TCPIP_Stack/Helpers.c: 171:  TMR0H = TMR0HSave;
+[e = _TMR0H _TMR0HSave ]
+"172
+[; ;Microchip/TCPIP_Stack/Helpers.c: 172:  TMR0L = TMR0LSave;
+[e = _TMR0L _TMR0LSave ]
+"173
+[; ;Microchip/TCPIP_Stack/Helpers.c: 173:  T0CON = T0CONSave;
+[e = _T0CON _T0CONSave ]
+"174
+[; ;Microchip/TCPIP_Stack/Helpers.c: 174: }
+}
+"251
+[; ;Microchip/TCPIP_Stack/Helpers.c: 251:  return dwRandomResult;
+[e ) _dwRandomResult ]
+[e $UE 518  ]
+"252
+[; ;Microchip/TCPIP_Stack/Helpers.c: 252: }
+[e :UE 518 ]
+}
+"327
+[; ;Microchip/TCPIP_Stack/Helpers.c: 327: BOOL StringToIPAddress(BYTE* str, DWORD_VAL* IPAddress)
+[v _StringToIPAddress `(E332 ~T0 @X0 1 ef2`*uc`*S29 ]
+"328
+[; ;Microchip/TCPIP_Stack/Helpers.c: 328: {
+{
+[e :U _StringToIPAddress ]
+"327
+[; ;Microchip/TCPIP_Stack/Helpers.c: 327: BOOL StringToIPAddress(BYTE* str, DWORD_VAL* IPAddress)
+[v _str `*uc ~T0 @X0 1 r1 ]
+[v _IPAddress `*S29 ~T0 @X0 1 r2 ]
+"328
+[; ;Microchip/TCPIP_Stack/Helpers.c: 328: {
+[f ]
+"329
+[; ;Microchip/TCPIP_Stack/Helpers.c: 329:  DWORD_VAL dwVal;
+[v _dwVal `S29 ~T0 @X0 1 a ]
+"330
+[; ;Microchip/TCPIP_Stack/Helpers.c: 330:  BYTE i, charLen, currentOctet;
+[v _i `uc ~T0 @X0 1 a ]
+[v _charLen `uc ~T0 @X0 1 a ]
+[v _currentOctet `uc ~T0 @X0 1 a ]
+"332
+[; ;Microchip/TCPIP_Stack/Helpers.c: 332:  charLen = 0;
+[e = _charLen -> -> 0 `i `uc ]
+"333
+[; ;Microchip/TCPIP_Stack/Helpers.c: 333:  currentOctet = 0;
+[e = _currentOctet -> -> 0 `i `uc ]
+"334
+[; ;Microchip/TCPIP_Stack/Helpers.c: 334:  dwVal.Val = 0;
+[e = . _dwVal 0 -> -> -> 0 `i `l `ul ]
+"335
+[; ;Microchip/TCPIP_Stack/Helpers.c: 335:  while((i = *str++))
+[e $U 530  ]
+[e :U 531 ]
+"336
+[; ;Microchip/TCPIP_Stack/Helpers.c: 336:  {
+{
+"337
+[; ;Microchip/TCPIP_Stack/Helpers.c: 337:   if(currentOctet > 3u)
+[e $ ! > -> _currentOctet `ui -> 3 `ui 533  ]
+"338
+[; ;Microchip/TCPIP_Stack/Helpers.c: 338:    break;
+[e $U 532  ]
+[e :U 533 ]
+"340
+[; ;Microchip/TCPIP_Stack/Helpers.c: 340:   i -= '0';
+[e =- _i -> -> 48 `ui `uc ]
+"344
+[; ;Microchip/TCPIP_Stack/Helpers.c: 344:   if(charLen == 0u)
+[e $ ! == -> _charLen `ui -> 0 `ui 534  ]
+"345
+[; ;Microchip/TCPIP_Stack/Helpers.c: 345:   {
+{
+"346
+[; ;Microchip/TCPIP_Stack/Helpers.c: 346:    if(i > 9u)
+[e $ ! > -> _i `ui -> 9 `ui 535  ]
+"347
+[; ;Microchip/TCPIP_Stack/Helpers.c: 347:     return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 535 ]
+"348
+[; ;Microchip/TCPIP_Stack/Helpers.c: 348:   }
+}
+[e $U 536  ]
+"349
+[; ;Microchip/TCPIP_Stack/Helpers.c: 349:   else if(charLen == 3u)
+[e :U 534 ]
+[e $ ! == -> _charLen `ui -> 3 `ui 537  ]
+"350
+[; ;Microchip/TCPIP_Stack/Helpers.c: 350:   {
+{
+"351
+[; ;Microchip/TCPIP_Stack/Helpers.c: 351:    if(i != (BYTE)('.' - '0'))
+[e $ ! != -> _i `i -> -> - -> 46 `ui -> 48 `ui `uc `i 538  ]
+"352
+[; ;Microchip/TCPIP_Stack/Helpers.c: 352:     return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 538 ]
+"354
+[; ;Microchip/TCPIP_Stack/Helpers.c: 354:    if(dwVal.Val > 0x00020505ul)
+[e $ ! > . _dwVal 0 -> 132357 `ul 539  ]
+"355
+[; ;Microchip/TCPIP_Stack/Helpers.c: 355:     return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 539 ]
+"357
+[; ;Microchip/TCPIP_Stack/Helpers.c: 357:    IPAddress->v[currentOctet++] = dwVal.v[2]*((BYTE)100) + dwVal.v[1]*((BYTE)10) + dwVal.v[0];
+[e = *U + &U . *U _IPAddress 2 * -> ++ _currentOctet -> -> 1 `i `uc `ux -> -> # *U &U . *U _IPAddress 2 `ui `ux -> + + * -> *U + &U . _dwVal 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 100 `i `uc `i * -> *U + &U . _dwVal 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 10 `i `uc `i -> *U + &U . _dwVal 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i `uc ]
+"358
+[; ;Microchip/TCPIP_Stack/Helpers.c: 358:    charLen = 0;
+[e = _charLen -> -> 0 `i `uc ]
+"359
+[; ;Microchip/TCPIP_Stack/Helpers.c: 359:    dwVal.Val = 0;
+[e = . _dwVal 0 -> -> -> 0 `i `l `ul ]
+"360
+[; ;Microchip/TCPIP_Stack/Helpers.c: 360:    continue;
+[e $U 530  ]
+"361
+[; ;Microchip/TCPIP_Stack/Helpers.c: 361:   }
+}
+[e $U 540  ]
+"362
+[; ;Microchip/TCPIP_Stack/Helpers.c: 362:   else
+[e :U 537 ]
+"363
+[; ;Microchip/TCPIP_Stack/Helpers.c: 363:   {
+{
+"364
+[; ;Microchip/TCPIP_Stack/Helpers.c: 364:    if(i == (BYTE)('.' - '0'))
+[e $ ! == -> _i `i -> -> - -> 46 `ui -> 48 `ui `uc `i 541  ]
+"365
+[; ;Microchip/TCPIP_Stack/Helpers.c: 365:    {
+{
+"366
+[; ;Microchip/TCPIP_Stack/Helpers.c: 366:     if(dwVal.Val > 0x00020505ul)
+[e $ ! > . _dwVal 0 -> 132357 `ul 542  ]
+"367
+[; ;Microchip/TCPIP_Stack/Helpers.c: 367:      return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 542 ]
+"369
+[; ;Microchip/TCPIP_Stack/Helpers.c: 369:     IPAddress->v[currentOctet++] = dwVal.v[2]*((BYTE)100) + dwVal.v[1]*((BYTE)10) + dwVal.v[0];
+[e = *U + &U . *U _IPAddress 2 * -> ++ _currentOctet -> -> 1 `i `uc `ux -> -> # *U &U . *U _IPAddress 2 `ui `ux -> + + * -> *U + &U . _dwVal 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 100 `i `uc `i * -> *U + &U . _dwVal 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 10 `i `uc `i -> *U + &U . _dwVal 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i `uc ]
+"370
+[; ;Microchip/TCPIP_Stack/Helpers.c: 370:     charLen = 0;
+[e = _charLen -> -> 0 `i `uc ]
+"371
+[; ;Microchip/TCPIP_Stack/Helpers.c: 371:     dwVal.Val = 0;
+[e = . _dwVal 0 -> -> -> 0 `i `l `ul ]
+"372
+[; ;Microchip/TCPIP_Stack/Helpers.c: 372:     continue;
+[e $U 530  ]
+"373
+[; ;Microchip/TCPIP_Stack/Helpers.c: 373:    }
+}
+[e :U 541 ]
+"374
+[; ;Microchip/TCPIP_Stack/Helpers.c: 374:    if(i > 9u)
+[e $ ! > -> _i `ui -> 9 `ui 543  ]
+"375
+[; ;Microchip/TCPIP_Stack/Helpers.c: 375:     return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 543 ]
+"376
+[; ;Microchip/TCPIP_Stack/Helpers.c: 376:   }
+}
+[e :U 540 ]
+[e :U 536 ]
+"378
+[; ;Microchip/TCPIP_Stack/Helpers.c: 378:   charLen++;
+[e ++ _charLen -> -> 1 `i `uc ]
+"379
+[; ;Microchip/TCPIP_Stack/Helpers.c: 379:   dwVal.Val <<= 8;
+[e =<< . _dwVal 0 -> -> 8 `i `ul ]
+"380
+[; ;Microchip/TCPIP_Stack/Helpers.c: 380:   dwVal.v[0] = i;
+[e = *U + &U . _dwVal 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux _i ]
+"381
+[; ;Microchip/TCPIP_Stack/Helpers.c: 381:  }
+}
+[e :U 530 ]
+"335
+[; ;Microchip/TCPIP_Stack/Helpers.c: 335:  while((i = *str++))
+[e $ != -> = _i *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `i -> 0 `i 531  ]
+[e :U 532 ]
+"386
+[; ;Microchip/TCPIP_Stack/Helpers.c: 386:  if(i != 0u && i != '/' && i != '\r' && i != '\n' && i != ' ' && i != '\t')
+[e $ ! && && && && && != -> _i `ui -> 0 `ui != -> _i `ui -> 47 `ui != -> _i `ui -> 13 `ui != -> _i `ui -> 10 `ui != -> _i `ui -> 32 `ui != -> _i `ui -> 9 `ui 544  ]
+"387
+[; ;Microchip/TCPIP_Stack/Helpers.c: 387:   return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 544 ]
+"390
+[; ;Microchip/TCPIP_Stack/Helpers.c: 390:  if(dwVal.Val > 0x00020505ul)
+[e $ ! > . _dwVal 0 -> 132357 `ul 545  ]
+"391
+[; ;Microchip/TCPIP_Stack/Helpers.c: 391:   return FALSE;
+[e ) . `E332 0 ]
+[e $UE 529  ]
+[e :U 545 ]
+"393
+[; ;Microchip/TCPIP_Stack/Helpers.c: 393:  IPAddress->v[3] = dwVal.v[2]*((BYTE)100) + dwVal.v[1]*((BYTE)10) + dwVal.v[0];
+[e = *U + &U . *U _IPAddress 2 * -> -> -> 3 `i `ui `ux -> -> # *U &U . *U _IPAddress 2 `ui `ux -> + + * -> *U + &U . _dwVal 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 100 `i `uc `i * -> *U + &U . _dwVal 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i -> -> -> 10 `i `uc `i -> *U + &U . _dwVal 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _dwVal 2 `ui `ux `i `uc ]
+"395
+[; ;Microchip/TCPIP_Stack/Helpers.c: 395:  return TRUE;
+[e ) . `E332 1 ]
+[e $UE 529  ]
+"396
+[; ;Microchip/TCPIP_Stack/Helpers.c: 396: }
+[e :UE 529 ]
+}
+"527
+[; ;Microchip/TCPIP_Stack/Helpers.c: 527: WORD Base64Decode(BYTE* cSourceData, WORD wSourceLen, BYTE* cDestData, WORD wDestLen)
+[v _Base64Decode `(us ~T0 @X0 1 ef4`*uc`us`*uc`us ]
+"528
+[; ;Microchip/TCPIP_Stack/Helpers.c: 528: {
+{
+[e :U _Base64Decode ]
+"527
+[; ;Microchip/TCPIP_Stack/Helpers.c: 527: WORD Base64Decode(BYTE* cSourceData, WORD wSourceLen, BYTE* cDestData, WORD wDestLen)
+[v _cSourceData `*uc ~T0 @X0 1 r1 ]
+[v _wSourceLen `us ~T0 @X0 1 r2 ]
+[v _cDestData `*uc ~T0 @X0 1 r3 ]
+[v _wDestLen `us ~T0 @X0 1 r4 ]
+"528
+[; ;Microchip/TCPIP_Stack/Helpers.c: 528: {
+[f ]
+"529
+[; ;Microchip/TCPIP_Stack/Helpers.c: 529:  BYTE i;
+[v _i `uc ~T0 @X0 1 a ]
+"530
+[; ;Microchip/TCPIP_Stack/Helpers.c: 530:  BYTE vByteNumber;
+[v _vByteNumber `uc ~T0 @X0 1 a ]
+"531
+[; ;Microchip/TCPIP_Stack/Helpers.c: 531:  BOOL bPad;
+[v _bPad `E332 ~T0 @X0 1 a ]
+"532
+[; ;Microchip/TCPIP_Stack/Helpers.c: 532:  WORD wBytesOutput;
+[v _wBytesOutput `us ~T0 @X0 1 a ]
+"534
+[; ;Microchip/TCPIP_Stack/Helpers.c: 534:  vByteNumber = 0;
+[e = _vByteNumber -> -> 0 `i `uc ]
+"535
+[; ;Microchip/TCPIP_Stack/Helpers.c: 535:  wBytesOutput = 0;
+[e = _wBytesOutput -> -> 0 `i `us ]
+"538
+[; ;Microchip/TCPIP_Stack/Helpers.c: 538:  while(wSourceLen--)
+[e $U 547  ]
+[e :U 548 ]
+"539
+[; ;Microchip/TCPIP_Stack/Helpers.c: 539:  {
+{
+"541
+[; ;Microchip/TCPIP_Stack/Helpers.c: 541:   i = *cSourceData++;
+[e = _i *U ++ _cSourceData * -> -> 1 `i `x -> -> # *U _cSourceData `i `x ]
+"542
+[; ;Microchip/TCPIP_Stack/Helpers.c: 542:   bPad = (i == '=');
+[e = _bPad -> -> == -> _i `ui -> 61 `ui `i `E332 ]
+"543
+[; ;Microchip/TCPIP_Stack/Helpers.c: 543:   if(i >= 'A' && i <= 'Z')
+[e $ ! && >= -> _i `ui -> 65 `ui <= -> _i `ui -> 90 `ui 550  ]
+"544
+[; ;Microchip/TCPIP_Stack/Helpers.c: 544:    i -= 'A' - 0;
+[e =- _i -> - -> 65 `ui -> -> 0 `i `ui `uc ]
+[e $U 551  ]
+"545
+[; ;Microchip/TCPIP_Stack/Helpers.c: 545:   else if(i >= 'a' && i <= 'z')
+[e :U 550 ]
+[e $ ! && >= -> _i `ui -> 97 `ui <= -> _i `ui -> 122 `ui 552  ]
+"546
+[; ;Microchip/TCPIP_Stack/Helpers.c: 546:    i -= 'a' - 26;
+[e =- _i -> - -> 97 `ui -> -> 26 `i `ui `uc ]
+[e $U 553  ]
+"547
+[; ;Microchip/TCPIP_Stack/Helpers.c: 547:   else if(i >= '0' && i <= '9')
+[e :U 552 ]
+[e $ ! && >= -> _i `ui -> 48 `ui <= -> _i `ui -> 57 `ui 554  ]
+"548
+[; ;Microchip/TCPIP_Stack/Helpers.c: 548:    i -= '0' - 52;
+[e =- _i -> - -> 48 `ui -> -> 52 `i `ui `uc ]
+[e $U 555  ]
+"549
+[; ;Microchip/TCPIP_Stack/Helpers.c: 549:   else if(i == '+' || i == '-')
+[e :U 554 ]
+[e $ ! || == -> _i `ui -> 43 `ui == -> _i `ui -> 45 `ui 556  ]
+"550
+[; ;Microchip/TCPIP_Stack/Helpers.c: 550:    i = 62;
+[e = _i -> -> 62 `i `uc ]
+[e $U 557  ]
+"551
+[; ;Microchip/TCPIP_Stack/Helpers.c: 551:   else if(i == '/' || i == '_')
+[e :U 556 ]
+[e $ ! || == -> _i `ui -> 47 `ui == -> _i `ui -> 95 `ui 558  ]
+"552
+[; ;Microchip/TCPIP_Stack/Helpers.c: 552:    i = 63;
+[e = _i -> -> 63 `i `uc ]
+[e $U 559  ]
+"553
+[; ;Microchip/TCPIP_Stack/Helpers.c: 553:   else
+[e :U 558 ]
+"554
+[; ;Microchip/TCPIP_Stack/Helpers.c: 554:    continue;
+[e $U 547  ]
+[e :U 559 ]
+[e :U 557 ]
+[e :U 555 ]
+[e :U 553 ]
+[e :U 551 ]
+"558
+[; ;Microchip/TCPIP_Stack/Helpers.c: 558:   if(vByteNumber == 0u)
+[e $ ! == -> _vByteNumber `ui -> 0 `ui 560  ]
+"559
+[; ;Microchip/TCPIP_Stack/Helpers.c: 559:   {
+{
+"560
+[; ;Microchip/TCPIP_Stack/Helpers.c: 560:    if(bPad)
+[e $ ! != -> _bPad `ui -> -> 0 `i `ui 561  ]
+"561
+[; ;Microchip/TCPIP_Stack/Helpers.c: 561:     continue;
+[e $U 547  ]
+[e :U 561 ]
+"562
+[; ;Microchip/TCPIP_Stack/Helpers.c: 562:    vByteNumber++;
+[e ++ _vByteNumber -> -> 1 `i `uc ]
+"563
+[; ;Microchip/TCPIP_Stack/Helpers.c: 563:    if(wBytesOutput >= wDestLen)
+[e $ ! >= -> _wBytesOutput `ui -> _wDestLen `ui 562  ]
+"564
+[; ;Microchip/TCPIP_Stack/Helpers.c: 564:     break;
+[e $U 549  ]
+[e :U 562 ]
+"565
+[; ;Microchip/TCPIP_Stack/Helpers.c: 565:    wBytesOutput++;
+[e ++ _wBytesOutput -> -> 1 `i `us ]
+"566
+[; ;Microchip/TCPIP_Stack/Helpers.c: 566:    *cDestData = i << 2;
+[e = *U _cDestData -> << -> _i `i -> 2 `i `uc ]
+"567
+[; ;Microchip/TCPIP_Stack/Helpers.c: 567:   }
+}
+[e $U 563  ]
+"568
+[; ;Microchip/TCPIP_Stack/Helpers.c: 568:   else if(vByteNumber == 1u)
+[e :U 560 ]
+[e $ ! == -> _vByteNumber `ui -> 1 `ui 564  ]
+"569
+[; ;Microchip/TCPIP_Stack/Helpers.c: 569:   {
+{
+"570
+[; ;Microchip/TCPIP_Stack/Helpers.c: 570:    vByteNumber++;
+[e ++ _vByteNumber -> -> 1 `i `uc ]
+"571
+[; ;Microchip/TCPIP_Stack/Helpers.c: 571:    *cDestData++ |= i >> 4;
+[e =| *U ++ _cDestData * -> -> 1 `i `x -> -> # *U _cDestData `i `x -> >> -> _i `i -> 4 `i `uc ]
+"572
+[; ;Microchip/TCPIP_Stack/Helpers.c: 572:    if(wBytesOutput >= wDestLen)
+[e $ ! >= -> _wBytesOutput `ui -> _wDestLen `ui 565  ]
+"573
+[; ;Microchip/TCPIP_Stack/Helpers.c: 573:     break;
+[e $U 549  ]
+[e :U 565 ]
+"574
+[; ;Microchip/TCPIP_Stack/Helpers.c: 574:    if(bPad)
+[e $ ! != -> _bPad `ui -> -> 0 `i `ui 566  ]
+"575
+[; ;Microchip/TCPIP_Stack/Helpers.c: 575:     continue;
+[e $U 547  ]
+[e :U 566 ]
+"576
+[; ;Microchip/TCPIP_Stack/Helpers.c: 576:    wBytesOutput++;
+[e ++ _wBytesOutput -> -> 1 `i `us ]
+"577
+[; ;Microchip/TCPIP_Stack/Helpers.c: 577:    *cDestData = i << 4;
+[e = *U _cDestData -> << -> _i `i -> 4 `i `uc ]
+"578
+[; ;Microchip/TCPIP_Stack/Helpers.c: 578:   }
+}
+[e $U 567  ]
+"579
+[; ;Microchip/TCPIP_Stack/Helpers.c: 579:   else if(vByteNumber == 2u)
+[e :U 564 ]
+[e $ ! == -> _vByteNumber `ui -> 2 `ui 568  ]
+"580
+[; ;Microchip/TCPIP_Stack/Helpers.c: 580:   {
+{
+"581
+[; ;Microchip/TCPIP_Stack/Helpers.c: 581:    vByteNumber++;
+[e ++ _vByteNumber -> -> 1 `i `uc ]
+"582
+[; ;Microchip/TCPIP_Stack/Helpers.c: 582:    *cDestData++ |= i >> 2;
+[e =| *U ++ _cDestData * -> -> 1 `i `x -> -> # *U _cDestData `i `x -> >> -> _i `i -> 2 `i `uc ]
+"583
+[; ;Microchip/TCPIP_Stack/Helpers.c: 583:    if(wBytesOutput >= wDestLen)
+[e $ ! >= -> _wBytesOutput `ui -> _wDestLen `ui 569  ]
+"584
+[; ;Microchip/TCPIP_Stack/Helpers.c: 584:     break;
+[e $U 549  ]
+[e :U 569 ]
+"585
+[; ;Microchip/TCPIP_Stack/Helpers.c: 585:    if(bPad)
+[e $ ! != -> _bPad `ui -> -> 0 `i `ui 570  ]
+"586
+[; ;Microchip/TCPIP_Stack/Helpers.c: 586:     continue;
+[e $U 547  ]
+[e :U 570 ]
+"587
+[; ;Microchip/TCPIP_Stack/Helpers.c: 587:    wBytesOutput++;
+[e ++ _wBytesOutput -> -> 1 `i `us ]
+"588
+[; ;Microchip/TCPIP_Stack/Helpers.c: 588:    *cDestData = i << 6;
+[e = *U _cDestData -> << -> _i `i -> 6 `i `uc ]
+"589
+[; ;Microchip/TCPIP_Stack/Helpers.c: 589:   }
+}
+[e $U 571  ]
+"590
+[; ;Microchip/TCPIP_Stack/Helpers.c: 590:   else if(vByteNumber == 3u)
+[e :U 568 ]
+[e $ ! == -> _vByteNumber `ui -> 3 `ui 572  ]
+"591
+[; ;Microchip/TCPIP_Stack/Helpers.c: 591:   {
+{
+"592
+[; ;Microchip/TCPIP_Stack/Helpers.c: 592:    vByteNumber = 0;
+[e = _vByteNumber -> -> 0 `i `uc ]
+"593
+[; ;Microchip/TCPIP_Stack/Helpers.c: 593:    *cDestData++ |= i;
+[e =| *U ++ _cDestData * -> -> 1 `i `x -> -> # *U _cDestData `i `x -> _i `uc ]
+"594
+[; ;Microchip/TCPIP_Stack/Helpers.c: 594:   }
+}
+[e :U 572 ]
+[e :U 571 ]
+[e :U 567 ]
+[e :U 563 ]
+"595
+[; ;Microchip/TCPIP_Stack/Helpers.c: 595:  }
+}
+[e :U 547 ]
+"538
+[; ;Microchip/TCPIP_Stack/Helpers.c: 538:  while(wSourceLen--)
+[e $ != -> -- _wSourceLen -> -> 1 `i `us `ui -> -> 0 `i `ui 548  ]
+[e :U 549 ]
+"597
+[; ;Microchip/TCPIP_Stack/Helpers.c: 597:  return wBytesOutput;
+[e ) _wBytesOutput ]
+[e $UE 546  ]
+"598
+[; ;Microchip/TCPIP_Stack/Helpers.c: 598: }
+[e :UE 546 ]
+}
+"719
+[; ;Microchip/TCPIP_Stack/Helpers.c: 719: void uitoa(WORD Value, BYTE* Buffer)
+[v _uitoa `(v ~T0 @X0 1 ef2`us`*uc ]
+"720
+[; ;Microchip/TCPIP_Stack/Helpers.c: 720: {
+{
+[e :U _uitoa ]
+"719
+[; ;Microchip/TCPIP_Stack/Helpers.c: 719: void uitoa(WORD Value, BYTE* Buffer)
+[v _Value `us ~T0 @X0 1 r1 ]
+[v _Buffer `*uc ~T0 @X0 1 r2 ]
+"720
+[; ;Microchip/TCPIP_Stack/Helpers.c: 720: {
+[f ]
+"721
+[; ;Microchip/TCPIP_Stack/Helpers.c: 721:  BYTE i;
+[v _i `uc ~T0 @X0 1 a ]
+"722
+[; ;Microchip/TCPIP_Stack/Helpers.c: 722:  WORD Digit;
+[v _Digit `us ~T0 @X0 1 a ]
+"723
+[; ;Microchip/TCPIP_Stack/Helpers.c: 723:  WORD Divisor;
+[v _Divisor `us ~T0 @X0 1 a ]
+"724
+[; ;Microchip/TCPIP_Stack/Helpers.c: 724:  BOOL Printed = FALSE;
+[v _Printed `E332 ~T0 @X0 1 a ]
+[e = _Printed . `E332 0 ]
+"726
+[; ;Microchip/TCPIP_Stack/Helpers.c: 726:  if(Value)
+[e $ ! != -> _Value `ui -> -> 0 `i `ui 574  ]
+"727
+[; ;Microchip/TCPIP_Stack/Helpers.c: 727:  {
+{
+"728
+[; ;Microchip/TCPIP_Stack/Helpers.c: 728:   for(i = 0, Divisor = 10000; i < 5u; i++)
+{
+[e ; = _i -> -> 0 `i `uc = _Divisor -> -> 10000 `i `us ]
+[e $ < -> _i `ui -> 5 `ui 575  ]
+[e $U 576  ]
+[e :U 575 ]
+"729
+[; ;Microchip/TCPIP_Stack/Helpers.c: 729:   {
+{
+"730
+[; ;Microchip/TCPIP_Stack/Helpers.c: 730:    Digit = Value/Divisor;
+[e = _Digit -> / -> _Value `ui -> _Divisor `ui `us ]
+"731
+[; ;Microchip/TCPIP_Stack/Helpers.c: 731:    if(Digit || Printed)
+[e $ ! || != -> _Digit `ui -> -> 0 `i `ui != -> _Printed `ui -> -> 0 `i `ui 578  ]
+"732
+[; ;Microchip/TCPIP_Stack/Helpers.c: 732:    {
+{
+"733
+[; ;Microchip/TCPIP_Stack/Helpers.c: 733:     *Buffer++ = '0' + Digit;
+[e = *U ++ _Buffer * -> -> 1 `i `x -> -> # *U _Buffer `i `x -> + -> 48 `ui -> _Digit `ui `uc ]
+"734
+[; ;Microchip/TCPIP_Stack/Helpers.c: 734:     Value -= Digit*Divisor;
+[e =- _Value -> * -> _Digit `ui -> _Divisor `ui `us ]
+"735
+[; ;Microchip/TCPIP_Stack/Helpers.c: 735:     Printed = TRUE;
+[e = _Printed . `E332 1 ]
+"736
+[; ;Microchip/TCPIP_Stack/Helpers.c: 736:    }
+}
+[e :U 578 ]
+"737
+[; ;Microchip/TCPIP_Stack/Helpers.c: 737:    Divisor /= 10;
+[e =/ _Divisor -> -> 10 `i `ui ]
+"738
+[; ;Microchip/TCPIP_Stack/Helpers.c: 738:   }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `ui -> 5 `ui 575  ]
+[e :U 576 ]
+}
+"739
+[; ;Microchip/TCPIP_Stack/Helpers.c: 739:  }
+}
+[e $U 579  ]
+"740
+[; ;Microchip/TCPIP_Stack/Helpers.c: 740:  else
+[e :U 574 ]
+"741
+[; ;Microchip/TCPIP_Stack/Helpers.c: 741:  {
+{
+"742
+[; ;Microchip/TCPIP_Stack/Helpers.c: 742:   *Buffer++ = '0';
+[e = *U ++ _Buffer * -> -> 1 `i `x -> -> # *U _Buffer `i `x -> -> 48 `ui `uc ]
+"743
+[; ;Microchip/TCPIP_Stack/Helpers.c: 743:  }
+}
+[e :U 579 ]
+"745
+[; ;Microchip/TCPIP_Stack/Helpers.c: 745:  *Buffer = '\0';
+[e = *U _Buffer -> -> 0 `ui `uc ]
+"746
+[; ;Microchip/TCPIP_Stack/Helpers.c: 746: }
+[e :UE 573 ]
+}
+"770
+[; ;Microchip/TCPIP_Stack/Helpers.c: 770: void ultoa(DWORD Value, BYTE* Buffer)
+[v _ultoa `(v ~T0 @X0 1 ef2`ul`*uc ]
+"771
+[; ;Microchip/TCPIP_Stack/Helpers.c: 771: {
+{
+[e :U _ultoa ]
+"770
+[; ;Microchip/TCPIP_Stack/Helpers.c: 770: void ultoa(DWORD Value, BYTE* Buffer)
+[v _Value `ul ~T0 @X0 1 r1 ]
+[v _Buffer `*uc ~T0 @X0 1 r2 ]
+"771
+[; ;Microchip/TCPIP_Stack/Helpers.c: 771: {
+[f ]
+"772
+[; ;Microchip/TCPIP_Stack/Helpers.c: 772:  BYTE i;
+[v _i `uc ~T0 @X0 1 a ]
+"773
+[; ;Microchip/TCPIP_Stack/Helpers.c: 773:  DWORD Digit;
+[v _Digit `ul ~T0 @X0 1 a ]
+"774
+[; ;Microchip/TCPIP_Stack/Helpers.c: 774:  DWORD Divisor;
+[v _Divisor `ul ~T0 @X0 1 a ]
+"775
+[; ;Microchip/TCPIP_Stack/Helpers.c: 775:  BOOL Printed = FALSE;
+[v _Printed `E332 ~T0 @X0 1 a ]
+[e = _Printed . `E332 0 ]
+"777
+[; ;Microchip/TCPIP_Stack/Helpers.c: 777:  if(Value)
+[e $ ! != _Value -> -> -> 0 `i `l `ul 581  ]
+"778
+[; ;Microchip/TCPIP_Stack/Helpers.c: 778:  {
+{
+"779
+[; ;Microchip/TCPIP_Stack/Helpers.c: 779:   for(i = 0, Divisor = 1000000000; i < 10; i++)
+{
+[e ; = _i -> -> 0 `i `uc = _Divisor -> -> 1000000000 `l `ul ]
+[e $ < -> _i `i -> 10 `i 582  ]
+[e $U 583  ]
+[e :U 582 ]
+"780
+[; ;Microchip/TCPIP_Stack/Helpers.c: 780:   {
+{
+"781
+[; ;Microchip/TCPIP_Stack/Helpers.c: 781:    Digit = Value/Divisor;
+[e = _Digit / _Value _Divisor ]
+"782
+[; ;Microchip/TCPIP_Stack/Helpers.c: 782:    if(Digit || Printed)
+[e $ ! || != _Digit -> -> -> 0 `i `l `ul != -> _Printed `ui -> -> 0 `i `ui 585  ]
+"783
+[; ;Microchip/TCPIP_Stack/Helpers.c: 783:    {
+{
+"784
+[; ;Microchip/TCPIP_Stack/Helpers.c: 784:     *Buffer++ = '0' + Digit;
+[e = *U ++ _Buffer * -> -> 1 `i `x -> -> # *U _Buffer `i `x -> + -> -> 48 `ui `ul _Digit `uc ]
+"785
+[; ;Microchip/TCPIP_Stack/Helpers.c: 785:     Value -= Digit*Divisor;
+[e =- _Value * _Digit _Divisor ]
+"786
+[; ;Microchip/TCPIP_Stack/Helpers.c: 786:     Printed = TRUE;
+[e = _Printed . `E332 1 ]
+"787
+[; ;Microchip/TCPIP_Stack/Helpers.c: 787:    }
+}
+[e :U 585 ]
+"788
+[; ;Microchip/TCPIP_Stack/Helpers.c: 788:    Divisor /= 10;
+[e =/ _Divisor -> -> -> 10 `i `l `ul ]
+"789
+[; ;Microchip/TCPIP_Stack/Helpers.c: 789:   }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 10 `i 582  ]
+[e :U 583 ]
+}
+"790
+[; ;Microchip/TCPIP_Stack/Helpers.c: 790:  }
+}
+[e $U 586  ]
+"791
+[; ;Microchip/TCPIP_Stack/Helpers.c: 791:  else
+[e :U 581 ]
+"792
+[; ;Microchip/TCPIP_Stack/Helpers.c: 792:  {
+{
+"793
+[; ;Microchip/TCPIP_Stack/Helpers.c: 793:   *Buffer++ = '0';
+[e = *U ++ _Buffer * -> -> 1 `i `x -> -> # *U _Buffer `i `x -> -> 48 `ui `uc ]
+"794
+[; ;Microchip/TCPIP_Stack/Helpers.c: 794:  }
+}
+[e :U 586 ]
+"796
+[; ;Microchip/TCPIP_Stack/Helpers.c: 796:  *Buffer = '\0';
+[e = *U _Buffer -> -> 0 `ui `uc ]
+"797
+[; ;Microchip/TCPIP_Stack/Helpers.c: 797: }
+[e :UE 580 ]
+}
+"821
+[; ;Microchip/TCPIP_Stack/Helpers.c: 821: BYTE hexatob(WORD_VAL AsciiChars)
+[v _hexatob `(uc ~T0 @X0 1 ef1`S26 ]
+"822
+[; ;Microchip/TCPIP_Stack/Helpers.c: 822: {
+{
+[e :U _hexatob ]
+"821
+[; ;Microchip/TCPIP_Stack/Helpers.c: 821: BYTE hexatob(WORD_VAL AsciiChars)
+[v _AsciiChars `S26 ~T0 @X0 1 r1 ]
+"822
+[; ;Microchip/TCPIP_Stack/Helpers.c: 822: {
+[f ]
+"824
+[; ;Microchip/TCPIP_Stack/Helpers.c: 824:  if(AsciiChars.v[1] > 'F')
+[e $ ! > -> *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `ui -> 70 `ui 588  ]
+"825
+[; ;Microchip/TCPIP_Stack/Helpers.c: 825:   AsciiChars.v[1] -= 'a'-'A';
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> - -> 97 `ui -> 65 `ui `uc ]
+[e :U 588 ]
+"826
+[; ;Microchip/TCPIP_Stack/Helpers.c: 826:  if(AsciiChars.v[0] > 'F')
+[e $ ! > -> *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `ui -> 70 `ui 589  ]
+"827
+[; ;Microchip/TCPIP_Stack/Helpers.c: 827:   AsciiChars.v[0] -= 'a'-'A';
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> - -> 97 `ui -> 65 `ui `uc ]
+[e :U 589 ]
+"830
+[; ;Microchip/TCPIP_Stack/Helpers.c: 830:  if(AsciiChars.v[1] > '9')
+[e $ ! > -> *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `ui -> 57 `ui 590  ]
+"831
+[; ;Microchip/TCPIP_Stack/Helpers.c: 831:   AsciiChars.v[1] -= 'A' - 10;
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> - -> 65 `ui -> -> 10 `i `ui `uc ]
+[e $U 591  ]
+"832
+[; ;Microchip/TCPIP_Stack/Helpers.c: 832:  else
+[e :U 590 ]
+"833
+[; ;Microchip/TCPIP_Stack/Helpers.c: 833:   AsciiChars.v[1] -= '0';
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> -> 48 `ui `uc ]
+[e :U 591 ]
+"835
+[; ;Microchip/TCPIP_Stack/Helpers.c: 835:  if(AsciiChars.v[0] > '9')
+[e $ ! > -> *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `ui -> 57 `ui 592  ]
+"836
+[; ;Microchip/TCPIP_Stack/Helpers.c: 836:   AsciiChars.v[0] -= 'A' - 10;
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> - -> 65 `ui -> -> 10 `i `ui `uc ]
+[e $U 593  ]
+"837
+[; ;Microchip/TCPIP_Stack/Helpers.c: 837:  else
+[e :U 592 ]
+"838
+[; ;Microchip/TCPIP_Stack/Helpers.c: 838:   AsciiChars.v[0] -= '0';
+[e =- *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux -> -> 48 `ui `uc ]
+[e :U 593 ]
+"841
+[; ;Microchip/TCPIP_Stack/Helpers.c: 841:  return (AsciiChars.v[1]<<4) | AsciiChars.v[0];
+[e ) -> | << -> *U + &U . _AsciiChars 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `i -> 4 `i -> *U + &U . _AsciiChars 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _AsciiChars 1 `ui `ux `i `uc ]
+[e $UE 587  ]
+"842
+[; ;Microchip/TCPIP_Stack/Helpers.c: 842: }
+[e :UE 587 ]
+}
+"864
+[; ;Microchip/TCPIP_Stack/Helpers.c: 864: BYTE btohexa_high(BYTE b)
+[v _btohexa_high `(uc ~T0 @X0 1 ef1`uc ]
+"865
+[; ;Microchip/TCPIP_Stack/Helpers.c: 865: {
+{
+[e :U _btohexa_high ]
+"864
+[; ;Microchip/TCPIP_Stack/Helpers.c: 864: BYTE btohexa_high(BYTE b)
+[v _b `uc ~T0 @X0 1 r1 ]
+"865
+[; ;Microchip/TCPIP_Stack/Helpers.c: 865: {
+[f ]
+"866
+[; ;Microchip/TCPIP_Stack/Helpers.c: 866:  b >>= 4;
+[e =>> _b -> -> 4 `i `uc ]
+"867
+[; ;Microchip/TCPIP_Stack/Helpers.c: 867:  return (b>0x9u) ? b+'A'-10:b+'0';
+[e ) -> ? > -> _b `ui -> 9 `ui : - + -> _b `ui -> 65 `ui -> -> 10 `i `ui + -> _b `ui -> 48 `ui `uc ]
+[e $UE 594  ]
+"868
+[; ;Microchip/TCPIP_Stack/Helpers.c: 868: }
+[e :UE 594 ]
+}
+"890
+[; ;Microchip/TCPIP_Stack/Helpers.c: 890: BYTE btohexa_low(BYTE b)
+[v _btohexa_low `(uc ~T0 @X0 1 ef1`uc ]
+"891
+[; ;Microchip/TCPIP_Stack/Helpers.c: 891: {
+{
+[e :U _btohexa_low ]
+"890
+[; ;Microchip/TCPIP_Stack/Helpers.c: 890: BYTE btohexa_low(BYTE b)
+[v _b `uc ~T0 @X0 1 r1 ]
+"891
+[; ;Microchip/TCPIP_Stack/Helpers.c: 891: {
+[f ]
+"892
+[; ;Microchip/TCPIP_Stack/Helpers.c: 892:  b &= 0x0F;
+[e =& _b -> -> 15 `i `uc ]
+"893
+[; ;Microchip/TCPIP_Stack/Helpers.c: 893:  return (b>9u) ? b+'A'-10:b+'0';
+[e ) -> ? > -> _b `ui -> 9 `ui : - + -> _b `ui -> 65 `ui -> -> 10 `i `ui + -> _b `ui -> 48 `ui `uc ]
+[e $UE 595  ]
+"894
+[; ;Microchip/TCPIP_Stack/Helpers.c: 894: }
+[e :UE 595 ]
+}
+"920
+[; ;Microchip/TCPIP_Stack/Helpers.c: 920: signed char stricmppgm2ram(BYTE* a, const BYTE* b)
+[v _stricmppgm2ram `(c ~T0 @X0 1 ef2`*uc`*Cuc ]
+"921
+[; ;Microchip/TCPIP_Stack/Helpers.c: 921: {
+{
+[e :U _stricmppgm2ram ]
+"920
+[; ;Microchip/TCPIP_Stack/Helpers.c: 920: signed char stricmppgm2ram(BYTE* a, const BYTE* b)
+[v _a `*uc ~T0 @X0 1 r1 ]
+[v _b `*Cuc ~T0 @X0 1 r2 ]
+"921
+[; ;Microchip/TCPIP_Stack/Helpers.c: 921: {
+[f ]
+"922
+[; ;Microchip/TCPIP_Stack/Helpers.c: 922:  BYTE cA, cB;
+[v _cA `uc ~T0 @X0 1 a ]
+[v _cB `uc ~T0 @X0 1 a ]
+"925
+[; ;Microchip/TCPIP_Stack/Helpers.c: 925:  cA = *a;
+[e = _cA *U _a ]
+"926
+[; ;Microchip/TCPIP_Stack/Helpers.c: 926:  cB = *b;
+[e = _cB *U _b ]
+"929
+[; ;Microchip/TCPIP_Stack/Helpers.c: 929:  while(cA != '\0' && cB != '\0')
+[e $U 597  ]
+[e :U 598 ]
+"930
+[; ;Microchip/TCPIP_Stack/Helpers.c: 930:  {
+{
+"932
+[; ;Microchip/TCPIP_Stack/Helpers.c: 932:   if(cA >= 'a' && cA <= 'z')
+[e $ ! && >= -> _cA `ui -> 97 `ui <= -> _cA `ui -> 122 `ui 600  ]
+"933
+[; ;Microchip/TCPIP_Stack/Helpers.c: 933:    cA -= 'a' - 'A';
+[e =- _cA -> - -> 97 `ui -> 65 `ui `uc ]
+[e :U 600 ]
+"934
+[; ;Microchip/TCPIP_Stack/Helpers.c: 934:   if(cB >= 'a' && cB <= 'z')
+[e $ ! && >= -> _cB `ui -> 97 `ui <= -> _cB `ui -> 122 `ui 601  ]
+"935
+[; ;Microchip/TCPIP_Stack/Helpers.c: 935:    cB -= 'a' - 'A';
+[e =- _cB -> - -> 97 `ui -> 65 `ui `uc ]
+[e :U 601 ]
+"938
+[; ;Microchip/TCPIP_Stack/Helpers.c: 938:   if(cA > cB)
+[e $ ! > -> _cA `i -> _cB `i 602  ]
+"939
+[; ;Microchip/TCPIP_Stack/Helpers.c: 939:    return 1;
+[e ) -> -> 1 `i `c ]
+[e $UE 596  ]
+[e :U 602 ]
+"940
+[; ;Microchip/TCPIP_Stack/Helpers.c: 940:   if(cA < cB)
+[e $ ! < -> _cA `i -> _cB `i 603  ]
+"941
+[; ;Microchip/TCPIP_Stack/Helpers.c: 941:    return -1;
+[e ) -> -U -> 1 `i `c ]
+[e $UE 596  ]
+[e :U 603 ]
+"944
+[; ;Microchip/TCPIP_Stack/Helpers.c: 944:   a++;
+[e ++ _a * -> -> 1 `i `x -> -> # *U _a `i `x ]
+"945
+[; ;Microchip/TCPIP_Stack/Helpers.c: 945:   b++;
+[e ++ _b * -> -> 1 `i `x -> -> # *U _b `i `x ]
+"946
+[; ;Microchip/TCPIP_Stack/Helpers.c: 946:   cA = *a;
+[e = _cA *U _a ]
+"947
+[; ;Microchip/TCPIP_Stack/Helpers.c: 947:   cB = *b;
+[e = _cB *U _b ]
+"948
+[; ;Microchip/TCPIP_Stack/Helpers.c: 948:  }
+}
+[e :U 597 ]
+"929
+[; ;Microchip/TCPIP_Stack/Helpers.c: 929:  while(cA != '\0' && cB != '\0')
+[e $ && != -> _cA `ui -> 0 `ui != -> _cB `ui -> 0 `ui 598  ]
+[e :U 599 ]
+"951
+[; ;Microchip/TCPIP_Stack/Helpers.c: 951:  if(cA > cB)
+[e $ ! > -> _cA `i -> _cB `i 604  ]
+"952
+[; ;Microchip/TCPIP_Stack/Helpers.c: 952:   return 1;
+[e ) -> -> 1 `i `c ]
+[e $UE 596  ]
+[e :U 604 ]
+"953
+[; ;Microchip/TCPIP_Stack/Helpers.c: 953:  if(cA < cB)
+[e $ ! < -> _cA `i -> _cB `i 605  ]
+"954
+[; ;Microchip/TCPIP_Stack/Helpers.c: 954:   return -1;
+[e ) -> -U -> 1 `i `c ]
+[e $UE 596  ]
+[e :U 605 ]
+"957
+[; ;Microchip/TCPIP_Stack/Helpers.c: 957:  return 0;
+[e ) -> -> 0 `i `c ]
+[e $UE 596  ]
+"958
+[; ;Microchip/TCPIP_Stack/Helpers.c: 958: }
+[e :UE 596 ]
+}
+"976
+[; ;Microchip/TCPIP_Stack/Helpers.c: 976: WORD swaps(WORD v)
+[v _swaps `(us ~T0 @X0 1 ef1`us ]
+"977
+[; ;Microchip/TCPIP_Stack/Helpers.c: 977: {
+{
+[e :U _swaps ]
+"976
+[; ;Microchip/TCPIP_Stack/Helpers.c: 976: WORD swaps(WORD v)
+[v _v `us ~T0 @X0 1 r1 ]
+"977
+[; ;Microchip/TCPIP_Stack/Helpers.c: 977: {
+[f ]
+"978
+[; ;Microchip/TCPIP_Stack/Helpers.c: 978:  WORD_VAL t;
+[v _t `S26 ~T0 @X0 1 a ]
+"979
+[; ;Microchip/TCPIP_Stack/Helpers.c: 979:  BYTE b;
+[v _b `uc ~T0 @X0 1 a ]
+"981
+[; ;Microchip/TCPIP_Stack/Helpers.c: 981:  t.Val = v;
+[e = . _t 0 _v ]
+"982
+[; ;Microchip/TCPIP_Stack/Helpers.c: 982:  b = t.v[1];
+[e = _b *U + &U . _t 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _t 1 `ui `ux ]
+"983
+[; ;Microchip/TCPIP_Stack/Helpers.c: 983:  t.v[1] = t.v[0];
+[e = *U + &U . _t 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _t 1 `ui `ux *U + &U . _t 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _t 1 `ui `ux ]
+"984
+[; ;Microchip/TCPIP_Stack/Helpers.c: 984:  t.v[0] = b;
+[e = *U + &U . _t 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _t 1 `ui `ux _b ]
+"986
+[; ;Microchip/TCPIP_Stack/Helpers.c: 986:  return t.Val;
+[e ) . _t 0 ]
+[e $UE 606  ]
+"987
+[; ;Microchip/TCPIP_Stack/Helpers.c: 987: }
+[e :UE 606 ]
+}
+"1005
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1005: DWORD swapl(DWORD v)
+[v _swapl `(ul ~T0 @X0 1 ef1`ul ]
+"1006
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1006: {
+{
+[e :U _swapl ]
+"1005
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1005: DWORD swapl(DWORD v)
+[v _v `ul ~T0 @X0 1 r1 ]
+"1006
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1006: {
+[f ]
+"1008
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1008:  ((DWORD_VAL*)&v)->v[0] ^= ((DWORD_VAL*)&v)->v[3];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 3 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1009
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1009:  ((DWORD_VAL*)&v)->v[3] ^= ((DWORD_VAL*)&v)->v[0];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 3 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1010
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1010:  ((DWORD_VAL*)&v)->v[0] ^= ((DWORD_VAL*)&v)->v[3];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 0 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 3 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1013
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1013:  ((DWORD_VAL*)&v)->v[1] ^= ((DWORD_VAL*)&v)->v[2];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1014
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1014:  ((DWORD_VAL*)&v)->v[2] ^= ((DWORD_VAL*)&v)->v[1];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1015
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1015:  ((DWORD_VAL*)&v)->v[1] ^= ((DWORD_VAL*)&v)->v[2];
+[e =^ *U + &U . *U -> &U _v `*S29 2 * -> -> -> 1 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux -> *U + &U . *U -> &U _v `*S29 2 * -> -> -> 2 `i `ui `ux -> -> # *U &U . *U -> &U _v `*S29 2 `ui `ux `uc ]
+"1017
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1017:  return v;
+[e ) _v ]
+[e $UE 607  ]
+"1018
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1018: }
+[e :UE 607 ]
+}
+"1047
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1047: WORD CalcIPChecksum(BYTE* buffer, WORD count)
+[v _CalcIPChecksum `(us ~T0 @X0 1 ef2`*uc`us ]
+"1048
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1048: {
+{
+[e :U _CalcIPChecksum ]
+"1047
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1047: WORD CalcIPChecksum(BYTE* buffer, WORD count)
+[v _buffer `*uc ~T0 @X0 1 r1 ]
+[v _count `us ~T0 @X0 1 r2 ]
+"1048
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1048: {
+[f ]
+"1049
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1049:  WORD i;
+[v _i `us ~T0 @X0 1 a ]
+"1050
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1050:  WORD *val;
+[v _val `*us ~T0 @X0 1 a ]
+[v F5699 `S29 ~T0 @X0 1 s ]
+[i F5699
+:U 0
+:U ..
+"1051
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1051:  DWORD_VAL sum = {0x00000000ul};
+-> 0 `ul
+..
+..
+]
+[v _sum `S29 ~T0 @X0 1 a ]
+[e = _sum F5699 ]
+"1053
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1053:  i = count >> 1;
+[e = _i -> >> -> _count `ui -> 1 `i `us ]
+"1054
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1054:  val = (WORD*)buffer;
+[e = _val -> _buffer `*us ]
+"1057
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1057:  while(i--)
+[e $U 609  ]
+[e :U 610 ]
+"1058
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1058:   sum.Val += (DWORD)*val++;
+[e =+ . _sum 0 -> *U ++ _val * -> -> 1 `i `x -> -> # *U _val `i `x `ul ]
+[e :U 609 ]
+"1057
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1057:  while(i--)
+[e $ != -> -- _i -> -> 1 `i `us `ui -> -> 0 `i `ui 610  ]
+[e :U 611 ]
+"1061
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1061:  if(((WORD_VAL*)&count)->bits.b0)
+[e $ ! != -> . . *U -> &U _count `*S26 3 0 `i -> 0 `i 612  ]
+"1062
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1062:   sum.Val += (DWORD)*(BYTE*)val;
+[e =+ . _sum 0 -> *U -> _val `*uc `ul ]
+[e :U 612 ]
+"1065
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1065:  sum.Val = (DWORD)sum.w[0] + (DWORD)sum.w[1];
+[e = . _sum 0 + -> *U + &U . _sum 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _sum 1 `ui `ux `ul -> *U + &U . _sum 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _sum 1 `ui `ux `ul ]
+"1069
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1069:  sum.w[0] += sum.w[1];
+[e =+ *U + &U . _sum 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _sum 1 `ui `ux -> *U + &U . _sum 1 * -> -> -> 1 `i `ui `ux -> -> # *U &U . _sum 1 `ui `ux `us ]
+"1072
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1072:  return ~sum.w[0];
+[e ) -> ~ -> *U + &U . _sum 1 * -> -> -> 0 `i `ui `ux -> -> # *U &U . _sum 1 `ui `ux `ui `us ]
+[e $UE 608  ]
+"1073
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1073: }
+[e :UE 608 ]
+}
+"1168
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1168: char* strupr(char* s)
+[v _strupr `(*uc ~T0 @X0 1 ef1`*uc ]
+"1169
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1169: {
+{
+[e :U _strupr ]
+"1168
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1168: char* strupr(char* s)
+[v _s `*uc ~T0 @X0 1 r1 ]
+"1169
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1169: {
+[f ]
+"1170
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1170:  char c;
+[v _c `uc ~T0 @X0 1 a ]
+"1171
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1171:  char *t;
+[v _t `*uc ~T0 @X0 1 a ]
+"1173
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1173:  t = s;
+[e = _t _s ]
+"1174
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1174:  while( (c = *t) )
+[e $U 614  ]
+[e :U 615 ]
+"1175
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1175:  {
+{
+"1176
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1176:   if(c >= 'a' && c <= 'z')
+[e $ ! && >= -> _c `ui -> 97 `ui <= -> _c `ui -> 122 `ui 617  ]
+"1177
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1177:   {
+{
+"1178
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1178:    *t -= ('a' - 'A');
+[e =- *U _t -> - -> 97 `ui -> 65 `ui `uc ]
+"1179
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1179:   }
+}
+[e :U 617 ]
+"1180
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1180:   t++;
+[e ++ _t * -> -> 1 `i `x -> -> # *U _t `i `x ]
+"1181
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1181:  }
+}
+[e :U 614 ]
+"1174
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1174:  while( (c = *t) )
+[e $ != -> = _c *U _t `i -> 0 `i 615  ]
+[e :U 616 ]
+"1182
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1182:  return s;
+[e ) _s ]
+[e $UE 613  ]
+"1183
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1183: }
+[e :UE 613 ]
+}
+"1189
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1189: DWORD_VAL toRotate;
+[v _toRotate `S29 ~T0 @X0 1 e ]
+"1285
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1285: DWORD leftRotateDWORD(DWORD val, BYTE bits)
+[v _leftRotateDWORD `(ul ~T0 @X0 1 ef2`ul`uc ]
+"1286
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1286: {
+{
+[e :U _leftRotateDWORD ]
+"1285
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1285: DWORD leftRotateDWORD(DWORD val, BYTE bits)
+[v _val `ul ~T0 @X0 1 r1 ]
+[v _bits `uc ~T0 @X0 1 r2 ]
+"1286
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1286: {
+[f ]
+"1288
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1288:     bits &= 31;
+[e =& _bits -> -> 31 `i `uc ]
+"1289
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1289:     if (bits == 0) return val;
+[e $ ! == -> _bits `i -> 0 `i 619  ]
+[e ) _val ]
+[e $UE 618  ]
+[e :U 619 ]
+"1291
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1291:     return (val << bits) | (val >> (32 - bits));
+[e ) | << _val -> _bits `i >> _val - -> 32 `i -> _bits `i ]
+[e $UE 618  ]
+"1292
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1292: }
+[e :UE 618 ]
+}
+"1319
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1319: void FormatNetBIOSName(BYTE Name[])
+[v _FormatNetBIOSName `(v ~T0 @X0 1 ef1`*uc ]
+"1320
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1320: {
+{
+[e :U _FormatNetBIOSName ]
+"1319
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1319: void FormatNetBIOSName(BYTE Name[])
+[v _Name `*uc ~T0 @X0 1 r1 ]
+"1320
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1320: {
+[f ]
+"1321
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1321:  BYTE i;
+[v _i `uc ~T0 @X0 1 a ]
+"1323
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1323:  Name[15] = '\0';
+[e = *U + _Name * -> -> 15 `i `x -> -> # *U _Name `i `x -> -> 0 `ui `uc ]
+"1324
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1324:  strupr((char*)Name);
+[e ( _strupr (1 -> _Name `*uc ]
+"1325
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1325:  i = 0;
+[e = _i -> -> 0 `i `uc ]
+"1326
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1326:  while(i < 15u)
+[e $U 621  ]
+[e :U 622 ]
+"1327
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1327:  {
+{
+"1328
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1328:   if(Name[i] == '\0')
+[e $ ! == -> *U + _Name * -> _i `ux -> -> # *U _Name `ui `ux `ui -> 0 `ui 624  ]
+"1329
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1329:   {
+{
+"1330
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1330:    while(i < 15u)
+[e $U 625  ]
+[e :U 626 ]
+"1331
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1331:    {
+{
+"1332
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1332:     Name[i++] = ' ';
+[e = *U + _Name * -> ++ _i -> -> 1 `i `uc `ux -> -> # *U _Name `ui `ux -> -> 32 `ui `uc ]
+"1333
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1333:    }
+}
+[e :U 625 ]
+"1330
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1330:    while(i < 15u)
+[e $ < -> _i `ui -> 15 `ui 626  ]
+[e :U 627 ]
+"1334
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1334:    break;
+[e $U 623  ]
+"1335
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1335:   }
+}
+[e :U 624 ]
+"1336
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1336:   i++;
+[e ++ _i -> -> 1 `i `uc ]
+"1337
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1337:  }
+}
+[e :U 621 ]
+"1326
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1326:  while(i < 15u)
+[e $ < -> _i `ui -> 15 `ui 622  ]
+[e :U 623 ]
+"1338
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1338: }
+[e :UE 620 ]
+}
+"1369
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1369: char * strnchr(const char *searchString, size_t count, char c)
+[v _strnchr `(*uc ~T0 @X0 1 ef3`*Cuc`ui`uc ]
+"1370
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1370: {
+{
+[e :U _strnchr ]
+"1369
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1369: char * strnchr(const char *searchString, size_t count, char c)
+[v _searchString `*Cuc ~T0 @X0 1 r1 ]
+[v _count `ui ~T0 @X0 1 r2 ]
+[v _c `uc ~T0 @X0 1 r3 ]
+"1370
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1370: {
+[f ]
+"1371
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1371:  char c2;
+[v _c2 `uc ~T0 @X0 1 a ]
+"1373
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1373:  while(count--)
+[e $U 629  ]
+[e :U 630 ]
+"1374
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1374:  {
+{
+"1375
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1375:   c2 = *searchString++;
+[e = _c2 *U ++ _searchString * -> -> 1 `i `x -> -> # *U _searchString `i `x ]
+"1376
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1376:   if(c2 == 0u)
+[e $ ! == -> _c2 `ui -> 0 `ui 632  ]
+"1377
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1377:    return ((void*)0);
+[e ) -> -> -> 0 `i `*v `*uc ]
+[e $UE 628  ]
+[e :U 632 ]
+"1378
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1378:   if(c2 == c)
+[e $ ! == -> _c2 `i -> _c `i 633  ]
+"1379
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1379:    return (char*)--searchString;
+[e ) =- _searchString * -> -> 1 `i `x -> -> # *U _searchString `i `x ]
+[e $UE 628  ]
+[e :U 633 ]
+"1380
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1380:  }
+}
+[e :U 629 ]
+"1373
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1373:  while(count--)
+[e $ != -- _count -> -> 1 `i `ui -> -> 0 `i `ui 630  ]
+[e :U 631 ]
+"1381
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1381:  return ((void*)0);
+[e ) -> -> -> 0 `i `*v `*uc ]
+[e $UE 628  ]
+"1382
+[; ;Microchip/TCPIP_Stack/Helpers.c: 1382: }
+[e :UE 628 ]
+}

@@ -1,0 +1,6135 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD EXTMEM ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F67J60 ]
+[d frameptr 4065 ]
+"128 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Announce.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"183
+[e E5640 . `uc
+DISCOVERY_HOME 0
+DISCOVERY_LISTEN 1
+DISCOVERY_REQUEST_RECEIVED 2
+DISCOVERY_DISABLED 3
+]
+"108 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"111
+[e E5522 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5562 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"208
+[e E5644 . `uc
+SM_ARP_IDLE 0
+SM_ARP_REPLY 1
+]
+"137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"178
+[e E5420 . `uc
+SM_DHCP_DISABLED 0
+SM_DHCP_GET_SOCKET 1
+SM_DHCP_SEND_DISCOVERY 2
+SM_DHCP_GET_OFFER 3
+SM_DHCP_SEND_REQUEST 4
+SM_DHCP_GET_REQUEST_ACK 5
+SM_DHCP_BOUND 6
+SM_DHCP_SEND_RENEW 7
+SM_DHCP_GET_RENEW_ACK 8
+SM_DHCP_SEND_RENEW2 9
+SM_DHCP_GET_RENEW_ACK2 10
+SM_DHCP_SEND_RENEW3 11
+SM_DHCP_GET_RENEW_ACK3 12
+]
+"100 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"139
+[e E5522 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5562 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"109 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Hashes.c
+[e E5121 . `uc
+HASH_MD5 0
+HASH_SHA1 1
+]
+"327 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"210 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X/HTTPPrint.h
+[e E5538 . `uc
+SM_HTTP_IDLE 0
+SM_HTTP_PARSE_REQUEST 1
+SM_HTTP_PARSE_HEADERS 2
+SM_HTTP_AUTHENTICATE 3
+SM_HTTP_PROCESS_GET 4
+SM_HTTP_PROCESS_POST 5
+SM_HTTP_PROCESS_REQUEST 6
+SM_HTTP_SERVE_HEADERS 7
+SM_HTTP_SERVE_COOKIES 8
+SM_HTTP_SERVE_BODY 9
+SM_HTTP_SEND_FROM_CALLBACK 10
+SM_HTTP_DISCONNECT 11
+]
+"218
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"163 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[e E5522 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5562 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"704
+[e E5552 . `uc
+HTTP_IO_DONE 0
+HTTP_IO_NEED_DATA 1
+HTTP_IO_WAITING 2
+]
+"1499
+[e E5557 . `uc
+HTTP_READ_OK 0
+HTTP_READ_TRUNCATED 1
+HTTP_READ_INCOMPLETE 2
+]
+"1846
+[e E5458 . `uc
+MPFS_SEEK_START 0
+MPFS_SEEK_END 1
+MPFS_SEEK_FORWARD 2
+MPFS_SEEK_REWIND 3
+]
+"110 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[e E5657 . `uc
+SM_IDLE 0
+SM_DNS_SEND_QUERY 1
+SM_DNS_GET_RESPONSE 2
+SM_ARP_SEND_QUERY 3
+SM_ARP_GET_RESPONSE 4
+SM_ICMP_SEND_ECHO_REQUEST 5
+SM_ICMP_GET_ECHO_RESPONSE 6
+]
+"163
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"167
+[e E5522 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5562 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"132 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"121 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"747
+[e E5458 . `uc
+MPFS_SEEK_START 0
+MPFS_SEEK_END 1
+MPFS_SEEK_FORWARD 2
+MPFS_SEEK_REWIND 3
+]
+"557 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"93 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[e E5635 . `uc
+SM_STACK_IDLE 0
+SM_STACK_MAC 1
+SM_STACK_IP 2
+SM_STACK_ARP 3
+SM_STACK_TCP 4
+SM_STACK_UDP 5
+]
+"123
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"240 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[e E5250 . `uc
+TCP_GET_DNS_MODULE 0
+TCP_DNS_RESOLVE 1
+TCP_GATEWAY_SEND_ARP 2
+TCP_GATEWAY_GET_ARP 3
+TCP_LISTEN 4
+TCP_SYN_SENT 5
+TCP_SYN_RECEIVED 6
+TCP_ESTABLISHED 7
+TCP_FIN_WAIT_1 8
+TCP_FIN_WAIT_2 9
+TCP_CLOSING 10
+TCP_CLOSE_WAIT 11
+TCP_LAST_ACK 12
+TCP_CLOSED 13
+TCP_CLOSED_BUT_RESERVED 14
+]
+"377
+[e E5528 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5568 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"454
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"361 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[e E5518 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5558 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"425
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"101 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[e E332 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"95 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\PingDemo.c
+[e E5694 . `uc
+SM_HOME 0
+SM_GET_ICMP_RESPONSE 1
+]
+"109
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"79 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MODBUSTCPServer.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"108
+[e E5681 _MODBUSTCPServerState `uc
+SM_HOME 0
+SM_RECEIVEDATA 1
+]
+"106 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[e E7 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"185
+[e E5552 . `uc
+HTTP_IO_DONE 0
+HTTP_IO_NEED_DATA 1
+HTTP_IO_WAITING 2
+]
+"192
+[e E5522 . `uc
+HTTP_GET 0
+HTTP_POST 1
+HTTP_BAD_REQUEST 2
+HTTP_UNAUTHORIZED 3
+HTTP_NOT_FOUND 4
+HTTP_OVERFLOW 5
+HTTP_INTERNAL_SERVER_ERROR 6
+HTTP_NOT_IMPLEMENTED 7
+HTTP_MPFS_FORM 8
+HTTP_MPFS_UP 9
+HTTP_MPFS_OK 10
+HTTP_MPFS_ERROR 11
+HTTP_REDIRECT 12
+HTTP_SSL_REQUIRED 13
+]
+[e E5562 . `uc
+HTTP_TXT 0
+HTTP_HTM 1
+HTTP_HTML 2
+HTTP_CGI 3
+HTTP_XML 4
+HTTP_CSS 5
+HTTP_GIF 6
+HTTP_PNG 7
+HTTP_JPG 8
+HTTP_JAVA 9
+HTTP_WAV 10
+HTTP_UNKNOWN 11
+]
+"479
+[e E5538 . `uc
+SM_HTTP_IDLE 0
+SM_HTTP_PARSE_REQUEST 1
+SM_HTTP_PARSE_HEADERS 2
+SM_HTTP_AUTHENTICATE 3
+SM_HTTP_PROCESS_GET 4
+SM_HTTP_PROCESS_POST 5
+SM_HTTP_PROCESS_REQUEST 6
+SM_HTTP_SERVE_HEADERS 7
+SM_HTTP_SERVE_COOKIES 8
+SM_HTTP_SERVE_BODY 9
+SM_HTTP_SEND_FROM_CALLBACK 10
+SM_HTTP_DISCONNECT 11
+]
+"506
+[e E5557 . `uc
+HTTP_READ_OK 0
+HTTP_READ_TRUNCATED 1
+HTTP_READ_INCOMPLETE 2
+]
+"727
+[e E5121 . `uc
+HASH_MD5 0
+HASH_SHA1 1
+]
+"78 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X/HTTPPrint.h
+[v _HTTPPrint HTTPPrint `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atol.c
+[v _atol atol `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memcmp.c
+[v _memcmp memcmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+"11
+[v _rand rand `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"124 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPNeedsAuth HTTPNeedsAuth `(uc  1 e 1 0 ]
+"156
+[v _HTTPCheckAuth HTTPCheckAuth `(uc  1 e 1 0 ]
+"185
+[v _HTTPExecuteGet HTTPExecuteGet `(E5552  1 e 1 0 ]
+"281
+[v _HTTPExecutePost HTTPExecutePost `(E5552  1 e 1 0 ]
+"459
+[v _HTTPPostConfig HTTPPostConfig `(E5552  1 s 1 HTTPPostConfig ]
+"724
+[v _HTTPPostMD5 HTTPPostMD5 `(E5552  1 s 1 HTTPPostMD5 ]
+"1382
+[v _HTTPPrint_builddate HTTPPrint_builddate `(v  1 e 1 0 ]
+"1392
+[v _HTTPPrint_version HTTPPrint_version `(v  1 e 1 0 ]
+"1430
+[v _HTTPPrint_led HTTPPrint_led `(v  1 e 1 0 ]
+"1470
+[v _HTTPPrint_mLed HTTPPrint_mLed `(v  1 e 1 0 ]
+"1491
+[v _HTTPPrint_s1Led HTTPPrint_s1Led `(v  1 e 1 0 ]
+"1512
+[v _HTTPPrint_s2Led HTTPPrint_s2Led `(v  1 e 1 0 ]
+"1532
+[v _HTTPPrint_mBtn HTTPPrint_mBtn `(v  1 e 1 0 ]
+"1552
+[v _HTTPPrint_s1Btn HTTPPrint_s1Btn `(v  1 e 1 0 ]
+"1572
+[v _HTTPPrint_s2Btn HTTPPrint_s2Btn `(v  1 e 1 0 ]
+"1592
+[v _HTTPPrint_slaveCount HTTPPrint_slaveCount `(v  1 e 1 0 ]
+"1603
+[v _HTTPPrint_hellomsg HTTPPrint_hellomsg `(v  1 e 1 0 ]
+"1671
+[v _HTTPPrintIP HTTPPrintIP `(v  1 e 1 0 ]
+"1685
+[v _HTTPPrint_config_hostname HTTPPrint_config_hostname `(v  1 e 1 0 ]
+"1691
+[v _HTTPPrint_config_dhcpchecked HTTPPrint_config_dhcpchecked `(v  1 e 1 0 ]
+"1698
+[v _HTTPPrint_config_ip HTTPPrint_config_ip `(v  1 e 1 0 ]
+"1704
+[v _HTTPPrint_config_gw HTTPPrint_config_gw `(v  1 e 1 0 ]
+"1710
+[v _HTTPPrint_config_subnet HTTPPrint_config_subnet `(v  1 e 1 0 ]
+"1716
+[v _HTTPPrint_config_dns1 HTTPPrint_config_dns1 `(v  1 e 1 0 ]
+"1722
+[v _HTTPPrint_config_dns2 HTTPPrint_config_dns2 `(v  1 e 1 0 ]
+"1728
+[v _HTTPPrint_config_mac HTTPPrint_config_mac `(v  1 e 1 0 ]
+"1782
+[v _HTTPPrint_reboot HTTPPrint_reboot `(v  1 e 1 0 ]
+"1790
+[v _HTTPPrint_rebootaddr HTTPPrint_rebootaddr `(v  1 e 1 0 ]
+"1804
+[v _HTTPPrint_status_fail HTTPPrint_status_fail `(v  1 e 1 0 ]
+"118 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _LowISR LowISR `IIL(v  1 e 1 0 ]
+"122
+[v _HighISR HighISR `IIH(v  1 e 1 0 ]
+"131
+[v _main main `(v  1 e 1 0 ]
+"372
+[v _processButtonBits processButtonBits `(v  1 e 1 0 ]
+"457
+[v _clearDebounceBits clearDebounceBits `(v  1 e 1 0 ]
+"491
+[v _readButtons readButtons `(v  1 e 1 0 ]
+"541
+[v _writeLEDS writeLEDS `(v  1 e 1 0 ]
+"561
+[v _setup_io setup_io `(v  1 e 1 0 ]
+"577
+[v _write_7segment_display_spi write_7segment_display_spi `(v  1 e 1 0 ]
+"588
+[v _clear_display clear_display `(v  1 e 1 0 ]
+"599
+[v _SPI_Write SPI_Write `(uc  1 e 1 0 ]
+"632
+[v _SPI_Send SPI_Send `(v  1 e 1 0 ]
+"662
+[v _SPI_Read SPI_Read `(uc  1 e 1 0 ]
+"694
+[v _octetToDigits octetToDigits `(v  1 e 1 0 ]
+"700
+[v _addFrame addFrame `(v  1 e 1 0 ]
+"710
+[v _buildFrames buildFrames `(v  1 e 1 0 ]
+"758
+[v _showFrame showFrame `(v  1 e 1 0 ]
+"772
+[v _ProcessIO ProcessIO `(v  1 s 1 ProcessIO ]
+"825
+[v _InitializeBoard InitializeBoard `(v  1 s 1 InitializeBoard ]
+"881
+[v _GetMACAddress GetMACAddress `(v  1 s 1 GetMACAddress ]
+"913
+[v _InitAppConfig InitAppConfig `(v  1 s 1 InitAppConfig ]
+"1030
+[v _SaveAppConfig SaveAppConfig `(v  1 e 1 0 ]
+"101 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Announce.c
+[v _AnnounceIP AnnounceIP `(v  1 e 1 0 ]
+"176
+[v _DiscoveryTask DiscoveryTask `(v  1 e 1 0 ]
+"108 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[v _ARPPut ARPPut `(E332  1 s 1 ARPPut ]
+"158
+[v _ARPInit ARPInit `(v  1 e 1 0 ]
+"197
+[v _ARPProcess ARPProcess `(E332  1 e 1 0 ]
+"324
+[v _ARPResolve ARPResolve `(v  1 e 1 0 ]
+"382
+[v _ARPIsResolved ARPIsResolved `(E332  1 e 1 0 ]
+"412
+[v _SwapARPPacket SwapARPPacket `(v  1 e 1 0 ]
+"209 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[v _DHCPInit DHCPInit `(v  1 e 1 0 ]
+"271
+[v _DHCPDisable DHCPDisable `(v  1 e 1 0 ]
+"368
+[v _DHCPIsBound DHCPIsBound `(E7  1 e 1 0 ]
+"467
+[v _DHCPTask DHCPTask `(v  1 e 1 0 ]
+"700
+[v __DHCPReceive _DHCPReceive `(uc  1 s 1 _DHCPReceive ]
+"1028
+[v __DHCPSend _DHCPSend `(v  1 s 1 _DHCPSend ]
+"122 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACInit MACInit `(v  1 e 1 0 ]
+"226
+[v _MACIsLinked MACIsLinked `(E7  1 e 1 0 ]
+"256
+[v _MACIsTxReady MACIsTxReady `(E332  1 e 1 0 ]
+"292
+[v _MACDiscardRx MACDiscardRx `(v  1 e 1 0 ]
+"347
+[v _MACGetFreeRxSize MACGetFreeRxSize `(us  1 e 2 0 ]
+"405
+[v _MACGetHeader MACGetHeader `(E7  1 e 1 0 ]
+"491
+[v _MACPutHeader MACPutHeader `(v  1 e 1 0 ]
+"537
+[v _MACFlush MACFlush `(v  1 e 1 0 ]
+"582
+[v _MACSetReadPtrInRx MACSetReadPtrInRx `(v  1 e 1 0 ]
+"616
+[v _MACSetWritePtr MACSetWritePtr `(us  1 e 2 0 ]
+"641
+[v _MACSetReadPtr MACSetReadPtr `(us  1 e 2 0 ]
+"670
+[v _MACCalcRxChecksum MACCalcRxChecksum `(us  1 e 2 0 ]
+"791
+[v _CalcIPBufferChecksum CalcIPBufferChecksum `(us  1 e 2 0 ]
+"865
+[v _MACMemCopyAsync MACMemCopyAsync `(v  1 e 1 0 ]
+"967
+[v _MACIsMemCopyDone MACIsMemCopyDone `(E7  1 e 1 0 ]
+"990
+[v _MACGet MACGet `(uc  1 e 1 0 ]
+"1014
+[v _MACGetArray MACGetArray `(us  1 e 2 0 ]
+"1055
+[v _MACPut MACPut `(v  1 e 1 0 ]
+"1087
+[v _MACPutArray MACPutArray `(v  1 e 1 0 ]
+"122 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+"372 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/GenericTypeDefs.h
+"376
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"381 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/GenericTypeDefs.h
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+"127 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3517 . 2 `uc 1 . 1 0 :8:0 
+`uc 1 PDPXMD 1 1 :1:0 
+`uc 1 . 1 1 :7:1 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"134 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3521 . 2 `uc 1 . 1 0 :2:0 
+`uc 1 LLSTAT 1 0 :1:2 
+`uc 1 . 1 0 :5:3 
+`uc 1 . 1 1 :8:0 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"142 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3526 . 2 `uc 1 . 1 0 :4:0 
+`uc 1 RXAPDIS 1 0 :1:4 
+`uc 1 . 1 0 :3:5 
+`uc 1 HDLDIS 1 1 :1:0 
+`uc 1 . 1 1 :5:1 
+`uc 1 FRCLNK 1 1 :1:6 
+`uc 1 . 1 1 :1:7 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"153 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3534 . 2 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :2:0 
+`uc 1 LSTAT 1 1 :1:2 
+`uc 1 COLSTAT 1 1 :1:3 
+`uc 1 RXSTAT 1 1 :1:4 
+`uc 1 TXSTAT 1 1 :1:5 
+`uc 1 . 1 1 :2:6 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"164 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3542 . 2 `uc 1 . 1 0 :1:0 
+`uc 1 PGEIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 PLNKIE 1 0 :1:4 
+`uc 1 . 1 0 :3:5 
+`uc 1 . 1 1 :8:0 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"174 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3549 . 2 `uc 1 . 1 0 :2:0 
+`uc 1 PGIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PLNKIF 1 0 :1:4 
+`uc 1 . 1 0 :3:5 
+`uc 1 . 1 1 :8:0 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"184 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3556 . 2 `uc 1 . 1 0 :1:0 
+`uc 1 STRCH 1 0 :1:1 
+`uc 1 LFRQ0 1 0 :1:2 
+`uc 1 LFRQ1 1 0 :1:3 
+`uc 1 LBCFG0 1 0 :1:4 
+`uc 1 LBCFG1 1 0 :1:5 
+`uc 1 LBCFG2 1 0 :1:6 
+`uc 1 LBCFG3 1 0 :1:7 
+`uc 1 LACFG0 1 1 :1:0 
+`uc 1 LACFG1 1 1 :1:1 
+`uc 1 LACFG2 1 1 :1:2 
+`uc 1 LACFG3 1 1 :1:3 
+`uc 1 . 1 1 :4:4 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+"199 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/Include/TCPIP_Stack/ETH97J60.h
+[s S3570 . 2 `uc 1 . 1 0 :1:0 
+`uc 1 STRCH 1 0 :1:1 
+`uc 1 LFRQ 1 0 :2:2 
+`uc 1 LBCFG 1 0 :4:4 
+`uc 1 LACFG 1 1 :4:0 
+`uc 1 . 1 1 :4:4 
+]
+"1137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[u S3577 . 2 `us 1 Val 2 0 `S52 1 VAL 2 0 `S3517 1 PHCON1bits 2 0 `S3521 1 PHSTAT1bits 2 0 `S3526 1 PHCON2bits 2 0 `S3534 1 PHSTAT2bits 2 0 `S3542 1 PHIEbits 2 0 `S3549 1 PHIRbits 2 0 `S3556 1 PHLCONbits 2 0 `S3570 1 PHLCONbits2 2 0 ]
+[v _ReadPHYReg ReadPHYReg `(S3577  1 e 2 0 ]
+"1179
+[v _WritePHYReg WritePHYReg `(v  1 e 1 0 ]
+"203 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Hashes.c
+[v _MD5Initialize MD5Initialize `(v  1 e 1 0 ]
+"231
+[v _MD5AddData MD5AddData `(v  1 e 1 0 ]
+"339
+[v _MD5HashBlock MD5HashBlock `(v  1 s 1 MD5HashBlock ]
+"413
+[v _MD5Calculate MD5Calculate `(v  1 e 1 0 ]
+"103 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _GenerateRandomDWORD GenerateRandomDWORD `(ul  1 e 4 0 ]
+"327
+[v _StringToIPAddress StringToIPAddress `(E332  1 e 1 0 ]
+"527
+[v _Base64Decode Base64Decode `(us  1 e 2 0 ]
+"719
+[v _uitoa uitoa `(v  1 e 1 0 ]
+"821
+[v _hexatob hexatob `(uc  1 e 1 0 ]
+"864
+[v _btohexa_high btohexa_high `(uc  1 e 1 0 ]
+"890
+[v _btohexa_low btohexa_low `(uc  1 e 1 0 ]
+"920
+[v _stricmppgm2ram stricmppgm2ram `(c  1 e 1 0 ]
+"976
+[v _swaps swaps `(us  1 e 2 0 ]
+"1005
+[v _swapl swapl `(ul  1 e 4 0 ]
+"1047
+[v _CalcIPChecksum CalcIPChecksum `(us  1 e 2 0 ]
+"1168
+[v _strupr strupr `(*.39uc  1 e 3 0 ]
+"1285
+[v _leftRotateDWORD leftRotateDWORD `(ul  1 e 4 0 ]
+"1319
+[v _FormatNetBIOSName FormatNetBIOSName `(v  1 e 1 0 ]
+"220 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPInit HTTPInit `(v  1 e 1 0 ]
+"270
+[v _HTTPServer HTTPServer `(v  1 e 1 0 ]
+"335
+[v _HTTPLoadConn HTTPLoadConn `(v  1 s 1 HTTPLoadConn ]
+"374
+[v _HTTPProcess HTTPProcess `(v  1 s 1 HTTPProcess ]
+"1000
+[v _HTTPSendFile HTTPSendFile `(E332  1 s 1 HTTPSendFile ]
+"1070
+[v _HTTPHeaderParseLookup HTTPHeaderParseLookup `(v  1 s 1 HTTPHeaderParseLookup ]
+"1129
+[v _HTTPHeaderParseAuthorization HTTPHeaderParseAuthorization `(v  1 s 1 HTTPHeaderParseAuthorization ]
+"1199
+[v _HTTPHeaderParseCookie HTTPHeaderParseCookie `(v  1 s 1 HTTPHeaderParseCookie ]
+"1266
+[v _HTTPHeaderParseContentLength HTTPHeaderParseContentLength `(v  1 s 1 HTTPHeaderParseContentLength ]
+"1318
+[v _HTTPURLDecode HTTPURLDecode `(*.39uc  1 e 3 0 ]
+"1388
+[v _HTTPGetArg HTTPGetArg `(*.39uc  1 e 3 0 ]
+"1499
+[v _HTTPReadPostName HTTPReadPostName `(E5557  1 e 1 0 ]
+"1554
+[v _HTTPReadPostValue HTTPReadPostValue `(E5557  1 e 1 0 ]
+"1613
+[v _HTTPReadTo HTTPReadTo `(E5557  1 s 1 HTTPReadTo ]
+"1694
+[v _HTTPMPFSUpload HTTPMPFSUpload `(E5552  1 s 1 HTTPMPFSUpload ]
+"1823
+[v _HTTPIncFile HTTPIncFile `(v  1 e 1 0 ]
+"134 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[v _ICMPProcess ICMPProcess `(v  1 e 1 0 ]
+"226
+[v _ICMPSendPing ICMPSendPing `(v  1 e 1 0 ]
+"319
+[v _ICMPGetReply ICMPGetReply `(l  1 e 4 0 ]
+"455
+[v _ICMPBeginUsage ICMPBeginUsage `(E332  1 e 1 0 ]
+"482
+[v _ICMPEndUsage ICMPEndUsage `(v  1 e 1 0 ]
+"132 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[v _IPGetHeader IPGetHeader `(E332  1 e 1 0 ]
+"248
+[v _IPPutHeader IPPutHeader `(us  1 e 2 0 ]
+"295
+[v _IPSetRxBuffer IPSetRxBuffer `(v  1 e 1 0 ]
+"302
+[v _SwapIPHeader SwapIPHeader `(v  1 s 1 SwapIPHeader ]
+"197 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSInit MPFSInit `(v  1 e 1 0 ]
+"246
+[v _MPFSOpen MPFSOpen `(uc  1 e 1 0 ]
+"428
+[v _MPFSOpenID MPFSOpenID `(uc  1 e 1 0 ]
+"474
+[v _MPFSClose MPFSClose `(v  1 e 1 0 ]
+"505
+[v _MPFSGet MPFSGet `(E332  1 e 1 0 ]
+"604
+[v _MPFSGetArray MPFSGetArray `(us  1 e 2 0 ]
+"723
+[v _MPFSGetLong MPFSGetLong `(E332  1 e 1 0 ]
+"747
+[v _MPFSSeek MPFSSeek `(E332  1 e 1 0 ]
+"836
+[v _MPFSFormat MPFSFormat `(uc  1 e 1 0 ]
+"891
+[v _MPFSPutArray MPFSPutArray `(us  1 e 2 0 ]
+"940
+[v _MPFSPutEnd MPFSPutEnd `(v  1 e 1 0 ]
+"979
+[v __LoadFATRecord _LoadFATRecord `(v  1 s 1 _LoadFATRecord ]
+"1065
+[v _MPFSGetFlags MPFSGetFlags `(us  1 e 2 0 ]
+"1094
+[v _MPFSGetSize MPFSGetSize `(ul  1 e 4 0 ]
+"1150
+[v _MPFSGetStartAddr MPFSGetStartAddr `(ul  1 e 4 0 ]
+"1179
+[v _MPFSGetEndAddr MPFSGetEndAddr `(ul  1 e 4 0 ]
+"1211
+[v _MPFSGetFilename MPFSGetFilename `(E332  1 e 1 0 ]
+"1253
+[v _MPFSGetPosition MPFSGetPosition `(ul  1 e 4 0 ]
+"1278
+[v _MPFSGetID MPFSGetID `(us  1 e 2 0 ]
+"1310
+[v __Validate _Validate `(v  1 s 1 _Validate ]
+"170 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[v _SPIFlashInit SPIFlashInit `(v  1 e 1 0 ]
+"249
+[v _SPIFlashReadArray SPIFlashReadArray `(v  1 e 1 0 ]
+"314
+[v _SPIFlashReadSFDPArray SPIFlashReadSFDPArray `(v  1 e 1 0 ]
+"417
+[v _SPIFlashBeginWrite SPIFlashBeginWrite `(v  1 e 1 0 ]
+"451
+[v _SPIFlashWrite SPIFlashWrite `(v  1 e 1 0 ]
+"546
+[v _SPIFlashWriteArray SPIFlashWriteArray `(v  1 e 1 0 ]
+"746
+[v _SPIFlashEraseSector SPIFlashEraseSector `(v  1 e 1 0 ]
+"829
+[v __SendCmd _SendCmd `(v  1 e 1 0 ]
+"865
+[v __WaitWhileBusy _WaitWhileBusy `(v  1 e 1 0 ]
+"114 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[v _StackInit StackInit `(v  1 e 1 0 ]
+"215
+[v _StackTask StackTask `(v  1 e 1 0 ]
+"383
+[v _StackApplications StackApplications `(v  1 e 1 0 ]
+"294 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _SyncTCBStub SyncTCBStub `(v  1 s 1 SyncTCBStub ]
+"325
+[v _SyncTCB SyncTCB `(v  1 s 1 SyncTCB ]
+"369
+[v _TCPInit TCPInit `(v  1 e 1 0 ]
+"555
+[v _TCPOpen TCPOpen `(uc  1 e 1 0 ]
+"688
+[v _TCPWasReset TCPWasReset `(E332  1 e 1 0 ]
+"730
+[v _TCPIsConnected TCPIsConnected `(E332  1 e 1 0 ]
+"780
+[v _TCPDisconnect TCPDisconnect `(v  1 e 1 0 ]
+"982
+[v _TCPFlush TCPFlush `(v  1 e 1 0 ]
+"1019
+[v _TCPIsPutReady TCPIsPutReady `(us  1 e 2 0 ]
+"1076
+[v _TCPPut TCPPut `(E332  1 e 1 0 ]
+"1153
+[v _TCPPutArray TCPPutArray `(us  1 e 2 0 ]
+"1386
+[v _TCPPutString TCPPutString `(*.34uc  1 e 3 0 ]
+"1482
+[v _TCPDiscard TCPDiscard `(v  1 e 1 0 ]
+"1519
+[v _TCPIsGetReady TCPIsGetReady `(us  1 e 2 0 ]
+"1548
+[v _TCPGet TCPGet `(E332  1 e 1 0 ]
+"1602
+[v _TCPGetArray TCPGetArray `(us  1 e 2 0 ]
+"1671
+[v _TCPGetRxFIFOFree TCPGetRxFIFOFree `(us  1 e 2 0 ]
+"1737
+[v _TCPPeekArray TCPPeekArray `(us  1 e 2 0 ]
+"1864
+[v _TCPFindArrayEx TCPFindArrayEx `(us  1 e 2 0 ]
+"2210
+[v _TCPFindEx TCPFindEx `(us  1 e 2 0 ]
+"2243
+[v _TCPTick TCPTick `(v  1 e 1 0 ]
+"2688
+[v _TCPProcess TCPProcess `(E332  1 e 1 0 ]
+"2805
+[v _SendTCP SendTCP `(v  1 s 1 SendTCP ]
+"3109
+[v _FindMatchingSocket FindMatchingSocket `(E332  1 s 1 FindMatchingSocket ]
+"3290
+[v _SwapTCPHeader SwapTCPHeader `(v  1 s 1 SwapTCPHeader ]
+"3324
+[v _CloseSocket CloseSocket `(v  1 s 1 CloseSocket ]
+"3406
+[v _GetMaxSegSizeOption GetMaxSegSizeOption `(us  1 s 2 GetMaxSegSizeOption ]
+"3499
+[v _HandleTCPSeg HandleTCPSeg `(v  1 s 1 HandleTCPSeg ]
+"4226
+[v _TCPAdjustFIFOSize TCPAdjustFIFOSize `(E332  1 e 1 0 ]
+"4412
+[v _TCPRAMCopy TCPRAMCopy `(v  1 s 1 TCPRAMCopy ]
+"94 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _TickInit TickInit `(v  1 e 1 0 ]
+"155
+[v _GetTickCopy GetTickCopy `(v  1 s 1 GetTickCopy ]
+"252
+[v _TickGet TickGet `(ul  1 e 4 0 ]
+"282
+[v _TickGetDiv256 TickGetDiv256 `(ul  1 e 4 0 ]
+"383
+[v _TickUpdate TickUpdate `(v  1 e 1 0 ]
+"167 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPInit UDPInit `(v  1 e 1 0 ]
+"204
+[v _UDPTask UDPTask `(v  1 e 1 0 ]
+"246
+[v _UDPOpen UDPOpen `(uc  1 e 1 0 ]
+"326
+[v _UDPClose UDPClose `(v  1 e 1 0 ]
+"359
+[v _UDPSetTxBuffer UDPSetTxBuffer `(v  1 e 1 0 ]
+"389
+[v _UDPSetRxBuffer UDPSetRxBuffer `(v  1 e 1 0 ]
+"423
+[v _UDPIsPutReady UDPIsPutReady `(us  1 e 2 0 ]
+"462
+[v _UDPPut UDPPut `(E7  1 e 1 0 ]
+"503
+[v _UDPPutArray UDPPutArray `(us  1 e 2 0 ]
+"594
+[v _UDPPutString UDPPutString `(*.32uc  1 e 3 0 ]
+"661
+[v _UDPFlush UDPFlush `(v  1 e 1 0 ]
+"753
+[v _UDPIsGetReady UDPIsGetReady `(us  1 e 2 0 ]
+"792
+[v _UDPGet UDPGet `(E7  1 e 1 0 ]
+"829
+[v _UDPGetArray UDPGetArray `(us  1 e 2 0 ]
+"873
+[v _UDPDiscard UDPDiscard `(v  1 e 1 0 ]
+"916
+[v _UDPProcess UDPProcess `(E332  1 e 1 0 ]
+"1003
+[v _FindMatchingSocket@UDP$F12062 FindMatchingSocket `(uc  1 s 1 FindMatchingSocket ]
+"98 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MODBUSTCPServer.c
+[v _MODBUSTCPServer MODBUSTCPServer `(v  1 e 1 0 ]
+"252
+[v _ProcessReceivedMessage ProcessReceivedMessage `(v  1 e 1 0 ]
+"303
+[v _readHoldingRegister readHoldingRegister `(v  1 e 1 0 ]
+"345
+[v _writeHoldingRegister writeHoldingRegister `(v  1 e 1 0 ]
+"388
+[v _readInputRegister readInputRegister `(v  1 e 1 0 ]
+"427
+[v _writeSingleCoil writeSingleCoil `(v  1 e 1 0 ]
+"451
+[v _readCoil readCoil `(v  1 e 1 0 ]
+"494
+[v _ModbusError ModbusError `(v  1 e 1 0 ]
+"89 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\PingDemo.c
+[v _PingDemo PingDemo `(v  1 e 1 0 ]
+"12 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X/SvnSeg.h
+[v _seg_map seg_map `C[15]uc  1 e 15 0 ]
+"43
+[v _wheel wheel `C[4]uc  1 e 4 0 ]
+[s S9024 . 6 `uc 1 vSocketPurpose 1 0 `uc 1 vMemoryMedium 1 1 `us 1 wTXBufferSize 2 2 `us 1 wRXBufferSize 2 4 ]
+"284 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X/TCPIPConfig.h
+[v _TCPSocketInitializer TCPSocketInitializer `C[7]S9024  1 e 42 0 ]
+"36 C:/Users/watso/.mchp_packs/Microchip/PIC18F-J_DFP/1.10.174/xc8\pic\include\proc/pic18f67j60.h
+[v _MAADR5 MAADR5 `VEuc  1 e 1 @3712 ]
+"43
+[v _MAADR6 MAADR6 `VEuc  1 e 1 @3713 ]
+"50
+[v _MAADR3 MAADR3 `VEuc  1 e 1 @3714 ]
+"57
+[v _MAADR4 MAADR4 `VEuc  1 e 1 @3715 ]
+"64
+[v _MAADR1 MAADR1 `VEuc  1 e 1 @3716 ]
+"71
+[v _MAADR2 MAADR2 `VEuc  1 e 1 @3717 ]
+[s S3691 . 1 `uc 1 BUSY 1 0 :1:0 
+`uc 1 SCAN 1 0 :1:1 
+`uc 1 NVALID 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+]
+"91
+[u S3696 . 1 `S3691 1 . 1 0 ]
+[v _MISTATbits MISTATbits `VES3696  1 e 1 @3722 ]
+"164
+[v _MACON1 MACON1 `VEuc  1 e 1 @3744 ]
+"202
+[v _MACON3 MACON3 `VEuc  1 e 1 @3746 ]
+"273
+[v _MACON4 MACON4 `VEuc  1 e 1 @3747 ]
+"295
+[v _MABBIPG MABBIPG `VEuc  1 e 1 @3748 ]
+"358
+[v _MAIPGL MAIPGL `VEuc  1 e 1 @3750 ]
+"365
+[v _MAIPGH MAIPGH `VEuc  1 e 1 @3751 ]
+"379
+[v _MAMXFLL MAMXFLL `VEuc  1 e 1 @3754 ]
+"386
+[v _MAMXFLH MAMXFLH `VEuc  1 e 1 @3755 ]
+"393
+[v _MICMD MICMD `VEuc  1 e 1 @3762 ]
+"419
+[v _MIREGADR MIREGADR `VEuc  1 e 1 @3764 ]
+"454
+[v _MIRDL MIRDL `VEuc  1 e 1 @3768 ]
+"461
+[v _MIRDH MIRDH `VEuc  1 e 1 @3769 ]
+"684
+[v _EPKTCNT EPKTCNT `VEuc  1 e 1 @3801 ]
+"691
+[v _EWRPT EWRPT `VEus  1 e 2 @3810 ]
+"712
+[v _ETXST ETXST `VEus  1 e 2 @3812 ]
+"733
+[v _ETXND ETXND `VEus  1 e 2 @3814 ]
+"754
+[v _ERXST ERXST `VEus  1 e 2 @3816 ]
+"775
+[v _ERXND ERXND `VEus  1 e 2 @3818 ]
+"796
+[v _ERXRDPT ERXRDPT `VEus  1 e 2 @3820 ]
+"803
+[v _ERXRDPTL ERXRDPTL `VEuc  1 e 1 @3820 ]
+"810
+[v _ERXRDPTH ERXRDPTH `VEuc  1 e 1 @3821 ]
+"817
+[v _ERXWRPT ERXWRPT `VEus  1 e 2 @3822 ]
+"838
+[v _EDMAST EDMAST `VEus  1 e 2 @3824 ]
+"859
+[v _EDMAND EDMAND `VEus  1 e 2 @3826 ]
+"880
+[v _EDMADST EDMADST `VEus  1 e 2 @3828 ]
+[s S3333 . 1 `uc 1 PHYRDY 1 0 :1:0 
+`uc 1 TXABRT 1 0 :1:1 
+`uc 1 RXBUSY 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 . 1 0 :1:5 
+`uc 1 BUFER 1 0 :1:6 
+]
+"997
+[u S3340 . 1 `S3333 1 . 1 0 ]
+[v _ESTATbits ESTATbits `VES3340  1 e 1 @3837 ]
+[s S3320 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 ETHEN 1 0 :1:5 
+`uc 1 PKTDEC 1 0 :1:6 
+`uc 1 AUTOINC 1 0 :1:7 
+]
+"1035
+[u S3325 . 1 `S3320 1 . 1 0 ]
+[v _ECON2bits ECON2bits `VES3325  1 e 1 @3838 ]
+[s S3595 . 1 `uc 1 RXERIF 1 0 :1:0 
+`uc 1 TXERIF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXIF 1 0 :1:3 
+`uc 1 LINKIF 1 0 :1:4 
+`uc 1 DMAIF 1 0 :1:5 
+`uc 1 PKTIF 1 0 :1:6 
+]
+"1075
+[s S3603 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ETXIF 1 0 :1:3 
+]
+[u S3606 . 1 `S3595 1 . 1 0 `S3603 1 . 1 0 ]
+[v _EIRbits EIRbits `VES3606  1 e 1 @3936 ]
+"1115
+[v _EDATA EDATA `VEuc  1 e 1 @3937 ]
+"2086
+[v _ERDPT ERDPT `VEus  1 e 2 @3962 ]
+"2093
+[v _ERDPTL ERDPTL `VEuc  1 e 1 @3962 ]
+"2100
+[v _ERDPTH ERDPTH `VEuc  1 e 1 @3963 ]
+[s S3295 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"2831
+[s S13524 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S13531 . 1 `uc 1 LEDA 1 0 :1:0 
+`uc 1 LEDB 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+]
+[s S13536 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[u S13540 . 1 `S3295 1 . 1 0 `S13524 1 . 1 0 `S13531 1 . 1 0 `S13536 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES13540  1 e 1 @3968 ]
+[s S13572 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 REPU 1 0 :1:6 
+`uc 1 RDPU 1 0 :1:7 
+]
+"3729
+[s S13581 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[s S13590 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LATA7 1 0 :1:7 
+]
+[u S13593 . 1 `S13572 1 . 1 0 `S13581 1 . 1 0 `S13590 1 . 1 0 ]
+[v _LATAbits LATAbits `VES13593  1 e 1 @3977 ]
+[s S13629 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3846
+[s S13638 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S13647 . 1 `S13629 1 . 1 0 `S13638 1 . 1 0 ]
+[v _LATBbits LATBbits `VES13647  1 e 1 @3978 ]
+[s S8329 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"3958
+[s S8338 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S8347 . 1 `S8329 1 . 1 0 `S8338 1 . 1 0 ]
+[v _LATCbits LATCbits `VES8347  1 e 1 @3979 ]
+[s S13745 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+`uc 1 LATE3 1 0 :1:3 
+`uc 1 LATE4 1 0 :1:4 
+`uc 1 LATE5 1 0 :1:5 
+]
+"4118
+[s S13752 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+`uc 1 LE3 1 0 :1:3 
+`uc 1 LE4 1 0 :1:4 
+`uc 1 LE5 1 0 :1:5 
+]
+[u S13759 . 1 `S13745 1 . 1 0 `S13752 1 . 1 0 ]
+[v _LATEbits LATEbits `VES13759  1 e 1 @3981 ]
+[s S13705 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"4210
+[s S13714 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LF1 1 0 :1:1 
+`uc 1 LF2 1 0 :1:2 
+`uc 1 LF3 1 0 :1:3 
+`uc 1 LF4 1 0 :1:4 
+`uc 1 LF5 1 0 :1:5 
+`uc 1 LF6 1 0 :1:6 
+`uc 1 LF7 1 0 :1:7 
+]
+[u S13723 . 1 `S13705 1 . 1 0 `S13714 1 . 1 0 ]
+[v _LATFbits LATFbits `VES13723  1 e 1 @3982 ]
+[s S3288 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"4343
+[u S3302 . 1 `S3288 1 . 1 0 `S3295 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES3302  1 e 1 @3986 ]
+[s S13805 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4521
+[s S13814 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S13823 . 1 `S13805 1 . 1 0 `S13814 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES13823  1 e 1 @3987 ]
+[s S8369 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"4743
+[s S8378 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S8387 . 1 `S8369 1 . 1 0 `S8378 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES8387  1 e 1 @3988 ]
+[s S13845 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 TRISE3 1 0 :1:3 
+`uc 1 TRISE4 1 0 :1:4 
+`uc 1 TRISE5 1 0 :1:5 
+]
+"5063
+[s S13852 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+`uc 1 RE4 1 0 :1:4 
+`uc 1 RE5 1 0 :1:5 
+]
+[u S13859 . 1 `S13845 1 . 1 0 `S13852 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES13859  1 e 1 @3990 ]
+[s S13877 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"5241
+[s S13886 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RF1 1 0 :1:1 
+`uc 1 RF2 1 0 :1:2 
+`uc 1 RF3 1 0 :1:3 
+`uc 1 RF4 1 0 :1:4 
+`uc 1 RF5 1 0 :1:5 
+`uc 1 RF6 1 0 :1:6 
+`uc 1 RF7 1 0 :1:7 
+]
+[u S13895 . 1 `S13877 1 . 1 0 `S13886 1 . 1 0 ]
+[v _TRISFbits TRISFbits `VES13895  1 e 1 @3991 ]
+"5469
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S8455 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"5625
+[s S8463 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[s S8467 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+]
+[u S8470 . 1 `S8455 1 . 1 0 `S8463 1 . 1 0 `S8467 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES8470  1 e 1 @3998 ]
+"7883
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"7954
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"8039
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S4753 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"8085
+[s S4756 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S4760 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[s S4769 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S4772 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S4775 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S4778 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S4781 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S4784 . 1 `S4753 1 . 1 0 `S4756 1 . 1 0 `S4760 1 . 1 0 `S4769 1 . 1 0 `S4772 1 . 1 0 `S4775 1 . 1 0 `S4778 1 . 1 0 `S4781 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES4784  1 e 1 @4034 ]
+"8172
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"8179
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"8558
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S8410 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"8593
+[s S8416 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S8421 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S8430 . 1 `S8410 1 . 1 0 `S8416 1 . 1 0 `S8421 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES8430  1 e 1 @4038 ]
+[s S8490 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"8896
+[s S8493 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S8496 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S8505 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S8510 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S8516 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S8521 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S8524 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S8527 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S8532 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S8537 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S8542 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S8551 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S8557 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S8560 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S8563 . 1 `S8490 1 . 1 0 `S8493 1 . 1 0 `S8496 1 . 1 0 `S8505 1 . 1 0 `S8510 1 . 1 0 `S8516 1 . 1 0 `S8521 1 . 1 0 `S8524 1 . 1 0 `S8527 1 . 1 0 `S8532 1 . 1 0 `S8537 1 . 1 0 `S8542 1 . 1 0 `S8551 1 . 1 0 `S8557 1 . 1 0 `S8560 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES8563  1 e 1 @4039 ]
+"9621
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S14017 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"9997
+[s S14019 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S14022 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S14025 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S14028 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S14031 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+[s S14034 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S14043 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+[u S14050 . 1 `S14017 1 . 1 0 `S14019 1 . 1 0 `S14022 1 . 1 0 `S14025 1 . 1 0 `S14028 1 . 1 0 `S14031 1 . 1 0 `S14034 1 . 1 0 `S14043 1 . 1 0 ]
+[v _RCONbits RCONbits `VES14050  1 e 1 @4048 ]
+[s S3498 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXEN 1 0 :1:2 
+`uc 1 TXRTS 1 0 :1:3 
+`uc 1 CSUMEN 1 0 :1:4 
+`uc 1 DMAST 1 0 :1:5 
+`uc 1 RXRST 1 0 :1:6 
+`uc 1 TXRST 1 0 :1:7 
+]
+"10141
+[u S3506 . 1 `S3498 1 . 1 0 ]
+[v _ECON1bits ECON1bits `VES3506  1 e 1 @4050 ]
+"10224
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"10301
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"10308
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S11489 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"10707
+[s S11492 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S11501 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S11506 . 1 `S11489 1 . 1 0 `S11492 1 . 1 0 `S11501 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES11506  1 e 1 @4081 ]
+"10767
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S11528 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"10799
+[s S11537 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S11546 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S11550 . 1 `S11528 1 . 1 0 `S11537 1 . 1 0 `S11546 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES11550  1 e 1 @4082 ]
+"10891
+[v _PRODL PRODL `VEuc  1 e 1 @4083 ]
+"10898
+[v _PRODH PRODH `VEuc  1 e 1 @4084 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\rand.c
+[v _seed seed `ul  1 s 4 seed ]
+"106 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _lastSuccess lastSuccess `E7  1 s 1 lastSuccess ]
+"109
+[v _lastFailure lastFailure `E7  1 s 1 lastFailure ]
+"1400
+[v _HTML_UP_ARROW HTML_UP_ARROW `C[3]uc  1 e 3 0 ]
+"1401
+[v _HTML_DOWN_ARROW HTML_DOWN_ARROW `C[3]uc  1 e 3 0 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"78 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S124 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 bIsDHCPEnabled 1 0 :1:6 
+`uc 1 bInConfigMode 1 0 :1:7 
+]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S128 . 51 `S93 1 MyIPAddr 4 0 `S93 1 MyMask 4 4 `S93 1 MyGateway 4 8 `S93 1 PrimaryDNSServer 4 12 `S93 1 SecondaryDNSServer 4 16 `S93 1 DefaultIPAddr 4 20 `S93 1 DefaultMask 4 24 `[16]uc 1 NetBIOSName 16 28 `S124 1 Flags 1 44 `S101 1 MyMACAddr 6 45 ]
+[v _AppConfig AppConfig `S128  1 e 51 0 ]
+"79
+[v _AnalogString AnalogString `[8]uc  1 e 8 0 ]
+"80
+[v _BoardCount BoardCount `uc  1 e 1 0 ]
+"83
+[v _timeStamp timeStamp `[10]ul  1 e 40 0 ]
+"84
+[v _timeStampBit timeStampBit `[10]us  1 e 20 0 ]
+"85
+[v _timeStampReg timeStampReg `[10]us  1 e 20 0 ]
+"88
+[v _prevTimeStampBit prevTimeStampBit `[10]us  1 e 20 0 ]
+"89
+[v _prevTimeStampReg prevTimeStampReg `[10]us  1 e 20 0 ]
+"90
+[v _debounceCount debounceCount `[10]us  1 e 20 0 ]
+"93
+[v _debounceMemory debounceMemory `[10]uc  1 e 10 0 ]
+"94
+[v _debounceCleanout debounceCleanout `[10]uc  1 e 10 0 ]
+"96
+[v _SevSegStep SevSegStep `i  1 e 2 0 ]
+"99
+[v _Holding_Register Holding_Register `[12]us  1 e 24 0 ]
+"101
+[v _displayIP displayIP `E332  1 e 1 0 ]
+[s S13474 . 4 `uc 1 leftDigit 1 0 `uc 1 rightDigit 1 1 `uc 1 leftDP 1 2 `uc 1 rightDP 1 3 ]
+"104
+[v _frames frames `[10]S13474  1 e 40 0 ]
+"105
+[v _frameCount frameCount `uc  1 e 1 0 ]
+"879
+[v _SerializedMACAddress SerializedMACAddress `[6]uc  1 e 6 0 ]
+"72 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v _Cache Cache `S103  1 s 10 Cache ]
+"137 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[v _DHCPClientInitializedOnce DHCPClientInitializedOnce `E7  1 e 1 0 ]
+[s S2359 . 1 `uc 1 bIsBound 1 0 :1:0 
+`uc 1 bEvent 1 0 :1:1 
+`uc 1 bOfferReceived 1 0 :1:2 
+`uc 1 bDHCPServerDetected 1 0 :1:3 
+`uc 1 bUseUnicastMode 1 0 :1:4 
+]
+"178
+[u S2365 . 1 `S2359 1 bits 1 0 `uc 1 val 1 0 ]
+[s S2445 . 1 `uc 1 IPAddress 1 0 :1:0 
+`uc 1 Gateway 1 0 :1:1 
+`uc 1 Mask 1 0 :1:2 
+`uc 1 DNS 1 0 :1:3 
+`uc 1 DNS2 1 0 :1:4 
+`uc 1 HostName 1 0 :1:5 
+]
+[u S2452 . 1 `S2445 1 bits 1 0 `uc 1 val 1 0 ]
+[s S2455 . 28 `uc 1 hDHCPSocket 1 0 `E5420 1 smState 1 1 `S2365 1 flags 1 2 `ul 1 dwTimer 4 3 `ul 1 dwLeaseTime 4 7 `ul 1 dwServerID 4 11 `S93 1 tempIPAddress 4 15 `S93 1 tempGateway 4 19 `S93 1 tempMask 4 23 `S2452 1 validValues 1 27 ]
+[v _DHCPClient DHCPClient `S2455  1 s 28 DHCPClient ]
+"98 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _NextPacketLocation NextPacketLocation `S52  1 s 2 NextPacketLocation ]
+"99
+[v _CurrentPacketLocation CurrentPacketLocation `S52  1 s 2 CurrentPacketLocation ]
+"100
+[v _WasDiscarded WasDiscarded `E7  1 s 1 WasDiscarded ]
+"101
+[v _wTXWatchdog wTXWatchdog `us  1 s 2 wTXWatchdog ]
+"85 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Hashes.c
+[v _lastBlock lastBlock `[64]uc  1 e 64 0 ]
+"170
+[v __MD5_r _MD5_r `C[64]uc  1 s 64 _MD5_r ]
+"176
+[v __MD5_k _MD5_k `C[64]ul  1 s 256 _MD5_k ]
+"69 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTP_CRLF HTTP_CRLF `C[3]uc  1 s 3 HTTP_CRLF ]
+"77
+[v _httpFileExtensions httpFileExtensions `C[12]*.32Cuc  1 s 24 httpFileExtensions ]
+"94
+[v _httpContentTypes httpContentTypes `C[12]*.32Cuc  1 s 24 httpContentTypes ]
+"116
+[v _HTTPResponseHeaders HTTPResponseHeaders `C[14]*.32Cuc  1 s 28 HTTPResponseHeaders ]
+"146
+[v _HTTPRequestHeaders HTTPRequestHeaders `C[3]*.32Cuc  1 s 6 HTTPRequestHeaders ]
+[s S1188 . 127 `ul 1 byteCount 4 0 `ul 1 nextCallback 4 4 `ul 1 callbackID 4 8 `ul 1 callbackPos 4 12 `*.39uc 1 ptrData 2 16 `*.39uc 1 ptrRead 2 18 `uc 1 file 1 20 `uc 1 offsets 1 21 `uc 1 hasArgs 1 22 `uc 1 isAuthorized 1 23 `E5522 1 httpStatus 1 24 `E5562 1 fileType 1 25 `[100]uc 1 data 100 26 `uc 1 smPost 1 126 ]
+"163
+[v _curHTTP curHTTP `S1188  1 e 127 0 ]
+[s S5786 . 2 `E5538 1 sm 1 0 `uc 1 socket 1 1 ]
+"164
+[v _httpStubs httpStubs `[2]S5786  1 e 4 0 ]
+"165
+[v _curHTTPID curHTTPID `uc  1 e 1 0 ]
+"77 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[v _wICMPSequenceNumber wICMPSequenceNumber `us  1 s 2 wICMPSequenceNumber ]
+"79
+[v _ICMPTimer ICMPTimer `ul  1 s 4 ICMPTimer ]
+[s S6386 . 1 `uc 1 bICMPInUse 1 0 :1:0 
+`uc 1 bReplyValid 1 0 :1:1 
+`uc 1 bRemoteHostIsROM 1 0 :1:2 
+]
+"87
+[v _ICMPFlags ICMPFlags `S6386  1 s 1 ICMPFlags ]
+[u S6390 . 2 `*.39Cuc 1 szROM 2 0 `*.39uc 1 szRAM 2 0 ]
+"98
+[u S6475 . 10 `S6390 1 RemoteHost 2 0 `S103 1 ICMPRemote 10 0 ]
+[v _StaticVars StaticVars `S6475  1 s 10 StaticVars ]
+"110
+[v _ICMPState ICMPState `E5657  1 s 1 ICMPState ]
+"97 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[v __Identifier _Identifier `us  1 s 2 _Identifier ]
+"98
+[v _IPHeaderLen IPHeaderLen `uc  1 s 1 IPHeaderLen ]
+[s S8181 . 10 `ul 1 addr 4 0 `ul 1 bytesRem 4 4 `us 1 fatID 2 8 ]
+"118 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSStubs MPFSStubs `[8]S8181  1 s 80 MPFSStubs ]
+"121
+[v _isMPFSLocked isMPFSLocked `E332  1 s 1 isMPFSLocked ]
+[s S8188 . 22 `ul 1 string 4 0 `ul 1 data 4 4 `ul 1 len 4 8 `ul 1 timestamp 4 12 `ul 1 microtime 4 16 `us 1 flags 2 20 ]
+"124
+[v _fatCache fatCache `S8188  1 s 22 fatCache ]
+"127
+[v _fatCacheID fatCacheID `us  1 s 2 fatCacheID ]
+"130
+[v _numFiles numFiles `us  1 s 2 numFiles ]
+"136 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[v _dwWriteAddr dwWriteAddr `ul  1 e 4 0 ]
+"145
+[v _block_protection_6 block_protection_6 `[10]ui  1 e 20 0 ]
+"93 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[v _smStack smStack `E5635  1 s 1 smStack ]
+"95
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v _remoteNode remoteNode `S103  1 e 10 0 ]
+"202 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _NextPort NextPort `us  1 s 2 NextPort ]
+[u S9029 . 2 `us 1 delayedACKTime 2 0 `us 1 closeWaitTime 2 0 ]
+"240
+[s S9048 . 2 `uc 1 vUnackedKeepalives 1 0 :3:0 
+`uc 1 bServer 1 0 :1:3 
+`uc 1 bTimerEnabled 1 0 :1:4 
+`uc 1 bTimer2Enabled 1 0 :1:5 
+`uc 1 bDelayedACKTimerEnabled 1 0 :1:6 
+`uc 1 bOneSegmentReceived 1 0 :1:7 
+`uc 1 bHalfFullFlush 1 1 :1:0 
+`uc 1 bTXASAP 1 1 :1:1 
+`uc 1 bTXASAPWithoutTimerReset 1 1 :1:2 
+`uc 1 bTXFIN 1 1 :1:3 
+`uc 1 bSocketReset 1 1 :1:4 
+`uc 1 bSSLHandshaking 1 1 :1:5 
+`uc 1 filler 1 1 :2:6 
+]
+[s S9087 . 28 `us 1 bufferTxStart 2 0 `us 1 bufferRxStart 2 2 `us 1 bufferEnd 2 4 `us 1 txHead 2 6 `us 1 txTail 2 8 `us 1 rxHead 2 10 `us 1 rxTail 2 12 `ul 1 eventTime 4 14 `us 1 eventTime2 2 18 `S9029 1 OverlappedTimers 2 20 `E5250 1 smState 1 22 `S9048 1 Flags 2 23 `S52 1 remoteHash 2 25 `uc 1 vMemoryMedium 1 27 ]
+[v _TCBStubs TCBStubs `[7]S9087  1 s 196 TCBStubs ]
+"246
+[u S9159 . 10 `S103 1 niRemoteMACIP 10 0 `ul 1 dwRemoteHost 4 0 ]
+[s S9162 . 1 `uc 1 bFINSent 1 0 :1:0 
+`uc 1 bSYNSent 1 0 :1:1 
+`uc 1 bRemoteHostIsROM 1 0 :1:2 
+`uc 1 bRXNoneACKed1 1 0 :1:3 
+`uc 1 bRXNoneACKed2 1 0 :1:4 
+`uc 1 filler 1 0 :3:5 
+]
+[s S9169 . 39 `ul 1 retryInterval 4 0 `ul 1 MySEQ 4 4 `ul 1 RemoteSEQ 4 8 `us 1 txUnackedTail 2 12 `S52 1 remotePort 2 14 `S52 1 localPort 2 16 `us 1 remoteWindow 2 18 `us 1 wFutureDataSize 2 20 `S9159 1 remote 10 22 `s 1 sHoleSize 2 32 `S9162 1 flags 1 34 `us 1 wRemoteMSS 2 35 `uc 1 retryCount 1 37 `uc 1 vSocketPurpose 1 38 ]
+[v _MyTCB MyTCB `S9169  1 s 39 MyTCB ]
+"247
+[v _hCurrentTCP hCurrentTCP `uc  1 s 1 hCurrentTCP ]
+"252
+[s S9184 . 20 `S103 1 niSourceAddress 10 0 `us 1 wSourcePort 2 10 `ul 1 dwSourceSEQ 4 12 `us 1 wDestPort 2 16 `us 1 wTimestamp 2 18 ]
+[v _SYNQueue SYNQueue `[3]S9184  1 s 60 SYNQueue ]
+"290
+[v _MyTCBStub MyTCBStub `S9087  1 s 28 MyTCBStub ]
+"64 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _dwInternalTicks dwInternalTicks `VEul  1 s 4 dwInternalTicks ]
+"67
+[v _vTickReading vTickReading `[6]uc  1 s 6 vTickReading ]
+"110 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[s S849 . 14 `S103 1 remoteNode 10 0 `us 1 remotePort 2 10 `us 1 localPort 2 12 ]
+[v _UDPSocketInfo UDPSocketInfo `[8]S849  1 e 112 0 ]
+"113
+[v _activeUDPSocket activeUDPSocket `uc  1 e 1 0 ]
+"115
+[v _UDPTxCount UDPTxCount `us  1 e 2 0 ]
+"116
+[v _UDPRxCount UDPRxCount `us  1 e 2 0 ]
+"117
+[v _LastPutSocket LastPutSocket `uc  1 s 1 LastPutSocket ]
+"118
+[v _wPutOffset wPutOffset `us  1 s 2 wPutOffset ]
+"119
+[v _wGetOffset wGetOffset `us  1 s 2 wGetOffset ]
+[s S11953 . 1 `uc 1 bFirstRead 1 0 :1:0 
+`uc 1 bWasDiscarded 1 0 :1:1 
+]
+"126
+[v _Flags Flags `S11953  1 s 1 Flags ]
+"129
+[v _SocketWithRxData SocketWithRxData `uc  1 s 1 SocketWithRxData ]
+"69 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MODBUSTCPServer.c
+[v _ReadByteReverse ReadByteReverse `uc  1 e 1 0 ]
+"70
+[v _InputByteReverse InputByteReverse `uc  1 e 1 0 ]
+"71
+[v _WriteByteReverse WriteByteReverse `uc  1 e 1 0 ]
+"73
+[v _iLlegal_Function iLlegal_Function `uc  1 s 1 iLlegal_Function ]
+"74
+[s S14601 . 12 `S52 1 TransactionID 2 0 `S52 1 ProtocolID 2 2 `us 1 Length 2 4 `uc 1 UnitID 1 6 `uc 1 FunctionCode 1 7 `S52 1 StartAddress 2 8 `S52 1 NumberOfRegister 2 10 ]
+[v _MODBUS_COMMAND MODBUS_COMMAND `S14601  1 e 12 0 ]
+"75
+[v _MODBUS_RX MODBUS_RX `[50]uc  1 e 50 0 ]
+"76
+[v _MODBUS_TX MODBUS_TX `[50]uc  1 e 50 0 ]
+"79
+[v _COILS COILS `[5]E7  1 e 5 0 ]
+"80
+[v _HOLDING_REG HOLDING_REG `[50]us  1 e 100 0 ]
+"81
+[v _INPUT_REG INPUT_REG `[5]us  1 e 10 0 ]
+"131 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _main main `(v  1 e 1 0 ]
+{
+"201
+[v main@StartTime StartTime `ul  1 a 4 8 ]
+"136
+[v main@j j `i  1 a 2 12 ]
+"138
+[v main@b b `i  1 a 2 6 ]
+"137
+[v main@k k `i  1 a 2 4 ]
+"133
+[v main@t t `ul  1 s 4 t ]
+[v main@t2 t2 `ul  1 s 4 t2 ]
+[v main@t3 t3 `ul  1 s 4 t3 ]
+"134
+[v main@dwLastIP dwLastIP `ul  1 s 4 dwLastIP ]
+"368
+} 0
+"541
+[v _writeLEDS writeLEDS `(v  1 e 1 0 ]
+{
+"542
+[v writeLEDS@i i `i  1 a 2 15 ]
+"541
+[v writeLEDS@reg reg `i  1 p 2 5 ]
+[v writeLEDS@num num `i  1 p 2 7 ]
+"559
+} 0
+"632
+[v _SPI_Send SPI_Send `(v  1 e 1 0 ]
+{
+[v SPI_Send@data_out_1 data_out_1 `uc  1 p 1 wreg ]
+[v SPI_Send@data_out_1 data_out_1 `uc  1 p 1 wreg ]
+[v SPI_Send@data_out_2 data_out_2 `uc  1 p 1 3 ]
+"637
+[v SPI_Send@data_out_1 data_out_1 `uc  1 p 1 4 ]
+"660
+} 1
+"758
+[v _showFrame showFrame `(v  1 e 1 0 ]
+{
+"759
+[v showFrame@rightPattern rightPattern `uc  1 a 1 17 ]
+[v showFrame@leftPattern leftPattern `uc  1 a 1 16 ]
+[s S13474 . 4 `uc 1 leftDigit 1 0 `uc 1 rightDigit 1 1 `uc 1 leftDP 1 2 `uc 1 rightDP 1 3 ]
+"758
+[v showFrame@f f `*.39S13474  1 p 2 9 ]
+"768
+} 0
+"561
+[v _setup_io setup_io `(v  1 e 1 0 ]
+{
+"575
+} 0
+"491
+[v _readButtons readButtons `(v  1 e 1 0 ]
+{
+"494
+[v readButtons@i i `uc  1 a 1 19 ]
+"493
+[v readButtons@temp temp `uc  1 a 1 18 ]
+"491
+[v readButtons@reg reg `i  1 p 2 4 ]
+[v readButtons@num num `i  1 p 2 6 ]
+"517
+} 0
+"662
+[v _SPI_Read SPI_Read `(uc  1 e 1 0 ]
+{
+"663
+[v SPI_Read@Dummy Dummy `VEuc  1 a 1 3 ]
+"687
+} 0
+"372
+[v _processButtonBits processButtonBits `(v  1 e 1 0 ]
+{
+"378
+[v processButtonBits@alreadyTracked alreadyTracked `E332  1 a 1 20 ]
+"379
+[v processButtonBits@alreadyDebounced alreadyDebounced `E332  1 a 1 19 ]
+"374
+[v processButtonBits@time time `ul  1 a 4 15 ]
+"373
+[v processButtonBits@k k `i  1 a 2 27 ]
+[v processButtonBits@i i `i  1 a 2 25 ]
+[v processButtonBits@l l `i  1 a 2 23 ]
+[v processButtonBits@j j `i  1 a 2 21 ]
+"453
+} 0
+"577
+[v _write_7segment_display_spi write_7segment_display_spi `(v  1 e 1 0 ]
+{
+[v write_7segment_display_spi@byte1 byte1 `uc  1 p 1 wreg ]
+[v write_7segment_display_spi@byte1 byte1 `uc  1 p 1 wreg ]
+[v write_7segment_display_spi@byte2 byte2 `uc  1 p 1 6 ]
+"579
+[v write_7segment_display_spi@byte1 byte1 `uc  1 p 1 8 ]
+"586
+} 1
+"588
+[v _clear_display clear_display `(v  1 e 1 0 ]
+{
+"597
+} 0
+"599
+[v _SPI_Write SPI_Write `(uc  1 e 1 0 ]
+{
+[v SPI_Write@data_out_1 data_out_1 `uc  1 p 1 wreg ]
+"600
+[v SPI_Write@Dummy Dummy `VEuc  1 a 1 5 ]
+"599
+[v SPI_Write@data_out_1 data_out_1 `uc  1 p 1 wreg ]
+[v SPI_Write@data_out_2 data_out_2 `uc  1 p 1 3 ]
+"605
+[v SPI_Write@data_out_1 data_out_1 `uc  1 p 1 4 ]
+"630
+} 1
+"457
+[v _clearDebounceBits clearDebounceBits `(v  1 e 1 0 ]
+{
+"458
+[v clearDebounceBits@i i `uc  1 a 1 9 ]
+"467
+} 0
+"710
+[v _buildFrames buildFrames `(v  1 e 1 0 ]
+{
+"713
+[v buildFrames@d d `[3]uc  1 a 3 24 ]
+"714
+[v buildFrames@i i `uc  1 a 1 27 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"710
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v buildFrames@ip ip `S93  1 p 4 19 ]
+"752
+} 0
+"694
+[v _octetToDigits octetToDigits `(v  1 e 1 0 ]
+{
+[v octetToDigits@val val `uc  1 p 1 wreg ]
+[v octetToDigits@val val `uc  1 p 1 wreg ]
+[v octetToDigits@d d `*.30uc  1 p 1 17 ]
+[v octetToDigits@val val `uc  1 p 1 18 ]
+"698
+} 1
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 16 ]
+[v ___awmod@counter counter `uc  1 a 1 15 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 11 ]
+[v ___awmod@divisor divisor `i  1 p 2 13 ]
+"34
+} 0
+"700 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _addFrame addFrame `(v  1 e 1 0 ]
+{
+[v addFrame@l l `uc  1 p 1 wreg ]
+[v addFrame@l l `uc  1 p 1 wreg ]
+[v addFrame@r r `uc  1 p 1 3 ]
+[v addFrame@ldp ldp `uc  1 p 1 4 ]
+[v addFrame@rdp rdp `uc  1 p 1 5 ]
+[v addFrame@l l `uc  1 p 1 6 ]
+"708
+} 1
+"94 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _TickInit TickInit `(v  1 e 1 0 ]
+{
+"133
+} 0
+"215 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[v _StackTask StackTask `(v  1 e 1 0 ]
+{
+"244
+[v StackTask@bCurrentLinkState bCurrentLinkState `E332  1 a 1 101 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"218
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v StackTask@tempLocalIP tempLocalIP `S93  1 a 4 105 ]
+"217
+[v StackTask@dataCount dataCount `us  1 a 2 102 ]
+"220
+[v StackTask@cIPFrameType cIPFrameType `uc  1 a 1 104 ]
+"219
+[v StackTask@cFrameType cFrameType `uc  1 a 1 100 ]
+"243
+[v StackTask@bLastLinkState bLastLinkState `E332  1 s 1 bLastLinkState ]
+"366
+} 0
+"204 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPTask UDPTask `(v  1 e 1 0 ]
+{
+"207
+} 0
+"916
+[v _UDPProcess UDPProcess `(E332  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"920
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S9295 _PSEUDO_HEADER 12 `S93 1 SourceAddress 4 0 `S93 1 DestAddress 4 4 `uc 1 Zero 1 8 `uc 1 Protocol 1 9 `us 1 Length 2 10 ]
+[v UDPProcess@pseudoHeader pseudoHeader `S9295  1 a 12 53 ]
+[s S11960 . 8 `us 1 SourcePort 2 0 `us 1 DestinationPort 2 2 `us 1 Length 2 4 `us 1 Checksum 2 6 ]
+"918
+[v UDPProcess@h h `S11960  1 a 8 65 ]
+"921
+[v UDPProcess@checksums checksums `S93  1 a 4 49 ]
+"919
+[v UDPProcess@s s `uc  1 a 1 48 ]
+"916
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v UDPProcess@remoteNode remoteNode `*.39S103  1 p 2 43 ]
+[v UDPProcess@localIP localIP `*.30S93  1 p 1 45 ]
+[v UDPProcess@len len `us  1 p 2 46 ]
+"977
+} 0
+"1003
+[v _FindMatchingSocket@UDP$F12062 FindMatchingSocket `(uc  1 s 1 FindMatchingSocket ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"1009
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[s S849 . 14 `S103 1 remoteNode 10 0 `us 1 remotePort 2 10 `us 1 localPort 2 12 ]
+[v FindMatchingSocket@UDP$F12062@p p `*.39S849  1 a 2 32 ]
+"1007
+[v FindMatchingSocket@UDP$F12062@s s `uc  1 a 1 31 ]
+"1008
+[v FindMatchingSocket@UDP$F12062@partialMatch partialMatch `uc  1 a 1 30 ]
+[s S11960 . 8 `us 1 SourcePort 2 0 `us 1 DestinationPort 2 2 `us 1 Length 2 4 `us 1 Checksum 2 6 ]
+"1003
+[v FindMatchingSocket@UDP$F12062@h h `*.30S11960  1 p 1 14 ]
+"1004
+[v FindMatchingSocket@UDP$F12062@remoteNode remoteNode `*.39S103  1 p 2 15 ]
+"1005
+[v FindMatchingSocket@UDP$F12062@localIP localIP `*.30S93  1 p 1 17 ]
+"1047
+} 0
+"2243 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPTick TCPTick `(v  1 e 1 0 ]
+{
+"2249
+[v TCPTick@w w `us  1 a 2 74 ]
+"2248
+[v TCPTick@vFlags vFlags `uc  1 a 1 73 ]
+"2245
+[v TCPTick@hTCP hTCP `uc  1 a 1 72 ]
+"2246
+[v TCPTick@bRetransmit bRetransmit `E332  1 a 1 71 ]
+"2247
+[v TCPTick@bCloseSocket bCloseSocket `E332  1 a 1 70 ]
+"2661
+} 0
+"2688
+[v _TCPProcess TCPProcess `(E332  1 e 1 0 ]
+{
+[s S9271 . 1 `uc 1 Reserved3 1 0 :4:0 
+`uc 1 Val 1 0 :4:4 
+]
+"2690
+[s S9274 . 1 `uc 1 flagFIN 1 0 :1:0 
+`uc 1 flagSYN 1 0 :1:1 
+`uc 1 flagRST 1 0 :1:2 
+`uc 1 flagPSH 1 0 :1:3 
+`uc 1 flagACK 1 0 :1:4 
+`uc 1 flagURG 1 0 :1:5 
+`uc 1 Reserved2 1 0 :2:6 
+]
+[u S9282 . 1 `S9274 1 bits 1 0 `uc 1 byte 1 0 ]
+[s S9285 . 20 `us 1 SourcePort 2 0 `us 1 DestPort 2 2 `ul 1 SeqNumber 4 4 `ul 1 AckNumber 4 8 `S9271 1 DataOffset 1 12 `S9282 1 Flags 1 13 `us 1 Window 2 14 `us 1 Checksum 2 16 `us 1 UrgentPointer 2 18 ]
+[v TCPProcess@TCPHeader TCPHeader `S9285  1 a 20 68 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"2691
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S9295 _PSEUDO_HEADER 12 `S93 1 SourceAddress 4 0 `S93 1 DestAddress 4 4 `uc 1 Zero 1 8 `uc 1 Protocol 1 9 `us 1 Length 2 10 ]
+[v TCPProcess@pseudoHeader pseudoHeader `S9295  1 a 12 56 ]
+"2693
+[v TCPProcess@checksum2 checksum2 `S52  1 a 2 53 ]
+"2692
+[v TCPProcess@checksum1 checksum1 `S52  1 a 2 51 ]
+"2694
+[v TCPProcess@optionsSize optionsSize `uc  1 a 1 55 ]
+"2688
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v TCPProcess@remote remote `*.39S103  1 p 2 46 ]
+[v TCPProcess@localIP localIP `*.30S93  1 p 1 48 ]
+[v TCPProcess@len len `us  1 p 2 49 ]
+"2779
+} 0
+"3499
+[v _HandleTCPSeg HandleTCPSeg `(v  1 s 1 HandleTCPSeg ]
+{
+"3507
+[v HandleTCPSeg@localAckNumber localAckNumber `ul  1 a 4 71 ]
+"3503
+[v HandleTCPSeg@lMissingBytes lMissingBytes `l  1 a 4 65 ]
+"3508
+[v HandleTCPSeg@localSeqNumber localSeqNumber `ul  1 a 4 59 ]
+"3501
+[v HandleTCPSeg@dwTemp dwTemp `ul  1 a 4 55 ]
+"3504
+[v HandleTCPSeg@wMissingBytes wMissingBytes `us  1 a 2 78 ]
+"3502
+[v HandleTCPSeg@wTemp wTemp `us  1 a 2 76 ]
+"3505
+[v HandleTCPSeg@wFreeSpace wFreeSpace `us  1 a 2 69 ]
+"3509
+[v HandleTCPSeg@wSegmentLength wSegmentLength `us  1 a 2 63 ]
+"3506
+[v HandleTCPSeg@localHeaderFlags localHeaderFlags `uc  1 a 1 75 ]
+"3510
+[v HandleTCPSeg@bSegmentAcceptable bSegmentAcceptable `E332  1 a 1 54 ]
+[s S9271 . 1 `uc 1 Reserved3 1 0 :4:0 
+`uc 1 Val 1 0 :4:4 
+]
+"3499
+[s S9274 . 1 `uc 1 flagFIN 1 0 :1:0 
+`uc 1 flagSYN 1 0 :1:1 
+`uc 1 flagRST 1 0 :1:2 
+`uc 1 flagPSH 1 0 :1:3 
+`uc 1 flagACK 1 0 :1:4 
+`uc 1 flagURG 1 0 :1:5 
+`uc 1 Reserved2 1 0 :2:6 
+]
+[u S9282 . 1 `S9274 1 bits 1 0 `uc 1 byte 1 0 ]
+[s S9285 . 20 `us 1 SourcePort 2 0 `us 1 DestPort 2 2 `ul 1 SeqNumber 4 4 `ul 1 AckNumber 4 8 `S9271 1 DataOffset 1 12 `S9282 1 Flags 1 13 `us 1 Window 2 14 `us 1 Checksum 2 16 `us 1 UrgentPointer 2 18 ]
+[v HandleTCPSeg@h h `*.30S9285  1 p 1 43 ]
+[v HandleTCPSeg@len len `us  1 p 2 44 ]
+"4169
+} 0
+"3406
+[v _GetMaxSegSizeOption GetMaxSegSizeOption `(us  1 s 2 GetMaxSegSizeOption ]
+{
+"3410
+[v GetMaxSegSizeOption@wMSS wMSS `us  1 a 2 13 ]
+"3409
+[v GetMaxSegSizeOption@vOption vOption `uc  1 a 1 16 ]
+"3408
+[v GetMaxSegSizeOption@vOptionsBytes vOptionsBytes `uc  1 a 1 15 ]
+"3473
+} 0
+"3109
+[v _FindMatchingSocket FindMatchingSocket `(E332  1 s 1 FindMatchingSocket ]
+{
+"3204
+[v FindMatchingSocket@wQueueInsertPos wQueueInsertPos `us  1 a 2 47 ]
+"3113
+[v FindMatchingSocket@hash hash `us  1 a 2 43 ]
+"3111
+[v FindMatchingSocket@hTCP hTCP `uc  1 a 1 46 ]
+"3112
+[v FindMatchingSocket@partialMatch partialMatch `uc  1 a 1 45 ]
+[s S9271 . 1 `uc 1 Reserved3 1 0 :4:0 
+`uc 1 Val 1 0 :4:4 
+]
+"3109
+[s S9274 . 1 `uc 1 flagFIN 1 0 :1:0 
+`uc 1 flagSYN 1 0 :1:1 
+`uc 1 flagRST 1 0 :1:2 
+`uc 1 flagPSH 1 0 :1:3 
+`uc 1 flagACK 1 0 :1:4 
+`uc 1 flagURG 1 0 :1:5 
+`uc 1 Reserved2 1 0 :2:6 
+]
+[u S9282 . 1 `S9274 1 bits 1 0 `uc 1 byte 1 0 ]
+[s S9285 . 20 `us 1 SourcePort 2 0 `us 1 DestPort 2 2 `ul 1 SeqNumber 4 4 `ul 1 AckNumber 4 8 `S9271 1 DataOffset 1 12 `S9282 1 Flags 1 13 `us 1 Window 2 14 `us 1 Checksum 2 16 `us 1 UrgentPointer 2 18 ]
+[v FindMatchingSocket@h h `*.30S9285  1 p 1 28 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v FindMatchingSocket@remote remote `*.39S103  1 p 2 29 ]
+"3267
+} 0
+"405 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACGetHeader MACGetHeader `(E7  1 e 1 0 ]
+{
+[s S3624 . 4 `us 1 ByteCount 2 0 `uc 1 PreviouslyIgnored 1 2 :1:0 
+`uc 1 RXDCPreviouslySeen 1 2 :1:1 
+`uc 1 CarrierPreviouslySeen 1 2 :1:2 
+`uc 1 CodeViolation 1 2 :1:3 
+`uc 1 CRCError 1 2 :1:4 
+`uc 1 LengthCheckError 1 2 :1:5 
+`uc 1 LengthOutOfRange 1 2 :1:6 
+`uc 1 ReceiveOk 1 2 :1:7 
+`uc 1 Multicast 1 3 :1:0 
+`uc 1 Broadcast 1 3 :1:1 
+`uc 1 DribbleNibble 1 3 :1:2 
+`uc 1 ControlFrame 1 3 :1:3 
+`uc 1 PauseControlFrame 1 3 :1:4 
+`uc 1 UnsupportedOpcode 1 3 :1:5 
+`uc 1 VLANType 1 3 :1:6 
+`uc 1 Zero 1 3 :1:7 
+]
+"407
+[u S3642 . 4 `[4]uc 1 v 4 0 `S3624 1 bits 4 0 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S3645 _ENC_PREAMBLE 20 `us 1 NextPacketPointer 2 0 `S3642 1 StatusVector 4 2 `S101 1 DestMACAddr 6 6 `S101 1 SourceMACAddr 6 12 `S52 1 Type 2 18 ]
+[v MACGetHeader@header header `S3645  1 a 20 17 ]
+"405
+[v MACGetHeader@remote remote `*.39S101  1 p 2 14 ]
+[v MACGetHeader@type type `*.30uc  1 p 1 16 ]
+"464
+} 0
+"132 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[v _IPGetHeader IPGetHeader `(E332  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"138
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S6488 _IP_HEADER 20 `uc 1 VersionIHL 1 0 `uc 1 TypeOfService 1 1 `us 1 TotalLength 2 2 `us 1 Identification 2 4 `us 1 FragmentInfo 2 6 `uc 1 TimeToLive 1 8 `uc 1 Protocol 1 9 `us 1 HeaderChecksum 2 10 `S93 1 SourceAddress 4 12 `S93 1 DestAddress 4 16 ]
+[v IPGetHeader@header header `S6488  1 a 20 62 ]
+"137
+[v IPGetHeader@CalcChecksum CalcChecksum `S52  1 a 2 60 ]
+"132
+[v IPGetHeader@localIP localIP `*.30S93  1 p 1 53 ]
+"133
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v IPGetHeader@remote remote `*.39S103  1 p 2 54 ]
+"134
+[v IPGetHeader@protocol protocol `*.30uc  1 p 1 56 ]
+"135
+[v IPGetHeader@len len `*.30us  1 p 1 57 ]
+"225
+} 0
+"134 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[v _ICMPProcess ICMPProcess `(v  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"136
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v ICMPProcess@dwVal dwVal `S93  1 a 4 57 ]
+"134
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v ICMPProcess@remote remote `*.39S103  1 p 2 53 ]
+[v ICMPProcess@len len `us  1 p 2 55 ]
+"204
+} 0
+"670 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACCalcRxChecksum MACCalcRxChecksum `(us  1 e 2 0 ]
+{
+"672
+[v MACCalcRxChecksum@temp temp `us  1 a 2 51 ]
+"673
+[v MACCalcRxChecksum@RDSave RDSave `us  1 a 2 49 ]
+"670
+[v MACCalcRxChecksum@offset offset `us  1 p 2 43 ]
+[v MACCalcRxChecksum@len len `us  1 p 2 45 ]
+"688
+} 0
+"467 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[v _DHCPTask DHCPTask `(v  1 e 1 0 ]
+{
+"469
+[v DHCPTask@i i `uc  1 a 1 84 ]
+"680
+} 0
+"1028
+[v __DHCPSend _DHCPSend `(v  1 s 1 _DHCPSend ]
+{
+[v __DHCPSend@messageType messageType `uc  1 p 1 wreg ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"1031
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v __DHCPSend@MyIP MyIP `S93  1 a 4 72 ]
+"1030
+[v __DHCPSend@i i `uc  1 a 1 78 ]
+"1028
+[v __DHCPSend@messageType messageType `uc  1 p 1 wreg ]
+[v __DHCPSend@bRenewing bRenewing `E7  1 p 1 71 ]
+"1034
+[v __DHCPSend@messageType messageType `uc  1 p 1 79 ]
+"1140
+} 1
+"700
+[v __DHCPReceive _DHCPReceive `(uc  1 s 1 _DHCPReceive ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"742
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v __DHCPReceive@tempServerID tempServerID `S93  1 a 4 23 ]
+"738
+[v __DHCPReceive@v v `uc  1 a 1 28 ]
+"739
+[v __DHCPReceive@i i `uc  1 a 1 27 ]
+[v __DHCPReceive@j j `uc  1 a 1 22 ]
+"740
+[v __DHCPReceive@type type `uc  1 a 1 21 ]
+"741
+[v __DHCPReceive@lbDone lbDone `E7  1 a 1 20 ]
+"1006
+} 0
+"829 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPGetArray UDPGetArray `(us  1 e 2 0 ]
+{
+"831
+[v UDPGetArray@wBytesAvailable wBytesAvailable `us  1 a 2 14 ]
+"829
+[v UDPGetArray@cData cData `*.39uc  1 p 2 10 ]
+[v UDPGetArray@wDataLen wDataLen `us  1 p 2 12 ]
+"846
+} 0
+"226 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACIsLinked MACIsLinked `(E7  1 e 1 0 ]
+{
+"234
+} 0
+"1137
+[v _ReadPHYReg ReadPHYReg `(S3577  1 e 2 0 ]
+{
+[v ReadPHYReg@Register Register `uc  1 p 1 wreg ]
+"1139
+[v ReadPHYReg@Result Result `S3577  1 a 2 6 ]
+"1137
+[v ReadPHYReg@Register Register `uc  1 p 1 wreg ]
+"1142
+[v ReadPHYReg@Register Register `uc  1 p 1 5 ]
+"1158
+} 1
+"368 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[v _DHCPIsBound DHCPIsBound `(E7  1 e 1 0 ]
+{
+"372
+} 1
+"197 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[v _ARPProcess ARPProcess `(E332  1 e 1 0 ]
+{
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+"199
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S1138 . 28 `us 1 HardwareType 2 0 `us 1 Protocol 2 2 `uc 1 MACAddrLen 1 4 `uc 1 ProtocolLen 1 5 `us 1 Operation 2 6 `S101 1 SenderMACAddr 6 8 `S93 1 SenderIPAddr 4 14 `S101 1 TargetMACAddr 6 18 `S93 1 TargetIPAddr 4 24 ]
+[v ARPProcess@packet packet `S1138  1 a 28 18 ]
+"200
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v ARPProcess@Target Target `S103  1 s 10 Target ]
+"208
+[v ARPProcess@smARP smARP `E5644  1 s 1 smARP ]
+"292
+} 0
+"114 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[v _StackInit StackInit `(v  1 e 1 0 ]
+{
+"193
+} 0
+"167 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPInit UDPInit `(v  1 e 1 0 ]
+{
+"169
+[v UDPInit@s s `uc  1 a 1 4 ]
+"176
+} 0
+"369 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPInit TCPInit `(v  1 e 1 0 ]
+{
+"377
+[v TCPInit@wCurrentETHAddress wCurrentETHAddress `us  1 a 2 74 ]
+"373
+[v TCPInit@wRXSize wRXSize `us  1 a 2 71 ]
+[v TCPInit@wTXSize wTXSize `us  1 a 2 69 ]
+"374
+[v TCPInit@ptrBaseAddress ptrBaseAddress `us  1 a 2 67 ]
+"371
+[v TCPInit@i i `uc  1 a 1 76 ]
+"375
+[v TCPInit@vMedium vMedium `uc  1 a 1 73 ]
+"463
+} 0
+"103 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _GenerateRandomDWORD GenerateRandomDWORD `(ul  1 e 4 0 ]
+{
+"113
+[v GenerateRandomDWORD@TMR0LSave TMR0LSave `uc  1 a 1 52 ]
+[v GenerateRandomDWORD@TMR0HSave TMR0HSave `uc  1 a 1 51 ]
+[v GenerateRandomDWORD@T0CONSave T0CONSave `uc  1 a 1 50 ]
+"112
+[v GenerateRandomDWORD@ADCON2Save ADCON2Save `uc  1 a 1 49 ]
+[v GenerateRandomDWORD@ADCON0Save ADCON0Save `uc  1 a 1 48 ]
+"108
+[v GenerateRandomDWORD@dwRandomResult dwRandomResult `ul  1 a 4 57 ]
+"107
+[v GenerateRandomDWORD@dwTotalTime dwTotalTime `ul  1 a 4 53 ]
+"106
+[v GenerateRandomDWORD@wTime wTime `us  1 a 2 63 ]
+[v GenerateRandomDWORD@wLastValue wLastValue `us  1 a 2 61 ]
+[v GenerateRandomDWORD@w w `us  1 a 2 45 ]
+"105
+[v GenerateRandomDWORD@vBitCount vBitCount `uc  1 a 1 47 ]
+"252
+} 0
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+{
+[v srand@s s `ui  1 p 2 3 ]
+"9
+} 0
+"122 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACInit MACInit `(v  1 e 1 0 ]
+{
+"204
+} 0
+"1179
+[v _WritePHYReg WritePHYReg `(v  1 e 1 0 ]
+{
+[v WritePHYReg@Register Register `uc  1 p 1 wreg ]
+"1181
+[v WritePHYReg@GIESave GIESave `uc  1 a 1 6 ]
+"1179
+[v WritePHYReg@Register Register `uc  1 p 1 wreg ]
+[v WritePHYReg@Data Data `us  1 p 2 3 ]
+"1184
+[v WritePHYReg@Register Register `uc  1 p 1 5 ]
+"1216
+} 1
+"220 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPInit HTTPInit `(v  1 e 1 0 ]
+{
+"222
+[v HTTPInit@oldPtr oldPtr `us  1 a 2 55 ]
+"241
+} 0
+"209 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/DHCP.c
+[v _DHCPInit DHCPInit `(v  1 e 1 0 ]
+{
+"211
+[v DHCPInit@i i `uc  1 a 1 4 ]
+"239
+} 1
+"271
+[v _DHCPDisable DHCPDisable `(v  1 e 1 0 ]
+{
+"282
+} 1
+"158 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[v _ARPInit ARPInit `(v  1 e 1 0 ]
+{
+"168
+} 0
+"383 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/StackTsk.c
+[v _StackApplications StackApplications `(v  1 e 1 0 ]
+{
+"440
+} 0
+"270 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPServer HTTPServer `(v  1 e 1 0 ]
+{
+"272
+[v HTTPServer@conn conn `uc  1 a 1 0 ]
+"312
+} 0
+"688 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPWasReset TCPWasReset `(E332  1 e 1 0 ]
+{
+[v TCPWasReset@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPWasReset@hTCP hTCP `uc  1 p 1 wreg ]
+"690
+[v TCPWasReset@hTCP hTCP `uc  1 p 1 15 ]
+"699
+} 1
+"374 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPProcess HTTPProcess `(v  1 s 1 HTTPProcess ]
+{
+"380
+[v HTTPProcess@buffer buffer `[16]uc  1 a 16 128 ]
+"376
+[v HTTPProcess@lenA lenA `us  1 a 2 150 ]
+[v HTTPProcess@lenB lenB `us  1 a 2 148 ]
+"379
+[v HTTPProcess@ext ext `*.39uc  1 a 2 145 ]
+"377
+[v HTTPProcess@c c `uc  1 a 1 152 ]
+"378
+[v HTTPProcess@isDone isDone `E332  1 a 1 147 ]
+"377
+[v HTTPProcess@i i `uc  1 a 1 144 ]
+"979
+} 0
+"920 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _stricmppgm2ram stricmppgm2ram `(c  1 e 1 0 ]
+{
+"922
+[v stricmppgm2ram@cB cB `uc  1 a 1 8 ]
+[v stricmppgm2ram@cA cA `uc  1 a 1 7 ]
+"920
+[v stricmppgm2ram@a a `*.39uc  1 p 2 3 ]
+[v stricmppgm2ram@b b `*.32Cuc  1 p 2 5 ]
+"958
+} 0
+"780 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPDisconnect TCPDisconnect `(v  1 e 1 0 ]
+{
+[v TCPDisconnect@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPDisconnect@hTCP hTCP `uc  1 p 1 wreg ]
+"782
+[v TCPDisconnect@hTCP hTCP `uc  1 p 1 48 ]
+"880
+} 1
+"3324
+[v _CloseSocket CloseSocket `(v  1 s 1 CloseSocket ]
+{
+"3376
+} 0
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"15
+} 0
+"4226 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPAdjustFIFOSize TCPAdjustFIFOSize `(E332  1 e 1 0 ]
+{
+[v TCPAdjustFIFOSize@hTCP hTCP `uc  1 p 1 wreg ]
+"4228
+[v TCPAdjustFIFOSize@ptrTemp ptrTemp `us  1 a 2 53 ]
+[v TCPAdjustFIFOSize@ptrHead ptrHead `us  1 a 2 51 ]
+"4229
+[v TCPAdjustFIFOSize@wTXAllocation wTXAllocation `us  1 a 2 49 ]
+"4226
+[v TCPAdjustFIFOSize@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPAdjustFIFOSize@wMinRXSize wMinRXSize `us  1 p 2 43 ]
+[v TCPAdjustFIFOSize@wMinTXSize wMinTXSize `us  1 p 2 45 ]
+[v TCPAdjustFIFOSize@vFlags vFlags `uc  1 p 1 47 ]
+"4232
+[v TCPAdjustFIFOSize@hTCP hTCP `uc  1 p 1 48 ]
+"4378
+} 1
+"1065 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSGetFlags MPFSGetFlags `(us  1 e 2 0 ]
+{
+[v MPFSGetFlags@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetFlags@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1068
+[v MPFSGetFlags@hMPFS hMPFS `uc  1 p 1 41 ]
+"1076
+} 1
+"1000 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPSendFile HTTPSendFile `(E332  1 s 1 HTTPSendFile ]
+{
+"1003
+[v HTTPSendFile@data data `[64]uc  1 a 64 47 ]
+"1002
+[v HTTPSendFile@len len `us  1 a 2 120 ]
+[v HTTPSendFile@numBytes numBytes `us  1 a 2 118 ]
+"1003
+[v HTTPSendFile@c c `uc  1 a 1 117 ]
+"1050
+} 0
+"723 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSGetLong MPFSGetLong `(E332  1 e 1 0 ]
+{
+[v MPFSGetLong@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetLong@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetLong@ul ul `*.39ul  1 p 2 27 ]
+"725
+[v MPFSGetLong@hMPFS hMPFS `uc  1 p 1 29 ]
+"726
+} 1
+"78 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X/HTTPPrint.h
+[v _HTTPPrint HTTPPrint `(v  1 e 1 0 ]
+{
+[v HTTPPrint@callbackID callbackID `ul  1 p 4 120 ]
+"214
+} 0
+"1392 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPPrint_version HTTPPrint_version `(v  1 e 1 0 ]
+{
+"1395
+} 0
+"1804
+[v _HTTPPrint_status_fail HTTPPrint_status_fail `(v  1 e 1 0 ]
+{
+"1811
+} 0
+"1592
+[v _HTTPPrint_slaveCount HTTPPrint_slaveCount `(v  1 e 1 0 ]
+{
+"1595
+[v HTTPPrint_slaveCount@AN0String AN0String `[8]uc  1 a 8 59 ]
+"1600
+} 0
+"1512
+[v _HTTPPrint_s2Led HTTPPrint_s2Led `(v  1 e 1 0 ]
+{
+"1513
+[v HTTPPrint_s2Led@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_s2Led@hi hi `uc  1 a 1 57 ]
+"1512
+[v HTTPPrint_s2Led@w w `us  1 p 2 43 ]
+"1530
+} 0
+"1572
+[v _HTTPPrint_s2Btn HTTPPrint_s2Btn `(v  1 e 1 0 ]
+{
+"1573
+[v HTTPPrint_s2Btn@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_s2Btn@hi hi `uc  1 a 1 57 ]
+"1572
+[v HTTPPrint_s2Btn@w w `us  1 p 2 43 ]
+"1590
+} 0
+"1491
+[v _HTTPPrint_s1Led HTTPPrint_s1Led `(v  1 e 1 0 ]
+{
+"1492
+[v HTTPPrint_s1Led@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_s1Led@hi hi `uc  1 a 1 57 ]
+"1491
+[v HTTPPrint_s1Led@w w `us  1 p 2 43 ]
+"1510
+} 0
+"1552
+[v _HTTPPrint_s1Btn HTTPPrint_s1Btn `(v  1 e 1 0 ]
+{
+"1553
+[v HTTPPrint_s1Btn@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_s1Btn@hi hi `uc  1 a 1 57 ]
+"1552
+[v HTTPPrint_s1Btn@w w `us  1 p 2 43 ]
+"1570
+} 0
+"1790
+[v _HTTPPrint_rebootaddr HTTPPrint_rebootaddr `(v  1 e 1 0 ]
+{
+"1793
+} 0
+"1782
+[v _HTTPPrint_reboot HTTPPrint_reboot `(v  1 e 1 0 ]
+{
+"1788
+} 0
+"1470
+[v _HTTPPrint_mLed HTTPPrint_mLed `(v  1 e 1 0 ]
+{
+"1471
+[v HTTPPrint_mLed@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_mLed@hi hi `uc  1 a 1 57 ]
+"1470
+[v HTTPPrint_mLed@w w `us  1 p 2 43 ]
+"1489
+} 0
+"1532
+[v _HTTPPrint_mBtn HTTPPrint_mBtn `(v  1 e 1 0 ]
+{
+"1533
+[v HTTPPrint_mBtn@lo lo `uc  1 a 1 58 ]
+[v HTTPPrint_mBtn@hi hi `uc  1 a 1 57 ]
+"1532
+[v HTTPPrint_mBtn@w w `us  1 p 2 43 ]
+"1550
+} 0
+"1430
+[v _HTTPPrint_led HTTPPrint_led `(v  1 e 1 0 ]
+{
+[v HTTPPrint_led@num num `us  1 p 2 43 ]
+"1467
+} 0
+"1603
+[v _HTTPPrint_hellomsg HTTPPrint_hellomsg `(v  1 e 1 0 ]
+{
+"1605
+[v HTTPPrint_hellomsg@ptr ptr `*.39uc  1 a 2 59 ]
+"1617
+} 0
+"1710
+[v _HTTPPrint_config_subnet HTTPPrint_config_subnet `(v  1 e 1 0 ]
+{
+"1714
+} 0
+"1728
+[v _HTTPPrint_config_mac HTTPPrint_config_mac `(v  1 e 1 0 ]
+{
+"1730
+[v HTTPPrint_config_mac@i i `uc  1 a 1 55 ]
+"1750
+} 0
+"1698
+[v _HTTPPrint_config_ip HTTPPrint_config_ip `(v  1 e 1 0 ]
+{
+"1702
+} 0
+"1685
+[v _HTTPPrint_config_hostname HTTPPrint_config_hostname `(v  1 e 1 0 ]
+{
+"1689
+} 0
+"1704
+[v _HTTPPrint_config_gw HTTPPrint_config_gw `(v  1 e 1 0 ]
+{
+"1708
+} 0
+"1722
+[v _HTTPPrint_config_dns2 HTTPPrint_config_dns2 `(v  1 e 1 0 ]
+{
+"1726
+} 0
+"1716
+[v _HTTPPrint_config_dns1 HTTPPrint_config_dns1 `(v  1 e 1 0 ]
+{
+"1720
+} 0
+"1671
+[v _HTTPPrintIP HTTPPrintIP `(v  1 e 1 0 ]
+{
+"1673
+[v HTTPPrintIP@digits digits `[4]uc  1 a 4 60 ]
+"1674
+[v HTTPPrintIP@i i `uc  1 a 1 64 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"1671
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v HTTPPrintIP@ip ip `S93  1 p 4 49 ]
+"1683
+} 0
+"1076 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPPut TCPPut `(E332  1 e 1 0 ]
+{
+[v TCPPut@hTCP hTCP `uc  1 p 1 wreg ]
+"1078
+[v TCPPut@wFreeTXSpace wFreeTXSpace `us  1 a 2 52 ]
+"1076
+[v TCPPut@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPPut@byte byte `uc  1 p 1 47 ]
+"1080
+[v TCPPut@hTCP hTCP `uc  1 p 1 54 ]
+"1132
+} 1
+"1691 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPPrint_config_dhcpchecked HTTPPrint_config_dhcpchecked `(v  1 e 1 0 ]
+{
+"1696
+} 0
+"1382
+[v _HTTPPrint_builddate HTTPPrint_builddate `(v  1 e 1 0 ]
+{
+"1390
+} 0
+"1386 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPPutString TCPPutString `(*.34uc  1 e 3 0 ]
+{
+[v TCPPutString@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPPutString@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPPutString@data data `*.34uc  1 p 2 47 ]
+"1388
+[v TCPPutString@hTCP hTCP `uc  1 p 1 58 ]
+"1389
+} 1
+"1823 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPIncFile HTTPIncFile `(v  1 e 1 0 ]
+{
+"1826
+[v HTTPIncFile@data data `[64]uc  1 a 64 49 ]
+"1825
+[v HTTPIncFile@wCount wCount `us  1 a 2 117 ]
+[v HTTPIncFile@wLen wLen `us  1 a 2 115 ]
+"1827
+[v HTTPIncFile@fp fp `uc  1 a 1 119 ]
+"1823
+[v HTTPIncFile@cFile cFile `*.32Cuc  1 p 2 47 ]
+"1872
+} 0
+"747 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSSeek MPFSSeek `(E332  1 e 1 0 ]
+{
+[v MPFSSeek@hMPFS hMPFS `uc  1 p 1 wreg ]
+"749
+[v MPFSSeek@temp temp `ul  1 a 4 57 ]
+"747
+[v MPFSSeek@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSSeek@dwOffset dwOffset `ul  1 p 4 44 ]
+[v MPFSSeek@tMode tMode `E5458  1 p 1 48 ]
+"752
+[v MPFSSeek@hMPFS hMPFS `uc  1 p 1 61 ]
+"801
+} 1
+"1094
+[v _MPFSGetSize MPFSGetSize `(ul  1 e 4 0 ]
+{
+[v MPFSGetSize@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetSize@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1097
+[v MPFSGetSize@hMPFS hMPFS `uc  1 p 1 43 ]
+"1105
+} 1
+"1179
+[v _MPFSGetEndAddr MPFSGetEndAddr `(ul  1 e 4 0 ]
+{
+[v MPFSGetEndAddr@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetEndAddr@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1182
+[v MPFSGetEndAddr@hMPFS hMPFS `uc  1 p 1 43 ]
+"1190
+} 1
+"428
+[v _MPFSOpenID MPFSOpenID `(uc  1 e 1 0 ]
+{
+"430
+[v MPFSOpenID@hMPFS hMPFS `uc  1 a 1 41 ]
+"428
+[v MPFSOpenID@hFatID hFatID `us  1 p 2 35 ]
+"452
+} 0
+"246
+[v _MPFSOpen MPFSOpen `(uc  1 e 1 0 ]
+{
+"250
+[v MPFSOpen@hashCache hashCache `[8]us  1 a 16 41 ]
+"249
+[v MPFSOpen@i i `us  1 a 2 62 ]
+"251
+[v MPFSOpen@ptr ptr `*.34uc  1 a 2 60 ]
+"249
+[v MPFSOpen@nameHash nameHash `us  1 a 2 57 ]
+"248
+[v MPFSOpen@hMPFS hMPFS `uc  1 a 1 64 ]
+"251
+[v MPFSOpen@c c `uc  1 a 1 59 ]
+"246
+[v MPFSOpen@cFile cFile `*.34uc  1 p 2 35 ]
+"314
+} 0
+"505
+[v _MPFSGet MPFSGet `(E332  1 e 1 0 ]
+{
+[v MPFSGet@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGet@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGet@c c `*.30uc  1 p 1 14 ]
+"508
+[v MPFSGet@hMPFS hMPFS `uc  1 p 1 19 ]
+"583
+} 1
+"1253
+[v _MPFSGetPosition MPFSGetPosition `(ul  1 e 4 0 ]
+{
+[v MPFSGetPosition@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetPosition@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1255
+[v MPFSGetPosition@hMPFS hMPFS `uc  1 p 1 52 ]
+"1256
+} 1
+"1150
+[v _MPFSGetStartAddr MPFSGetStartAddr `(ul  1 e 4 0 ]
+{
+[v MPFSGetStartAddr@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetStartAddr@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1153
+[v MPFSGetStartAddr@hMPFS hMPFS `uc  1 p 1 43 ]
+"1161
+} 1
+"1278
+[v _MPFSGetID MPFSGetID `(us  1 e 2 0 ]
+{
+[v MPFSGetID@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetID@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1280
+[v MPFSGetID@hMPFS hMPFS `uc  1 p 1 5 ]
+"1281
+} 1
+"474
+[v _MPFSClose MPFSClose `(v  1 e 1 0 ]
+{
+[v MPFSClose@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSClose@hMPFS hMPFS `uc  1 p 1 wreg ]
+"476
+[v MPFSClose@hMPFS hMPFS `uc  1 p 1 3 ]
+"478
+} 1
+"124 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPNeedsAuth HTTPNeedsAuth `(uc  1 e 1 0 ]
+{
+[v HTTPNeedsAuth@cFile cFile `*.39uc  1 p 2 18 ]
+"145
+} 0
+"1694 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPMPFSUpload HTTPMPFSUpload `(E5552  1 s 1 HTTPMPFSUpload ]
+{
+"1696
+[v HTTPMPFSUpload@c c `[16]uc  1 a 16 47 ]
+"1697
+[v HTTPMPFSUpload@lenA lenA `us  1 a 2 69 ]
+[v HTTPMPFSUpload@lenB lenB `us  1 a 2 67 ]
+"1786
+} 0
+"1482 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPDiscard TCPDiscard `(v  1 e 1 0 ]
+{
+[v TCPDiscard@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPDiscard@hTCP hTCP `uc  1 p 1 wreg ]
+"1484
+[v TCPDiscard@hTCP hTCP `uc  1 p 1 46 ]
+"1494
+} 1
+"940 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSPutEnd MPFSPutEnd `(v  1 e 1 0 ]
+{
+[v MPFSPutEnd@final final `E332  1 p 1 wreg ]
+[v MPFSPutEnd@final final `E332  1 p 1 wreg ]
+"942
+[v MPFSPutEnd@final final `E332  1 p 1 27 ]
+"951
+} 1
+"891
+[v _MPFSPutArray MPFSPutArray `(us  1 e 2 0 ]
+{
+[v MPFSPutArray@cData cData `*.30uc  1 p 1 22 ]
+[v MPFSPutArray@wLen wLen `us  1 p 2 23 ]
+"919
+} 1
+"836
+[v _MPFSFormat MPFSFormat `(uc  1 e 1 0 ]
+{
+"839
+[v MPFSFormat@i i `uc  1 a 1 7 ]
+"864
+} 0
+"1070 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPHeaderParseLookup HTTPHeaderParseLookup `(v  1 s 1 HTTPHeaderParseLookup ]
+{
+[v HTTPHeaderParseLookup@i i `uc  1 p 1 wreg ]
+[v HTTPHeaderParseLookup@i i `uc  1 p 1 wreg ]
+"1075
+[v HTTPHeaderParseLookup@i i `uc  1 p 1 87 ]
+"1097
+} 1
+"1199
+[v _HTTPHeaderParseCookie HTTPHeaderParseCookie `(v  1 s 1 HTTPHeaderParseCookie ]
+{
+"1201
+[v HTTPHeaderParseCookie@lenB lenB `us  1 a 2 12 ]
+[v HTTPHeaderParseCookie@lenA lenA `us  1 a 2 10 ]
+"1238
+} 0
+"1266
+[v _HTTPHeaderParseContentLength HTTPHeaderParseContentLength `(v  1 s 1 HTTPHeaderParseContentLength ]
+{
+"1269
+[v HTTPHeaderParseContentLength@buf buf `[10]uc  1 a 10 0 ]
+"1268
+[v HTTPHeaderParseContentLength@len len `us  1 a 2 10 ]
+"1283
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atol.c
+[v _atol atol `(l  1 e 4 0 ]
+{
+"7
+[v atol@n n `l  1 a 4 25 ]
+"8
+[v atol@neg neg `a  1 a 1 24 ]
+"5
+[v atol@s s `*.30Cuc  1 p 1 15 ]
+"24
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 11 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 3 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 7 ]
+"129
+} 0
+"1129 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPHeaderParseAuthorization HTTPHeaderParseAuthorization `(v  1 s 1 HTTPHeaderParseAuthorization ]
+{
+"1132
+[v HTTPHeaderParseAuthorization@buf buf `[40]uc  1 a 40 0 ]
+"1131
+[v HTTPHeaderParseAuthorization@len len `us  1 a 2 40 ]
+"1133
+[v HTTPHeaderParseAuthorization@ptrBuf ptrBuf `*.30uc  1 a 1 42 ]
+"1166
+} 0
+"156 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPCheckAuth HTTPCheckAuth `(uc  1 e 1 0 ]
+{
+[v HTTPCheckAuth@cUser cUser `*.30uc  1 p 1 9 ]
+[v HTTPCheckAuth@cPass cPass `*.30uc  1 p 1 10 ]
+"170
+} 0
+"527 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _Base64Decode Base64Decode `(us  1 e 2 0 ]
+{
+"532
+[v Base64Decode@wBytesOutput wBytesOutput `us  1 a 2 11 ]
+"529
+[v Base64Decode@i i `uc  1 a 1 14 ]
+"530
+[v Base64Decode@vByteNumber vByteNumber `uc  1 a 1 13 ]
+"531
+[v Base64Decode@bPad bPad `E332  1 a 1 10 ]
+"527
+[v Base64Decode@cSourceData cSourceData `*.30uc  1 p 1 3 ]
+[v Base64Decode@wSourceLen wSourceLen `us  1 p 2 4 ]
+[v Base64Decode@cDestData cDestData `*.30uc  1 p 1 6 ]
+[v Base64Decode@wDestLen wDestLen `us  1 p 2 7 ]
+"598
+} 0
+"281 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPExecutePost HTTPExecutePost `(E5552  1 e 1 0 ]
+{
+"284
+[v HTTPExecutePost@filename filename `[20]uc  1 a 20 91 ]
+"320
+} 0
+"724
+[v _HTTPPostMD5 HTTPPostMD5 `(E5552  1 s 1 HTTPPostMD5 ]
+{
+"726
+[v HTTPPostMD5@lenA lenA `us  1 a 2 31 ]
+[v HTTPPostMD5@lenB lenB `us  1 a 2 29 ]
+[s S4642 . 89 `ul 1 h0 4 0 `ul 1 h1 4 4 `ul 1 h2 4 8 `ul 1 h3 4 12 `ul 1 h4 4 16 `ul 1 bytesSoFar 4 20 `[64]uc 1 partialBlock 64 24 `E5121 1 hashType 1 88 ]
+"727
+[v HTTPPostMD5@md5 md5 `S4642  1 s 89 md5 ]
+"811
+} 0
+"203 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Hashes.c
+[v _MD5Initialize MD5Initialize `(v  1 e 1 0 ]
+{
+[s S4642 . 89 `ul 1 h0 4 0 `ul 1 h1 4 4 `ul 1 h2 4 8 `ul 1 h3 4 12 `ul 1 h4 4 16 `ul 1 bytesSoFar 4 20 `[64]uc 1 partialBlock 64 24 `E5121 1 hashType 1 88 ]
+[v MD5Initialize@theSum theSum `*.39S4642  1 p 2 3 ]
+"211
+} 0
+"413
+[v _MD5Calculate MD5Calculate `(v  1 e 1 0 ]
+{
+"415
+[v MD5Calculate@h3 h3 `ul  1 a 4 16 ]
+[v MD5Calculate@h2 h2 `ul  1 a 4 12 ]
+[v MD5Calculate@h1 h1 `ul  1 a 4 8 ]
+[v MD5Calculate@h0 h0 `ul  1 a 4 4 ]
+"416
+[v MD5Calculate@partPtr partPtr `*.39uc  1 a 2 2 ]
+[v MD5Calculate@endPtr endPtr `*.39uc  1 a 2 0 ]
+[v MD5Calculate@i i `uc  1 a 1 20 ]
+[s S4642 . 89 `ul 1 h0 4 0 `ul 1 h1 4 4 `ul 1 h2 4 8 `ul 1 h3 4 12 `ul 1 h4 4 16 `ul 1 bytesSoFar 4 20 `[64]uc 1 partialBlock 64 24 `E5121 1 hashType 1 88 ]
+"413
+[v MD5Calculate@theSum theSum `*.39S4642  1 p 2 65 ]
+[v MD5Calculate@result result `*.39uc  1 p 2 67 ]
+"469
+} 0
+"231
+[v _MD5AddData MD5AddData `(v  1 e 1 0 ]
+{
+"233
+[v MD5AddData@blockPtr blockPtr `*.39uc  1 a 2 75 ]
+[s S4642 . 89 `ul 1 h0 4 0 `ul 1 h1 4 4 `ul 1 h2 4 8 `ul 1 h3 4 12 `ul 1 h4 4 16 `ul 1 bytesSoFar 4 20 `[64]uc 1 partialBlock 64 24 `E5121 1 hashType 1 88 ]
+"231
+[v MD5AddData@theSum theSum `*.39S4642  1 p 2 65 ]
+[v MD5AddData@data data `*.39uc  1 p 2 67 ]
+[v MD5AddData@len len `us  1 p 2 69 ]
+"256
+} 0
+"339
+[v _MD5HashBlock MD5HashBlock `(v  1 s 1 MD5HashBlock ]
+{
+"341
+[v MD5HashBlock@b b `ul  1 a 4 60 ]
+[v MD5HashBlock@d d `ul  1 a 4 56 ]
+[v MD5HashBlock@c c `ul  1 a 4 52 ]
+[v MD5HashBlock@a a `ul  1 a 4 47 ]
+[v MD5HashBlock@f f `ul  1 a 4 43 ]
+[v MD5HashBlock@temp temp `ul  1 a 4 39 ]
+"342
+[v MD5HashBlock@i i `uc  1 a 1 64 ]
+[v MD5HashBlock@j j `uc  1 a 1 51 ]
+"339
+[v MD5HashBlock@data data `*.39uc  1 p 2 17 ]
+[v MD5HashBlock@h0 h0 `*.39ul  1 p 2 19 ]
+[v MD5HashBlock@h1 h1 `*.39ul  1 p 2 21 ]
+[v MD5HashBlock@h2 h2 `*.39ul  1 p 2 23 ]
+[v MD5HashBlock@h3 h3 `*.39ul  1 p 2 25 ]
+"389
+} 0
+"1285 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _leftRotateDWORD leftRotateDWORD `(ul  1 e 4 0 ]
+{
+[v leftRotateDWORD@val val `ul  1 p 4 3 ]
+[v leftRotateDWORD@bits bits `uc  1 p 1 7 ]
+"1292
+} 0
+"459 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPPostConfig HTTPPostConfig `(E5552  1 s 1 HTTPPostConfig ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"546
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v HTTPPostConfig@w w `S52  1 a 2 34 ]
+"547
+[v HTTPPostConfig@i_15749 i `uc  1 a 1 39 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"461
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S124 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 bIsDHCPEnabled 1 0 :1:6 
+`uc 1 bInConfigMode 1 0 :1:7 
+]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S128 . 51 `S93 1 MyIPAddr 4 0 `S93 1 MyMask 4 4 `S93 1 MyGateway 4 8 `S93 1 PrimaryDNSServer 4 12 `S93 1 SecondaryDNSServer 4 16 `S93 1 DefaultIPAddr 4 20 `S93 1 DefaultMask 4 24 `[16]uc 1 NetBIOSName 16 28 `S124 1 Flags 1 44 `S101 1 MyMACAddr 6 45 ]
+[v HTTPPostConfig@newAppConfig newAppConfig `S128  1 a 51 40 ]
+"462
+[v HTTPPostConfig@ptr ptr `*.39uc  1 a 2 37 ]
+"463
+[v HTTPPostConfig@i i `uc  1 a 1 36 ]
+"622
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 3 0 ]
+{
+"5
+[v strcpy@d d `*.39uc  1 a 2 7 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 3 ]
+[v strcpy@src src `*.32Cuc  1 p 2 5 ]
+"8
+} 0
+"1671 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPGetRxFIFOFree TCPGetRxFIFOFree `(us  1 e 2 0 ]
+{
+[v TCPGetRxFIFOFree@hTCP hTCP `uc  1 p 1 wreg ]
+"1674
+[v TCPGetRxFIFOFree@wFIFOSize wFIFOSize `us  1 a 2 24 ]
+"1673
+[v TCPGetRxFIFOFree@wDataLen wDataLen `us  1 a 2 22 ]
+"1671
+[v TCPGetRxFIFOFree@hTCP hTCP `uc  1 p 1 wreg ]
+"1676
+[v TCPGetRxFIFOFree@hTCP hTCP `uc  1 p 1 26 ]
+"1704
+} 1
+"327 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _StringToIPAddress StringToIPAddress `(E332  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"329
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v StringToIPAddress@dwVal dwVal `S93  1 a 4 10 ]
+"330
+[v StringToIPAddress@i i `uc  1 a 1 9 ]
+[v StringToIPAddress@currentOctet currentOctet `uc  1 a 1 8 ]
+[v StringToIPAddress@charLen charLen `uc  1 a 1 7 ]
+"327
+[v StringToIPAddress@str str `*.39uc  1 p 2 3 ]
+[v StringToIPAddress@IPAddress IPAddress `*.30S93  1 p 1 5 ]
+"396
+} 0
+"1554 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPReadPostValue HTTPReadPostValue `(E5557  1 e 1 0 ]
+{
+"1556
+[v HTTPReadPostValue@status status `E5557  1 a 1 87 ]
+"1554
+[v HTTPReadPostValue@cData cData `*.39uc  1 p 2 20 ]
+[v HTTPReadPostValue@wLen wLen `us  1 p 2 22 ]
+"1573
+} 0
+"1499
+[v _HTTPReadPostName HTTPReadPostName `(E5557  1 e 1 0 ]
+{
+"1501
+[v HTTPReadPostName@status status `E5557  1 a 1 87 ]
+"1499
+[v HTTPReadPostName@cData cData `*.39uc  1 p 2 20 ]
+[v HTTPReadPostName@wLen wLen `us  1 p 2 22 ]
+"1509
+} 0
+"1318
+[v _HTTPURLDecode HTTPURLDecode `(*.39uc  1 e 3 0 ]
+{
+"1320
+[v HTTPURLDecode@pWrite pWrite `*.39uc  1 a 2 17 ]
+"1321
+[v HTTPURLDecode@wLen wLen `us  1 a 2 14 ]
+"1320
+[v HTTPURLDecode@pRead pRead `*.39uc  1 a 2 12 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"1323
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v HTTPURLDecode@hex hex `S52  1 a 2 10 ]
+"1322
+[v HTTPURLDecode@c c `uc  1 a 1 16 ]
+"1318
+[v HTTPURLDecode@cData cData `*.39uc  1 p 2 7 ]
+"1360
+} 0
+"821 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _hexatob hexatob `(uc  1 e 1 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v hexatob@AsciiChars AsciiChars `S52  1 p 2 3 ]
+"842
+} 0
+"1613 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPReadTo HTTPReadTo `(E5557  1 s 1 HTTPReadTo ]
+{
+[v HTTPReadTo@cDelim cDelim `uc  1 p 1 wreg ]
+"1616
+[v HTTPReadTo@wPos wPos `us  1 a 2 18 ]
+"1615
+[v HTTPReadTo@status status `E5557  1 a 1 16 ]
+"1613
+[v HTTPReadTo@cDelim cDelim `uc  1 p 1 wreg ]
+[v HTTPReadTo@cData cData `*.39uc  1 p 2 6 ]
+[v HTTPReadTo@wLen wLen `us  1 p 2 8 ]
+"1619
+[v HTTPReadTo@cDelim cDelim `uc  1 p 1 17 ]
+"1658
+} 1
+"1548 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPGet TCPGet `(E332  1 e 1 0 ]
+{
+[v TCPGet@hTCP hTCP `uc  1 p 1 wreg ]
+"1550
+[v TCPGet@wGetReadyCount wGetReadyCount `us  1 a 2 28 ]
+"1548
+[v TCPGet@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPGet@byte byte `*.30uc  1 p 1 26 ]
+"1553
+[v TCPGet@hTCP hTCP `uc  1 p 1 27 ]
+"1579
+} 1
+"2210
+[v _TCPFindEx TCPFindEx `(us  1 e 2 0 ]
+{
+[v TCPFindEx@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPFindEx@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPFindEx@cFind cFind `uc  1 p 1 0 ]
+[v TCPFindEx@wStart wStart `us  1 p 2 1 ]
+[v TCPFindEx@wSearchLen wSearchLen `us  1 p 2 3 ]
+[v TCPFindEx@bTextCompare bTextCompare `E332  1 p 1 5 ]
+"2212
+[v TCPFindEx@hTCP hTCP `uc  1 p 1 86 ]
+"2213
+} 1
+"1864
+[v _TCPFindArrayEx TCPFindArrayEx `(us  1 e 2 0 ]
+{
+[v TCPFindArrayEx@hTCP hTCP `uc  1 p 1 wreg ]
+"1874
+[v TCPFindArrayEx@buffer buffer `[32]uc  1 a 32 37 ]
+"1869
+[v TCPFindArrayEx@ptrLocation ptrLocation `us  1 a 2 81 ]
+"1867
+[v TCPFindArrayEx@wDataLen wDataLen `us  1 a 2 79 ]
+"1870
+[v TCPFindArrayEx@wLenStart wLenStart `us  1 a 2 77 ]
+"1868
+[v TCPFindArrayEx@wBytesUntilWrap wBytesUntilWrap `us  1 a 2 75 ]
+"1871
+[v TCPFindArrayEx@cFindArrayStart cFindArrayStart `*.34uc  1 a 2 72 ]
+"1866
+[v TCPFindArrayEx@ptrRead ptrRead `us  1 a 2 69 ]
+"1872
+[v TCPFindArrayEx@j j `uc  1 a 1 85 ]
+[v TCPFindArrayEx@i i `uc  1 a 1 84 ]
+[v TCPFindArrayEx@k k `uc  1 a 1 83 ]
+"1873
+[v TCPFindArrayEx@isFinding isFinding `E332  1 a 1 74 ]
+"1864
+[v TCPFindArrayEx@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPFindArrayEx@cFindArray cFindArray `*.34uc  1 p 2 26 ]
+[v TCPFindArrayEx@wLen wLen `us  1 p 2 28 ]
+[v TCPFindArrayEx@wStart wStart `us  1 p 2 30 ]
+[v TCPFindArrayEx@wSearchLen wSearchLen `us  1 p 2 32 ]
+[v TCPFindArrayEx@bTextCompare bTextCompare `E332  1 p 1 34 ]
+"1876
+[v TCPFindArrayEx@hTCP hTCP `uc  1 p 1 71 ]
+"1988
+} 1
+"185 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\CustomHTTPApp.c
+[v _HTTPExecuteGet HTTPExecuteGet `(E5552  1 e 1 0 ]
+{
+"188
+[v HTTPExecuteGet@filename filename `[20]uc  1 a 20 49 ]
+"187
+[v HTTPExecuteGet@ptr ptr `*.39uc  1 a 2 69 ]
+"265
+} 0
+"1211 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSGetFilename MPFSGetFilename `(E332  1 e 1 0 ]
+{
+[v MPFSGetFilename@hMPFS hMPFS `uc  1 p 1 wreg ]
+"1213
+[v MPFSGetFilename@addr addr `ul  1 a 4 42 ]
+"1211
+[v MPFSGetFilename@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetFilename@cName cName `*.30uc  1 p 1 35 ]
+[v MPFSGetFilename@wLen wLen `us  1 p 2 36 ]
+"1216
+[v MPFSGetFilename@hMPFS hMPFS `uc  1 p 1 46 ]
+"1230
+} 1
+"979
+[v __LoadFATRecord _LoadFATRecord `(v  1 s 1 _LoadFATRecord ]
+{
+[v __LoadFATRecord@fatID fatID `us  1 p 2 27 ]
+"989
+} 0
+"1388 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPGetArg HTTPGetArg `(*.39uc  1 e 3 0 ]
+{
+[v HTTPGetArg@cData cData `*.39uc  1 p 2 9 ]
+[v HTTPGetArg@cArg cArg `*.32uc  1 p 2 11 ]
+"1406
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.34Cuc  1 p 2 3 ]
+[v strcmp@r r `*.34Cuc  1 p 2 5 ]
+"7
+} 0
+"335 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/HTTP2.c
+[v _HTTPLoadConn HTTPLoadConn `(v  1 s 1 HTTPLoadConn ]
+{
+[v HTTPLoadConn@hHTTP hHTTP `uc  1 p 1 wreg ]
+"337
+[v HTTPLoadConn@oldPtr oldPtr `us  1 a 2 12 ]
+"335
+[v HTTPLoadConn@hHTTP hHTTP `uc  1 p 1 wreg ]
+"340
+[v HTTPLoadConn@hHTTP hHTTP `uc  1 p 1 14 ]
+"356
+} 1
+"176 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Announce.c
+[v _DiscoveryTask DiscoveryTask `(v  1 e 1 0 ]
+{
+"186
+[v DiscoveryTask@i i `uc  1 a 1 73 ]
+"183
+[v DiscoveryTask@DiscoverySM DiscoverySM `E5640  1 s 1 DiscoverySM ]
+"185
+[v DiscoveryTask@MySocket MySocket `uc  1 s 1 MySocket ]
+"262
+} 0
+"753 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPIsGetReady UDPIsGetReady `(us  1 e 2 0 ]
+{
+[v UDPIsGetReady@s s `uc  1 p 1 wreg ]
+[v UDPIsGetReady@s s `uc  1 p 1 wreg ]
+"755
+[v UDPIsGetReady@s s `uc  1 p 1 15 ]
+"768
+} 1
+"389
+[v _UDPSetRxBuffer UDPSetRxBuffer `(v  1 e 1 0 ]
+{
+[v UDPSetRxBuffer@wOffset wOffset `us  1 p 2 11 ]
+"393
+} 0
+"295 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[v _IPSetRxBuffer IPSetRxBuffer `(v  1 e 1 0 ]
+{
+[v IPSetRxBuffer@Offset Offset `us  1 p 2 9 ]
+"298
+} 0
+"582 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACSetReadPtrInRx MACSetReadPtrInRx `(v  1 e 1 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"584
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v MACSetReadPtrInRx@ReadPT ReadPT `S52  1 a 2 7 ]
+"582
+[v MACSetReadPtrInRx@offset offset `us  1 p 2 3 ]
+"597
+} 0
+"792 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPGet UDPGet `(E7  1 e 1 0 ]
+{
+[v UDPGet@v v `*.39uc  1 p 2 3 ]
+"802
+} 0
+"873
+[v _UDPDiscard UDPDiscard `(v  1 e 1 0 ]
+{
+"882
+} 0
+"292 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACDiscardRx MACDiscardRx `(v  1 e 1 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"294
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v MACDiscardRx@NewRXRDLocation NewRXRDLocation `S52  1 a 2 3 ]
+"328
+} 0
+"772 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _ProcessIO ProcessIO `(v  1 s 1 ProcessIO ]
+{
+"774
+[v ProcessIO@adc_val adc_val `ui  1 a 2 24 ]
+"801
+} 0
+"719 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _uitoa uitoa `(v  1 e 1 0 ]
+{
+"723
+[v uitoa@Divisor Divisor `us  1 a 2 20 ]
+"722
+[v uitoa@Digit Digit `us  1 a 2 18 ]
+"721
+[v uitoa@i i `uc  1 a 1 17 ]
+"724
+[v uitoa@Printed Printed `E332  1 a 1 16 ]
+"719
+[v uitoa@Value Value `us  1 p 2 10 ]
+[v uitoa@Buffer Buffer `*.39uc  1 p 2 12 ]
+"746
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 8 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 3 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 5 ]
+"30
+} 0
+"89 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\PingDemo.c
+[v _PingDemo PingDemo `(v  1 e 1 0 ]
+{
+"97
+[v PingDemo@ret ret `l  1 a 4 84 ]
+"95
+[v PingDemo@PingState PingState `E5694  1 s 1 PingState ]
+"96
+[v PingDemo@Timer Timer `ul  1 s 4 Timer ]
+"168
+} 0
+"226 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[v _ICMPSendPing ICMPSendPing `(v  1 e 1 0 ]
+{
+[v ICMPSendPing@dwRemoteIP dwRemoteIP `ul  1 p 4 7 ]
+"232
+} 0
+"319
+[v _ICMPGetReply ICMPGetReply `(l  1 e 4 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"321
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S6568 . 10 `uc 1 vType 1 0 `uc 1 vCode 1 1 `S52 1 wvChecksum 2 2 `S52 1 wvIdentifier 2 4 `S52 1 wvSequenceNumber 2 6 `us 1 wData 2 8 ]
+[v ICMPGetReply@ICMPPacket ICMPPacket `S6568  1 a 10 70 ]
+"431
+} 0
+"324 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ARP.c
+[v _ARPResolve ARPResolve `(v  1 e 1 0 ]
+{
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+"326
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S1138 . 28 `us 1 HardwareType 2 0 `us 1 Protocol 2 2 `uc 1 MACAddrLen 1 4 `uc 1 ProtocolLen 1 5 `us 1 Operation 2 6 `S101 1 SenderMACAddr 6 8 `S93 1 SenderIPAddr 4 14 `S101 1 TargetMACAddr 6 18 `S93 1 TargetIPAddr 4 24 ]
+[v ARPResolve@packet packet `S1138  1 a 28 34 ]
+"324
+[v ARPResolve@IPAddr IPAddr `*.39S93  1 p 2 16 ]
+"341
+} 0
+"108
+[v _ARPPut ARPPut `(E332  1 s 1 ARPPut ]
+{
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S1138 . 28 `us 1 HardwareType 2 0 `us 1 Protocol 2 2 `uc 1 MACAddrLen 1 4 `uc 1 ProtocolLen 1 5 `us 1 Operation 2 6 `S101 1 SenderMACAddr 6 8 `S93 1 SenderIPAddr 4 14 `S101 1 TargetMACAddr 6 18 `S93 1 TargetIPAddr 4 24 ]
+[v ARPPut@packet packet `*.30S1138  1 p 1 14 ]
+"129
+} 0
+"412
+[v _SwapARPPacket SwapARPPacket `(v  1 e 1 0 ]
+{
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S1138 . 28 `us 1 HardwareType 2 0 `us 1 Protocol 2 2 `uc 1 MACAddrLen 1 4 `uc 1 ProtocolLen 1 5 `us 1 Operation 2 6 `S101 1 SenderMACAddr 6 8 `S93 1 SenderIPAddr 4 14 `S101 1 TargetMACAddr 6 18 `S93 1 TargetIPAddr 4 24 ]
+[v SwapARPPacket@p p `*.30S1138  1 p 1 8 ]
+"417
+} 0
+"382
+[v _ARPIsResolved ARPIsResolved `(E332  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v ARPIsResolved@IPAddr IPAddr `*.39S93  1 p 2 3 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[v ARPIsResolved@MACAddr MACAddr `*.39S101  1 p 2 5 ]
+"391
+} 0
+"482 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ICMP.c
+[v _ICMPEndUsage ICMPEndUsage `(v  1 e 1 0 ]
+{
+"485
+} 0
+"455
+[v _ICMPBeginUsage ICMPBeginUsage `(E332  1 e 1 0 ]
+{
+"462
+} 0
+"197 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSInit MPFSInit `(v  1 e 1 0 ]
+{
+"199
+[v MPFSInit@i i `uc  1 a 1 27 ]
+"222
+} 0
+"1310
+[v __Validate _Validate `(v  1 s 1 _Validate ]
+{
+"1330
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memcmp.c
+[v _memcmp memcmp `(i  1 e 2 0 ]
+{
+"5
+[v memcmp@r r `*.32Cuc  1 a 2 16 ]
+[v memcmp@l l `*.39Cuc  1 a 2 14 ]
+"3
+[v memcmp@vl vl `*.39Cv  1 p 2 7 ]
+[v memcmp@vr vr `*.32Cv  1 p 2 9 ]
+[v memcmp@n n `ui  1 p 2 11 ]
+"8
+} 0
+"604 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/MPFS2.c
+[v _MPFSGetArray MPFSGetArray `(us  1 e 2 0 ]
+{
+[v MPFSGetArray@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetArray@hMPFS hMPFS `uc  1 p 1 wreg ]
+[v MPFSGetArray@cData cData `*.39uc  1 p 2 14 ]
+[v MPFSGetArray@wLen wLen `us  1 p 2 16 ]
+"607
+[v MPFSGetArray@hMPFS hMPFS `uc  1 p 1 26 ]
+"702
+} 1
+"170 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[v _SPIFlashInit SPIFlashInit `(v  1 e 1 0 ]
+{
+"175
+[v SPIFlashInit@SPICON1Save SPICON1Save `uc  1 a 1 5 ]
+"173
+[v SPIFlashInit@vSPIONSave vSPIONSave `uc  1 a 1 4 ]
+"227
+} 0
+"98 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MODBUSTCPServer.c
+[v _MODBUSTCPServer MODBUSTCPServer `(v  1 e 1 0 ]
+{
+"100
+[v MODBUSTCPServer@w w `us  1 a 2 62 ]
+"101
+[v MODBUSTCPServer@wMaxGet wMaxGet `us  1 a 2 60 ]
+"103
+[v MODBUSTCPServer@MySocket MySocket `uc  1 s 1 MySocket ]
+"108
+[v MODBUSTCPServer@MODBUSTCPServerState MODBUSTCPServerState `E5681  1 s 1 MODBUSTCPServerState ]
+"231
+} 0
+"427
+[v _writeSingleCoil writeSingleCoil `(v  1 e 1 0 ]
+{
+"448
+} 0
+"345
+[v _writeHoldingRegister writeHoldingRegister `(v  1 e 1 0 ]
+{
+"347
+[v writeHoldingRegister@a a `uc  1 a 1 21 ]
+"384
+} 0
+"388
+[v _readInputRegister readInputRegister `(v  1 e 1 0 ]
+{
+"390
+[v readInputRegister@a a `uc  1 a 1 21 ]
+"424
+} 0
+"303
+[v _readHoldingRegister readHoldingRegister `(v  1 e 1 0 ]
+{
+"305
+[v readHoldingRegister@a a `uc  1 a 1 21 ]
+"342
+} 0
+"451
+[v _readCoil readCoil `(v  1 e 1 0 ]
+{
+"453
+[v readCoil@a a `i  1 a 2 23 ]
+[v readCoil@b b `i  1 a 2 21 ]
+"455
+[v readCoil@Len Len `i  1 a 2 19 ]
+"457
+[v readCoil@Start Start `i  1 a 2 17 ]
+"490
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 9 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 8 ]
+[v ___awdiv@counter counter `uc  1 a 1 7 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 3 ]
+[v ___awdiv@divisor divisor `i  1 p 2 5 ]
+"41
+} 0
+"1153 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPPutArray TCPPutArray `(us  1 e 2 0 ]
+{
+[v TCPPutArray@hTCP hTCP `uc  1 p 1 wreg ]
+"1156
+[v TCPPutArray@wFreeTXSpace wFreeTXSpace `us  1 a 2 56 ]
+"1155
+[v TCPPutArray@wActualLen wActualLen `us  1 a 2 53 ]
+"1157
+[v TCPPutArray@wRightLen wRightLen `us  1 a 2 51 ]
+"1153
+[v TCPPutArray@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPPutArray@data data `*.34uc  1 p 2 43 ]
+[v TCPPutArray@len len `us  1 p 2 45 ]
+"1157
+[v TCPPutArray@hTCP hTCP `uc  1 p 1 55 ]
+"1242
+} 1
+"1019
+[v _TCPIsPutReady TCPIsPutReady `(us  1 e 2 0 ]
+{
+[v TCPIsPutReady@hTCP hTCP `uc  1 p 1 wreg ]
+"1021
+[v TCPIsPutReady@i i `uc  1 a 1 20 ]
+"1019
+[v TCPIsPutReady@hTCP hTCP `uc  1 p 1 wreg ]
+"1023
+[v TCPIsPutReady@hTCP hTCP `uc  1 p 1 19 ]
+"1055
+} 1
+"982
+[v _TCPFlush TCPFlush `(v  1 e 1 0 ]
+{
+[v TCPFlush@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPFlush@hTCP hTCP `uc  1 p 1 wreg ]
+"984
+[v TCPFlush@hTCP hTCP `uc  1 p 1 46 ]
+"994
+} 1
+"555
+[v _TCPOpen TCPOpen `(uc  1 e 1 0 ]
+{
+"557
+[v TCPOpen@hTCP hTCP `uc  1 a 1 52 ]
+"555
+[v TCPOpen@dwRemoteHost dwRemoteHost `ul  1 p 4 43 ]
+[v TCPOpen@vRemoteHostType vRemoteHostType `uc  1 p 1 47 ]
+[v TCPOpen@wPort wPort `us  1 p 2 48 ]
+[v TCPOpen@vSocketPurpose vSocketPurpose `uc  1 p 1 50 ]
+"649
+} 0
+"2805
+[v _SendTCP SendTCP `(v  1 s 1 SendTCP ]
+{
+[v SendTCP@vTCPFlags vTCPFlags `uc  1 p 1 wreg ]
+[s S9271 . 1 `uc 1 Reserved3 1 0 :4:0 
+`uc 1 Val 1 0 :4:4 
+]
+"2808
+[s S9274 . 1 `uc 1 flagFIN 1 0 :1:0 
+`uc 1 flagSYN 1 0 :1:1 
+`uc 1 flagRST 1 0 :1:2 
+`uc 1 flagPSH 1 0 :1:3 
+`uc 1 flagACK 1 0 :1:4 
+`uc 1 flagURG 1 0 :1:5 
+`uc 1 Reserved2 1 0 :2:6 
+]
+[u S9282 . 1 `S9274 1 bits 1 0 `uc 1 byte 1 0 ]
+[s S9285 . 20 `us 1 SourcePort 2 0 `us 1 DestPort 2 2 `ul 1 SeqNumber 4 4 `ul 1 AckNumber 4 8 `S9271 1 DataOffset 1 12 `S9282 1 Flags 1 13 `us 1 Window 2 14 `us 1 Checksum 2 16 `us 1 UrgentPointer 2 18 ]
+[v SendTCP@header header `S9285  1 a 20 23 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"2810
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S9295 _PSEUDO_HEADER 12 `S93 1 SourceAddress 4 0 `S93 1 DestAddress 4 4 `uc 1 Zero 1 8 `uc 1 Protocol 1 9 `us 1 Length 2 10 ]
+[v SendTCP@pseudoHeader pseudoHeader `S9295  1 a 12 11 ]
+"2809
+[s S9324 . 4 `uc 1 Kind 1 0 `uc 1 Length 1 1 `S52 1 MaxSegSize 2 2 ]
+[v SendTCP@options options `S9324  1 a 4 0 ]
+"2811
+[v SendTCP@len len `us  1 a 2 9 ]
+"2812
+[v SendTCP@wEffectiveWindow wEffectiveWindow `us  1 a 2 6 ]
+"2807
+[v SendTCP@wVal wVal `S52  1 a 2 4 ]
+"2805
+[v SendTCP@vTCPFlags vTCPFlags `uc  1 p 1 wreg ]
+[v SendTCP@vSendFlags vSendFlags `uc  1 p 1 43 ]
+"2814
+[v SendTCP@vTCPFlags vTCPFlags `uc  1 p 1 8 ]
+"3083
+} 1
+"325
+[v _SyncTCB SyncTCB `(v  1 s 1 SyncTCB ]
+{
+"327
+[v SyncTCB@hLastTCB hLastTCB `uc  1 s 1 hLastTCB ]
+"341
+} 0
+"3290
+[v _SwapTCPHeader SwapTCPHeader `(v  1 s 1 SwapTCPHeader ]
+{
+[s S9271 . 1 `uc 1 Reserved3 1 0 :4:0 
+`uc 1 Val 1 0 :4:4 
+]
+[s S9274 . 1 `uc 1 flagFIN 1 0 :1:0 
+`uc 1 flagSYN 1 0 :1:1 
+`uc 1 flagRST 1 0 :1:2 
+`uc 1 flagPSH 1 0 :1:3 
+`uc 1 flagACK 1 0 :1:4 
+`uc 1 flagURG 1 0 :1:5 
+`uc 1 Reserved2 1 0 :2:6 
+]
+[u S9282 . 1 `S9274 1 bits 1 0 `uc 1 byte 1 0 ]
+[s S9285 . 20 `us 1 SourcePort 2 0 `us 1 DestPort 2 2 `ul 1 SeqNumber 4 4 `ul 1 AckNumber 4 8 `S9271 1 DataOffset 1 12 `S9282 1 Flags 1 13 `us 1 Window 2 14 `us 1 Checksum 2 16 `us 1 UrgentPointer 2 18 ]
+[v SwapTCPHeader@header header `*.30S9285  1 p 1 8 ]
+"3299
+} 0
+"1005 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _swapl swapl `(ul  1 e 4 0 ]
+{
+[v swapl@v v `ul  1 p 4 3 ]
+"1018
+} 0
+"347 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACGetFreeRxSize MACGetFreeRxSize `(us  1 e 2 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"349
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v MACGetFreeRxSize@ReadPT ReadPT `S52  1 a 2 9 ]
+[v MACGetFreeRxSize@WritePT WritePT `S52  1 a 2 7 ]
+"380
+} 0
+"730 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPIsConnected TCPIsConnected `(E332  1 e 1 0 ]
+{
+[v TCPIsConnected@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPIsConnected@hTCP hTCP `uc  1 p 1 wreg ]
+"732
+[v TCPIsConnected@hTCP hTCP `uc  1 p 1 15 ]
+"734
+} 1
+"1602
+[v _TCPGetArray TCPGetArray `(us  1 e 2 0 ]
+{
+[v TCPGetArray@hTCP hTCP `uc  1 p 1 wreg ]
+"1605
+[v TCPGetArray@RightLen RightLen `us  1 a 2 35 ]
+"1604
+[v TCPGetArray@wGetReadyCount wGetReadyCount `us  1 a 2 33 ]
+"1602
+[v TCPGetArray@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPGetArray@buffer buffer `*.39uc  1 p 2 26 ]
+[v TCPGetArray@len len `us  1 p 2 28 ]
+"1605
+[v TCPGetArray@hTCP hTCP `uc  1 p 1 32 ]
+"1650
+} 1
+"282 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _TickGetDiv256 TickGetDiv256 `(ul  1 e 4 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"284
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v TickGetDiv256@ret ret `S93  1 a 4 7 ]
+"293
+} 0
+"4412 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPRAMCopy TCPRAMCopy `(v  1 s 1 TCPRAMCopy ]
+{
+[v TCPRAMCopy@ptrDest ptrDest `us  1 p 2 18 ]
+[v TCPRAMCopy@vDestType vDestType `uc  1 p 1 20 ]
+[v TCPRAMCopy@ptrSource ptrSource `us  1 p 2 21 ]
+[v TCPRAMCopy@vSourceType vSourceType `uc  1 p 1 23 ]
+[v TCPRAMCopy@wLength wLength `us  1 p 2 24 ]
+"4521
+} 0
+"865 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACMemCopyAsync MACMemCopyAsync `(v  1 e 1 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"867
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v MACMemCopyAsync@WriteSave WriteSave `S52  1 a 2 14 ]
+[v MACMemCopyAsync@ReadSave ReadSave `S52  1 a 2 12 ]
+"869
+[v MACMemCopyAsync@UpdateReadPointer UpdateReadPointer `E7  1 a 1 17 ]
+"868
+[v MACMemCopyAsync@UpdateWritePointer UpdateWritePointer `E7  1 a 1 16 ]
+"865
+[v MACMemCopyAsync@destAddr destAddr `us  1 p 2 4 ]
+[v MACMemCopyAsync@sourceAddr sourceAddr `us  1 p 2 6 ]
+[v MACMemCopyAsync@len len `us  1 p 2 8 ]
+"927
+} 0
+"990
+[v _MACGet MACGet `(uc  1 e 1 0 ]
+{
+"993
+} 0
+"967
+[v _MACIsMemCopyDone MACIsMemCopyDone `(E7  1 e 1 0 ]
+{
+"970
+} 0
+"1519 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/TCP.c
+[v _TCPIsGetReady TCPIsGetReady `(us  1 e 2 0 ]
+{
+[v TCPIsGetReady@hTCP hTCP `uc  1 p 1 wreg ]
+[v TCPIsGetReady@hTCP hTCP `uc  1 p 1 wreg ]
+"1521
+[v TCPIsGetReady@hTCP hTCP `uc  1 p 1 19 ]
+"1527
+} 1
+"294
+[v _SyncTCBStub SyncTCBStub `(v  1 s 1 SyncTCBStub ]
+{
+[v SyncTCBStub@hTCP hTCP `uc  1 p 1 wreg ]
+[v SyncTCBStub@hTCP hTCP `uc  1 p 1 wreg ]
+"296
+[v SyncTCBStub@hTCP hTCP `uc  1 p 1 14 ]
+"312
+} 1
+"252 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MODBUSTCPServer.c
+[v _ProcessReceivedMessage ProcessReceivedMessage `(v  1 e 1 0 ]
+{
+"286
+} 0
+"494
+[v _ModbusError ModbusError `(v  1 e 1 0 ]
+{
+[v ModbusError@ExceptionCode ExceptionCode `uc  1 p 1 wreg ]
+[v ModbusError@ExceptionCode ExceptionCode `uc  1 p 1 wreg ]
+"497
+[v ModbusError@ExceptionCode ExceptionCode `uc  1 p 1 14 ]
+"505
+} 1
+"825 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _InitializeBoard InitializeBoard `(v  1 s 1 InitializeBoard ]
+{
+"855
+} 0
+"913
+[v _InitAppConfig InitAppConfig `(v  1 s 1 InitAppConfig ]
+{
+"1018
+[v InitAppConfig@c c `uc  1 a 1 38 ]
+"915
+[v InitAppConfig@Hostname Hostname `[16]uc  1 a 16 22 ]
+"1027
+} 0
+"1030
+[v _SaveAppConfig SaveAppConfig `(v  1 e 1 0 ]
+{
+"1050
+} 0
+"546 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[v _SPIFlashWriteArray SPIFlashWriteArray `(v  1 e 1 0 ]
+{
+"548
+[v SPIFlashWriteArray@Dummy Dummy `VEuc  1 a 1 21 ]
+"551
+[v SPIFlashWriteArray@SPICON1Save SPICON1Save `uc  1 a 1 20 ]
+"549
+[v SPIFlashWriteArray@vSPIONSave vSPIONSave `uc  1 a 1 19 ]
+"546
+[v SPIFlashWriteArray@vData vData `*.39uc  1 p 2 11 ]
+[v SPIFlashWriteArray@wLen wLen `us  1 p 2 13 ]
+"718
+} 0
+"451
+[v _SPIFlashWrite SPIFlashWrite `(v  1 e 1 0 ]
+{
+[v SPIFlashWrite@vData vData `uc  1 p 1 wreg ]
+"453
+[v SPIFlashWrite@Dummy Dummy `VEuc  1 a 1 18 ]
+"456
+[v SPIFlashWrite@SPICON1Save SPICON1Save `uc  1 a 1 17 ]
+"454
+[v SPIFlashWrite@vSPIONSave vSPIONSave `uc  1 a 1 16 ]
+"451
+[v SPIFlashWrite@vData vData `uc  1 p 1 wreg ]
+"464
+[v SPIFlashWrite@vData vData `uc  1 p 1 15 ]
+"514
+} 1
+"746
+[v _SPIFlashEraseSector SPIFlashEraseSector `(v  1 e 1 0 ]
+{
+"751
+[v SPIFlashEraseSector@SPICON1Save SPICON1Save `uc  1 a 1 9 ]
+"749
+[v SPIFlashEraseSector@vSPIONSave vSPIONSave `uc  1 a 1 8 ]
+"748
+[v SPIFlashEraseSector@Dummy Dummy `VEuc  1 a 1 10 ]
+"746
+[v SPIFlashEraseSector@dwAddr dwAddr `ul  1 p 4 4 ]
+"805
+} 0
+"865
+[v __WaitWhileBusy _WaitWhileBusy `(v  1 e 1 0 ]
+{
+"867
+[v __WaitWhileBusy@Dummy Dummy `VEuc  1 a 1 3 ]
+"888
+} 0
+"829
+[v __SendCmd _SendCmd `(v  1 e 1 0 ]
+{
+[v __SendCmd@cmd cmd `uc  1 p 1 wreg ]
+[v __SendCmd@cmd cmd `uc  1 p 1 wreg ]
+"832
+[v __SendCmd@cmd cmd `uc  1 p 1 3 ]
+"842
+} 1
+"417
+[v _SPIFlashBeginWrite SPIFlashBeginWrite `(v  1 e 1 0 ]
+{
+[v SPIFlashBeginWrite@dwAddr dwAddr `ul  1 p 4 3 ]
+"420
+} 0
+"249
+[v _SPIFlashReadArray SPIFlashReadArray `(v  1 e 1 0 ]
+{
+"254
+[v SPIFlashReadArray@SPICON1Save SPICON1Save `uc  1 a 1 12 ]
+"252
+[v SPIFlashReadArray@vSPIONSave vSPIONSave `uc  1 a 1 11 ]
+"251
+[v SPIFlashReadArray@Dummy Dummy `VEuc  1 a 1 13 ]
+"249
+[v SPIFlashReadArray@dwAddress dwAddress `ul  1 p 4 3 ]
+[v SPIFlashReadArray@vData vData `*.39uc  1 p 2 7 ]
+[v SPIFlashReadArray@wLength wLength `us  1 p 2 9 ]
+"311
+} 0
+"1319 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _FormatNetBIOSName FormatNetBIOSName `(v  1 e 1 0 ]
+{
+"1321
+[v FormatNetBIOSName@i i `uc  1 a 1 10 ]
+"1319
+[v FormatNetBIOSName@Name Name `*.39uc  1 p 2 8 ]
+"1338
+} 0
+"1168
+[v _strupr strupr `(*.39uc  1 e 3 0 ]
+{
+"1171
+[v strupr@t t `*.39uc  1 a 2 6 ]
+"1170
+[v strupr@c c `uc  1 a 1 5 ]
+"1168
+[v strupr@s s `*.39uc  1 p 2 3 ]
+"1183
+} 0
+"881 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _GetMACAddress GetMACAddress `(v  1 s 1 GetMACAddress ]
+{
+"884
+} 0
+"314 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/SPIFlash.c
+[v _SPIFlashReadSFDPArray SPIFlashReadSFDPArray `(v  1 e 1 0 ]
+{
+"316
+[v SPIFlashReadSFDPArray@Dummy Dummy `VEuc  1 a 1 13 ]
+"319
+[v SPIFlashReadSFDPArray@SPICON1Save SPICON1Save `uc  1 a 1 12 ]
+"317
+[v SPIFlashReadSFDPArray@vSPIONSave vSPIONSave `uc  1 a 1 11 ]
+"314
+[v SPIFlashReadSFDPArray@dwAddress dwAddress `ul  1 p 4 3 ]
+[v SPIFlashReadSFDPArray@vData vData `*.39uc  1 p 2 7 ]
+[v SPIFlashReadSFDPArray@wLength wLength `us  1 p 2 9 ]
+"380
+} 0
+"101 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Announce.c
+[v _AnnounceIP AnnounceIP `(v  1 e 1 0 ]
+{
+"104
+[v AnnounceIP@i i `uc  1 a 1 72 ]
+"103
+[v AnnounceIP@MySocket MySocket `uc  1 a 1 71 ]
+"150
+} 0
+"890 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _btohexa_low btohexa_low `(uc  1 e 1 0 ]
+{
+[v btohexa_low@b b `uc  1 p 1 wreg ]
+[v btohexa_low@b b `uc  1 p 1 wreg ]
+"892
+[v btohexa_low@b b `uc  1 p 1 5 ]
+"894
+} 1
+"864
+[v _btohexa_high btohexa_high `(uc  1 e 1 0 ]
+{
+[v btohexa_high@b b `uc  1 p 1 wreg ]
+[v btohexa_high@b b `uc  1 p 1 wreg ]
+"866
+[v btohexa_high@b b `uc  1 p 1 5 ]
+"868
+} 1
+"594 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPPutString UDPPutString `(*.32uc  1 e 3 0 ]
+{
+[v UDPPutString@strData strData `*.32uc  1 p 2 13 ]
+"597
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.34Cuc  1 a 2 5 ]
+"5
+[v strlen@s s `*.34Cuc  1 p 2 3 ]
+"12
+} 0
+"503 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPPutArray UDPPutArray `(us  1 e 2 0 ]
+{
+"505
+[v UDPPutArray@wTemp wTemp `us  1 a 2 11 ]
+"503
+[v UDPPutArray@cData cData `*.34uc  1 p 2 7 ]
+[v UDPPutArray@wDataLen wDataLen `us  1 p 2 9 ]
+"519
+} 0
+"462
+[v _UDPPut UDPPut `(E7  1 e 1 0 ]
+{
+[v UDPPut@v v `uc  1 p 1 wreg ]
+[v UDPPut@v v `uc  1 p 1 wreg ]
+"465
+[v UDPPut@v v `uc  1 p 1 6 ]
+"477
+} 1
+"246
+[v _UDPOpen UDPOpen `(uc  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"251
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[s S849 . 14 `S103 1 remoteNode 10 0 `us 1 remotePort 2 10 `us 1 localPort 2 12 ]
+[v UDPOpen@p p `*.39S849  1 a 2 23 ]
+"250
+[v UDPOpen@s s `uc  1 a 1 22 ]
+"246
+[v UDPOpen@localPort localPort `us  1 p 2 14 ]
+"247
+[v UDPOpen@remoteNode remoteNode `*.39S103  1 p 2 16 ]
+"248
+[v UDPOpen@remotePort remotePort `us  1 p 2 18 ]
+"254
+[v UDPOpen@NextPort NextPort `us  1 s 2 NextPort ]
+"297
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 9 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 3 ]
+[v memset@c c `i  1 p 2 5 ]
+[v memset@n n `ui  1 p 2 7 ]
+"10
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 3 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 12 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 10 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 9 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 3 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 5 ]
+[v memcpy@n n `ui  1 p 2 7 ]
+"18
+} 0
+"423 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPIsPutReady UDPIsPutReady `(us  1 e 2 0 ]
+{
+[v UDPIsPutReady@s s `uc  1 p 1 wreg ]
+[v UDPIsPutReady@s s `uc  1 p 1 wreg ]
+"425
+[v UDPIsPutReady@s s `uc  1 p 1 11 ]
+"438
+} 1
+"359
+[v _UDPSetTxBuffer UDPSetTxBuffer `(v  1 e 1 0 ]
+{
+[v UDPSetTxBuffer@wOffset wOffset `us  1 p 2 7 ]
+"363
+} 0
+"256 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACIsTxReady MACIsTxReady `(E332  1 e 1 0 ]
+{
+"270
+} 0
+"661 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPFlush UDPFlush `(v  1 e 1 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"683
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S9295 _PSEUDO_HEADER 12 `S93 1 SourceAddress 4 0 `S93 1 DestAddress 4 4 `uc 1 Zero 1 8 `uc 1 Protocol 1 9 `us 1 Length 2 10 ]
+[v UDPFlush@pseudoHeader pseudoHeader `S9295  1 a 12 59 ]
+[s S11960 . 8 `us 1 SourcePort 2 0 `us 1 DestinationPort 2 2 `us 1 Length 2 4 `us 1 Checksum 2 6 ]
+"663
+[v UDPFlush@h h `S11960  1 a 8 51 ]
+"667
+[v UDPFlush@wUDPLength wUDPLength `us  1 a 2 49 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"664
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[s S849 . 14 `S103 1 remoteNode 10 0 `us 1 remotePort 2 10 `us 1 localPort 2 12 ]
+[v UDPFlush@p p `*.39S849  1 a 2 47 ]
+"666
+[v UDPFlush@wChecksum wChecksum `us  1 a 2 45 ]
+"665
+[v UDPFlush@wReadPtrSave wReadPtrSave `us  1 a 2 43 ]
+"722
+} 0
+"616 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACSetWritePtr MACSetWritePtr `(us  1 e 2 0 ]
+{
+"618
+[v MACSetWritePtr@oldVal oldVal `us  1 a 2 5 ]
+"616
+[v MACSetWritePtr@address address `us  1 p 2 3 ]
+"623
+} 0
+"641
+[v _MACSetReadPtr MACSetReadPtr `(us  1 e 2 0 ]
+{
+"643
+[v MACSetReadPtr@oldVal oldVal `us  1 a 2 5 ]
+"641
+[v MACSetReadPtr@address address `us  1 p 2 3 ]
+"648
+} 0
+"537
+[v _MACFlush MACFlush `(v  1 e 1 0 ]
+{
+"547
+[v MACFlush@i i `VEuc  1 a 1 7 ]
+"557
+} 0
+"252 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _TickGet TickGet `(ul  1 e 4 0 ]
+{
+"256
+} 0
+"155
+[v _GetTickCopy GetTickCopy `(v  1 s 1 GetTickCopy ]
+{
+"225
+} 0
+"248 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/IP.c
+[v _IPPutHeader IPPutHeader `(us  1 e 2 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"252
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S6488 _IP_HEADER 20 `uc 1 VersionIHL 1 0 `uc 1 TypeOfService 1 1 `us 1 TotalLength 2 2 `us 1 Identification 2 4 `us 1 FragmentInfo 2 6 `uc 1 TimeToLive 1 8 `uc 1 Protocol 1 9 `us 1 HeaderChecksum 2 10 `S93 1 SourceAddress 4 12 `S93 1 DestAddress 4 16 ]
+[v IPPutHeader@header header `S6488  1 a 20 20 ]
+"248
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[s S103 . 10 `S93 1 IPAddr 4 0 `S101 1 MACAddr 6 4 ]
+[v IPPutHeader@remote remote `*.39S103  1 p 2 15 ]
+"249
+[v IPPutHeader@protocol protocol `uc  1 p 1 17 ]
+"250
+[v IPPutHeader@len len `us  1 p 2 18 ]
+"277
+} 0
+"302
+[v _SwapIPHeader SwapIPHeader `(v  1 s 1 SwapIPHeader ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[s S6488 _IP_HEADER 20 `uc 1 VersionIHL 1 0 `uc 1 TypeOfService 1 1 `us 1 TotalLength 2 2 `us 1 Identification 2 4 `us 1 FragmentInfo 2 6 `uc 1 TimeToLive 1 8 `uc 1 Protocol 1 9 `us 1 HeaderChecksum 2 10 `S93 1 SourceAddress 4 12 `S93 1 DestAddress 4 16 ]
+[v SwapIPHeader@h h `*.30S6488  1 p 1 8 ]
+"307
+} 0
+"976 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _swaps swaps `(us  1 e 2 0 ]
+{
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+"978
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[v swaps@t t `S52  1 a 2 6 ]
+"979
+[v swaps@b b `uc  1 a 1 5 ]
+"976
+[v swaps@v v `us  1 p 2 3 ]
+"987
+} 0
+"491 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _MACPutHeader MACPutHeader `(v  1 e 1 0 ]
+{
+[s S101 . 6 `[6]uc 1 v 6 0 ]
+[v MACPutHeader@remote remote `*.39S101  1 p 2 7 ]
+[v MACPutHeader@type type `uc  1 p 1 9 ]
+[v MACPutHeader@dataLen dataLen `us  1 p 2 10 ]
+"512
+} 0
+"1087
+[v _MACPutArray MACPutArray `(v  1 e 1 0 ]
+{
+[v MACPutArray@val val `*.34uc  1 p 2 3 ]
+[v MACPutArray@len len `us  1 p 2 5 ]
+"1101
+} 0
+"1055
+[v _MACPut MACPut `(v  1 e 1 0 ]
+{
+[v MACPut@val val `uc  1 p 1 wreg ]
+[v MACPut@val val `uc  1 p 1 wreg ]
+"1060
+[v MACPut@val val `uc  1 p 1 3 ]
+"1066
+} 1
+"1047 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Helpers.c
+[v _CalcIPChecksum CalcIPChecksum `(us  1 e 2 0 ]
+{
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"1051
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v CalcIPChecksum@sum sum `S93  1 a 4 11 ]
+"1049
+[v CalcIPChecksum@i i `us  1 a 2 8 ]
+"1050
+[v CalcIPChecksum@val val `*.30us  1 a 1 10 ]
+"1047
+[v CalcIPChecksum@buffer buffer `*.30uc  1 p 1 3 ]
+[v CalcIPChecksum@count count `us  1 p 2 4 ]
+"1050
+[v CalcIPChecksum@F5699 F5699 `S93  1 s 4 F5699 ]
+"1073
+} 0
+"791 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/ETH97J60.c
+[v _CalcIPBufferChecksum CalcIPBufferChecksum `(us  1 e 2 0 ]
+{
+"796
+[v CalcIPBufferChecksum@DataBuffer DataBuffer `[20]uc  1 a 20 14 ]
+[s S24 . 4 `us 1 LW 2 0 `us 1 HW 2 2 ]
+"794
+[s S27 . 4 `uc 1 LB 1 0 `uc 1 HB 1 1 `uc 1 UB 1 2 `uc 1 MB 1 3 ]
+[s S32 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[s S35 . 2 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+]
+[u S52 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S32 1 byte 2 0 `S35 1 bits 2 0 ]
+[s S57 . 4 `S52 1 low 2 0 `S52 1 high 2 2 ]
+[s S60 . 4 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+`uc 1 b8 1 1 :1:0 
+`uc 1 b9 1 1 :1:1 
+`uc 1 b10 1 1 :1:2 
+`uc 1 b11 1 1 :1:3 
+`uc 1 b12 1 1 :1:4 
+`uc 1 b13 1 1 :1:5 
+`uc 1 b14 1 1 :1:6 
+`uc 1 b15 1 1 :1:7 
+`uc 1 b16 1 2 :1:0 
+`uc 1 b17 1 2 :1:1 
+`uc 1 b18 1 2 :1:2 
+`uc 1 b19 1 2 :1:3 
+`uc 1 b20 1 2 :1:4 
+`uc 1 b21 1 2 :1:5 
+`uc 1 b22 1 2 :1:6 
+`uc 1 b23 1 2 :1:7 
+`uc 1 b24 1 3 :1:0 
+`uc 1 b25 1 3 :1:1 
+`uc 1 b26 1 3 :1:2 
+`uc 1 b27 1 3 :1:3 
+`uc 1 b28 1 3 :1:4 
+`uc 1 b29 1 3 :1:5 
+`uc 1 b30 1 3 :1:6 
+`uc 1 b31 1 3 :1:7 
+]
+[u S93 . 4 `ul 1 Val 4 0 `[2]us 1 w 4 0 `[4]uc 1 v 4 0 `S24 1 word 4 0 `S27 1 byte 4 0 `S57 1 wordUnion 4 0 `S60 1 bits 4 0 ]
+[v CalcIPBufferChecksum@Checksum Checksum `S93  1 a 4 37 ]
+"795
+[v CalcIPBufferChecksum@ChunkLen ChunkLen `us  1 a 2 41 ]
+"793
+[v CalcIPBufferChecksum@Start Start `us  1 a 2 34 ]
+"797
+[v CalcIPBufferChecksum@DataPtr DataPtr `*.30us  1 a 1 36 ]
+"791
+[v CalcIPBufferChecksum@len len `us  1 p 2 10 ]
+"793
+[v CalcIPBufferChecksum@F5682 F5682 `S93  1 s 4 F5682 ]
+"839
+} 0
+"1014
+[v _MACGetArray MACGetArray `(us  1 e 2 0 ]
+{
+"1016
+[v MACGetArray@w w `us  1 a 2 8 ]
+"1017
+[v MACGetArray@i i `VEuc  1 a 1 7 ]
+"1014
+[v MACGetArray@val val `*.39uc  1 p 2 3 ]
+[v MACGetArray@len len `us  1 p 2 5 ]
+"1036
+} 0
+"326 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/UDP.c
+[v _UDPClose UDPClose `(v  1 e 1 0 ]
+{
+[v UDPClose@s s `uc  1 p 1 wreg ]
+[v UDPClose@s s `uc  1 p 1 wreg ]
+"328
+[v UDPClose@s s `uc  1 p 1 3 ]
+"333
+} 1
+"118 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _LowISR LowISR `IIL(v  1 e 1 0 ]
+{
+"120
+} 0
+"383 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\Microchip/TCPIP_Stack/Tick.c
+[v _TickUpdate TickUpdate `(v  1 e 1 0 ]
+{
+"393
+} 0
+"122 C:\Users\watso\My Drive\~Projects\MPLABXProjects\Suky_Ethernet_XC8.X\MainSuky.c
+[v _HighISR HighISR `IIH(v  1 e 1 0 ]
+{
+"125
+} 0
